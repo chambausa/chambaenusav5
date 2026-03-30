@@ -2,6 +2,10 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
+import { Newsreader, Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const newsreader = Newsreader({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-newsreader' })
 
 export const metadata: Metadata = {
   title: {
@@ -53,8 +57,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
-      <body className="min-h-screen flex flex-col">
+    <html lang="es" className={`${inter.variable} ${newsreader.variable}`}>
+      <body className="min-h-screen flex flex-col font-sans">
         <Header />
         <main className="flex-1">
           {children}
