@@ -1,11 +1,16 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
-import { Newsreader, Inter } from 'next/font/google'
+import { Newsreader, Inter, Inter_Tight, Plus_Jakarta_Sans } from 'next/font/google'
+
+const GA_ID = 'GT-TXBWKHWC'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const interTight = Inter_Tight({ subsets: ['latin'], weight: ['400','500','600','700','800','900'], variable: '--font-inter-tight' })
 const newsreader = Newsreader({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-newsreader' })
+const plusJakarta = Plus_Jakarta_Sans({ subsets: ['latin'], weight: ['300','400','500','600','700','800'], variable: '--font-jakarta' })
 
 export const metadata: Metadata = {
   title: {
@@ -57,8 +62,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" className={`${inter.variable} ${newsreader.variable}`}>
-      <body className="min-h-screen flex flex-col font-sans">
+    <html lang="es" className={`${inter.variable} ${interTight.variable} ${newsreader.variable} ${plusJakarta.variable}`}>
+      <body className="min-h-screen flex flex-col font-jakarta antialiased">
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${GA_ID}');
+        `}</Script>
         <Header />
         <main className="flex-1">
           {children}

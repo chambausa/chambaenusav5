@@ -9,7 +9,7 @@
     "notes": "Página #1 en impresiones del sitio (4,793). CTR actual 0.73% - objetivo 3%+"
   },
   "page_seo": {
-    "title": "Licencia de Cosmetología en Texas 2026: Costos, Examen en Español y Escuelas",
+    "title": "Licencia de Cosmetología en Texas 2026: 1,000 Horas, Examen en Español (TDLR)",
     "meta_description": "Obtén tu licencia de cosmetología en Texas. 1,000 horas de escuela, examen escrito ($55) + práctico ($76) disponibles en español. Guía paso a paso para hispanas.",
     "slug": "licencia-cosmetologia-texas",
     "canonical_url": "https://chambaenusa.com/licencia-cosmetologia-texas/",
@@ -163,7 +163,8 @@
     "email": "cosmetology@tdlr.texas.gov",
     "web": "https://www.tdlr.texas.gov/barbering-and-cosmetology/",
     "verificar_licencia": "https://www.tdlr.texas.gov/LicenseSearch/",
-    "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/"
+    "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/",
+    "chambaenusa_hub": "/agencias/texas-department-of-licensing-and-regulation-tdlr/"
   },
   "roadmap": {
     "_description": "Tipos de licencia de cosmetología - mostrar como cards o grid, NO como timeline lineal (a diferencia de electricista, aquí son caminos paralelos)",

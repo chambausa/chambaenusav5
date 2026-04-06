@@ -18,7 +18,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        tight: ['var(--font-inter-tight)', 'system-ui', 'sans-serif'],
         display: ['var(--font-newsreader)', 'Georgia', 'serif'],
+        jakarta: ['var(--font-jakarta)', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",

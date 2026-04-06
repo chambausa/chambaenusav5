@@ -16,11 +16,16 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+dev.out
+dev.err
+server.log
 
 # local env files
 .env
@@ -36,3 +41,21 @@ next-env.d.ts
 
 # claude
 .claude/
+
+# tools / internal
+.kilo/
+
+# analytics & research (internal, not needed for deploy)
+analiticas/
+
+# design references (not needed for deploy)
+stitchai/
+
+# pitch deck (not needed for deploy)
+deck/
+
+# planning docs (not needed for deploy)
+plans/
+
+# migration/analysis scripts (not needed for deploy)
+scripts/

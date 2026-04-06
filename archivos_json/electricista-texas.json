@@ -9,7 +9,7 @@
     "notes": "Roadmap de Aprendiz → Journeyman → Master. Examen en español disponible para todos los niveles."
   },
   "page_seo": {
-    "title": "Licencia de Electricista en Texas 2026: Guía Completa TDLR y Examen en Español",
+    "title": "Electricista en Texas 2026: De Aprendiz a Journeyman con TDLR (Examen en Español)",
     "meta_description": "Cómo sacar la licencia de electricista en Texas paso a paso. De Aprendiz a Journeyman (8,000 horas). Examen disponible en español, requisitos actualizados del TDLR 2026.",
     "slug": "electricista-texas",
     "canonical_url": "https://chambaenusa.com/licencia-electricista-texas/",
@@ -47,21 +47,21 @@
         "label": "Aprendiz (Apprentice)",
         "value": "Sin Examen",
         "detail": "Solo aplicar online y pagar $20. Puedes empezar a trabajar inmediatamente.",
-        "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+        "source": "https://www.tdlr.texas.gov/electricians/",
         "source_name": "TDLR"
       },
       {
         "label": "Journeyman",
         "value": "8,000 horas",
         "detail": "Aproximadamente 4 años de experiencia bajo supervisión + examen",
-        "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+        "source": "https://www.tdlr.texas.gov/electricians/",
         "source_name": "TDLR"
       },
       {
         "label": "Examen en Español",
         "value": "✅ Sí, sin costo extra",
         "detail": "Disponible para Journeyman, Master y Residential Wireman",
-        "source": "https://www.tdlr.texas.gov/electricians/exam.htm",
+        "source": "https://www.tdlr.texas.gov/electricians/elecexam.htm",
         "source_name": "TDLR/PSI"
       },
       {
@@ -87,7 +87,7 @@
     "icon": "⚡",
     "title": "¡El examen es en español! No dejes que el idioma te detenga",
     "content": "TDLR ofrece los exámenes de Journeyman Electrician, Master Electrician y Residential Wireman en ESPAÑOL a través de PSI. Al programar tu cita en PSI, simplemente selecciona español como idioma del examen. No hay costo adicional. El código NEC también está disponible en español.",
-    "source": "https://www.tdlr.texas.gov/electricians/exam.htm",
+    "source": "https://www.tdlr.texas.gov/electricians/elecexam.htm",
     "source_name": "TDLR Electrician Exams"
   },
   "autoridad_reguladora": {
@@ -109,7 +109,8 @@
     "email": "customer.service@tdlr.texas.gov",
     "web": "https://www.tdlr.texas.gov/electricians/elec.htm",
     "verificar_licencia": "https://www.tdlr.texas.gov/LicenseSearch/",
-    "source": "https://www.tdlr.texas.gov/electricians/contact.htm"
+    "source": "https://www.tdlr.texas.gov/electricians/contact.htm",
+    "chambaenusa_hub": "/agencias/texas-department-of-licensing-and-regulation-tdlr/"
   },
   "roadmap": {
     "_description": "Camino profesional del electricista en Texas - Timeline lineal de progresión",
@@ -137,7 +138,7 @@
         },
         "como_aplicar": {
           "metodo": "En línea (recomendado) o por correo",
-          "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+          "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/apprentice-electrician.htm",
           "tiempo_procesamiento": "Inmediato a 3 días hábiles",
           "pasos": [
             "Llenar la aplicación en línea en el portal de TDLR",
@@ -147,7 +148,7 @@
           ]
         },
         "nota": "CRÍTICO: Debes reportar tus horas trabajadas anualmente usando el formulario ELEC1000. Sin este reporte, tus horas NO contarán para el examen de Journeyman.",
-        "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+        "source": "https://www.tdlr.texas.gov/electricians/apply/individuals/apprentice-electrician.htm"
       },
       {
         "id": "residential_wireman",
@@ -168,7 +169,10 @@
             "nombre": "Residential Wireman Exam",
             "formato": "Opción múltiple por computadora",
             "costo": 60,
-            "idiomas": ["Inglés", "Español"],
+            "idiomas": [
+              "Inglés",
+              "Español"
+            ],
             "puntaje_minimo": "70%",
             "cuando_tomarlo": "Después de completar 4,000 horas documentadas",
             "contenido_principal": [
@@ -181,7 +185,7 @@
           "administrador": "PSI",
           "telefono_psi": "(855) 746-1552",
           "url_psi": "https://test-takers.psiexams.com/tdlr",
-          "source": "https://www.tdlr.texas.gov/electricians/exam.htm"
+          "source": "https://www.tdlr.texas.gov/electricians/elecexam.htm"
         },
         "costos": {
           "aplicacion_licencia": 20,
@@ -190,9 +194,9 @@
           "renovacion_cada_2_años": 20
         },
         "como_aplicar": {
-          "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+          "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/wireman.htm"
         },
-        "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+        "source": "https://www.tdlr.texas.gov/electricians/apply/individuals/wireman.htm"
       },
       {
         "id": "journeyman",
@@ -214,7 +218,10 @@
             "nombre": "Journeyman Electrician Exam",
             "formato": "Opción múltiple por computadora - Open book (puedes llevar tu NEC)",
             "costo": 78,
-            "idiomas": ["Inglés", "Español"],
+            "idiomas": [
+              "Inglés",
+              "Español"
+            ],
             "puntaje_minimo": "70%",
             "cuando_tomarlo": "Después de completar 8,000 horas documentadas",
             "contenido_principal": [
@@ -231,7 +238,7 @@
           "telefono_psi": "(855) 746-1552",
           "url_psi": "https://test-takers.psiexams.com/tdlr",
           "retakes": "Puedes retomar el examen las veces que necesites. Pagas la tarifa de $78 cada intento. No hay periodo de espera mínimo.",
-          "source": "https://www.tdlr.texas.gov/electricians/exam.htm"
+          "source": "https://www.tdlr.texas.gov/electricians/elecexam.htm"
         },
         "costos": {
           "aplicacion_licencia": 30,
@@ -242,7 +249,7 @@
         },
         "como_aplicar": {
           "metodo": "En línea después de pasar el examen",
-          "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+          "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm",
           "tiempo_procesamiento": "1-2 semanas después de pasar el examen",
           "pasos": [
             "Documentar 8,000 horas usando formulario ELEC1000 firmado por tu Master",
@@ -251,7 +258,7 @@
             "Esperar procesamiento (1-2 semanas)"
           ]
         },
-        "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+        "source": "https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm"
       },
       {
         "id": "master",
@@ -273,7 +280,10 @@
             "nombre": "Master Electrician Exam",
             "formato": "Opción múltiple por computadora - Open book",
             "costo": 78,
-            "idiomas": ["Inglés", "Español"],
+            "idiomas": [
+              "Inglés",
+              "Español"
+            ],
             "puntaje_minimo": "70%",
             "cuando_tomarlo": "Después de cumplir requisitos de experiencia y tiempo como Journeyman",
             "contenido_principal": [
@@ -287,7 +297,7 @@
           "administrador": "PSI",
           "telefono_psi": "(855) 746-1552",
           "url_psi": "https://test-takers.psiexams.com/tdlr",
-          "source": "https://www.tdlr.texas.gov/electricians/exam.htm"
+          "source": "https://www.tdlr.texas.gov/electricians/elecexam.htm"
         },
         "costos": {
           "aplicacion_licencia": 45,
@@ -296,9 +306,9 @@
           "renovacion_cada_2_años": 45
         },
         "como_aplicar": {
-          "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+          "url": "https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm"
         },
-        "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+        "source": "https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm"
       }
     ]
   },
@@ -306,7 +316,7 @@
     "ai_generated": false,
     "frecuencia": "Cada 2 años desde la fecha de emisión",
     "metodo": "En línea en el portal de TDLR",
-    "url_renovacion": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+    "url_renovacion": "https://www.tdlr.texas.gov/electricians/renew/individuals/journeyman-electrician.htm",
     "costo_renovacion": 30,
     "ce_requerida": {
       "horas_totales": 4,
@@ -317,7 +327,7 @@
       ],
       "costo_cursos_ce_online": "$25 - $50",
       "nota": "Debes completar 4 horas de educación continua antes de cada renovación. Los cursos deben ser de proveedores aprobados por TDLR.",
-      "url_proveedores": "https://www.tdlr.texas.gov/electricians/electriccontedprov.htm"
+      "url_proveedores": "https://www.tdlr.texas.gov/tdlrce.htm"
     },
     "consecuencias_no_renovar": {
       "0_90_dias": "Tarifa normal de renovación",
@@ -325,7 +335,7 @@
       "mas_1_año": "Licencia expira permanentemente - debes aplicar como si fuera nueva licencia"
     },
     "nota_tdlr": "TDLR envía recordatorio de renovación por email ~60 días antes del vencimiento. Es tu responsabilidad renovar a tiempo aunque no recibas el recordatorio.",
-    "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+    "source": "https://www.tdlr.texas.gov/electricians/"
   },
   "reciprocidad": {
     "ai_generated": false,
@@ -338,9 +348,9 @@
       "Pasar background check de Texas"
     ],
     "nota": "Texas tiene acuerdos de reciprocidad con 9 estados para Journeyman y Master. Arkansas, Idaho, Louisiana (solo Master), Montana, Nebraska, New Mexico, Oklahoma, South Dakota y Wyoming. Debes aplicar y pagar la tarifa normal de Texas, pero no necesitas retomar el examen.",
-    "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+    "url": "https://www.tdlr.texas.gov/electricians/out-of-state.htm",
     "experiencia_como_horas": "No aplica - se basa en licencia vigente de otro estado",
-    "source": "https://www.tdlr.texas.gov/electricians/electricapplications.htm"
+    "source": "https://www.tdlr.texas.gov/electricians/out-of-state.htm"
   },
   "salarios": {
     "ai_generated": false,
@@ -517,12 +527,12 @@
       },
       {
         "nombre": "Aplicaciones de Licencia (Todos los Niveles)",
-        "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+        "url": "https://www.tdlr.texas.gov/electricians/",
         "descripcion": "Aplicar para Apprentice, Journeyman, Master o Residential Wireman"
       },
       {
         "nombre": "Información de Exámenes",
-        "url": "https://www.tdlr.texas.gov/electricians/exam.htm",
+        "url": "https://www.tdlr.texas.gov/electricians/elecexam.htm",
         "descripcion": "Detalles de exámenes, CIBs, y libros permitidos"
       },
       {
@@ -532,17 +542,17 @@
       },
       {
         "nombre": "Formulario ELEC1000 - Reporte de Horas",
-        "url": "https://www.tdlr.texas.gov/electricians/forms.htm",
+        "url": "https://www.tdlr.texas.gov/electricians/elecforms.htm",
         "descripcion": "Formulario crítico para documentar tus horas de experiencia"
       },
       {
         "nombre": "Renovar Licencia",
-        "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+        "url": "https://www.tdlr.texas.gov/electricians/renew/individuals/journeyman-electrician.htm",
         "descripcion": "Renovación en línea para todas las licencias"
       },
       {
         "nombre": "Educación Continua (CE) - Proveedores Aprobados",
-        "url": "https://www.tdlr.texas.gov/electricians/electriccontedprov.htm",
+        "url": "https://www.tdlr.texas.gov/tdlrce.htm",
         "descripcion": "Lista de proveedores aprobados de cursos de CE"
       },
       {
@@ -552,7 +562,7 @@
       },
       {
         "nombre": "Reciprocidad con Otros Estados",
-        "url": "https://www.tdlr.texas.gov/electricians/electricapplications.htm",
+        "url": "https://www.tdlr.texas.gov/electricians/out-of-state.htm",
         "descripcion": "Información sobre transferir licencia de otro estado"
       },
       {

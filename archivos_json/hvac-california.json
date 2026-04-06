@@ -4,80 +4,80 @@
         "page_id": "licencia-hvac-california",
         "oficio": "hvac",
         "estado": "california",
-        "last_verified": "2026-02-16",
-        "verified_by": "Claude AI - requiere verificación humana",
-        "notes": "Sistema de certificación escalonado: EPA 608, luego C-20 Contractor. Examen de contratista disponible en español."
+        "last_verified": "2026-04-03",
+        "verified_by": "Claude AI - fuentes EPA y CSLB verificadas",
+        "notes": "Diferenciador clave: en California NO hay licencia estatal de técnico HVAC. Solo el contratista necesita C-20. El técnico empleado solo necesita EPA 608. Examen EPA 608 disponible en español con ESCO Institute y otros."
     },
     "page_seo": {
-        "title": "Licencia de HVAC en California 2026: Guía Completa C-20, EPA 608 y Examen en Español",
-        "meta_description": "Cómo sacar la licencia de HVAC en California paso a paso. Certificación EPA 608, C-20 Contractor License. Examen disponible en español, requisitos actualizados 2026.",
-        "slug": "licencia-hvac-california",
+        "title": "Licencia HVAC California 2026: EPA 608 en Español, C-20 y Cómo Empezar",
+        "meta_description": "Cómo trabajar en HVAC en California: EPA 608 obligatoria (examen en español), licencia C-20 para contratistas. Salarios hasta $71,000 en San Francisco.",
+        "slug": "hvac-california",
         "canonical_url": "https://chambaenusa.com/licencia-hvac-california/",
-        "h1": "Licencia de HVAC en California",
+        "h1": "Cómo Trabajar en HVAC en California",
         "schema_types": [
             "HowTo",
             "FAQPage",
             "BreadcrumbList"
         ],
         "keywords_primary": [
-            "licencia de hvac en california",
-            "certificacion epa 608 en español",
-            "c-20 contractor license california"
+            "licencia hvac california",
+            "epa 608 en español california",
+            "como trabajar en hvac california"
         ],
         "keywords_secondary": [
-            "cslb hvac california",
+            "c-20 contractor california cslb",
             "cuanto gana un tecnico hvac en california",
-            "requisitos para licencia hvac california",
-            "renovar licencia hvac california"
+            "requisitos hvac california",
+            "certificacion epa 608 california"
         ],
         "keywords_long_tail": [
-            "como sacar la certificacion epa 608 en español",
+            "como sacar la certificacion epa 608 en español california",
             "escuelas de hvac en los angeles en español",
-            "cuanto cuesta la licencia de contratista hvac en california",
-            "examen de contratista c-20 en español california"
+            "cuanto cuesta licencia contratista hvac california",
+            "examen c-20 en español cslb california"
         ]
     },
     "hero": {
         "ai_generated": true,
         "badge": "Actualizado 2026",
-        "headline": "Licencia de HVAC en California",
-        "subheadline": "Empieza con la certificación EPA 608 (requerida federalmente), avanza como técnico instalador, y llega a C-20 Contractor para tener tu propio negocio. Salarios de $55k-$85k+ y examen de contratista disponible en español.",
+        "headline": "HVAC en California: Empieza en Semanas con la EPA 608",
+        "subheadline": "En California NO hay licencia estatal obligatoria para técnicos HVAC — solo necesitas la certificación EPA 608 (examen disponible en español) para conseguir tu primer trabajo. La licencia C-20 de contratista viene después, cuando quieres tu propio negocio. Salarios de $58,000 a $71,000 según la ciudad.",
         "key_stats": [
             {
-                "label": "EPA 608 Universal",
-                "value": "Certificación Federal",
-                "detail": "Requerida para manejar refrigerantes. Examen de $150-200, disponible en español.",
-                "source": "https://www.epa.gov/section608",
-                "source_name": "EPA"
+                "label": "EPA 608 en Español",
+                "value": "✅ Disponible",
+                "detail": "El examen EPA 608 se puede tomar en español con proveedores como ESCO Institute. Es el PRIMER paso real para cualquier técnico.",
+                "source": "https://www.escoinst.com/",
+                "source_name": "ESCO Institute"
             },
             {
-                "label": "C-20 Contractor",
-                "value": "4 años experiencia",
-                "detail": "Licencia de contratista para operar negocio HVAC en California",
-                "source": "https://www.cslb.ca.gov/",
-                "source_name": "CSLB"
-            },
-            {
-                "label": "Examen en Español",
-                "value": "✅ Sí (C-20)",
-                "detail": "El examen de contratista CSLB está disponible en español",
-                "source": "https://www.cslb.ca.gov/",
-                "source_name": "CSLB"
-            },
-            {
-                "label": "Salario Técnico",
-                "value": "$62,000/año",
-                "detail": "Mediana en California. Top earners $85,000+",
+                "label": "Salario Mediana CA",
+                "value": "$58,000/año",
+                "detail": "Mediana estatal California. Bay Area y LA pagan hasta $71,000-$78,000.",
                 "source": "https://www.bls.gov/oes/current/oes499021.htm",
                 "source_name": "BLS May 2024"
+            },
+            {
+                "label": "Licencia C-20",
+                "value": "4 años experiencia",
+                "detail": "Solo requerida para CONTRATISTAS — para trabajar como técnico empleado, solo necesitas EPA 608.",
+                "source": "https://www.cslb.ca.gov/",
+                "source_name": "CSLB"
+            },
+            {
+                "label": "Crecimiento Empleo",
+                "value": "+6% (2023-2033)",
+                "detail": "Demanda impulsada por calor extremo, electrificación y reemplazos de sistemas.",
+                "source": "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
+                "source_name": "BLS Occupational Outlook"
             }
         ],
         "cta_primary": {
-            "text": "Ver Pasos del Camino",
+            "text": "Ver el Camino Paso a Paso",
             "anchor": "#roadmap"
         },
         "cta_secondary": {
-            "text": "Ver Salarios",
+            "text": "Ver Salarios por Ciudad",
             "anchor": "#salarios"
         }
     },
@@ -85,16 +85,16 @@
         "ai_generated": true,
         "type": "highlight_box",
         "icon": "❄️",
-        "title": "¡El examen de Contratista C-20 está disponible en español!",
-        "content": "El Contractors State License Board (CSLB) ofrece el examen de contratista C-20 (Warm-Air Heating, Ventilating and Air-Conditioning) en español. Esto incluye tanto la parte de ley como la parte técnica. La certificación EPA 608 también tiene opciones en español con varios proveedores aprobados.",
-        "source": "https://www.cslb.ca.gov/",
-        "source_name": "CSLB"
+        "title": "La EPA 608 — tu primer certificado real — está disponible en español",
+        "content": "El examen de certificación EPA Section 608 se puede tomar en español con proveedores aprobados como ESCO Institute. Esta certificación federal es OBLIGATORIA para manejar refrigerantes (todos los sistemas de AC modernos los usan) y es el verdadero primer paso para trabajar en HVAC en California. Con EPA 608 + empleo en una compañía con licencia C-20, puedes estar trabajando en HVAC en cuestión de semanas. No necesitas licencia estatal para empezar.",
+        "source": "https://www.epa.gov/section608",
+        "source_name": "EPA Section 608 / ESCO Institute"
     },
     "autoridad_reguladora": {
         "ai_generated": true,
         "nombre": "Contractors State License Board (CSLB)",
         "programa": "C-20 Warm-Air Heating, Ventilating and Air-Conditioning Contractor",
-        "nota_consolidacion": "Para técnicos: EPA certifica el manejo de refrigerantes (federal). CSLB certifica contratistas (estatal).",
+        "nota_importante": "CSLB regula a los CONTRATISTAS. Los técnicos empleados no necesitan licencia CSLB — solo EPA 608. La agencia federal EPA regula quién puede manejar refrigerantes.",
         "direccion": {
             "calle": "9821 Business Park Drive",
             "ciudad": "Sacramento",
@@ -112,498 +112,581 @@
         "source": "https://www.cslb.ca.gov/"
     },
     "roadmap": {
-        "_description": "Camino profesional de técnico HVAC en California - desde certificación EPA hasta contratista C-20",
+        "_description": "Camino profesional HVAC en California — de cero a contratista C-20",
         "ai_generated": true,
         "layout": "timeline",
-        "nota_general": "La carrera de HVAC en California tiene dos caminos paralelos: 1) Técnico instalador/reparador (requiere EPA 608), 2) Contratista (requiere C-20 para operar negocio). Muchos empiezan como técnicos y luego obtienen la C-20 después de 4 años de experiencia.",
+        "nota_general": "California es diferente a Texas: NO existe licencia estatal de 'técnico HVAC'. El camino tiene dos fases claras: (1) Conseguir empleo como técnico — solo se necesita EPA 608 federal; (2) Eventualmente abrir negocio propio — ahí entra la licencia C-20. La mayoría de hispanos que trabajan en HVAC en CA están en la fase 1.",
         "tipos": [
             {
                 "id": "epa_608",
-                "titulo_en": "EPA 608 Certification",
-                "titulo_es": "Certificación EPA 608",
+                "titulo_en": "EPA Section 608 Certification",
+                "titulo_es": "Certificación EPA 608 — El Primer Paso Real",
                 "es_principal": true,
-                "color_badge": "#3b82f6",
-                "descripcion_corta": "Certificación federal OBLIGATORIA para manejar refrigerantes. Sin esta, no puedes trabajar legalmente en HVAC.",
-                "scope_of_work": "Permite comprar, manejar y trabajar con refrigerantes en sistemas de aire acondicionado y refrigeración. Requerida por ley federal (Clean Air Act).",
+                "color_badge": "#10b981",
+                "descripcion_corta": "Certificación federal OBLIGATORIA para manejar refrigerantes. Sin esta, es ILEGAL trabajar con sistemas de AC. Examen disponible en español.",
+                "scope_of_work": "Permite comprar, manejar, recuperar y reciclar refrigerantes en sistemas de aire acondicionado, calefacción y refrigeración. Requerida por el Clean Air Act federal. Válida en los 50 estados.",
                 "requisitos": {
                     "edad_minima": 18,
-                    "educacion_previa": "Ninguna requerida oficialmente, pero se recomienda curso de preparación",
-                    "experiencia": "Ninguna",
+                    "educacion_previa": "Ninguna requerida. Curso de preparación recomendado pero no obligatorio.",
+                    "experiencia": "Ninguna requerida",
                     "examen": "Aprobar examen EPA 608 (Core + Type I, II, III para Universal)"
                 },
                 "examen": {
                     "partes": 4,
                     "parte_1": {
                         "nombre": "Core (Núcleo)",
-                        "formato": "Opción múltiple - 25 preguntas",
-                        "idiomas": [
-                            "Inglés",
-                            "Español (con algunos proveedores)"
-                        ],
+                        "formato": "Opción múltiple — 25 preguntas",
+                        "idiomas": ["Inglés", "Español (con ESCO Institute y otros proveedores aprobados)"],
                         "puntaje_minimo": "70%",
-                        "cuando_tomarlo": "Cuando te sientas preparado - no requiere experiencia previa",
+                        "cuando_tomarlo": "Cuando te sientas preparado — no requiere experiencia previa",
                         "contenido_principal": [
-                            "Clean Air Act y regulaciones EPA",
-                            "Ozono y calentamiento global",
-                            "Manejo seguro de refrigerantes",
-                            "Recuperación y reciclaje de refrigerantes"
+                            "Clean Air Act y regulaciones EPA Section 608",
+                            "Protección de la capa de ozono y calentamiento global",
+                            "Recuperación y reciclaje de refrigerantes",
+                            "Seguridad: manejo de cilindros, EPP, fugas"
                         ]
                     },
                     "parte_2": {
                         "nombre": "Type I, II, III (Universal = los 3)",
-                        "formato": "Opción múltiple - 25 preguntas por tipo",
+                        "formato": "Opción múltiple — 25 preguntas por tipo",
+                        "idiomas": ["Inglés", "Español (con proveedores seleccionados)"],
                         "puntaje_minimo": "70% en cada tipo",
                         "cuando_tomarlo": "Se puede tomar junto con Core el mismo día",
                         "contenido_principal": [
-                            "Type I: Electrodomésticos pequeños",
-                            "Type II: Equipos de alta presión (AC residencial/comercial)",
-                            "Type III: Equipos de baja presión (chillers industriales)"
+                            "Type I: Aparatos pequeños (electrodomésticos con menos de 5 lbs de refrigerante)",
+                            "Type II: Equipos de alta presión — AC residencial y comercial, la mayoría de sistemas HVAC modernos",
+                            "Type III: Equipos de baja presión — chillers industriales"
                         ]
                     },
-                    "administrador": "Múltiples organizaciones aprobadas por EPA",
-                    "url_psi": "https://www.epa.gov/section608/section-608-technician-certification",
-                    "retakes": "Puedes retomar inmediatamente si repruebas, pagando la tarifa de nuevo",
+                    "administrador": "Múltiples organizaciones aprobadas por EPA: ESCO Institute, HVAC Excellence, NATE, Mainstream Engineering",
+                    "url_esco": "https://www.escoinst.com/",
+                    "url_epa": "https://www.epa.gov/section608/section-608-technician-certification",
+                    "retakes": "Puedes retomar inmediatamente pagando la tarifa de nuevo. Sin límite de intentos.",
                     "source": "https://www.epa.gov/section608"
                 },
                 "costos": {
                     "examen_escrito": 150,
-                    "total_examenes_y_licencia": 200,
-                    "renovacion_cada_2_años": 0
+                    "rango": "$150 - $200 dependiendo del proveedor",
+                    "total_minimo": 150,
+                    "renovacion": "No expira — es de por vida"
                 },
                 "como_aplicar": {
-                    "metodo": "A través de organizaciones certificadoras aprobadas por EPA",
+                    "metodo": "A través de organizaciones certificadoras aprobadas por EPA — presencial u online supervisado",
                     "url": "https://www.epa.gov/section608/section-608-technician-certification",
-                    "tiempo_procesamiento": "Resultados inmediatos (mismo día)",
+                    "tiempo_procesamiento": "Resultados inmediatos o en 1-2 días. Certificado llega en 1-2 semanas.",
                     "pasos": [
-                        "Elegir organización certificadora (ESCO Institute, HVAC Excellence, NATE, etc.)",
-                        "Registrarse y pagar examen ($150-200)",
-                        "Estudiar con materiales de preparación (online o presencial)",
-                        "Tomar examen (online supervisado o presencial)",
-                        "Recibir certificado digital/físico si apruebas"
+                        "Elegir proveedor: ESCO Institute para examen en español (escoinst.com)",
+                        "Registrarte y pagar el examen ($150-200)",
+                        "Estudiar con materiales de preparación — 2 a 4 semanas de estudio recomendado",
+                        "Tomar el examen (online supervisado o en centro presencial)",
+                        "Recibir certificado digital/físico al aprobar"
                     ]
                 },
-                "nota": "La certificación EPA 608 es de por vida - NO expira. Una vez certificado, eres certificado para siempre. Se recomienda sacar la Universal (Core + Type I, II, III) para máxima flexibilidad laboral.",
+                "nota": "La EPA 608 Universal (Core + Type I + II + III) es la más completa y la que la mayoría de empleadores HVAC en California requiere. Cuesta lo mismo que hacer solo Type II — vale la pena sacar la Universal desde el principio.",
                 "source": "https://www.epa.gov/section608"
             },
             {
-                "id": "hvac_technician",
-                "titulo_en": "HVAC Installation/Service Technician",
-                "titulo_es": "Técnico de Instalación/Servicio HVAC",
-                "es_principal": false,
-                "color_badge": "#10b981",
-                "descripcion_corta": "Técnico que instala, mantiene y repara sistemas HVAC trabajando para una compañía con licencia C-20.",
-                "scope_of_work": "Instalar y reparar sistemas de calefacción, ventilación y aire acondicionado residenciales y comerciales. Trabajar bajo supervisión de contratista C-20 licenciado.",
+                "id": "hvac_technician_empleado",
+                "titulo_en": "HVAC Technician (Employee)",
+                "titulo_es": "Técnico HVAC como Empleado — No Requiere Licencia Estatal",
+                "es_principal": true,
+                "color_badge": "#3b82f6",
+                "descripcion_corta": "En California, un técnico HVAC empleado NO necesita licencia estatal. Solo se requiere EPA 608. Puedes trabajar para cualquier compañía con licencia C-20.",
+                "scope_of_work": "Instalar, mantener y reparar sistemas de calefacción, ventilación y aire acondicionado residenciales y comerciales. Trabajar bajo supervisión de un contratista C-20 licenciado. Puedes hacer la mayor parte del trabajo técnico real.",
                 "requisitos": {
                     "edad_minima": 18,
-                    "educacion_previa": "Diploma de high school o GED recomendado",
-                    "horas_escuela": 1200,
-                    "escuela_aprobada": "Programa técnico de HVAC (6-12 meses) o aprendizaje (apprenticeship)",
-                    "licencia_previa": "EPA 608 Universal (obligatorio)",
-                    "examen": "Solo EPA 608 - no hay examen estatal para técnicos"
+                    "educacion_previa": "Diploma de high school o GED recomendado por la mayoría de empleadores",
+                    "escuela_tecnica": "No obligatoria, pero programas de 6-12 meses en community college aceleran mucho la carrera",
+                    "licencia_previa": "EPA 608 (obligatoria federal — sin excepción)",
+                    "examen_estatal": "Ninguno — California NO tiene examen estatal para técnicos empleados"
                 },
                 "costos": {
-                    "matricula_escuela": 5000,
-                    "kit_herramientas_basico": 800,
-                    "total_minimo": "~$6,000-8,000"
+                    "epa_608": "$150 - $200",
+                    "programa_community_college": "$1,000 - $5,000 (subsidiado para residentes CA)",
+                    "escuela_tecnica_privada": "$8,000 - $15,000",
+                    "kit_herramientas_basico": "$800 - $2,000",
+                    "total_ruta_minima": "~$1,000 - $2,500 (solo EPA + herramientas básicas, empleador cubre el resto)",
+                    "total_ruta_escuela": "~$10,000 - $17,000 (con programa técnico completo)"
                 },
                 "como_aplicar": {
-                    "metodo": "Encontrar empleo con compañía licenciada C-20",
+                    "metodo": "Conseguir empleo directamente en compañía HVAC con licencia C-20",
                     "pasos": [
-                        "Obtener EPA 608 Universal",
-                        "Completar programa técnico de HVAC o apprenticeship",
-                        "Buscar empleo con contratista HVAC licenciado",
-                        "Acumular experiencia (documentar horas para futura C-20)"
+                        "Obtener EPA 608 Universal — es el requisito mínimo irrenunciable",
+                        "Completar programa técnico de HVAC (recomendado: community college, 6-12 meses) O buscar aprendizaje directo",
+                        "Buscar empleo: Indeed, LinkedIn, contactar sindicatos SMART Local 104 o UA Local 250, o preguntar directamente en compañías HVAC locales",
+                        "Al ser contratado, verificar que el empleador tenga licencia C-20 vigente (se puede verificar en cslb.ca.gov)",
+                        "Documentar horas y experiencia desde el primer día — esencial para futura C-20"
                     ]
                 },
-                "nota": "Como técnico NO necesitas licencia CSLB, pero SÍ necesitas EPA 608 y trabajar para una compañía con C-20. Muchos técnicos obtienen certificaciones adicionales voluntarias (NATE, HVAC Excellence) para mejorar salario.",
-                "horas_escuela": 1200,
+                "nota": "IMPORTANTE: Como técnico empleado puedes hacer la mayor parte del trabajo real de HVAC. La restricción es que NO puedes sacar permisos, cotizar independientemente ni trabajar por tu cuenta. Mientras trabajes para una empresa C-20, estás cubierto legalmente.",
                 "source": "https://www.cslb.ca.gov/"
+            },
+            {
+                "id": "apprenticeship",
+                "titulo_en": "HVAC Apprenticeship (JATC / Sindicatos)",
+                "titulo_es": "Aprendizaje Sindical — La Ruta Pagada",
+                "es_principal": false,
+                "color_badge": "#f59e0b",
+                "descripcion_corta": "Los programas de aprendizaje (apprenticeship) a través de sindicatos como SMART o UA te pagan mientras aprendes durante 5 años. Alta competencia para entrar, pero excelentes beneficios.",
+                "scope_of_work": "Aprendizaje completo de HVAC: instalación, servicio, diseño de ductos, trabajo con planos. Al terminar eres Journeyman con credencial reconocida en toda la industria.",
+                "duracion": "5 años (aproximadamente 10,000 horas de trabajo + horas de clase)",
+                "sindicatos_principales": [
+                    {
+                        "nombre": "SMART Local 104 (Sheet Metal Workers)",
+                        "ciudad": "San Francisco Bay Area",
+                        "web": "https://www.smart104.org/",
+                        "nota": "Uno de los sindicatos HVAC más grandes del norte de California"
+                    },
+                    {
+                        "nombre": "UA Local 250 (United Association of Plumbers & Pipefitters)",
+                        "ciudad": "Sacramento y norte de California",
+                        "web": "https://www.uaLocal250.org/",
+                        "nota": "Cubre plomería y HVAC (refrigeración y tuberías de sistemas)"
+                    }
+                ],
+                "beneficios": [
+                    "Salario desde el primer día (empieza al 40-50% del salario journeyman, aumenta cada año)",
+                    "Seguro médico, dental y de visión completamente cubiertos",
+                    "Plan de pensión (pension plan)",
+                    "Educación pagada — no pagas por el entrenamiento",
+                    "EPA 608 incluida en el programa",
+                    "Al terminar, eres Journeyman con las horas documentadas para solicitar C-20"
+                ],
+                "requisitos": {
+                    "edad_minima": 18,
+                    "educacion_previa": "Diploma de high school o GED",
+                    "matematicas": "Prueba básica de matemáticas (álgebra)",
+                    "ciudadania": "No se requiere ciudadanía, pero sí autorización para trabajar en USA",
+                    "examen_fisico": "Examen físico requerido"
+                },
+                "como_aplicar": {
+                    "metodo": "Aplicar directamente al JATC (Joint Apprenticeship Training Committee) del sindicato local",
+                    "nota": "La admisión es competitiva — hay más solicitantes que lugares disponibles. Aplica a varios sindicatos si puedes."
+                },
+                "source": "https://www.smart104.org/"
             },
             {
                 "id": "c20_contractor",
                 "titulo_en": "C-20 Warm-Air Heating, Ventilating and Air-Conditioning Contractor",
-                "titulo_es": "Contratista C-20 de HVAC",
+                "titulo_es": "Contratista C-20 — Para Tener Tu Propio Negocio",
                 "es_principal": true,
-                "color_badge": "#f59e0b",
-                "descripcion_corta": "Licencia de contratista para operar tu propio negocio HVAC, sacar permisos, contratar técnicos y hacer proyectos sobre $500.",
-                "scope_of_work": "Instalar, mantener y reparar sistemas completos de calefacción, ventilación, refrigeración y aire acondicionado en cualquier tipo de edificación. Sacar permisos, contratar empleados, cotizar proyectos.",
+                "color_badge": "#7c3aed",
+                "descripcion_corta": "Licencia CSLB que permite operar tu propio negocio HVAC, sacar permisos de construcción, contratar técnicos y hacer proyectos de cualquier tamaño.",
+                "scope_of_work": "Instalar, mantener, modificar y reparar sistemas completos de calefacción, ventilación, refrigeración y AC en residencias y edificios comerciales. Sacar permisos. Contratar y supervisar técnicos. Firmar contratos. Facturar directamente a clientes.",
                 "requisitos": {
                     "edad_minima": 18,
-                    "experiencia": "4 años de experiencia journeyman-level en HVAC (documentada)",
-                    "examen_medico": "No",
-                    "licencia_previa": "EPA 608 Universal (requerida antes de aplicar)",
-                    "examen": "Aprobar examen de Ley y Negocio + examen Técnico C-20"
+                    "experiencia": "4 años (48 meses) de experiencia journeyman-level en HVAC, documentada con cartas de empleadores anteriores",
+                    "educacion_previa": "No hay requisito mínimo de escolaridad en CSLB",
+                    "licencia_previa": "EPA 608 Universal — obligatoria antes de aplicar",
+                    "examen": "Aprobar dos exámenes: Law and Business + C-20 Trade Exam",
+                    "ssn": "Se requiere número de Seguro Social (SSN) — ITIN no es suficiente para la licencia de contratista"
                 },
                 "examen": {
                     "partes": 2,
                     "parte_1": {
                         "nombre": "Law and Business Exam",
-                        "formato": "Opción múltiple por computadora - 90 preguntas",
+                        "formato": "Opción múltiple por computadora — 90 preguntas",
                         "costo": 330,
-                        "idiomas": [
-                            "Inglés",
-                            "Español"
-                        ],
-                        "puntaje_minimo": "Escala de calificación de CSLB (varía)",
-                        "cuando_tomarlo": "Después de enviar aplicación y ser aprobado para tomar examen",
+                        "idiomas": ["Inglés", "Español"],
+                        "puntaje_minimo": "Escala de calificación CSLB (pasa/no pasa)",
+                        "cuando_tomarlo": "Después de que CSLB apruebe tu aplicación y experiencia",
                         "contenido_principal": [
                             "Ley de contratistas de California (Business and Professions Code)",
-                            "Leyes laborales y de seguridad (OSHA)",
-                            "Contratos y responsabilidad legal",
-                            "Gestión de negocios y finanzas"
+                            "Leyes laborales: OSHA, Cal/OSHA",
+                            "Contratos: tipos, responsabilidad, disputas",
+                            "Gestión de negocios: impuestos, seguros, contabilidad básica"
                         ]
                     },
                     "parte_2": {
                         "nombre": "C-20 Trade Exam (HVAC)",
-                        "formato": "Opción múltiple por computadora - 100 preguntas",
+                        "formato": "Opción múltiple por computadora — 100 preguntas",
                         "costo": 330,
-                        "idiomas": [
-                            "Inglés",
-                            "Español"
-                        ],
-                        "puntaje_minimo": "Escala de calificación de CSLB",
+                        "idiomas": ["Inglés", "Español"],
+                        "puntaje_minimo": "Escala de calificación CSLB",
                         "cuando_tomarlo": "Mismo día que Law & Business o por separado",
                         "contenido_principal": [
-                            "Diseño e instalación de sistemas HVAC",
-                            "Códigos de construcción (California Mechanical Code, Title 24)",
-                            "Carga de refrigerante y cálculos de carga térmica",
-                            "Sistemas eléctricos y controles HVAC",
-                            "Seguridad y manejo de refrigerantes"
+                            "Diseño e instalación de sistemas HVAC (ductos, carga térmica)",
+                            "California Mechanical Code y Title 24 Energy Standards",
+                            "Cálculos de refrigeración y manejo de refrigerantes",
+                            "Sistemas eléctricos y controles aplicados a HVAC",
+                            "Seguridad: Cal/OSHA, gases, presión"
                         ]
                     },
                     "administrador": "PSI Services LLC (para CSLB)",
                     "telefono_psi": "(800) 733-9267",
                     "url_psi": "https://candidate.psiexams.com/",
-                    "retakes": "Puedes retomar cada examen (Law o Trade) hasta 3 veces en 18 meses. Después de 3 intentos fallidos, debes esperar 12 meses.",
+                    "retakes": "Puedes retomar cada parte hasta 3 veces en 18 meses. Si fallas 3 veces, debes esperar 12 meses para volver a intentar.",
                     "source": "https://www.cslb.ca.gov/"
                 },
                 "costos": {
                     "aplicacion_licencia": 450,
-                    "examen_escrito": 330,
-                    "examen_practico": 330,
+                    "examen_law_business": 330,
+                    "examen_trade_c20": 330,
                     "total_examenes_y_licencia": 1110,
+                    "bond_contratista": "$100 - $200/año (por $15,000 de bond requerido)",
+                    "seguro_responsabilidad": "$1,200 - $2,500/año",
                     "renovacion_cada_2_años": 450
                 },
                 "como_aplicar": {
-                    "metodo": "En línea o por correo a través de CSLB",
+                    "metodo": "En línea o por correo a través del portal de CSLB",
                     "url": "https://www.cslb.ca.gov/applicants/",
-                    "tiempo_procesamiento": "4-6 semanas para aprobar aplicación + tiempo de examen",
+                    "tiempo_procesamiento": "4-8 semanas para que CSLB apruebe la aplicación + tiempo de examen",
                     "pasos": [
-                        "Documentar 4 años de experiencia journeyman (formulario de CSLB con verificaciones de empleadores)",
-                        "Completar aplicación CSLB y pagar $450",
-                        "Esperar aprobación para tomar exámenes",
-                        "Agendar y aprobar Law & Business Exam ($330)",
-                        "Agendar y aprobar C-20 Trade Exam ($330)",
-                        "Proveer seguro de responsabilidad y bonos ($15,000)",
-                        "Recibir licencia C-20"
+                        "Documentar 4 años de experiencia: formulario CSLB firmado por empleadores previos con fechas, direcciones y descripción de proyectos",
+                        "Completar solicitud CSLB en línea y pagar $450",
+                        "Esperar aprobación de CSLB para tomar exámenes (4-8 semanas)",
+                        "Agendar y aprobar Law & Business Exam con PSI ($330) — disponible en español",
+                        "Agendar y aprobar C-20 Trade Exam con PSI ($330) — disponible en español",
+                        "Obtener bond de contratista de $15,000 (costo real: $100-200/año)",
+                        "Contratar seguro de responsabilidad general",
+                        "Recibir licencia C-20 vigente"
                     ]
                 },
-                "nota": "IMPORTANTE: La C-20 te permite operar como contratista independiente o abrir tu negocio. Debes mantener un bond de $15,000 y seguro de responsabilidad. La licencia se renueva cada 2 años ($450) y requiere educación continua.",
+                "nota": "La C-20 es para la persona, no para la empresa. Si formas una LLC o corporación para tu negocio, la empresa también debe registrarse con CSLB usando la C-20 del Responsible Managing Officer (RMO). Renovación cada 2 años ($450) — no requiere educación continua.",
+                "source": "https://www.cslb.ca.gov/"
+            },
+            {
+                "id": "c38_refrigeration",
+                "titulo_en": "C-38 Refrigeration Contractor",
+                "titulo_es": "Contratista C-38 de Refrigeración",
+                "es_principal": false,
+                "color_badge": "#6b7280",
+                "descripcion_corta": "Licencia complementaria para sistemas de refrigeración comercial e industrial. Se puede obtener junto con C-20 o por separado.",
+                "scope_of_work": "Instalar y reparar sistemas de refrigeración comercial e industrial: cámaras frigoríficas, congeladores de supermercados, sistemas de proceso industrial. Diferente del HVAC residencial/comercial de la C-20.",
+                "nota": "Muchos contratistas HVAC en California obtienen tanto C-20 como C-38 para poder trabajar en proyectos de refrigeración comercial (restaurantes, supermercados, almacenes). Los requisitos son similares a C-20.",
                 "source": "https://www.cslb.ca.gov/"
             },
             {
                 "id": "certifications_voluntary",
-                "titulo_en": "Voluntary Industry Certifications",
-                "titulo_es": "Certificaciones Voluntarias de la Industria",
+                "titulo_en": "Voluntary Industry Certifications (NATE, HVAC Excellence)",
+                "titulo_es": "Certificaciones Voluntarias — Aumentan Salario y Empleabilidad",
                 "es_principal": false,
-                "color_badge": "#7c3aed",
-                "descripcion_corta": "Certificaciones opcionales que aumentan tu credibilidad, habilidades y salario (NATE, HVAC Excellence, etc.).",
-                "scope_of_work": "Demostrar competencia especializada en instalación, servicio, eficiencia energética, o tecnologías específicas de HVAC.",
-                "requisitos": {
-                    "experiencia": "Varía - generalmente 1-2 años de experiencia en el área de especialización",
-                    "licencia_previa": "EPA 608 requerida para la mayoría",
-                    "examen": "Exámenes específicos por certificación"
-                },
-                "examen": {
-                    "nombre": "Varía según certificación",
-                    "partes": 1,
-                    "administrador": "NATE, HVAC Excellence, u otras organizaciones",
-                    "idiomas": [
-                        "Inglés principalmente"
-                    ]
-                },
+                "color_badge": "#ec4899",
+                "descripcion_corta": "Certificaciones opcionales que demuestran competencia especializada. Muy valoradas por empleadores en California. Pueden aumentar salario 10-20%.",
+                "scope_of_work": "Demostrar competencia avanzada en áreas específicas: instalación de sistemas, servicio, eficiencia energética, calefacción, refrigeración comercial.",
+                "certificaciones_principales": [
+                    {
+                        "nombre": "NATE — North American Technician Excellence",
+                        "descripcion": "La certificación voluntaria más reconocida por empleadores HVAC en USA",
+                        "url": "https://www.natex.org/",
+                        "idioma_examen": "Inglés principalmente"
+                    },
+                    {
+                        "nombre": "HVAC Excellence",
+                        "descripcion": "Certificación alternativa a NATE, reconocida a nivel nacional",
+                        "url": "https://www.hvacexcellence.org/",
+                        "idioma_examen": "Inglés"
+                    },
+                    {
+                        "nombre": "BPI — Building Performance Institute",
+                        "descripcion": "Especialización en eficiencia energética. Muy demandada en California por programas de incentivos estatales.",
+                        "url": "https://www.bpi.org/",
+                        "idioma_examen": "Inglés"
+                    }
+                ],
                 "costos": {
-                    "examen_escrito": 150,
-                    "renovacion_cada_2_años": 50
+                    "examen_por_especialidad": "$150 - $250",
+                    "renovacion_cada_2_años": "$50 - $100"
                 },
-                "nota": "Certificaciones populares: NATE (North American Technician Excellence) - más reconocida en la industria, HVAC Excellence, BPI (Building Performance Institute). Estas NO son requeridas pero pueden aumentar tu salario 10-20%.",
+                "nota": "En California hay muchos programas estatales de eficiencia energética (HVAC de alta eficiencia, heat pumps). Las certificaciones BPI o Energy Star abren puertas a proyectos con subsidios gubernamentales y salarios más altos.",
                 "source": "https://www.natex.org/"
             }
         ]
     },
     "calculadora_inversion": {
         "ai_generated": true,
-        "_description": "Costos estimados para obtener licencias HVAC en California",
+        "_description": "Costos reales para trabajar en HVAC en California — desde técnico empleado hasta contratista",
         "escenarios": [
             {
-                "id": "epa_only",
-                "licencia": "EPA 608 Universal (solo certificación)",
+                "id": "tecnico_ruta_rapida",
+                "licencia": "Técnico Empleado — Ruta Rápida (solo EPA 608)",
                 "inversion": {
-                    "curso_preparacion_examen": "$100-300",
-                    "examen_escrito": "$150-200",
-                    "kit_libros": "$50-100",
-                    "total_minimo": "$300",
-                    "total_maximo": "$600"
+                    "epa_608_curso_prep": "$100 - $200",
+                    "examen_epa_608": "$150 - $200",
+                    "kit_herramientas_basico": "$800 - $1,500",
+                    "kit_nota": "Multímetro digital, manifold gauge set básico, herramientas de mano",
+                    "total_minimo": "$1,050",
+                    "total_maximo": "$1,900"
                 },
-                "tiempo": "1-4 semanas de estudio",
+                "tiempo": "2-6 semanas para estar listo para aplicar a empleo",
                 "salario_esperado": {
-                    "empleada": "No puedes trabajar solo con EPA 608 - necesitas empleador con C-20",
-                    "nota": "EPA 608 es requisito básico, no calificación completa"
+                    "ayudante_hvac": "$18 - $22/hr durante primeros 6-12 meses (aprendiendo en el trabajo)",
+                    "tecnico_junior": "$22 - $28/hr con 1-2 años experiencia",
+                    "nota": "Muchos empleadores en CA pagan el entrenamiento adicional. Empieza como ayudante mientras aprendes."
                 },
-                "nota": "Solo EPA 608 no es suficiente para trabajar - es solo el primer paso legal."
+                "roi_nota": "Ruta más rápida para empezar a ganar. Inversión se recupera en los primeros días de trabajo."
             },
             {
-                "id": "technician",
-                "licencia": "Técnico HVAC (EPA 608 + Escuela Técnica)",
+                "id": "tecnico_con_escuela",
+                "licencia": "Técnico Empleado — Con Programa Técnico (Community College)",
                 "inversion": {
-                    "escuela_rango": "$5,000-15,000",
-                    "escuela_nota": "Programa de 6-18 meses en community college o escuela técnica",
-                    "examen_escrito": "$150-200",
-                    "kit_herramientas_basico": "$800-2,000",
-                    "kit_nota": "Multímetro, manifold gauge set, herramientas básicas",
-                    "total_minimo": "$6,000",
-                    "total_maximo": "$17,000"
+                    "community_college_ca": "$1,000 - $5,000",
+                    "escuela_nota": "Residentes de California: community colleges subsidiados por el estado. Programas de 6-18 meses. Muchos con FAFSA disponible.",
+                    "epa_608": "$150 - $200",
+                    "kit_herramientas": "$800 - $2,000",
+                    "total_minimo": "$1,950",
+                    "total_maximo": "$7,200"
                 },
-                "tiempo": "6-18 meses",
+                "tiempo": "6 a 18 meses de programa + 2-4 semanas para conseguir primer empleo",
                 "salario_esperado": {
-                    "empleada": "$45,000-62,000/año como técnico con 0-3 años experiencia",
-                    "con_experiencia": "$62,000-78,000/año con 3-7 años experiencia",
-                    "nota": "Varía según ubicación - Bay Area y LA pagan más"
+                    "al_entrar": "$24 - $30/hr con diploma técnico",
+                    "con_3_años": "$30 - $38/hr",
+                    "anualizado": "$50,000 - $79,000/año dependiendo de ciudad y overtime"
                 },
-                "roi_nota": "Inversión se recupera en 6-12 meses de trabajo. Muchos programas ofrecen ayuda financiera federal (FAFSA)."
+                "roi_nota": "Inversión se recupera en 3-6 meses de trabajo. Los programas de community college en CA son una de las mejores inversiones disponibles para hispanos."
             },
             {
                 "id": "c20_contractor",
-                "licencia": "Contratista C-20 (después de 4 años experiencia)",
+                "licencia": "Contratista C-20 — Para Abrir Tu Negocio",
                 "inversion": {
-                    "examen_escrito": "$330",
-                    "examen_practico": "$330",
-                    "aplicacion_licencia": "$450",
-                    "curso_preparacion_examen": "$300-800",
-                    "libros_codigo": "$200-400",
-                    "total_estimado": "$1,600-2,300"
+                    "aplicacion_cslb": "$450",
+                    "examen_law_business": "$330",
+                    "examen_trade_c20": "$330",
+                    "curso_preparacion": "$300 - $800",
+                    "libros_codigos": "$200 - $400",
+                    "bond_primer_año": "$100 - $200",
+                    "seguro_primer_año": "$1,200 - $2,500",
+                    "total_estimado": "$2,910 - $5,010 (primer año)"
                 },
-                "tiempo": "4 años de experiencia + 2-6 meses preparación examen",
+                "tiempo": "4 años de experiencia documentada + 2-6 meses preparación para exámenes",
                 "salario_esperado": {
-                    "empleada": "$70,000-90,000/año como project manager o supervisor",
-                    "independiente_booth_rental": "$80,000-150,000+/año como contratista independiente",
-                    "nota": "Como dueño de negocio HVAC, el potencial es $100k-300k+ dependiendo de tamaño de operación"
+                    "contratista_pequeño": "$80,000 - $120,000/año operando solo",
+                    "con_empleados": "$120,000 - $300,000+/año con 2-5 técnicos empleados",
+                    "nota": "Verano en California = temporada alta de AC. Los contratistas bien establecidos pueden tener backlog de semanas."
                 },
-                "nota": "Debes también pagar bond de $15,000 (cuesta ~$100-200/año) y seguro de responsabilidad (~$1,200-2,500/año).",
-                "roi_nota": "Con C-20 puedes cotizar y ejecutar proyectos grandes. Muchos contratistas recuperan la inversión en 1-2 proyectos comerciales."
+                "roi_nota": "Un solo contrato de instalación residencial en LA puede ser $8,000-15,000. Con C-20, un contratista puede recuperar el costo de la licencia en el primer trabajo del año."
             }
         ]
     },
     "renovacion": {
         "ai_generated": true,
-        "frecuencia": "Cada 2 años (C-20 Contractor). EPA 608 NO expira.",
+        "frecuencia_c20": "Cada 2 años (C-20). EPA 608 NO expira nunca.",
         "metodo": "En línea a través del portal de CSLB",
         "url_renovacion": "https://www.cslb.ca.gov/OnlineServices/",
-        "costo_renovacion": 450,
+        "costo_renovacion_c20": 450,
         "ce_requerida": {
             "horas_totales": 0,
-            "temas": [],
-            "nota": "California NO requiere educación continua (CE) para renovar la C-20. Solo debes pagar la tarifa de renovación de $450 cada 2 años y mantener tu bond y seguro vigentes.",
-            "costo_cursos_ce_online": "N/A",
-            "url_proveedores": "N/A"
+            "nota": "California NO requiere educación continua (CE) para renovar la C-20. Solo debes pagar la tarifa de $450 cada 2 años y mantener tu bond de $15,000 y seguro vigentes. La EPA 608 NO expira — es de por vida.",
+            "costo_cursos_ce": "No aplica",
+            "url_proveedores": "No aplica"
         },
         "consecuencias_no_renovar": {
-            "0_90_dias": "Tarifa normal de renovación ($450)",
-            "90_dias_a_2_años": "Puedes renovar pagando tarifa tardía (1.5x) + $200 fee adicional = ~$875",
-            "mas_2_años": "Licencia expira permanentemente - debes reaplicar como nueva licencia (pagar todo de nuevo + retomar exámenes)"
+            "0_90_dias_despues_vencimiento": "Puedes renovar pagando tarifa normal ($450)",
+            "90_dias_a_2_años": "Renovación tardía: tarifa aumentada (~1.5x = $675) + fee adicional de $200",
+            "mas_2_años": "Licencia expira permanentemente — debes reaplicar como nueva licencia, pagar $450 + retomar ambos exámenes completos"
         },
-        "nota_tdlr": "CSLB envía recordatorio de renovación por correo ~120 días antes del vencimiento. Es tu responsabilidad renovar a tiempo. También debes renovar tu bond de $15,000 anualmente.",
+        "nota": "CSLB envía recordatorio por correo ~120 días antes del vencimiento. Pon un recordatorio propio en tu calendario — es tu responsabilidad renovar a tiempo. El bond de $15,000 también debe mantenerse vigente (se paga anualmente por separado).",
         "source": "https://www.cslb.ca.gov/"
     },
     "reciprocidad": {
         "ai_generated": true,
         "disponible": false,
-        "nombre_proceso": "No hay reciprocidad automática",
+        "nombre_proceso": "No hay reciprocidad automática para la C-20",
         "requisitos": [
             "California NO tiene acuerdos de reciprocidad con otros estados para la licencia C-20",
-            "Si tienes licencia de contratista HVAC en otro estado, igual debes aplicar y tomar los exámenes completos de California",
-            "Tu experiencia de otro estado SÍ cuenta para cumplir el requisito de 4 años"
+            "Si tienes licencia de contratista HVAC en Nevada, Arizona, Texas u otro estado, igual debes tomar los exámenes de CSLB completos",
+            "Tu experiencia laboral de otro estado SÍ cuenta para el requisito de 4 años — CSLB acepta cartas de empleadores de cualquier estado",
+            "Debes aprobar el examen C-20 Trade (incluye California Mechanical Code y Title 24 — específicos de CA)"
         ],
-        "nota": "A diferencia de algunos oficios, las licencias de contratista de construcción (incluida C-20) son específicas de cada estado. Debes obtener la licencia de California desde cero, aunque tu experiencia laboral en otros estados sí cuenta para el requisito de 4 años.",
+        "nota": "La experiencia de otro estado es válida, pero los códigos son diferentes. Si vienes de Texas, necesitarás estudiar el California Mechanical Code y el Title 24 Energy Standards, que son más estrictos que los de Texas en temas de eficiencia energética.",
         "url": "https://www.cslb.ca.gov/applicants/",
-        "experiencia_como_horas": "1 año = aproximadamente 2,000 horas de trabajo tiempo completo",
         "source": "https://www.cslb.ca.gov/"
     },
     "salarios": {
         "ai_generated": true,
-        "nota_importante": "Los técnicos HVAC en California ganan significativamente más que el promedio nacional debido al alto costo de vida y demanda constante. Los contratistas C-20 con negocio propio pueden ganar $100k-300k+ dependiendo del tamaño de su operación.",
+        "nota_importante": "California tiene los salarios HVAC más altos del país, impulsados por el costo de vida, los sindicatos fuertes y la demanda constante (calor extremo, regulaciones de eficiencia energética, reemplazos de sistemas). Los técnicos sindicalizados ganan significativamente más que los no sindicalizados.",
         "nacional_2024": {
             "mediana": "$57,300/año",
             "por_hora_mediana": "$27.55/hr",
             "percentil_10": "$37,120/año ($17.85/hr)",
             "percentil_90": "$86,280/año ($41.48/hr)",
-            "crecimiento_proyectado": "6% (2023-2033) - Más rápido que el promedio",
+            "crecimiento_proyectado": "6% (2023-2033) — más rápido que el promedio nacional",
             "source": "https://www.bls.gov/oes/current/oes499021.htm"
         },
-        "texas": {
+        "california": {
             "promedio_anual": "$62,340",
             "promedio_hora": "$29.97",
-            "top_earners": "$85,120+",
+            "mediana": "$58,000",
+            "top_earners": "$89,400+",
             "source": "BLS California May 2024"
         },
-        "por_ciudad_texas": [
+        "por_ciudad_california": [
             {
                 "ciudad": "San Francisco-Oakland-Hayward",
-                "salario_medio": "$75,890",
-                "top_earners": "$98,450",
-                "source": "BLS"
+                "salario_medio": "$71,200",
+                "top_earners": "$98,500",
+                "nota": "SMART Local 104 — sindicato fuerte. Salarios más altos del estado.",
+                "source": "BLS May 2024"
             },
             {
-                "ciudad": "San Jose-Sunnyvale-Santa Clara",
-                "salario_medio": "$78,120",
-                "top_earners": "$101,230",
-                "source": "BLS"
+                "ciudad": "San Jose-Sunnyvale-Santa Clara (Silicon Valley)",
+                "salario_medio": "$74,800",
+                "top_earners": "$102,300",
+                "nota": "Alta demanda de técnicos para edificios de oficinas y data centers.",
+                "source": "BLS May 2024"
             },
             {
                 "ciudad": "Los Angeles-Long Beach-Anaheim",
-                "salario_medio": "$63,450",
-                "top_earners": "$87,940",
-                "source": "BLS"
+                "salario_medio": "$62,000",
+                "top_earners": "$87,900",
+                "nota": "Mercado más grande de CA. Muchas oportunidades pero también más competencia.",
+                "source": "BLS May 2024"
             },
             {
                 "ciudad": "San Diego-Carlsbad",
-                "salario_medio": "$61,780",
-                "top_earners": "$84,220",
-                "source": "BLS"
+                "salario_medio": "$59,400",
+                "top_earners": "$84,200",
+                "nota": "Clima moderado = menos emergencias AC, pero fuerte sector militar e industrial.",
+                "source": "BLS May 2024"
             },
             {
                 "ciudad": "Sacramento-Roseville-Arden-Arcade",
-                "salario_medio": "$59,330",
-                "top_earners": "$81,560",
-                "source": "BLS"
+                "salario_medio": "$58,900",
+                "top_earners": "$81,600",
+                "nota": "UA Local 250 activo. Verano muy caluroso = alta demanda de AC.",
+                "source": "BLS May 2024"
             },
             {
-                "ciudad": "Riverside-San Bernardino-Ontario",
-                "salario_medio": "$57,220",
-                "top_earners": "$78,340",
-                "source": "BLS"
+                "ciudad": "Riverside-San Bernardino-Ontario (Inland Empire)",
+                "salario_medio": "$57,200",
+                "top_earners": "$78,300",
+                "nota": "Una de las zonas de más rápido crecimiento en CA. Mucha construcción nueva.",
+                "source": "BLS May 2024"
+            },
+            {
+                "ciudad": "Fresno (Valle Central)",
+                "salario_medio": "$52,100",
+                "top_earners": "$72,400",
+                "nota": "Temperaturas extremas en verano generan alta demanda, aunque salarios más bajos que la costa.",
+                "source": "BLS May 2024"
             }
         ],
         "ingresos_reales": {
-            "ai_generated": true,
-            "nota": "Los datos del BLS solo capturan salario base de empleados W-2. El ingreso REAL de técnicos HVAC incluye:",
+            "nota": "Los datos del BLS solo capturan salario base de empleados W-2. El ingreso REAL de técnicos HVAC en California incluye:",
             "factores_adicionales": [
-                "Overtime (común en verano durante olas de calor) - tiempo y medio",
-                "Llamadas de emergencia y servicio 24/7 (pagan $100-200/hora)",
-                "Bonos por instalar sistemas de alta eficiencia o renovables",
-                "Comisiones por vender contratos de mantenimiento",
-                "Trabajo independiente (side jobs) los fines de semana",
-                "Certificaciones especializadas (eficiencia energética, solar) pagan premium"
+                "Overtime en verano — muy común durante olas de calor en Los Angeles, Inland Empire, Valle Central",
+                "Llamadas de emergencia: $100-200/hora extra por servicio nocturno o fines de semana",
+                "Diferencial sindical: técnicos con SMART o UA pueden ganar 20-40% más que el promedio BLS",
+                "Comisiones por vender contratos de mantenimiento o sistemas nuevos",
+                "Programas de incentivos estatales (heat pumps, sistemas de alta eficiencia) — abren proyectos con subsidios"
             ],
             "estimado_realista": {
-                "recien_licenciada": "Técnico junior (0-2 años): $45,000-55,000/año",
-                "3_5_años_experiencia": "Técnico con experiencia (3-7 años): $62,000-78,000/año",
-                "especialista_o_independiente": "Técnico senior o especialista (7+ años): $75,000-95,000/año",
-                "dueña_salon": "Contratista C-20 con negocio propio: $100,000-300,000+/año"
+                "tecnico_junior_0_2_años": "$45,000 - $58,000/año",
+                "tecnico_con_experiencia_3_7_años": "$58,000 - $78,000/año",
+                "tecnico_senior_7_mas_años": "$75,000 - $95,000/año",
+                "contratista_c20_independiente": "$100,000 - $300,000+/año (depende del tamaño del negocio)"
             }
+        },
+        "ventaja_sindical": {
+            "nota": "En California, los sindicatos HVAC (SMART, UA) son más activos que en casi cualquier otro estado. Los técnicos sindicalizados tienen beneficios que los no sindicalizados no tienen: pensión, seguro médico completo, y salarios garantizados. Para hispanos que buscan estabilidad, vale la pena aplicar a un apprenticeship sindical."
         }
     },
     "errores_comunes": {
         "ai_generated": true,
         "items": [
             {
+                "error": "Creer que necesitas licencia estatal de 'técnico HVAC' en California",
+                "por_que_importa": "A diferencia de Texas, California NO tiene licencia estatal para técnicos empleados. Si alguien te cobra por gestionar una 'licencia de técnico HVAC de California' que no sea la C-20 de contratista, es un fraude. Solo necesitas EPA 608 para trabajar como técnico empleado.",
+                "solucion": "El único requisito para trabajar como técnico empleado es la EPA 608. Vérificalo directamente en cslb.ca.gov si tienes dudas."
+            },
+            {
                 "error": "Trabajar sin la certificación EPA 608",
-                "por_que_importa": "Es ILEGAL federal manejar refrigerantes sin EPA 608. Las multas de EPA van de $10,000 a $44,539 POR DÍA por violaciones. Tu empleador también puede ser multado, y probablemente te despedirán. Además, ninguna compañía seria te contratará sin EPA 608.",
-                "solucion": "Saca tu EPA 608 Universal ANTES de empezar a trabajar. Cuesta solo $150-200 y puedes hacerlo en línea en 1-2 semanas. Es la inversión más importante y económica."
+                "por_que_importa": "Es ILEGAL federal manejar refrigerantes sin EPA 608. Las multas van de $10,000 a $44,539 POR DÍA de violación. Ninguna compañía seria en California te contratará sin EPA 608. Si tu empleador actual no te la exige, es señal de que opera en gris.",
+                "solucion": "Saca tu EPA 608 Universal ANTES de empezar. Cuesta $150-200, el examen está disponible en español con ESCO Institute, y puedes estudiar en 2-4 semanas. No hay excusa."
             },
             {
-                "error": "No documentar tus horas de experiencia para la C-20",
-                "por_que_importa": "Para aplicar a la C-20 necesitas probar 4 años de experiencia journeyman-level. CSLB requiere formularios firmados por tus empleadores anteriores con fechas, direcciones de proyectos, y descripción de trabajo. Si trabajaste 5 años pero no guardaste records, básicamente tienes CERO experiencia verificable.",
-                "solucion": "Desde tu primer día como técnico, guarda: recibos de pago, cartas de empleadores, fotos de proyectos, permisos de trabajo. Pide una carta de verificación de empleo ANTES de renunciar a cada trabajo."
+                "error": "No documentar las horas de experiencia desde el primer día",
+                "por_que_importa": "Para aplicar a la C-20 necesitas probar 4 años de experiencia journeyman-level. CSLB requiere formularios firmados por empleadores con fechas, tipos de trabajo y direcciones de proyectos. Si trabajaste 5 años pero no tienes papeles, para CSLB tienes CERO años verificados.",
+                "solucion": "Desde el primer día: guarda tus talonarios de pago (pay stubs), pide cartas de empleo antes de renunciar, fotografía proyectos importantes. CSLB tiene un formulario específico para verificación de experiencia."
             },
             {
-                "error": "Estudiar con códigos de construcción desactualizados para el examen C-20",
-                "por_que_importa": "El examen C-20 Trade se basa en ediciones específicas del California Mechanical Code y Title 24. Si estudias con la edición 2019 pero el examen usa 2022, fallarás preguntas críticas porque los requisitos cambiaron.",
-                "solucion": "Antes de comprar libros o inscribirte en curso de preparación, verifica en el sitio de CSLB cuál edición del código es vigente para el examen. Compra solo esa edición."
+                "error": "Pensar que con ITIN puedes obtener la licencia C-20",
+                "por_que_importa": "Para la licencia de CONTRATISTA C-20, CSLB requiere número de Seguro Social (SSN). El ITIN no es suficiente para la licencia de contratista. Sin embargo, para trabajar como TÉCNICO EMPLEADO, el ITIN sí funciona — no hay restricción estatal.",
+                "solucion": "Si tienes ITIN y quieres trabajar en HVAC ahora: consigue EPA 608 y empleo como técnico. Para la C-20 eventualmente necesitarás SSN (DACA, residencia permanente u otro estatus)."
             },
             {
-                "error": "Pensar que con EPA 608 ya puedes trabajar solo",
-                "por_que_importa": "EPA 608 solo te certifica para manejar refrigerantes. NO te permite trabajar sin supervisión, sacar permisos, o cobrar a clientes. Para eso necesitas trabajar bajo un contratista C-20 o tener tu propia C-20. Si haces side jobs sin licencia, puedes ser multado por CSLB ($5,000-15,000) y enfrentar cargos criminales.",
-                "solucion": "Como técnico, trabaja siempre bajo un contratista C-20 licenciado. Espera a acumular 4 años de experiencia y obtén tu C-20 antes de trabajar independiente."
+                "error": "Estudiar con edición desactualizada del código para el examen C-20",
+                "por_que_importa": "El examen C-20 Trade cubre el California Mechanical Code y el Title 24 Energy Standards en ediciones específicas. Si estudias la versión 2019 pero el examen usa la 2022, fallarás preguntas sobre requisitos de eficiencia que cambiaron.",
+                "solucion": "Antes de comprar libros, verifica en cslb.ca.gov qué edición del código está vigente para el examen. California actualiza Title 24 cada 3 años."
             },
             {
-                "error": "No tener seguro de responsabilidad ni bond al operar con C-20",
-                "por_que_importa": "CSLB requiere un contractor bond de $15,000 para todas las licencias C-20. Si haces un trabajo y el cliente se queja o hay daños, el bond protege al cliente. Sin bond, tu licencia es suspendida inmediatamente y puedes perder todo tu negocio. El seguro de responsabilidad te protege de demandas.",
-                "solucion": "Antes de aceptar tu primer trabajo como contratista C-20, obtén un bond ($100-200/año) y seguro general de responsabilidad ($1,200-2,500/año). Es un costo de hacer negocios."
-            },
-            {
-                "error": "No renovar la C-20 a tiempo cada 2 años",
-                "por_que_importa": "Si tu licencia C-20 expira y sigues trabajando, estás operando ilegalmente. Las multas son severas: $5,000-15,000 + posibles cargos criminales. Si expira por más de 2 años, pierdes la licencia permanentemente y debes retomar exámenes.",
-                "solucion": "Pon un recordatorio en tu calendario 90 días antes del vencimiento (cada 2 años). La renovación cuesta $450 - es mucho más barato que las multas o perder la licencia."
+                "error": "Hacer trabajos HVAC por dinero sin licencia C-20 (side jobs)",
+                "por_que_importa": "En California, cualquier trabajo de HVAC por dinero en propiedad de otro que supere $500 en materiales y mano de obra requiere C-20. Las multas de CSLB son de $5,000 a $15,000 por incidente. Además, el cliente puede demandarte si algo sale mal.",
+                "solucion": "Trabaja siempre bajo un contratista C-20 licenciado hasta que tengas tu propia C-20. Los $200-300 que ganarías en un side job no valen el riesgo de una multa de $5,000."
             }
         ]
     },
     "servicios_sin_licencia": {
         "ai_generated": true,
-        "titulo": "Trabajos HVAC que NO Requieren Licencia C-20 en California",
+        "titulo": "Trabajos HVAC en California que NO Requieren Licencia",
         "items": [
-            "Cambiar filtros de aire en tu propia casa",
+            "Cambiar filtros de aire en tu propia casa o propiedad",
             "Limpiar registros de ventilación externos",
-            "Ajustar termostatos (sin instalar nuevos)",
-            "Trabajar como técnico empleado bajo supervisión de contratista C-20 licenciado"
+            "Ajustar termostatos programables (sin instalar nuevos)",
+            "Trabajar como técnico EMPLEADO para una compañía con licencia C-20 — solo necesitas EPA 608"
         ],
         "requiere_licencia": [
-            "Instalar o reemplazar cualquier equipo HVAC (aire acondicionado, calefacción, ductos)",
-            "Trabajar con refrigerantes (requiere EPA 608 mínimo)",
-            "Hacer trabajos de HVAC en la casa de otra persona por dinero",
-            "Sacar permisos de construcción para trabajo HVAC",
-            "Operar negocio de HVAC independiente (requiere C-20)",
-            "Cualquier proyecto de HVAC valorado en más de $500 (requiere C-20)"
+            "Instalar o reemplazar cualquier equipo HVAC en propiedad ajena (requiere C-20 del contratista)",
+            "Trabajar con refrigerantes — cualquier operación con refrigerantes requiere EPA 608 federal",
+            "Hacer trabajos HVAC por dinero en casa de otra persona (si supera $500)",
+            "Obtener permisos de construcción para instalaciones HVAC",
+            "Operar negocio de HVAC de forma independiente (requiere C-20)",
+            "Contratar técnicos para realizar trabajo HVAC bajo tu dirección (requiere C-20)"
         ],
-        "source": "California Business and Professions Code Section 7048"
+        "source": "California Business and Professions Code Section 7028 y 7048"
     },
     "faqs": {
         "ai_generated": true,
         "items": [
             {
-                "pregunta": "¿El examen de contratista C-20 está disponible en español en California?",
-                "respuesta": "Sí. El Contractors State License Board (CSLB) ofrece tanto el examen de Law and Business como el examen C-20 Trade en español. Al agendar tu cita en PSI, selecciona español como idioma. No hay costo adicional. Sin embargo, los libros de código (California Mechanical Code) están principalmente en inglés.",
+                "pregunta": "¿Necesito licencia estatal para trabajar en HVAC en California si soy empleado?",
+                "respuesta": "No. California NO tiene licencia estatal obligatoria para técnicos HVAC empleados, a diferencia de Texas. Lo único que necesitas es la certificación federal EPA 608 para poder manejar refrigerantes. Puedes trabajar para cualquier compañía que tenga licencia C-20 sin necesitar tu propia licencia estatal.",
+                "source": "CSLB / EPA"
+            },
+            {
+                "pregunta": "¿El examen de EPA 608 está disponible en español?",
+                "respuesta": "Sí. ESCO Institute (escoinst.com) y otros proveedores aprobados por la EPA ofrecen el examen en español. Al registrarte, selecciona español como idioma del examen. El examen se puede tomar en línea supervisado o en centros presenciales.",
+                "source": "ESCO Institute / EPA"
+            },
+            {
+                "pregunta": "¿El examen de contratista C-20 está disponible en español?",
+                "respuesta": "Sí. CSLB ofrece tanto el examen de Law and Business como el examen C-20 Trade en español a través de PSI Services. Al agendar tu cita en PSI (candidate.psiexams.com), selecciona español como idioma de examen. No hay costo adicional. Nota: los libros de código (California Mechanical Code, Title 24) están principalmente en inglés.",
+                "source": "CSLB / PSI Services"
+            },
+            {
+                "pregunta": "¿Puedo trabajar en HVAC con ITIN en California?",
+                "respuesta": "Sí, como técnico empleado. No hay restricción estatal para trabajar como empleado HVAC con ITIN — solo necesitas EPA 608 y autorización de trabajo. Sin embargo, para obtener la LICENCIA DE CONTRATISTA C-20, CSLB requiere número de Seguro Social (SSN). El ITIN no es suficiente para la licencia de contratista.",
                 "source": "CSLB"
             },
             {
-                "pregunta": "¿Puedo sacar la licencia C-20 con ITIN (sin seguro social)?",
-                "respuesta": "Sí. CSLB acepta ITIN para procesar aplicaciones de licencia de contratista si no tienes número de Seguro Social. Sin embargo, necesitarás SSN o ITIN para obtener el contractor bond de $15,000 requerido.",
+                "pregunta": "¿Cuánto tiempo tarda en obtenerse la certificación EPA 608?",
+                "respuesta": "Con 2-4 semanas de estudio, la mayoría de personas está lista para tomar el examen. El examen en sí toma 2-3 horas. Los resultados son inmediatos o en 1-2 días. El certificado físico llega en 1-2 semanas. Es decir, en 4-6 semanas puedes tener todo listo para aplicar a empleos HVAC.",
+                "source": "ESCO Institute / EPA"
+            },
+            {
+                "pregunta": "¿Cuánto tiempo tarda obtener la licencia C-20 de contratista?",
+                "respuesta": "Mínimo 4 años de experiencia documentada antes de poder aplicar. Después, el proceso de aplicación + aprobación de CSLB + exámenes + aprobación final toma otros 3-6 meses. Total realista: 4.5 a 5 años desde cero hasta tener tu propia C-20.",
                 "source": "CSLB"
             },
             {
-                "pregunta": "¿Necesito ir a una escuela técnica para trabajar en HVAC?",
-                "respuesta": "No es obligatorio, pero es MUY recomendado. Aunque puedes aprender en el trabajo (on-the-job training), la mayoría de empleadores prefieren contratar técnicos con certificado de programa técnico. Los programas de community college (6-18 meses) cuestan $5,000-15,000 y te enseñan fundamentos que harían falta años aprender trabajando.",
-                "source": "Industry practice"
-            },
-            {
-                "pregunta": "¿Cuánto tiempo se tarda en obtener la licencia C-20?",
-                "respuesta": "Mínimo 4 años. Necesitas 4 años de experiencia journeyman-level (documentada) para ser elegible para tomar los exámenes de C-20. Después de cumplir los 4 años, el proceso de aplicación + exámenes + aprobación toma 3-6 meses adicionales.",
-                "source": "CSLB"
-            },
-            {
-                "pregunta": "¿Cuánto cuesta obtener la licencia de contratista C-20?",
-                "respuesta": "Aproximadamente $1,600-2,300 en total: $450 aplicación + $330 examen Law & Business + $330 examen C-20 Trade + $300-800 curso de preparación. Además necesitas pagar el bond inicial ($100-200) y seguro ($1,200-2,500/año).",
+                "pregunta": "¿Cuánto cuesta todo para obtener la licencia C-20?",
+                "respuesta": "Aproximadamente $2,900 a $5,000 el primer año, incluyendo: aplicación CSLB ($450) + examen Law & Business ($330) + examen C-20 Trade ($330) + curso de preparación ($300-800) + libros de código ($200-400) + bond de $15,000 (~$100-200/año) + seguro de responsabilidad ($1,200-2,500/año).",
                 "source": "CSLB"
             },
             {
                 "pregunta": "¿La certificación EPA 608 expira?",
-                "respuesta": "No. Una vez que obtienes tu certificación EPA 608, es válida de por vida. No hay renovación ni educación continua requerida para mantenerla.",
-                "source": "EPA"
-            },
-            {
-                "pregunta": "¿Puedo trabajar sin la EPA 608 si solo ayudo a otro técnico?",
-                "respuesta": "No. Cualquier persona que maneje, agregue, recupere o disponga de refrigerantes DEBE tener certificación EPA 608, incluso si está ayudando o aprendiendo. La única excepción es si estás en un programa de aprendizaje supervisado y no tocas refrigerantes directamente.",
+                "respuesta": "No. La EPA 608 es vitalicia — no expira nunca. Una vez que apruebas el examen, eres certificado para siempre. No hay renovación ni educación continua requerida para mantenerla activa.",
                 "source": "EPA Section 608"
             },
             {
-                "pregunta": "¿Puedo hacer trabajos de HVAC pequeños (menos de $500) sin licencia C-20?",
-                "respuesta": "Legalmente, cualquier trabajo de HVAC que involucre manejar refrigerantes requiere EPA 608. Y cualquier trabajo por dinero en propiedad ajena técnicamente requiere licencia de contratista (aunque hay una excepción de $500 en algunos condados). Sin embargo, la realidad es que muchos técnicos hacen pequeños side jobs. El riesgo es multas de CSLB ($5,000-15,000) y EPA ($10,000+) si te atrapan.",
-                "source": "CSLB / EPA"
+                "pregunta": "¿Vale la pena el apprenticeship sindical (SMART, UA)?",
+                "respuesta": "Depende de tus circunstancias. Ventajas: te pagan mientras aprendes, seguro médico completo incluido, pensión, salarios más altos a largo plazo (~20-40% más que no sindicalizados). Desventajas: la admisión es competitiva, el proceso toma 5 años, y debes cumplir con las reglas del sindicato. Si calificas, es una de las mejores rutas disponibles en California.",
+                "source": "SMART Local 104 / UA Local 250"
             },
             {
-                "pregunta": "¿Qué certificaciones voluntarias valen la pena además de EPA 608?",
-                "respuesta": "Las más valiosas son: 1) NATE (North American Technician Excellence) - la más reconocida por empleadores, puede aumentar salario 10-20%; 2) HVAC Excellence - similar a NATE; 3) Certificaciones específicas de fabricantes (Carrier, Trane, Lennox) - te permiten trabajar en equipos bajo garantía. Si te especializas en eficiencia energética, BPI (Building Performance Institute) es excelente.",
-                "source": "Industry practice"
+                "pregunta": "¿Puedo instalar AC en casas de amigos o vecinos sin C-20?",
+                "respuesta": "Técnicamente no, si cobras dinero por el trabajo. Cualquier trabajo de HVAC por dinero en propiedad ajena que supere $500 requiere C-20. Sin embargo, si tienes EPA 608 y lo haces para tu propia propiedad, está permitido. La multa de CSLB por trabajar sin licencia es de $5,000-$15,000.",
+                "source": "CSLB / California Business and Professions Code"
             }
         ]
     },
@@ -614,79 +697,89 @@
                 "categoria": "Autoridades Reguladoras",
                 "enlaces": [
                     {
-                        "titulo": "CSLB - Contractors State License Board",
+                        "titulo": "CSLB — Contractors State License Board",
                         "url": "https://www.cslb.ca.gov/",
-                        "descripcion": "Sitio oficial para licencias de contratista C-20 en California"
+                        "descripcion": "Sitio oficial de CSLB — licencias C-20 y C-38 para contratistas HVAC en California"
                     },
                     {
-                        "titulo": "EPA Section 608 - Certificación de Técnicos",
+                        "titulo": "EPA Section 608 — Certificación de Técnicos",
                         "url": "https://www.epa.gov/section608",
-                        "descripcion": "Información oficial sobre certificación EPA 608 para refrigerantes"
+                        "descripcion": "Información oficial sobre quién necesita EPA 608 y cómo obtenerla"
                     },
                     {
-                        "titulo": "Verificar Licencia C-20",
+                        "titulo": "Verificar Licencia de Contratista C-20",
                         "url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx",
-                        "descripcion": "Buscar si un contratista tiene licencia válida"
+                        "descripcion": "Busca si tu empleador o contratista tiene licencia C-20 vigente antes de trabajar para ellos"
                     }
                 ]
             },
             {
-                "categoria": "Aplicaciones y Exámenes",
+                "categoria": "Examen EPA 608 en Español",
                 "enlaces": [
                     {
-                        "titulo": "Aplicar para Licencia C-20",
-                        "url": "https://www.cslb.ca.gov/applicants/",
-                        "descripcion": "Proceso de aplicación completo para contratista"
-                    },
-                    {
-                        "titulo": "PSI - Agendar Examen C-20",
-                        "url": "https://candidate.psiexams.com/",
-                        "descripcion": "Sistema de agendamiento de exámenes CSLB"
-                    },
-                    {
-                        "titulo": "ESCO Institute - Examen EPA 608",
+                        "titulo": "ESCO Institute — Examen EPA 608 en Español",
                         "url": "https://www.escoinst.com/",
-                        "descripcion": "Uno de los proveedores más populares de certificación EPA 608"
+                        "descripcion": "Proveedor aprobado por EPA que ofrece el examen 608 en español. Online supervisado y presencial."
                     },
                     {
-                        "titulo": "HVAC Excellence - Examen EPA 608",
+                        "titulo": "HVAC Excellence — Examen EPA 608",
                         "url": "https://www.hvacexcellence.org/",
-                        "descripcion": "Otro proveedor aprobado de certificación EPA 608"
+                        "descripcion": "Otro proveedor aprobado por EPA para certificación Section 608"
                     }
                 ]
             },
             {
-                "categoria": "Educación y Preparación",
+                "categoria": "Licencia C-20 — Aplicaciones y Exámenes",
                 "enlaces": [
                     {
-                        "titulo": "CSLB - Guías de Estudio",
+                        "titulo": "Aplicar para Licencia C-20 en CSLB",
+                        "url": "https://www.cslb.ca.gov/applicants/",
+                        "descripcion": "Proceso de aplicación completo para contratista C-20"
+                    },
+                    {
+                        "titulo": "PSI — Agendar Examen C-20 (en español)",
+                        "url": "https://candidate.psiexams.com/",
+                        "descripcion": "Sistema de agendamiento de exámenes CSLB. Selecciona español al registrarte."
+                    },
+                    {
+                        "titulo": "CSLB — Guías de Estudio para Examen C-20",
                         "url": "https://www.cslb.ca.gov/Applicants/Study_Guides.aspx",
-                        "descripcion": "Guías de estudio oficiales para exámenes C-20"
-                    },
-                    {
-                        "titulo": "California Community Colleges - HVAC Programs",
-                        "url": "https://www.cccco.edu/",
-                        "descripcion": "Buscar programas técnicos de HVAC en community colleges"
-                    },
-                    {
-                        "titulo": "NATE - North American Technician Excellence",
-                        "url": "https://www.natex.org/",
-                        "descripcion": "Certificación voluntaria reconocida en la industria"
+                        "descripcion": "Guías de estudio oficiales de CSLB para prepararse para los exámenes de contratista"
                     }
                 ]
             },
             {
-                "categoria": "Recursos de Negocio",
+                "categoria": "Educación y Apprenticeship",
                 "enlaces": [
                     {
-                        "titulo": "CSLB - Contractor Bonds",
-                        "url": "https://www.cslb.ca.gov/",
-                        "descripcion": "Información sobre el bond de $15,000 requerido"
+                        "titulo": "California Community Colleges — Programas HVAC",
+                        "url": "https://www.cccco.edu/",
+                        "descripcion": "Busca programas técnicos de HVAC en community colleges de California — subsidiados para residentes"
                     },
                     {
-                        "titulo": "California Energy Commission - Title 24",
-                        "url": "https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards",
-                        "descripcion": "Códigos de eficiencia energética para HVAC"
+                        "titulo": "SMART Local 104 — Apprenticeship San Francisco Bay Area",
+                        "url": "https://www.smart104.org/",
+                        "descripcion": "Sindicato de Sheet Metal Workers — apprenticeship de 5 años pagado, norte de California"
+                    },
+                    {
+                        "titulo": "UA Local 250 — Apprenticeship Sacramento",
+                        "url": "https://www.ualocal250.org/",
+                        "descripcion": "United Association — apprenticeship de plomería y HVAC, Sacramento y norte de CA"
+                    }
+                ]
+            },
+            {
+                "categoria": "Certificaciones Voluntarias",
+                "enlaces": [
+                    {
+                        "titulo": "NATE — North American Technician Excellence",
+                        "url": "https://www.natex.org/",
+                        "descripcion": "Certificación voluntaria más reconocida por empleadores HVAC en California"
+                    },
+                    {
+                        "titulo": "BPI — Building Performance Institute",
+                        "url": "https://www.bpi.org/",
+                        "descripcion": "Especialización en eficiencia energética — muy demandada por programas de subsidios de California"
                     }
                 ]
             },
@@ -694,14 +787,19 @@
                 "categoria": "Salarios y Empleo",
                 "enlaces": [
                     {
-                        "titulo": "BLS - HVAC Mechanics and Installers",
+                        "titulo": "BLS — HVAC Mechanics and Installers (California)",
                         "url": "https://www.bls.gov/oes/current/oes499021.htm",
-                        "descripcion": "Datos oficiales de salarios y empleo"
+                        "descripcion": "Datos oficiales de salarios y empleo HVAC desglosados por estado y área metropolitana"
                     },
                     {
-                        "titulo": "California Employment Development Department",
+                        "titulo": "California EDD — Proyecciones de Empleo HVAC",
                         "url": "https://www.labormarketinfo.edd.ca.gov/",
-                        "descripcion": "Proyecciones de empleo y salarios en California"
+                        "descripcion": "Proyecciones de empleo y salarios actualizadas para California"
+                    },
+                    {
+                        "titulo": "California Energy Commission — Title 24",
+                        "url": "https://www.energy.ca.gov/programs-and-topics/programs/building-energy-efficiency-standards",
+                        "descripcion": "Normas de eficiencia energética de California que afectan los sistemas HVAC (estudio obligatorio para C-20)"
                     }
                 ]
             }

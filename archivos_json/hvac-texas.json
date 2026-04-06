@@ -54,14 +54,14 @@
                 "label": "Licencia TDLR",
                 "value": "Technician o Contractor",
                 "detail": "Technician para trabajar. Contractor para tener negocio propio.",
-                "source": "https://www.tdlr.texas.gov/ac/ac.htm",
+                "source": "https://www.tdlr.texas.gov/acr/",
                 "source_name": "TDLR"
             },
             {
                 "label": "Experiencia Requerida",
                 "value": "48 meses",
                 "detail": "4 años de experiencia O combinación de escuela + experiencia",
-                "source": "https://www.tdlr.texas.gov/ac/ac.htm",
+                "source": "https://www.tdlr.texas.gov/acr/",
                 "source_name": "TDLR"
             },
             {
@@ -87,7 +87,7 @@
         "icon": "⚠️",
         "title": "IMPORTANTE: El examen de HVAC en Texas NO está disponible en español",
         "content": "Los exámenes de TDLR para técnicos y contratistas de HVAC solo se ofrecen en INGLÉS. Debes tener nivel de inglés técnico para leer manuales, entender códigos de construcción y comunicarte con clientes. Sin embargo, muchas escuelas técnicas en Texas ofrecen clases en español o bilingües para prepararte. No dejes que el idioma te detenga - con preparación puedes aprobar.",
-        "source": "https://www.tdlr.texas.gov/ac/ac.htm",
+        "source": "https://www.tdlr.texas.gov/acr/",
         "source_name": "TDLR Air Conditioning and Refrigeration"
     },
     "autoridad_reguladora": {
@@ -107,9 +107,10 @@
             "tdd": "(800) 735-2989"
         },
         "email": "customer.service@tdlr.texas.gov",
-        "web": "https://www.tdlr.texas.gov/ac/ac.htm",
+        "web": "https://www.tdlr.texas.gov/acr/",
         "verificar_licencia": "https://www.tdlr.texas.gov/LicenseSearch/",
-        "source": "https://www.tdlr.texas.gov/ac/contact.htm"
+        "source": "https://www.tdlr.texas.gov/acr/",
+        "chambaenusa_hub": "/agencias/texas-department-of-licensing-and-regulation-tdlr/"
     },
     "roadmap": {
         "_description": "Camino profesional del técnico HVAC en Texas - Timeline de progresión",
@@ -193,7 +194,7 @@
                 },
                 "como_aplicar": {
                     "metodo": "En línea o por correo",
-                    "url": "https://www.tdlr.texas.gov/ac/acapplications.htm",
+                    "url": "https://www.tdlr.texas.gov/acr/technician-apply.htm",
                     "tiempo_procesamiento": "2-4 semanas",
                     "pasos": [
                         "Obtener certificación EPA primero",
@@ -204,7 +205,7 @@
                     ]
                 },
                 "nota": "Este nivel es opcional. Muchos técnicos trabajan acumulando experiencia sin registrarse hasta que estén listos para el examen de Technician.",
-                "source": "https://www.tdlr.texas.gov/ac/acapplications.htm"
+                "source": "https://www.tdlr.texas.gov/acr/technician-apply.htm"
             },
             {
                 "id": "technician",
@@ -247,7 +248,7 @@
                     "telefono_psi": "(855) 746-1552",
                     "url_psi": "https://test-takers.psiexams.com/tdlr",
                     "retakes": "Puedes retomar el examen pagando $78 cada vez. No hay límite de intentos ni periodo de espera mínimo.",
-                    "source": "https://www.tdlr.texas.gov/ac/acexam.htm"
+                    "source": "https://www.tdlr.texas.gov/acr/acrexam.htm"
                 },
                 "costos": {
                     "aplicacion_licencia": 60,
@@ -257,7 +258,7 @@
                 },
                 "como_aplicar": {
                     "metodo": "En línea después de aprobar examen",
-                    "url": "https://www.tdlr.texas.gov/ac/acapplications.htm",
+                    "url": "https://www.tdlr.texas.gov/acr/technician-apply.htm",
                     "tiempo_procesamiento": "2-4 semanas después de pasar examen",
                     "pasos": [
                         "Documentar 48 meses de experiencia (cartas de empleadores)",
@@ -269,7 +270,7 @@
                     ]
                 },
                 "nota": "Con esta licencia puedes trabajar como técnico para cualquier compañía HVAC en Texas, pero NO puedes ser dueño de tu propia compañía contratista.",
-                "source": "https://www.tdlr.texas.gov/ac/acapplications.htm"
+                "source": "https://www.tdlr.texas.gov/acr/technician-apply.htm"
             },
             {
                 "id": "contractor",
@@ -311,7 +312,7 @@
                     "administrador": "PSI Services LLC",
                     "telefono_psi": "(855) 746-1552",
                     "url_psi": "https://test-takers.psiexams.com/tdlr",
-                    "source": "https://www.tdlr.texas.gov/ac/acexam.htm"
+                    "source": "https://www.tdlr.texas.gov/acr/acrexam.htm"
                 },
                 "costos": {
                     "aplicacion_licencia": 180,
@@ -321,7 +322,7 @@
                 },
                 "como_aplicar": {
                     "metodo": "En línea o por correo",
-                    "url": "https://www.tdlr.texas.gov/ac/acapplications.htm",
+                    "url": "https://www.tdlr.texas.gov/acr/technician-apply.htm",
                     "tiempo_procesamiento": "4-6 semanas",
                     "pasos": [
                         "Cumplir requisitos de experiencia como Technician",
@@ -333,7 +334,7 @@
                     ]
                 },
                 "nota": "Requiere seguro de responsabilidad civil de $300,000 y bond de $10,000. La licencia de Contractor es para la COMPAÑÍA, no solo para ti. Si cambias de compañía o cierras, debes notificar a TDLR.",
-                "source": "https://www.tdlr.texas.gov/ac/acapplications.htm"
+                "source": "https://www.tdlr.texas.gov/acr/technician-apply.htm"
             }
         ]
     },
@@ -410,7 +411,7 @@
         "ai_generated": true,
         "frecuencia": "Cada año (anualmente) para todas las licencias HVAC en Texas",
         "metodo": "En línea en el portal de TDLR",
-        "url_renovacion": "https://www.tdlr.texas.gov/ac/acapplications.htm",
+        "url_renovacion": "https://www.tdlr.texas.gov/acr/technician-apply.htm",
         "costo_renovacion": 60,
         "ce_requerida": {
             "horas_totales": 0,
@@ -422,7 +423,7 @@
             "mas_1_año": "Licencia expira permanentemente - debes aplicar como si fuera nueva licencia y retomar examen"
         },
         "nota_tdlr": "TDLR envía recordatorio de renovación por email ~60 días antes del vencimiento. Es tu responsabilidad renovar a tiempo. Si trabajas sin licencia vigente, puedes recibir multas de hasta $5,000 por día.",
-        "source": "https://www.tdlr.texas.gov/ac/acapplications.htm"
+        "source": "https://www.tdlr.texas.gov/acr/technician-apply.htm"
     },
     "reciprocidad": {
         "ai_generated": true,
@@ -435,9 +436,9 @@
             "Debes aprobar el examen de Texas (leyes y códigos específicos de TX)"
         ],
         "nota": "A diferencia de electricistas, HVAC en Texas no tiene reciprocidad con ningún estado. Sin embargo, tu experiencia laboral en otro estado cuenta para los requisitos de experiencia - solo necesitas documentarla con cartas de empleadores. Debes tomar el examen de Texas porque cubre leyes y códigos específicos del estado.",
-        "url": "https://www.tdlr.texas.gov/ac/acapplications.htm",
+        "url": "https://www.tdlr.texas.gov/acr/technician-apply.htm",
         "experiencia_como_horas": "Experiencia de otro estado cuenta para los 48 meses requeridos si está debidamente documentada",
-        "source": "https://www.tdlr.texas.gov/ac/acapplications.htm"
+        "source": "https://www.tdlr.texas.gov/acr/technician-apply.htm"
     },
     "salarios": {
         "ai_generated": true,
@@ -621,17 +622,17 @@
                 "enlaces": [
                     {
                         "titulo": "TDLR Air Conditioning & Refrigeration Home",
-                        "url": "https://www.tdlr.texas.gov/ac/ac.htm",
+                        "url": "https://www.tdlr.texas.gov/acr/",
                         "descripcion": "Página principal del programa HVAC de TDLR"
                     },
                     {
                         "titulo": "Aplicaciones de Licencia HVAC",
-                        "url": "https://www.tdlr.texas.gov/ac/acapplications.htm",
+                        "url": "https://www.tdlr.texas.gov/acr/technician-apply.htm",
                         "descripcion": "Aplicar para Technician, Contractor o Registered Technician"
                     },
                     {
                         "titulo": "Información de Exámenes HVAC",
-                        "url": "https://www.tdlr.texas.gov/ac/acexam.htm",
+                        "url": "https://www.tdlr.texas.gov/acr/acrexam.htm",
                         "descripcion": "Contenido de examen, guías de estudio, libros recomendados"
                     },
                     {
@@ -641,7 +642,7 @@
                     },
                     {
                         "titulo": "Contacto TDLR HVAC",
-                        "url": "https://www.tdlr.texas.gov/ac/contact.htm",
+                        "url": "https://www.tdlr.texas.gov/acr/",
                         "descripcion": "Teléfonos, email y dirección de TDLR"
                     }
                 ]

@@ -5,6 +5,7 @@ interface RegulatoryAuthorityProps {
     nombre: string;
     programa?: string;
     nota_consolidacion?: string;
+    chambaenusa_hub?: string;
     direccion?: {
       calle?: string;
       ciudad?: string;
@@ -118,6 +119,19 @@ export function RegulatoryAuthority({ autoridad }: RegulatoryAuthorityProps) {
             )}
 
             <div className="space-y-2">
+              {autoridad.chambaenusa_hub && (
+                <a
+                  href={autoridad.chambaenusa_hub}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-black uppercase tracking-wide px-3 py-2 rounded-lg transition-colors"
+                >
+                  <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Guía completa de esta agencia en ChambaEnUSA
+                </a>
+              )}
               {autoridad.web && (
                 <a
                   href={autoridad.web}

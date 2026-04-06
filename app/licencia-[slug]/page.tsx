@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getLicensePageBySlug, getAllPublishedPages } from '@/lib/db/queries'
-import { LeadCaptureForm } from '@/components/lead-capture-form'
+import { SubscribeForm } from '@/components/subscribe-form'
 import { LicenseHeader } from '@/components/license/license-header'
 import { RequirementsSection } from '@/components/license/requirements-section'
 import { SchoolsTable } from '@/components/license/schools-table'
@@ -298,20 +298,13 @@ export default async function LicensePage({ params }: Props) {
 
             {/* Lead Capture Form */}
             <div className="mt-12">
-              <div className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-lg p-8 border border-gray-200">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
-                  ¿Listo para comenzar?
-                </h3>
-                <p className="text-gray-600 text-center mb-6">
-                  Te conectamos con escuelas bilingües que pueden ayudarte
-                </p>
-                <LeadCaptureForm
-                  pageId={slug}
-                  tradeId={_meta.oficio}
-                  stateId={_meta.estado}
-                  trade={oficio}
-                  state={estado}
-                />
+              <div className="bg-[#131b2e] rounded-xl p-8 text-center">
+                <p className="text-amber-400 text-xs font-bold uppercase tracking-widest mb-2">Guía gratis · Sin spam</p>
+                <h3 className="text-xl font-extrabold text-white mb-2">Recibe esta guía en tu correo</h3>
+                <p className="text-slate-400 text-sm mb-6">Requisitos, costos y escuelas bilingües para {oficio} en {estado}.</p>
+                <div className="flex justify-center">
+                  <SubscribeForm oficio={_meta.oficio} estado={_meta.estado} variant="dark" />
+                </div>
               </div>
             </div>
           </div>
@@ -430,14 +423,10 @@ export default async function LicensePage({ params }: Props) {
 
         {/* Sidebar - Lead Capture */}
         <aside className="lg:col-span-1">
-          <div className="sticky top-24">
-            <LeadCaptureForm 
-              pageId={page.id}
-              tradeId={page.trade_id}
-              stateId={page.state_id}
-              trade={tradeName}
-              state={stateName}
-            />
+          <div className="sticky top-24 bg-[#131b2e] rounded-xl p-6 text-center">
+            <p className="text-amber-400 text-[10px] font-bold uppercase tracking-widest mb-2">Guía gratis</p>
+            <h3 className="text-base font-extrabold text-white mb-3">Recibe esta guía en tu correo</h3>
+            <SubscribeForm oficio={page.trade_id} estado={page.state_id} variant="dark" label="Enviar guía" />
           </div>
         </aside>
       </div>

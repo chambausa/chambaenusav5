@@ -4,14 +4,14 @@
         "page_id": "licencia-plomero-california",
         "oficio": "plomero",
         "estado": "california",
-        "last_verified": "2026-02-16",
-        "verified_by": "Claude AI - requiere verificación humana",
-        "notes": "Roadmap de Apprentice → Journeyman → Contractor. California requiere certificación estatal pero licencia de contratista es por CSLB."
+        "last_verified": "2026-04-03",
+        "verified_by": "Claude AI - fuentes oficiales CSLB y BLS",
+        "notes": "Sistema único en CA: no hay licencia individual estatal para journeyman. La licencia la tiene el CONTRATISTA (C-36). Para trabajar como empleado solo necesitas entrar a apprenticeship o sindicato. Key insight para hispanos: puedes trabajar SIN licencia individual como empleado."
     },
     "page_seo": {
-        "title": "Licencia de Plomero en California 2026: Guía Completa CSLB y Certificación Estatal",
-        "meta_description": "Cómo sacar la licencia de plomero en California paso a paso. Certificación estatal + licencia de contratista C-36. Requisitos, examen, salarios 2026.",
-        "slug": "licencia-plomero-california",
+        "title": "Licencia de Plomero en California 2026: C-36 Contratista y Cómo Trabajar sin Licencia",
+        "meta_description": "Cómo ser plomero en California: diferencia entre trabajar como empleado (sin licencia estatal) y ser contratista C-36. Salarios hasta $89,000 en San Francisco.",
+        "slug": "plomero-california",
         "canonical_url": "https://chambaenusa.com/licencia-plomero-california/",
         "h1": "Licencia de Plomero en California",
         "schema_types": [
@@ -21,59 +21,59 @@
         ],
         "keywords_primary": [
             "licencia de plomero en california",
-            "certificacion de plomero california",
-            "examen de plomero california"
+            "como ser plomero en california",
+            "contratista plomero california c-36"
         ],
         "keywords_secondary": [
-            "cslb plomero",
+            "cslb plomero california",
             "cuanto gana un plomero en california",
-            "requisitos para ser plomero en california",
-            "licencia c-36 california"
+            "apprenticeship plomeria california",
+            "sindicato plomeros california"
         ],
         "keywords_long_tail": [
-            "como sacar la licencia de plomero en california",
-            "escuelas de plomeria en los angeles",
-            "cuanto cuesta la licencia de plomero en california",
-            "examen de journeyman plomero california"
+            "como trabajar de plomero en california sin licencia",
+            "diferencia empleado contratista plomero california",
+            "plomero california sin papeles itin",
+            "ua local 78 plomeros los angeles apprenticeship"
         ]
     },
     "hero": {
         "ai_generated": true,
-        "badge": "Actualizado 2026",
+        "badge": "Actualizado Abril 2026",
         "headline": "Licencia de Plomero en California",
-        "subheadline": "Empieza como aprendiz y avanza hasta ganar $70k-$95k/año como Journeyman. California ofrece uno de los mejores salarios para plomeros en todo el país.",
+        "subheadline": "¡Importante! En California NO necesitas licencia estatal individual para trabajar como plomero empleado. Entra a un sindicato o apprenticeship y empieza a ganar $73,000-$89,000/año.",
         "key_stats": [
             {
-                "label": "Apprentice (Aprendiz)",
-                "value": "Sin examen inicial",
-                "detail": "Programa de aprendizaje de 4-5 años con capacitación pagada",
-                "source": "https://www.dir.ca.gov/das/",
-                "source_name": "CA DIR"
+                "label": "Empleado (Journeyman)",
+                "value": "Sin Licencia Estatal",
+                "detail": "No se requiere licencia individual para trabajar empleado en CA",
+                "source": "https://www.cslb.ca.gov/",
+                "source_name": "CSLB California"
             },
             {
-                "label": "Journeyman",
-                "value": "8,000 horas",
-                "detail": "Aproximadamente 4-5 años de experiencia práctica + examen estatal",
-                "source": "https://www.dir.ca.gov/das/",
-                "source_name": "CA DIR"
+                "label": "Apprenticeship",
+                "value": "~10,000 horas",
+                "detail": "5 años en programa JATC o sindicato UA. Te pagan mientras aprendes.",
+                "source": "https://www.ua.org/",
+                "source_name": "United Association"
             },
             {
-                "label": "Certificación Estatal",
-                "value": "Requerida",
-                "detail": "California requiere certificación estatal además de licencia de contratista",
-                "source": "https://www.dir.ca.gov/das/",
-                "source_name": "CA DIR"
+                "label": "Licencia Contratista C-36",
+                "value": "$450 fee",
+                "detail": "Para tener tu propia empresa de plomería. Requiere 4 años de experiencia + examen CSLB.",
+                "source": "https://www.cslb.ca.gov/Contractors/Applicants/Application_Fee_Schedule.aspx",
+                "source_name": "CSLB"
             },
             {
-                "label": "Salario Journeyman",
-                "value": "$68,620/año",
-                "detail": "Mediana en California. Top earners $95,000+",
+                "label": "Salario Mediana CA",
+                "value": "$73,000/año",
+                "detail": "San Francisco llega a $89,000. Los Angeles $78,000.",
                 "source": "https://www.bls.gov/oes/current/oes472152.htm",
-                "source_name": "BLS May 2024"
+                "source_name": "BLS California 2024"
             }
         ],
         "cta_primary": {
-            "text": "Ver Pasos del Camino",
+            "text": "Ver Caminos Disponibles",
             "anchor": "#roadmap"
         },
         "cta_secondary": {
@@ -85,412 +85,396 @@
         "ai_generated": true,
         "type": "highlight_box",
         "icon": "🔧",
-        "title": "Examen en Inglés - Prepárate con Anticipación",
-        "content": "Importante: Los exámenes de certificación de plomero en California se ofrecen principalmente en inglés. Si el inglés no es tu primer idioma, considera tomar cursos de inglés técnico y estudiar el vocabulario específico de plomería. Muchos programas de aprendizaje ofrecen apoyo bilingüe durante la capacitación.",
-        "source": "https://www.dir.ca.gov/das/",
-        "source_name": "CA DIR"
+        "title": "¡En California puedes trabajar de plomero SIN licencia individual!",
+        "content": "A diferencia de Texas (donde sí hay licencia individual de journeyman), California NO tiene licencia estatal individual para plomeros empleados. El sistema es: si trabajas EMPLEADO para una empresa, no necesitas ninguna licencia estatal. La licencia la tiene tu patrón (contratista C-36). Tu camino es entrar a un apprenticeship a través de un sindicato como UA Local 78 (LA) o UA Local 38 (San Francisco). Ganas dinero desde el primer día mientras aprendes.",
+        "source": "California Contractors State License Board (CSLB)",
+        "source_name": "CSLB"
     },
     "autoridad_reguladora": {
-        "ai_generated": true,
-        "nombre": "California Department of Industrial Relations (DIR) - Division of Apprenticeship Standards",
-        "programa": "Plumbing Certification Program",
-        "nota_consolidacion": "Para trabajar como contratista independiente, también necesitas licencia C-36 (Plumbing Contractor) del Contractors State License Board (CSLB)",
+        "ai_generated": false,
+        "nombre": "California Contractors State License Board (CSLB)",
+        "programa": "Department of Consumer Affairs - Contractors Licensing",
         "direccion": {
-            "calle": "455 Golden Gate Avenue, 9th Floor",
-            "ciudad": "San Francisco",
+            "calle": "9821 Business Park Drive",
+            "ciudad": "Sacramento",
             "estado": "CA",
-            "cp": "94102",
-            "mailing": "P.O. Box 420603, San Francisco, CA 94142"
+            "cp": "95827",
+            "mailing": "P.O. Box 26000, Sacramento, CA 95826"
         },
         "telefono": {
-            "local": "(415) 703-5070",
-            "toll_free": "(844) 522-6734"
+            "local": "(800) 321-2752",
+            "email": "cslb@dca.ca.gov"
         },
-        "email": "DASinfo@dir.ca.gov",
-        "web": "https://www.dir.ca.gov/das/",
+        "web": "https://www.cslb.ca.gov/",
         "verificar_licencia": "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx",
-        "source": "https://www.dir.ca.gov/das/"
+        "source": "https://www.cslb.ca.gov/About_CSLB/Contact_Us/"
     },
     "roadmap": {
-        "_description": "Camino profesional del plomero en California - Certificación estatal y licencia de contratista",
+        "_description": "Dos caminos para plomeros en California: Empleado (sin licencia) o Contratista C-36",
         "ai_generated": true,
         "layout": "timeline",
-        "nota_general": "California tiene un sistema dual: certificación estatal (para trabajar como empleado) y licencia de contratista C-36 del CSLB (para operar tu propio negocio). La mayoría de plomeros siguen el camino de aprendizaje registrado, que combina trabajo pagado con capacitación en el aula.",
+        "nota_general": "California es único: no hay escala Apprentice → Journeyman → Master con licencias individuales como en Texas. Si quieres trabajar EMPLEADO, entras a un apprenticeship sindical. Si quieres tu propio negocio, sacas la licencia de contratista C-36 con CSLB.",
         "tipos": [
             {
-                "id": "apprentice",
-                "titulo_en": "Plumbing Apprentice",
-                "titulo_es": "Aprendiz de Plomería",
-                "es_principal": false,
-                "color_badge": "#3b82f6",
-                "descripcion_corta": "Programa de capacitación de 4-5 años. Trabajas y estudias simultáneamente con salario creciente.",
-                "scope_of_work": "Trabajar bajo supervisión directa de un Journeyman o Master Plumber certificado. Realizar instalaciones básicas, reparaciones y mantenimiento de sistemas de plomería.",
-                "requisitos": {
-                    "edad_minima": 18,
-                    "educacion_previa": "Diploma de preparatoria o GED",
-                    "experiencia": "Ninguna requerida",
-                    "examen_medico": "Examen físico requerido - capacidad para levantar 50+ lbs"
-                },
-                "horas_escuela": 216,
-                "como_aplicar": {
-                    "metodo": "A través de programas de aprendizaje registrados (sindicatos o no sindicales)",
-                    "url": "https://www.dir.ca.gov/das/",
-                    "tiempo_procesamiento": "Variable - depende del programa",
-                    "pasos": [
-                        "Investigar programas de aprendizaje en tu área (UA Local unions, ABC, IEC)",
-                        "Completar solicitud del programa (puede incluir examen de aptitud)",
-                        "Asistir a entrevista",
-                        "Una vez aceptado, registrarte con CA Division of Apprenticeship Standards",
-                        "Comenzar trabajo y clases (típicamente 4 años, 8,000 horas OJT + 216 horas aula/año)"
-                    ]
-                },
-                "costos": {
-                    "aplicacion_licencia": 0,
-                    "renovacion_cada_2_años": 0
-                },
-                "nota": "Los programas de aprendizaje son PAGADOS. Empiezas ganando 40-50% del salario de Journeyman y aumenta cada año hasta llegar a 90-100% al final del programa.",
-                "source": "https://www.dir.ca.gov/das/"
-            },
-            {
-                "id": "journeyman",
-                "titulo_en": "Certified Journeyman Plumber",
-                "titulo_es": "Plomero Oficial Certificado (Journeyman)",
+                "id": "empleado_journeyman",
+                "titulo_en": "Journeyman Plumber (Employee)",
+                "titulo_es": "Plomero Empleado (Journeyman)",
                 "es_principal": true,
-                "color_badge": "#f59e0b",
-                "descripcion_corta": "Certificación estatal completa. Puedes trabajar en cualquier proyecto de plomería sin supervisión directa.",
-                "scope_of_work": "Instalación, reparación y mantenimiento completo de sistemas de plomería residencial, comercial e industrial. Puede trabajar sin supervisión directa.",
+                "color_badge": "#3b82f6",
+                "descripcion_corta": "La ruta más accesible. Trabajas empleado para una empresa de plomería. No requieres licencia estatal individual en California.",
+                "scope_of_work": "Instalaciones completas de plomería residencial, comercial e industrial. Trabajas bajo la licencia C-36 de tu patrón. No puedes sacar permisos ni cotizar trabajos independientemente.",
                 "requisitos": {
                     "edad_minima": 18,
-                    "experiencia": "8,000 horas (4 años) de experiencia documentada como aprendiz registrado O 5 años de experiencia verificable en el oficio",
-                    "educacion_alternativa": "Completar programa de aprendizaje registrado de 4-5 años",
-                    "examen": "Aprobar examen estatal de Journeyman Plumber"
+                    "educacion_previa": "Preparatoria o GED recomendado (no obligatorio para apprenticeship)",
+                    "experiencia": "Ninguna para entrar al apprenticeship",
+                    "examen": "NO requiere examen estatal individual en California"
                 },
-                "examen": {
-                    "partes": 1,
-                    "nombre": "Journeyman Plumber Certification Exam",
-                    "formato": "Opción múltiple - puede ser open book dependiendo del administrador",
-                    "idiomas": [
-                        "Inglés"
-                    ],
-                    "administrador": "Varía por condado - algunos usan PSI, otros Prometric",
-                    "url_psi": "https://candidate.psiexams.com/",
-                    "parte_1": {
-                        "nombre": "Journeyman Plumber Written Exam",
-                        "formato": "100-150 preguntas de opción múltiple",
-                        "costo": 100,
-                        "idiomas": [
-                            "Inglés"
-                        ],
-                        "puntaje_minimo": "70-75% (varía por jurisdicción)",
-                        "cuando_tomarlo": "Después de completar 8,000 horas de experiencia",
-                        "contenido_principal": [
-                            "California Plumbing Code (CPC)",
-                            "Uniform Plumbing Code (UPC)",
-                            "Códigos de construcción de California (CBC)",
-                            "Cálculos de dimensionamiento de sistemas",
-                            "Sistemas de drenaje, ventilación y agua",
-                            "Códigos de gas, seguridad"
-                        ],
-                        "ubicaciones": "Múltiples centros de prueba en CA: Los Angeles, San Diego, San Francisco, Sacramento, Fresno, etc.",
-                        "que_llevar": [
-                            "Identificación con foto válida",
-                            "Confirmación de cita",
-                            "Calculadora (no programable)",
-                            "Libros de código permitidos (verificar con administrador)"
-                        ]
+                "apprenticeship": {
+                    "duracion_años": 5,
+                    "horas_totales": 10000,
+                    "descripcion": "Programa formal de 5 años combinando trabajo remunerado (~8,000 horas OJT) y clases teóricas (~2,000 horas). Te pagan desde el día uno, con aumentos progresivos cada 6 meses.",
+                    "salario_aprendiz": {
+                        "año_1": "~$22-24/hr (50-55% del journeyman)",
+                        "año_3": "~$30-34/hr (65-75% del journeyman)",
+                        "año_5": "~$40-44/hr (cerca del 100% journeyman)",
+                        "nota": "Las tarifas varían por sindicato y área geográfica"
                     },
-                    "retakes": "Puedes retomar el examen. Política de reintentos varía por condado - generalmente espera de 30 días.",
-                    "source": "https://www.dir.ca.gov/das/"
-                },
-                "costos": {
-                    "aplicacion_licencia": 75,
-                    "examen_escrito": 100,
-                    "total_examenes_y_licencia": 175,
-                    "renovacion_cada_2_años": 75
-                },
-                "como_aplicar": {
-                    "metodo": "Varía por condado - algunos requieren aplicación a la ciudad/condado, otros al estado",
-                    "url": "https://www.dir.ca.gov/das/",
-                    "tiempo_procesamiento": "4-8 semanas después de aprobar examen",
-                    "pasos": [
-                        "Completar 8,000 horas de experiencia documentada",
-                        "Aplicar para tomar el examen en tu jurisdicción local",
-                        "Aprobar examen de Journeyman",
-                        "Solicitar certificación al DIR",
-                        "Pagar tarifas correspondientes"
+                    "como_entrar": [
+                        "Contactar al sindicato UA local de tu área (ver sección Sindicatos)",
+                        "Llenar aplicación de aprendizaje (suelen abrir en temporadas específicas)",
+                        "Presentar diploma de HS o GED",
+                        "Pasar examen de aptitud matemática básica",
+                        "Entrevista con el Joint Apprenticeship Training Committee (JATC)",
+                        "Examen físico y de drogas (algunos sindicatos)",
+                        "Esperar lista de espera (puede ser 6-18 meses en ciudades grandes)"
+                    ],
+                    "programas_jatc": [
+                        {
+                            "nombre": "Southern California Plumbing & Piping JATC",
+                            "area": "Los Angeles, Orange County, San Bernardino, Riverside",
+                            "url": "https://scppjatc.org/",
+                            "descripcion": "El programa más grande de CA. Vinculado a UA Local 78 y otros locales."
+                        },
+                        {
+                            "nombre": "Northern California Plumbing & HVAC JATC",
+                            "area": "San Francisco Bay Area, Sacramento, Central Valley",
+                            "url": "https://www.ncpjatc.org/",
+                            "descripcion": "Programa del norte de CA. Sindicatos UA Local 38, Local 250 y otros."
+                        }
                     ]
                 },
-                "nota": "La certificación de Journeyman te permite trabajar como empleado en cualquier parte de California. Para trabajar como contratista independiente, necesitas además la licencia C-36 del CSLB.",
-                "source": "https://www.dir.ca.gov/das/"
+                "costos": {
+                    "aplicacion_apprenticeship": "$30-50 (cuota de aplicación JATC)",
+                    "cuotas_sindicato_mensuales": "~$40-60/mes durante el apprenticeship",
+                    "libros_y_materiales": "$200-400 (para clases teóricas)",
+                    "herramientas_basicas": "$500-1,500",
+                    "total_estimado_entrada": "~$800-2,000",
+                    "nota": "A diferencia de una escuela que pagas tú, en el apprenticeship TÚ RECIBES un salario mientras aprendes."
+                },
+                "nota": "CLAVE: En California, terminar el apprenticeship te convierte en journeyman reconocido por el sindicato y la industria, pero NO hay 'licencia estatal de journeyman'. Tu valor en el mercado viene de tu tarjeta sindical y tu experiencia.",
+                "source": "https://www.ua.org/"
             },
             {
-                "id": "c36_contractor",
+                "id": "contratista_c36",
                 "titulo_en": "C-36 Plumbing Contractor",
                 "titulo_es": "Contratista de Plomería C-36",
-                "es_principal": true,
-                "color_badge": "#7c3aed",
-                "descripcion_corta": "Licencia de contratista del CSLB. Te permite operar tu propio negocio de plomería y contratar proyectos directamente.",
-                "scope_of_work": "Operar negocio de plomería, contratar proyectos, contratar empleados, obtener permisos, instalar, modificar y reparar sistemas completos de plomería y gas.",
+                "es_principal": false,
+                "color_badge": "#f59e0b",
+                "descripcion_corta": "La licencia para tener tu propio negocio de plomería. Emitida por el CSLB. Requiere 4 años de experiencia y aprobar dos exámenes.",
+                "scope_of_work": "Instalar, reparar, alterar y diseñar sistemas de plomería incluyendo tuberías de agua potable, alcantarillado, drenajes, ventilación, gas (en algunos casos) y sistemas de calefacción por agua. Puede sacar permisos municipales y cotizar trabajos directamente a clientes.",
                 "requisitos": {
                     "edad_minima": 18,
-                    "experiencia": "4 años (8,000 horas) de experiencia como Journeyman plumber",
-                    "licencia_previa": "Certificación de Journeyman Plumber (recomendado pero no siempre obligatorio)",
-                    "examen": "Aprobar exámenes de ley/negocio y trade (oficio) del CSLB"
+                    "educacion_previa": "No especificada formalmente por CSLB",
+                    "experiencia": "4 años (al menos 1 año como supervisor/capataz) en los últimos 10 años trabajando como journeyman o foreman bajo un contratista C-36 licenciado",
+                    "experiencia_nota": "La experiencia debe ser documentada y puede ser validada por cartas de empleadores previos, declaraciones bajo juramento, reportes de proyectos, etc.",
+                    "ssn_requerido": true,
+                    "ssn_nota": "CSLB requiere SSN para la licencia de contratista. Con solo ITIN NO se puede obtener la C-36."
                 },
                 "examen": {
                     "partes": 2,
                     "parte_1": {
-                        "nombre": "Law & Business Exam",
-                        "formato": "Opción múltiple por computadora",
-                        "costo": 330,
-                        "idiomas": [
-                            "Inglés",
-                            "Español"
-                        ],
-                        "puntaje_minimo": "72% o superior",
-                        "cuando_tomarlo": "Después de aplicar y ser aprobado por CSLB",
+                        "nombre": "Trade Exam (Plumbing)",
+                        "formato": "Examen de opción múltiple sobre conocimientos técnicos de plomería",
+                        "costo_incluido_en_aplicacion": true,
+                        "idiomas": ["Inglés"],
+                        "puntaje_minimo": "70%",
                         "contenido_principal": [
-                            "Ley de contratistas de California (CSLB)",
-                            "Relaciones laborales y leyes de empleo",
-                            "Leyes de salud y seguridad (OSHA)",
-                            "Gestión de proyectos y contratos",
-                            "Bonding y seguros"
-                        ]
+                            "Uniform Plumbing Code (UPC) de California",
+                            "Instalación de sistemas de agua fría y caliente",
+                            "Sistemas de drenaje y alcantarillado",
+                            "Ventilación de plomería",
+                            "Instalaciones de gas (si aplica)",
+                            "Calentadores de agua solares y tankless",
+                            "Permisos y regulaciones del estado de California"
+                        ],
+                        "ubicaciones": "Centros de examen Pearson VUE en todo California"
                     },
                     "parte_2": {
-                        "nombre": "C-36 Plumbing Trade Exam",
-                        "formato": "Opción múltiple por computadora",
-                        "costo": 0,
-                        "idiomas": [
-                            "Inglés"
-                        ],
-                        "puntaje_minimo": "72% o superior",
-                        "cuando_tomarlo": "Mismo día o después del examen de ley",
-                        "contenido_principal": [
-                            "California Plumbing Code avanzado",
-                            "Uniform Plumbing Code",
-                            "Diseño de sistemas de plomería",
-                            "Cálculos hidráulicos avanzados",
-                            "Estimación de costos y materiales",
-                            "Códigos de gas natural y LP"
-                        ],
-                        "idioma_nota": "El examen de Trade (C-36) actualmente solo está en inglés"
+                        "nombre": "Law and Business Exam",
+                        "formato": "Examen sobre leyes de contratistas, negocios, seguros y relaciones laborales en California",
+                        "descripcion": "Todos los contratistas de California deben aprobar este examen de negocios, sin importar la especialidad."
                     },
-                    "administrador": "CSLB - Exámenes administrados en centros Pearson VUE",
-                    "telefono_psi": "(800) 321-2752",
-                    "url_psi": "https://www.cslb.ca.gov/",
-                    "retakes": "Puedes retomar cada examen hasta 3 veces en un periodo de 18 meses. Después debes re-aplicar.",
+                    "administrador": "Pearson VUE para CSLB",
+                    "url_examenes": "https://www.cslb.ca.gov/Contractors/Applicants/Contractor_License_Exams/",
+                    "retakes": "Puedes retomar sin límite. Debes esperar 90 días entre intentos para el mismo examen.",
                     "source": "https://www.cslb.ca.gov/"
                 },
                 "costos": {
                     "aplicacion_licencia": 450,
-                    "examen_escrito": 330,
-                    "total_examenes_y_licencia": 780,
-                    "renovacion_cada_2_años": 450
+                    "renovacion_cada_2_años": 450,
+                    "nota_renovacion": "La licencia C-36 se renueva cada 2 años. Si lapsas más de 5 años, necesitas re-examinar.",
+                    "seguro_obligatorio": {
+                        "workers_comp": "Obligatorio si tienes empleados",
+                        "bond": "$15,000 contractor's bond obligatorio",
+                        "costo_bond_anual": "~$100-200/año"
+                    },
+                    "total_primer_año_estimado": "~$700-900 (aplicación + bond + procesamiento)"
                 },
                 "como_aplicar": {
                     "metodo": "En línea o por correo a CSLB",
-                    "url": "https://www.cslb.ca.gov/applicants/",
-                    "tiempo_procesamiento": "4-6 semanas para procesar aplicación, luego agendas exámenes",
+                    "url": "https://www.cslb.ca.gov/Contractors/Applicants/Apply_for_License/",
+                    "tiempo_procesamiento": "3-6 meses (incluyendo verificación de experiencia y programación de examen)",
                     "pasos": [
-                        "Completar aplicación CSLB 13A-2 (Initial License Application)",
-                        "Documentar 4 años de experiencia en plomería",
-                        "Pagar tarifa de aplicación ($330) y tarifa inicial de licencia ($200)",
-                        "CSLB revisa tu aplicación (4-6 semanas)",
-                        "Una vez aprobado, agendar exámenes en Pearson VUE",
-                        "Aprobar ambos exámenes (Law & C-36 Trade)",
-                        "Obtener seguro de responsabilidad civil y bonding ($15,000 bond)",
-                        "Recibir licencia C-36"
+                        "Crear cuenta en CSLB Online Services",
+                        "Llenar aplicación con historial de experiencia detallado (empleadores, fechas, tipo de trabajo)",
+                        "Pagar $450",
+                        "CSLB verifica tu experiencia (pueden contactar a tus empleadores pasados)",
+                        "Si aprueba verificación: recibes carta para agendar examen con Pearson VUE",
+                        "Pasar Trade Exam (Plumbing) y Law & Business Exam",
+                        "Obtener contractor's bond de $15,000",
+                        "Proveer certificado de workers' comp (o declaración de exención si no tienes empleados)",
+                        "Recibir número de licencia C-36 activa"
                     ]
                 },
-                "nota": "La licencia C-36 es esencial si quieres ser tu propio jefe. También necesitas seguro de responsabilidad civil ($1,000,000 mínimo recomendado) y un contractor's bond de $15,000.",
                 "source": "https://www.cslb.ca.gov/"
             },
             {
-                "id": "master_plumber",
-                "titulo_en": "Master Plumber",
-                "titulo_es": "Maestro Plomero",
+                "id": "contratista_c38",
+                "titulo_en": "C-38 Refrigeration Contractor",
+                "titulo_es": "Contratista de Refrigeración C-38",
                 "es_principal": false,
-                "color_badge": "#dc2626",
-                "descripcion_corta": "Nivel avanzado (no requerido en CA a nivel estatal, pero algunos condados/ciudades lo requieren). Puede supervisar múltiples proyectos y firmar diseños.",
-                "scope_of_work": "Supervisar proyectos complejos, firmar planos y diseños, capacitar aprendices, responsabilidad técnica de múltiples proyectos simultáneos.",
+                "color_badge": "#10b981",
+                "descripcion_corta": "Especialización adicional para plomeros que quieren trabajar en sistemas de refrigeración y HVAC.",
+                "scope_of_work": "Instalación y reparación de sistemas de refrigeración, aire acondicionado y calefacción. Se combina frecuentemente con C-36 para ampliar servicios.",
                 "requisitos": {
-                    "edad_minima": 18,
-                    "experiencia": "2-3 años adicionales como Journeyman + certificación de Journeyman vigente",
-                    "licencia_previa": "Journeyman Plumber certificado",
-                    "examen": "Varía por jurisdicción - algunas ciudades requieren examen de Master"
-                },
-                "examen": {
-                    "partes": 1,
-                    "nombre": "Master Plumber Exam (cuando aplica)",
-                    "formato": "Opción múltiple - generalmente más difícil que Journeyman",
-                    "idiomas": [
-                        "Inglés"
-                    ]
+                    "experiencia": "4 años en refrigeración y HVAC bajo un contratista C-38 licenciado",
+                    "examen": "Trade Exam de Refrigeración + Law & Business Exam (si no tienes otra licencia CSLB)"
                 },
                 "costos": {
-                    "aplicacion_licencia": 150,
-                    "examen_escrito": 150,
-                    "renovacion_cada_2_años": 100
+                    "aplicacion_licencia": 450
                 },
-                "nota": "California NO requiere certificación de Master Plumber a nivel estatal. Sin embargo, algunas ciudades grandes (como Los Angeles, San Francisco) tienen sus propios requisitos de Master Plumber para ciertos proyectos. Verifica con tu jurisdicción local.",
-                "source": "Varía por municipio"
+                "source": "https://www.cslb.ca.gov/"
+            }
+        ]
+    },
+    "sindicatos": {
+        "ai_generated": true,
+        "_descripcion": "Los sindicatos son la principal puerta de entrada a la plomería en California. Ofrecen el apprenticeship más completo y los mejores salarios.",
+        "items": [
+            {
+                "id": "ua_local_78",
+                "nombre": "UA Local 78 - Plumbers and Steamfitters",
+                "area": "Los Angeles y alrededores",
+                "telefono": "(213) 385-9300",
+                "website": "https://www.ualocal78.org/",
+                "apprenticeship_url": "https://scppjatc.org/",
+                "descripcion": "El local más grande del sur de California. Cubre LA, Hollywood, Compton, Inglewood y zonas aledañas. Uno de los locales con más plomeros hispanos.",
+                "salario_journeyman_aprox": "$55-60/hr (wages + benefits)",
+                "idioma_clases": "Inglés (material de apoyo en español en algunos módulos)"
+            },
+            {
+                "id": "ua_local_38",
+                "nombre": "UA Local 38 - Plumbers and Steamfitters",
+                "area": "San Francisco Bay Area",
+                "telefono": "(415) 648-8400",
+                "website": "https://www.ualocal38.org/",
+                "apprenticeship_url": "https://www.ncpjatc.org/",
+                "descripcion": "Local histórico de San Francisco. Uno de los sindicatos más grandes y respetados de California. Altos salarios por costo de vida del Bay Area.",
+                "salario_journeyman_aprox": "$60-68/hr (wages + benefits)",
+                "idioma_clases": "Inglés"
+            },
+            {
+                "id": "ua_local_250",
+                "nombre": "UA Local 250 - Plumbers and Steamfitters",
+                "area": "Sacramento y Central Valley norte",
+                "telefono": "(916) 452-3399",
+                "website": "https://www.ualocal250.com/",
+                "apprenticeship_url": "https://www.ncpjatc.org/",
+                "descripcion": "Cubre Sacramento, Davis, Stockton y el norte del Central Valley. Buena opción con menor costo de vida que SF o LA.",
+                "salario_journeyman_aprox": "$50-56/hr (wages + benefits)",
+                "idioma_clases": "Inglés"
+            },
+            {
+                "id": "ua_local_442",
+                "nombre": "UA Local 442 - Plumbers and Steamfitters",
+                "area": "San Diego",
+                "telefono": "(619) 263-5000",
+                "website": "https://ualocal442.com/",
+                "apprenticeship_url": "https://scppjatc.org/",
+                "descripcion": "Cubre San Diego y el sur de California incluyendo zona fronteriza. Alta presencia de miembros hispanos.",
+                "salario_journeyman_aprox": "$52-58/hr (wages + benefits)",
+                "idioma_clases": "Inglés"
             }
         ]
     },
     "calculadora_inversion": {
         "ai_generated": true,
-        "_description": "Costos estimados para obtener certificación y licencia de plomero en California",
+        "_description": "Comparación de rutas para ser plomero en California",
         "escenarios": [
             {
-                "id": "journeyman_via_apprenticeship",
-                "licencia": "Journeyman Plumber (vía programa de aprendizaje)",
+                "id": "empleado_apprenticeship",
+                "licencia": "Plomero Empleado vía Apprenticeship Sindical",
                 "inversion": {
-                    "escuela_rango": "$0",
-                    "escuela_nota": "Los programas de aprendizaje registrados son GRATUITOS y PAGADOS. No pagas matrícula, te pagan mientras aprendes.",
-                    "kit_herramientas_basico": "$800 - $1,500",
-                    "kit_nota": "Herramientas básicas: llaves, cortadores de tubo, sopletes, nivel, cinta métrica, etc.",
-                    "libros_codigo": "$200 - $350",
-                    "examen_journeyman": "$100",
-                    "aplicacion_licencia": "$75",
-                    "total_estimado": "$1,175 - $2,025"
+                    "aplicacion_jatc": "$30-50",
+                    "cuotas_sindicato_5_años": "~$2,400-3,600 total ($40-60/mes)",
+                    "herramientas_basicas": "$500-1,500",
+                    "libros_y_materiales": "$200-400",
+                    "total_minimo": "~$3,130",
+                    "total_maximo": "~$5,550",
+                    "nota_importante": "MIENTRAS PAGAS esto, estás GANANDO un salario de aprendiz desde el año 1. La inversión neta real es mínima."
                 },
-                "tiempo": "4-5 años (programa de aprendizaje)",
+                "tiempo": "5 años (programa completo de apprenticeship)",
                 "salario_esperado": {
-                    "empleada": "Durante aprendizaje: $35,000 - $55,000/año (40-90% del salario Journeyman)",
-                    "con_experiencia": "Journeyman certificado: $60,000 - $85,000/año",
-                    "nota": "Los aprendices GANAN mientras aprenden. Al finalizar como Journeyman, ya tienes 4-5 años de experiencia pagada."
+                    "aprendiz_año_1": "$45,000-$50,000/año",
+                    "aprendiz_año_3": "$62,000-$70,000/año",
+                    "journeyman_completado": "$110,000-$130,000/año (salario + beneficios sindicales)",
+                    "nota": "Los beneficios sindicales (salud, pensión, vacaciones) añaden ~40-50% sobre el salario base"
                 },
-                "roi_nota": "¡Inversión mínima con salario desde el día 1! Este es el camino más común y económico."
+                "roi_nota": "Con beneficios totales, un journeyman sindical en California puede tener un paquete de compensación total de $130,000-$160,000/año. Es una de las carreras mejor pagadas sin título universitario."
             },
             {
-                "id": "c36_contractor",
-                "licencia": "C-36 Plumbing Contractor (después de Journeyman)",
+                "id": "contratista_c36",
+                "licencia": "Contratista C-36 (Tu Propio Negocio)",
                 "inversion": {
-                    "aplicacion_licencia_cslb": "$450",
-                    "examen_escrito": "$330 (cubre ambos exámenes)",
-                    "curso_preparacion_examen": "$300 - $800",
-                    "libros_codigo": "$150 - $250 (si necesitas actualizaciones)",
-                    "contractors_bond": "$100 - $300/año (bond de $15,000)",
-                    "seguro_responsabilidad": "$1,200 - $3,000/año (según cobertura)",
-                    "licencia_negocio_local": "$50 - $500 (varía por ciudad)",
-                    "total_primer_ano": "$2,580 - $5,630"
+                    "experiencia_previa": "4 años trabajando como empleado (ya ganando $)",
+                    "aplicacion_cslb": "$450",
+                    "curso_preparacion_examen": "$400-800",
+                    "libros_codigos_plomeria": "$150-300 (UPC California)",
+                    "contractors_bond": "~$150-200/año",
+                    "seguro_responsabilidad": "$2,000-5,000/año",
+                    "herramientas_avanzadas": "$2,000-8,000",
+                    "total_minimo_primer_año": "~$5,150",
+                    "total_maximo_primer_año": "~$14,750"
                 },
-                "tiempo": "6-12 meses después de cumplir requisitos de experiencia",
+                "tiempo": "4-5 años de experiencia previa + 3-6 meses proceso CSLB",
                 "salario_esperado": {
-                    "empleada": "Como contratista empleando a otros: $80,000 - $150,000+/año",
-                    "independiente_booth_rental": "Contratista independiente (solo tú + ayudantes): $70,000 - $120,000/año",
-                    "nota": "Los ingresos como contratista varían enormemente según volumen de trabajo, especialización y eficiencia."
+                    "contratista_inicial": "$80,000-$120,000/año",
+                    "contratista_establecido": "$120,000-$200,000+/año",
+                    "nota": "Depende del volumen de trabajo, zona geográfica y si tienes empleados"
                 },
-                "roi_nota": "Mayor inversión inicial pero potencial de ingresos significativamente mayor. Puedes contratar proyectos directamente y contratar empleados."
+                "roi_nota": "La inversión en la C-36 se recupera típicamente en los primeros 2-3 meses de tener contratos propios vs trabajar empleado."
             }
         ]
     },
     "renovacion": {
         "ai_generated": true,
+        "descripcion": "Solo aplica para contratistas C-36. Los empleados journeyman no tienen licencia estatal que renovar.",
         "frecuencia": "Cada 2 años desde la fecha de emisión",
-        "metodo": "En línea para certificación estatal (DIR) y licencia C-36 (CSLB)",
-        "url_renovacion": "https://www.cslb.ca.gov/ (para C-36) y contactar DIR local (para Journeyman)",
-        "costo_renovacion": 75,
+        "metodo": "En línea en el portal del CSLB",
+        "url_renovacion": "https://www.cslb.ca.gov/Contractors/Licensees/Renew_License/",
+        "costo_renovacion": 450,
         "ce_requerida": {
             "horas_totales": 0,
-            "nota": "California actualmente NO requiere educación continua (CE) obligatoria para certificación de Journeyman Plumber a nivel estatal. Sin embargo, para licencia C-36 del CSLB se requiere mantener conocimiento actualizado del código. Algunos condados pueden tener requisitos propios."
+            "desglose": [
+                "CSLB no requiere educación continua mandatoria para renovar la C-36",
+                "Sin embargo, sí se recomienda mantenerse actualizado en el Uniform Plumbing Code (UPC)",
+                "Si tu licencia expira por más de 5 años, debes re-examinar para reactivarla"
+            ],
+            "costo_cursos_ce_online": "N/A (no requerido)",
+            "url_proveedores": "https://www.cslb.ca.gov/"
         },
         "consecuencias_no_renovar": {
-            "0_90_dias": "Período de gracia - puedes renovar con tarifa normal",
-            "90_dias_a_2_años": "Licencia vencida - puedes renovar con tarifa tardía (generalmente 1.5x)",
-            "mas_2_años": "Licencia cancelada - debes re-aplicar como nueva licencia y posiblemente retomar exámenes"
+            "0_5_años": "Renovación tardía con cargo adicional. Licencia en estado 'inactive' o 'delinquent'.",
+            "mas_5_años": "Licencia cancelada. Debes aplicar de nuevo y pasar exámenes otra vez."
         },
-        "nota_tdlr": "Para licencia C-36: CSLB envía avisos de renovación 90 días antes del vencimiento. Es tu responsabilidad renovar a tiempo. Para certificación Journeyman: verifica con tu jurisdicción local los procedimientos específicos.",
+        "nota_tdlr": "CSLB envía recordatorios 90 días antes del vencimiento. Es responsabilidad del contratista renovar a tiempo para no interrumpir operaciones.",
         "source": "https://www.cslb.ca.gov/"
     },
     "reciprocidad": {
         "ai_generated": true,
         "disponible": false,
-        "nombre_proceso": "No hay reciprocidad automática",
-        "requisitos": [
-            "California NO tiene acuerdos de reciprocidad automática con otros estados para certificación de plomero",
-            "Debes cumplir con requisitos completos de California (experiencia y examen)",
-            "Tu experiencia de otro estado PUEDE contar para el requisito de 8,000 horas si está documentada",
-            "Aún debes aprobar el examen de California (específico al California Plumbing Code)"
+        "nombre_proceso": "No hay reciprocidad formal para plomería en California",
+        "nota_empleados": "Si eres plomero empleado (journeyman) de otro estado y vienes a trabajar a California COMO EMPLEADO, no hay ningún trámite necesario ya que California no requiere licencia individual. Solo necesitas que tu patrón tenga licencia C-36 activa.",
+        "nota_contratistas": "Si tienes licencia de contratista de plomería de otro estado y quieres operar en California, DEBES obtener la C-36 de CSLB. No hay reciprocidad automática. Sin embargo, tu experiencia previa puede contar como parte de los 4 años de experiencia requeridos.",
+        "requisitos_contratista_externo": [
+            "Presentar aplicación completa al CSLB",
+            "Documentar los 4 años de experiencia (puede incluir experiencia de otro estado)",
+            "Aprobar el Trade Exam de plomería de CSLB",
+            "Aprobar el Law and Business Exam de California",
+            "Pagar $450 de aplicación",
+            "Obtener contractor's bond de $15,000 en California"
         ],
-        "nota": "Si tienes licencia de plomero de otro estado, tu experiencia laboral puede aplicar para cumplir el requisito de horas, pero DEBES tomar y aprobar el examen de California. El California Plumbing Code (CPC) y Uniform Plumbing Code (UPC) son únicos y diferentes a otros estados.",
-        "url": "https://www.dir.ca.gov/das/",
-        "experiencia_como_horas": "Experiencia verificable de otro estado puede contar para requisito de 8,000 horas con documentación apropiada",
-        "source": "https://www.dir.ca.gov/das/"
+        "url": "https://www.cslb.ca.gov/Contractors/Applicants/Apply_for_License/",
+        "source": "CSLB"
     },
     "salarios": {
-        "ai_generated": true,
-        "nota_importante": "California ofrece algunos de los salarios más altos para plomeros en todo Estados Unidos. Los datos del BLS solo capturan salario base W-2. El ingreso REAL incluye overtime, llamadas de emergencia, trabajo de fin de semana, y trabajo independiente que pagan significativamente más.",
+        "ai_generated": false,
+        "nota_importante": "California tiene los salarios más altos para plomeros en todo el país, especialmente en el Bay Area. Los salarios sindicales incluyen beneficios (salud, pensión) que en otros estados son raros.",
         "nacional_2024": {
             "mediana": "$61,550/año",
             "por_hora_mediana": "$29.59/hr",
-            "percentil_10": "$38,290/año",
-            "percentil_90": "$99,920/año",
-            "crecimiento_proyectado": "6% (2023-2033) - Tan rápido como el promedio",
+            "percentil_10": "$38,390/año ($18.46/hr)",
+            "percentil_90": "$99,920/año ($48.04/hr)",
+            "crecimiento_proyectado": "6% (2023-2033) - Más rápido que el promedio",
             "source": "https://www.bls.gov/oes/current/oes472152.htm"
         },
         "california": {
-            "promedio_anual": "$68,620",
-            "promedio_hora": "$33.00",
-            "top_earners": "$95,230+",
+            "promedio_anual": "$73,000",
+            "promedio_hora": "$35.10",
+            "top_earners": "$110,000+",
             "source": "BLS California May 2024"
         },
         "por_ciudad_california": [
             {
-                "ciudad": "San Francisco-Oakland-Hayward",
-                "salario_medio": "$84,970",
-                "top_earners": "$107,850",
+                "ciudad": "San Francisco - Oakland - Hayward",
+                "salario_medio": "$89,000",
+                "top_earners": "$130,000+",
+                "source": "BLS",
+                "nota": "Mayor costo de vida del estado"
+            },
+            {
+                "ciudad": "Los Angeles - Long Beach - Anaheim",
+                "salario_medio": "$78,000",
+                "top_earners": "$115,000+",
                 "source": "BLS"
             },
             {
-                "ciudad": "San Jose-Sunnyvale-Santa Clara",
-                "salario_medio": "$87,420",
-                "top_earners": "$110,340",
+                "ciudad": "San Diego - Carlsbad",
+                "salario_medio": "$72,000",
+                "top_earners": "$105,000",
                 "source": "BLS"
             },
             {
-                "ciudad": "Los Angeles-Long Beach-Anaheim",
-                "salario_medio": "$69,530",
-                "top_earners": "$96,420",
+                "ciudad": "Sacramento - Roseville - Folsom",
+                "salario_medio": "$68,000",
+                "top_earners": "$98,000",
                 "source": "BLS"
             },
             {
-                "ciudad": "San Diego-Carlsbad",
-                "salario_medio": "$67,940",
-                "top_earners": "$91,280",
-                "source": "BLS"
-            },
-            {
-                "ciudad": "Sacramento-Roseville-Arden-Arcade",
-                "salario_medio": "$72,180",
-                "top_earners": "$94,650",
-                "source": "BLS"
-            },
-            {
-                "ciudad": "Riverside-San Bernardino-Ontario",
-                "salario_medio": "$64,830",
-                "top_earners": "$88,970",
-                "source": "BLS"
+                "ciudad": "Fresno",
+                "salario_medio": "$60,000",
+                "top_earners": "$88,000",
+                "source": "BLS",
+                "nota": "Menor costo de vida, buen punto de entrada al mercado"
             }
         ],
         "ingresos_reales": {
             "ai_generated": true,
-            "nota": "Los plomeros en California frecuentemente ganan MÁS que los promedios del BLS debido a:",
+            "nota": "Los datos del BLS solo capturan salario base de empleados W-2. Los plomeros sindicales en California tienen beneficios adicionales que aumentan significativamente la compensación total.",
             "factores_adicionales": [
-                "Overtime (tiempo y medio después de 8 hrs/día o 40 hrs/semana) - muy común en construcción y emergencias",
-                "Doble tiempo en domingo y días festivos (union jobs)",
-                "Llamadas de emergencia (tarifa premium $150-300/hr)",
-                "Prevailing wage en proyectos públicos ($50-70/hr)",
-                "Per diem para trabajos fuera de área",
-                "Trabajo independiente (1099) - cobras directamente al cliente a $80-150/hr",
-                "Bonos por completar proyectos comerciales grandes"
+                "Pensión sindical (DB pension) - rara en otros estados",
+                "Seguro médico completo para familia ($15,000-25,000/año en valor)",
+                "Vacaciones pagadas (2-4 semanas)",
+                "Overtime (tiempo y medio después de 8 horas/día en CA, no 40/semana)",
+                "Llamadas de emergencia (doble o triple tiempo)",
+                "Trabajo en días festivos (doble tiempo)",
+                "Prevailing wage en proyectos del gobierno (muy alto)"
             ],
             "estimado_realista": {
-                "recien_licenciada": "Aprendiz año 1: $35,000 - $45,000/año",
-                "3_5_años_experiencia": "Journeyman con 2-3 años: $65,000 - $90,000/año (con overtime)",
-                "especialista_o_independiente": "Journeyman especializado (medical gas, backflow, etc): $80,000 - $110,000/año",
-                "dueña_salon": "Contratista C-36 con negocio establecido: $100,000 - $250,000+/año"
+                "aprendiz_año_1": "$45,000-52,000/año (salario) + beneficios",
+                "journeyman_empleado": "$80,000-100,000/año (salario) + $30,000-40,000 en beneficios",
+                "journeyman_overtime": "$110,000-140,000/año (con overtime regular)",
+                "contratista_c36_independiente": "$120,000-200,000+/año (depende de volumen)"
             }
         }
     },
@@ -498,108 +482,163 @@
         "ai_generated": true,
         "items": [
             {
-                "error": "No registrarte en un programa de aprendizaje OFICIAL con CA Division of Apprenticeship Standards",
-                "por_que_importa": "Si trabajas como 'ayudante' de plomero pero NO estás registrado en un programa de aprendizaje oficial, tus horas NO contarán para la certificación de Journeyman. Habrás perdido años de experiencia que no podrás usar. California es muy estricto en esto.",
-                "solucion": "Asegúrate de que tu empleador esté registrado con el DIR y que TÚ estés registrado como aprendiz oficial. Obtén tu tarjeta de aprendiz y mantén registros de todas tus horas trabajadas."
+                "error": "Buscar la 'licencia de journeyman de California' que no existe",
+                "por_que_importa": "Muchos hispanos que vienen de Texas o de países donde hay licencias individuales pierden tiempo buscando cómo sacar una 'licencia de plomero'. En California, esa licencia no existe para empleados. Si la buscas, no la vas a encontrar porque simplemente no hay.",
+                "solucion": "Si quieres trabajar EMPLEADO: contacta un sindicato o empresa de plomería con C-36 y entra al apprenticeship. Si quieres tu propio negocio: tramita la C-36 con CSLB."
             },
             {
-                "error": "Confundir certificación estatal de Journeyman con licencia de contratista C-36",
-                "por_que_importa": "Son dos cosas diferentes. La certificación de Journeyman te permite TRABAJAR como plomero empleado. La licencia C-36 te permite SER CONTRATISTA (tu propio negocio, contratar proyectos directamente). Si solo tienes Journeyman, NO puedes operar negocio propio legalmente.",
-                "solucion": "Entiende la diferencia: Journeyman = empleado calificado. C-36 = dueño de negocio. Planifica tu carrera según tus metas (¿empleado bien pagado o empresario?)."
+                "error": "Pensar que con solo ITIN puedes ser contratista en California",
+                "por_que_importa": "CSLB requiere SSN para la licencia de contratista C-36. Si no tienes SSN, NO puedes obtener la C-36. Sin embargo, SÍ puedes trabajar como empleado journeyman en California con ITIN ya que no hay licencia individual requerida.",
+                "solucion": "Si tienes ITIN: trabaja como empleado sindical, no como contratista. Si eventualmente obtienes SSN (ej. green card), entonces puedes tramitar la C-36."
             },
             {
-                "error": "No estudiar el California Plumbing Code (CPC) y Uniform Plumbing Code (UPC) específicamente",
-                "por_que_importa": "California usa el California Plumbing Code y UPC, que son DIFERENTES al International Plumbing Code (IPC) usado en muchos otros estados. Si estudias con libros de otro estado, fallarás el examen. Los códigos tienen diferencias significativas en venting, fixture units, etc.",
-                "solucion": "Compra y estudia la edición VIGENTE del California Plumbing Code (CPC) y Uniform Plumbing Code (UPC). Verifica qué edición usa tu examen antes de comprar (generalmente la más reciente adoptada por CA)."
+                "error": "No unirse a un sindicato por miedo o desconocimiento",
+                "por_que_importa": "Muchos plomeros trabajan en el mercado informal con salarios de $15-20/hr. Un journeyman sindical gana el doble o el triple, con beneficios. El miedo a los sindicatos (cuotas, 'papeles') les cuesta a muchos hispanos decenas de miles de dólares al año.",
+                "solucion": "Los sindicatos UA en California son la mejor puerta de entrada al gremio de plomería. La cuota mensual (~$50) es una fracción del aumento salarial que obtienes. Contacta el local de tu área directamente."
             },
             {
-                "error": "No prepararte para el nivel de inglés técnico del examen",
-                "por_que_importa": "Los exámenes están en inglés con terminología técnica específica de plomería (venting, fixture units, trap arms, water hammer, etc). Si no dominas este vocabulario, entenderás los conceptos pero no las preguntas del examen.",
-                "solucion": "Estudia con materiales en inglés desde el principio del aprendizaje. Crea flashcards de términos técnicos. Muchos programas de aprendizaje ofrecen ESL técnico - aprovéchalos."
+                "error": "Intentar sacar la C-36 sin los 4 años de experiencia correctamente documentados",
+                "por_que_importa": "CSLB verifica la experiencia contactando a los empleadores que declaras. Si no tienes cartas, contratos o pay stubs que demuestren 4 años trabajando en plomería bajo un C-36 licenciado, tu aplicación será rechazada y perderás los $450.",
+                "solucion": "Empieza a guardar TODA la documentación de tu experiencia desde el día uno: pay stubs, cartas de empleadores, contratos, fotos de proyectos. Cuando apliques, tendrás todo listo."
             },
             {
-                "error": "Pensar que puedes trabajar independiente con solo certificación de Journeyman",
-                "por_que_importa": "Es ILEGAL trabajar como contratista independiente sin licencia C-36 en California. Si te contratan directamente clientes para proyectos de plomería sin licencia C-36, puedes recibir multas de hasta $5,000 por violación, NO podrás cobrar por el trabajo, y arriesgas cargos criminales.",
-                "solucion": "Si quieres trabajar independiente, obtén tu licencia C-36 después de certificarte como Journeyman. O trabaja bajo un contratista C-36 como empleado mientras reúnes experiencia."
+                "error": "No considerar el Prevailing Wage en proyectos del gobierno",
+                "por_que_importa": "Proyectos de construcción del gobierno (escuelas, hospitales, infraestructura pública) en California pagan 'Prevailing Wage' para plomeros que puede llegar a $95-110/hr (salario + beneficios). Muchos plomeros no saben que pueden aplicar a estos trabajos.",
+                "solucion": "Los sindicatos tienen acceso prioritario a proyectos de Prevailing Wage. Una razón más para afiliarte al sindicato de tu área."
             },
             {
-                "error": "No mantener documentación detallada de tus horas y tipos de trabajo",
-                "por_que_importa": "Para aplicar a Journeyman o C-36, necesitas PROBAR tus horas y experiencia con documentación específica. 'Trabajé 5 años' no es suficiente. Necesitas formatos firmados por supervisores, recibos de pago, cartas de empleadores, etc.",
-                "solucion": "Desde día 1 como aprendiz: guarda TODAS tus pay stubs, pide cartas de verificación de experiencia al cambiar de empleador, mantén un log personal de proyectos y horas. Esto será crítico para tu aplicación."
+                "error": "Confundir el trabajo de plomería con plomería de gas (gas fitting)",
+                "por_que_importa": "En California, algunos trabajos de gas (especialmente instalaciones nuevas o grandes) pueden requerir certificaciones adicionales más allá de la C-36. Trabajar en gas sin las certificaciones correctas puede resultar en multas y responsabilidad legal.",
+                "solucion": "Si vas a trabajar en instalaciones de gas, verifica con CSLB y tu sindicato qué certificaciones adicionales necesitas. Muchos programas JATC incluyen capacitación en gas."
             }
         ]
     },
     "servicios_sin_licencia": {
         "ai_generated": true,
-        "titulo": "Trabajos de Plomería que NO Requieren Licencia en California",
+        "titulo": "Plomería que el Propietario Puede Hacer Sin Licencia en California",
+        "descripcion": "En California, los propietarios (homeowners) pueden hacer ciertas reparaciones menores en su propia propiedad sin licencia. Esto NO aplica si lo haces por dinero en casa de otros.",
         "items": [
-            "Reparaciones menores en tu PROPIA vivienda (cambiar llaves, reparar toilet flapper)",
-            "Trabajo en tuberías de drenaje y ventilación SIN conexión directa a sistema público",
-            "Mantenimiento de equipos (descaling water heaters en tu casa)",
-            "Trabajo de limpieza de drenajes con herramientas manuales básicas"
+            "Cambiar un grifo o llave de agua (faucet replacement) en tu propia casa",
+            "Reemplazar la cabeza de regadera",
+            "Destapar drenajes con desatascador o químicos",
+            "Reemplazar el asiento del inodoro o flapper",
+            "Conectar o desconectar lavadora portátil",
+            "Instalar filtros de agua de bajo costo bajo el fregadero"
         ],
-        "requiere_licencia": [
-            "CUALQUIER trabajo de plomería en propiedad de otra persona",
-            "Cualquier conexión nueva o modificación al sistema público de agua o alcantarillado",
-            "Instalación o reemplazo de water heaters, fixtures, o cualquier appliance conectado a gas",
-            "Trabajo en edificios comerciales o multi-familiares",
-            "Obtener permisos de plomería (requiere licencia C-36 o trabajar bajo una)"
+        "requiere_licencia_c36": [
+            "Cualquier trabajo de plomería en casa de otra persona (aunque sea 'ayudar' a un amigo por dinero)",
+            "Instalar o reemplazar calentadores de agua (water heaters) en propiedades ajenas",
+            "Instalar tuberías nuevas de cualquier tipo",
+            "Trabajos en sistemas de alcantarillado o drenaje principal",
+            "Instalaciones de gas",
+            "Cualquier trabajo que requiera permiso del municipio o condado",
+            "Trabajos en edificios de apartamentos, comerciales o industriales"
         ],
-        "nota": "California es muy estricto con licencias de plomería por razones de salud y seguridad pública. Los sistemas de plomería afectan directamente la salud pública (contaminación de agua, fugas de gas). Trabajar sin licencia es delito grave.",
-        "source": "California Business & Professions Code Section 7000-7191"
+        "advertencia": "En California las multas por trabajar sin licencia C-36 siendo contratista son de hasta $15,000 por infracción + posible tiempo en cárcel. El CSLB tiene un programa activo de investigación de 'unlicensed contractors'.",
+        "source": "California Business and Professions Code Section 7028"
     },
     "faqs": {
         "ai_generated": true,
         "items": [
             {
-                "pregunta": "¿Puedo sacar la licencia de plomero en California con ITIN (sin número de Seguro Social)?",
-                "respuesta": "Sí. California permite usar ITIN para obtener certificación de Journeyman y licencia de contratista C-36. El CSLB y DIR aceptan ITIN como identificación fiscal válida. Sin embargo, algunos programas de aprendizaje pueden tener requisitos adicionales - verifica con el programa específico.",
-                "source": "CSLB / DIR"
+                "pregunta": "¿Hay licencia de plomero individual en California como en Texas?",
+                "respuesta": "No. Esta es la diferencia más importante. En Texas hay licencias individuales de Apprentice, Journeyman y Master. En California NO existe eso. La licencia la tiene el CONTRATISTA (C-36), no el trabajador individual. Si trabajas empleado para una empresa con C-36, tú no necesitas ninguna licencia estatal.",
+                "source": "CSLB California"
             },
             {
-                "pregunta": "¿El examen de plomero en California está disponible en español?",
-                "respuesta": "Parcialmente. El examen de Law & Business para licencia C-36 del CSLB está disponible en español. Sin embargo, el examen técnico C-36 Plumbing Trade y los exámenes de certificación de Journeyman generalmente están solo en inglés. Es importante prepararse con suficiente vocabulario técnico en inglés.",
+                "pregunta": "¿Puedo trabajar de plomero en California con ITIN o sin papeles?",
+                "respuesta": "Si trabajas EMPLEADO para una empresa de plomería con C-36 activa, California no requiere que el trabajador individual tenga ninguna licencia estatal. Sin embargo, para conseguir trabajo en empresas formales o sindicatos necesitarás documentación para trabajar legalmente en EE.UU. (work authorization). Para ser CONTRATISTA con tu propia empresa, el CSLB sí requiere SSN.",
                 "source": "CSLB"
             },
             {
-                "pregunta": "¿Cuánto dura el programa de aprendizaje de plomero en California?",
-                "respuesta": "Típicamente 4-5 años (8,000-10,000 horas de trabajo + 864-1,080 horas de clases). El programa combina capacitación pagada en el trabajo con clases técnicas. Empiezas ganando 40-50% del salario de Journeyman y aumenta progresivamente cada año hasta 90-100% al final.",
-                "source": "CA DIR / Joint Apprenticeship Programs"
+                "pregunta": "¿Cómo entro al apprenticeship de plomería en California?",
+                "respuesta": "Contacta el sindicato UA de tu área: UA Local 78 en LA, UA Local 38 en SF, UA Local 250 en Sacramento, UA Local 442 en San Diego. El proceso incluye llenar aplicación, pasar examen de aptitud matemática básica, entrevista y posible lista de espera. El JATC administra el programa de 5 años. Visita scppjatc.org para el sur de CA o ncpjatc.org para el norte.",
+                "source": "UA / JATC"
             },
             {
-                "pregunta": "¿Necesito ir a una escuela técnica antes de empezar como aprendiz?",
-                "respuesta": "No. Los programas de aprendizaje registrados en California te capacitan desde cero. No necesitas conocimiento previo de plomería ni certificación de escuela técnica. Muchos programas solo requieren diploma de high school o GED, tener 18 años, y pasar un examen físico.",
-                "source": "CA DIR"
+                "pregunta": "¿Cuánto tarda el apprenticeship de plomería en California?",
+                "respuesta": "El apprenticeship estándar es de 5 años, combinando trabajo en campo (~8,000 horas) y clases teóricas (~2,000 horas). Desde el primer día recibes un salario (50-55% del journeyman en año 1, subiendo hasta ~95% al final). Al completar el programa eres reconocido como Journeyman Plumber por el sindicato.",
+                "source": "JATC California"
             },
             {
-                "pregunta": "¿Cuánto cuesta el programa de aprendizaje de plomero?",
-                "respuesta": "¡Es GRATIS! Los programas de aprendizaje registrados no cobran matrícula. De hecho, TE PAGAN mientras aprendes. Empiezas ganando $18-25/hr y aumenta cada año. Solo pagas por tus herramientas personales (~$1,000-1,500) y libros de código (~$200-350).",
-                "source": "Joint Apprenticeship Programs"
+                "pregunta": "¿Qué es la licencia C-36 y la necesito para trabajar de plomero?",
+                "respuesta": "La C-36 (Plumbing Contractor) es la licencia que emite el CSLB para personas o empresas que ofrecen servicios de plomería al público cobrando por ello. Si quieres tener TU PROPIO negocio de plomería, necesitas la C-36. Si trabajas EMPLEADO para otro contratista, NO necesitas C-36. Requiere 4 años de experiencia, dos exámenes (técnico + negocios) y $450 de aplicación.",
+                "source": "CSLB"
             },
             {
                 "pregunta": "¿Cuánto gana un plomero en California?",
-                "respuesta": "Aprendices: $35,000-55,000/año (aumenta cada año). Journeyman certificado: $60,000-85,000/año promedio, con top earners en Bay Area ganando $95,000-110,000/año. Contratistas C-36: $80,000-250,000+/año dependiendo del tamaño del negocio. California paga los salarios más altos de plomería en USA.",
-                "source": "BLS May 2024"
+                "respuesta": "Un journeyman sindical gana entre $80,000-$100,000 de salario base, más $30,000-$40,000 en beneficios (salud, pensión, vacaciones), totalizando $110,000-$140,000 en compensación total. En San Francisco el salario base puede superar los $89,000. Los aprendices empiezan en ~$45,000-50,000 en el año 1, subiendo cada semestre.",
+                "source": "BLS / UA"
             },
             {
-                "pregunta": "¿Cuál es la diferencia entre certificación de Journeyman y licencia C-36?",
-                "respuesta": "Journeyman Plumber = certificación estatal que te permite trabajar como empleado en cualquier proyecto de plomería sin supervisión directa. C-36 Plumbing Contractor = licencia del CSLB que te permite OPERAR TU PROPIO NEGOCIO de plomería, contratar proyectos directamente con clientes, contratar empleados, y obtener permisos. Necesitas ambas para ser contratista independiente.",
-                "source": "CSLB / DIR"
-            },
-            {
-                "pregunta": "¿Puedo transferir mi licencia de plomero de otro estado a California?",
-                "respuesta": "No automáticamente. California NO tiene reciprocidad con otros estados. Tu experiencia de otro estado puede contar para el requisito de horas (con documentación), pero DEBES tomar y aprobar los exámenes de California (Journeyman y/o C-36). El California Plumbing Code es único y diferente a otros estados.",
-                "source": "DIR / CSLB"
-            },
-            {
-                "pregunta": "¿Qué es prevailing wage y cómo me afecta?",
-                "respuesta": "Prevailing wage son salarios mínimos establecidos por el estado para proyectos de construcción públicos (escuelas, hospitales, edificios gubernamentales). En California, prevailing wage para plomeros es ~$50-70/hr dependiendo del condado. Si trabajas en proyectos públicos, tu empleador DEBE pagarte prevailing wage. Es significativamente más alto que salario privado.",
-                "source": "CA Department of Industrial Relations"
-            },
-            {
-                "pregunta": "¿Necesito seguro y bonding para trabajar como plomero?",
-                "respuesta": "Como empleado con certificación Journeyman: NO (tu empleador carga con el seguro). Como contratista C-36: SÍ, obligatorio. Necesitas contractor's bond de $15,000 (cuesta ~$100-300/año) y seguro de responsabilidad civil (recomendado mínimo $1,000,000 de cobertura, cuesta $1,200-3,000/año).",
+                "pregunta": "¿Puedo traer mi licencia de plomero de otro estado a California?",
+                "respuesta": "Si eres EMPLEADO: no necesitas traer nada porque California no requiere licencia individual. Si eres CONTRATISTA: no hay reciprocidad automática. Debes aplicar para la C-36 con CSLB. Tu experiencia de otro estado puede contar para los 4 años requeridos, pero debes pasar los exámenes de California (incluyendo el de leyes de CA).",
                 "source": "CSLB"
+            },
+            {
+                "pregunta": "¿Cuánto cuesta obtener la licencia C-36 en California?",
+                "respuesta": "El costo de la aplicación al CSLB es $450. A eso debes sumar un contractor's bond de $15,000 (cuesta ~$150-200/año en seguro), seguro de responsabilidad civil ($2,000-5,000/año) y, si tienes empleados, workers' compensation. En total, el primer año como contratista independiente puede costar entre $5,000-15,000 entre licencia, seguros y herramientas adicionales.",
+                "source": "CSLB"
+            },
+            {
+                "pregunta": "¿El examen de la C-36 está en español?",
+                "respuesta": "El examen del CSLB (Trade Exam y Law & Business Exam) se ofrece principalmente en inglés. A diferencia de Texas donde los exámenes de plomería están disponibles en español, el CSLB no ofrece esta opción de idioma actualmente. Existen cursos de preparación en español para los exámenes.",
+                "source": "CSLB / Pearson VUE"
+            },
+            {
+                "pregunta": "¿Cuánto tiempo tarda procesar la aplicación de la C-36?",
+                "respuesta": "El proceso completo toma entre 3 y 6 meses: verificación de experiencia (4-8 semanas), programación del examen, aprobación y emisión de licencia. CSLB puede demorar más en períodos de alta demanda. Puedes rastrear el estado de tu aplicación en el portal online de CSLB.",
+                "source": "CSLB"
+            }
+        ]
+    },
+    "links_oficiales": {
+        "ai_generated": false,
+        "items": [
+            {
+                "nombre": "CSLB - California Contractors State License Board",
+                "url": "https://www.cslb.ca.gov/",
+                "descripcion": "Ente oficial que emite la licencia C-36 de contratista plomero"
+            },
+            {
+                "nombre": "Aplicar para Licencia C-36 en Línea",
+                "url": "https://www.cslb.ca.gov/Contractors/Applicants/Apply_for_License/",
+                "descripcion": "Portal para iniciar la aplicación de contratista"
+            },
+            {
+                "nombre": "Verificar Licencia de Contratista",
+                "url": "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx",
+                "descripcion": "Buscar si una empresa o persona tiene C-36 activa"
+            },
+            {
+                "nombre": "Información de Exámenes CSLB",
+                "url": "https://www.cslb.ca.gov/Contractors/Applicants/Contractor_License_Exams/",
+                "descripcion": "Detalles del Trade Exam y Law & Business Exam"
+            },
+            {
+                "nombre": "Southern CA JATC - Apprenticeship Los Angeles",
+                "url": "https://scppjatc.org/",
+                "descripcion": "Programa de apprenticeship para el sur de California (LA, OC, IE)"
+            },
+            {
+                "nombre": "Northern CA JATC - Apprenticeship SF/Sacramento",
+                "url": "https://www.ncpjatc.org/",
+                "descripcion": "Programa de apprenticeship para el norte de California"
+            },
+            {
+                "nombre": "UA Local 78 - Los Angeles",
+                "url": "https://www.ualocal78.org/",
+                "descripcion": "Sindicato de plomeros en Los Angeles. Información de membresía."
+            },
+            {
+                "nombre": "UA Local 38 - San Francisco",
+                "url": "https://www.ualocal38.org/",
+                "descripcion": "Sindicato de plomeros en San Francisco Bay Area"
+            },
+            {
+                "nombre": "BLS - Datos de Empleo Plomeros California",
+                "url": "https://www.bls.gov/oes/current/oes472152.htm",
+                "descripcion": "Salarios oficiales y estadísticas de empleo (Bureau of Labor Statistics)"
             }
         ]
     },
@@ -607,107 +646,57 @@
         "ai_generated": true,
         "enlaces": [
             {
-                "categoria": "Agencias Reguladoras Estatales",
+                "categoria": "Autoridad Reguladora",
                 "enlaces": [
                     {
-                        "titulo": "CA Division of Apprenticeship Standards (DAS)",
-                        "url": "https://www.dir.ca.gov/das/",
-                        "descripcion": "Autoridad principal para programas de aprendizaje y certificación de Journeyman"
-                    },
-                    {
-                        "titulo": "Contractors State License Board (CSLB)",
+                        "titulo": "CSLB - California Contractors State License Board",
                         "url": "https://www.cslb.ca.gov/",
-                        "descripcion": "Licencias de contratista C-36 y regulación de contratistas"
+                        "descripcion": "Sitio oficial para la licencia C-36 de contratista plomero"
                     },
                     {
-                        "titulo": "CA Department of Industrial Relations (DIR)",
-                        "url": "https://www.dir.ca.gov/",
-                        "descripcion": "Departamento estatal que supervisa DAS y regulaciones laborales"
-                    }
-                ]
-            },
-            {
-                "categoria": "Programas de Aprendizaje",
-                "enlaces": [
-                    {
-                        "titulo": "UA Local 38 San Francisco",
-                        "url": "https://www.ualocal38.org/",
-                        "descripcion": "Sindicato de plomeros en San Francisco Bay Area - programa de aprendizaje"
+                        "titulo": "Aplicar para C-36",
+                        "url": "https://www.cslb.ca.gov/Contractors/Applicants/Apply_for_License/",
+                        "descripcion": "Portal de aplicaciones para contratistas"
                     },
                     {
-                        "titulo": "UA Local 78 San Diego",
-                        "url": "https://www.ua78.org/",
-                        "descripcion": "Sindicato de plomeros en San Diego - programa de aprendizaje"
-                    },
-                    {
-                        "titulo": "UA Local 250 Los Angeles",
-                        "url": "https://www.ua250.org/",
-                        "descripcion": "Sindicato de plomeros en Los Angeles - programa de aprendizaje"
-                    },
-                    {
-                        "titulo": "Associated Builders and Contractors (ABC) - NorCal",
-                        "url": "https://www.abcnorcal.org/",
-                        "descripcion": "Programa de aprendizaje no-sindical en Norte de California"
-                    },
-                    {
-                        "titulo": "California Apprenticeship Council",
-                        "url": "https://www.dir.ca.gov/databases/das/aigstart.asp",
-                        "descripcion": "Buscador oficial de programas de aprendizaje registrados en CA"
-                    }
-                ]
-            },
-            {
-                "categoria": "Exámenes y Preparación",
-                "enlaces": [
-                    {
-                        "titulo": "PSI Exams - Agendar Examen",
-                        "url": "https://candidate.psiexams.com/",
-                        "descripcion": "Plataforma para agendar exámenes de certificación (algunos condados)"
-                    },
-                    {
-                        "titulo": "Pearson VUE - CSLB Exams",
-                        "url": "https://home.pearsonvue.com/cslb",
-                        "descripcion": "Agendar exámenes de licencia C-36"
-                    },
-                    {
-                        "titulo": "CSLB Exam Prep Resources",
-                        "url": "https://www.cslb.ca.gov/applicants/exam_prep.aspx",
-                        "descripcion": "Recursos oficiales de preparación para examen C-36"
-                    }
-                ]
-            },
-            {
-                "categoria": "Códigos y Publicaciones",
-                "enlaces": [
-                    {
-                        "titulo": "California Plumbing Code (CPC) 2022",
-                        "url": "https://codes.iccsafe.org/content/CPC2022P1",
-                        "descripcion": "Código oficial de plomería de California (requiere compra)"
-                    },
-                    {
-                        "titulo": "Uniform Plumbing Code (UPC) 2021",
-                        "url": "https://codes.iccsafe.org/content/UPC2021",
-                        "descripcion": "UPC adoptado por California (requiere compra)"
-                    },
-                    {
-                        "titulo": "IAPMO - International Association of Plumbing",
-                        "url": "https://www.iapmo.org/",
-                        "descripcion": "Organización que publica el UPC y ofrece capacitación"
-                    }
-                ]
-            },
-            {
-                "categoria": "Verificación y Búsqueda",
-                "enlaces": [
-                    {
-                        "titulo": "CSLB License Search",
+                        "titulo": "Verificar Licencia Contratista",
                         "url": "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx",
-                        "descripcion": "Verificar licencias de contratista C-36"
+                        "descripcion": "Buscar licencias vigentes de contratistas en California"
+                    }
+                ]
+            },
+            {
+                "categoria": "Exámenes",
+                "enlaces": [
+                    {
+                        "titulo": "Información Exámenes CSLB",
+                        "url": "https://www.cslb.ca.gov/Contractors/Applicants/Contractor_License_Exams/",
+                        "descripcion": "Contenido, formato y requisitos de exámenes Trade y Law"
                     },
                     {
-                        "titulo": "DIR - Verify Apprentice Registration",
-                        "url": "https://www.dir.ca.gov/das/",
-                        "descripcion": "Contactar para verificar registro de aprendiz"
+                        "titulo": "Pearson VUE - Agendar Examen",
+                        "url": "https://home.pearsonvue.com/cslb",
+                        "descripcion": "Sitio para programar el examen CSLB con Pearson VUE"
+                    }
+                ]
+            },
+            {
+                "categoria": "Apprenticeship y Sindicatos",
+                "enlaces": [
+                    {
+                        "titulo": "JATC Sur de California (LA, OC, IE)",
+                        "url": "https://scppjatc.org/",
+                        "descripcion": "Programa de aprendizaje formal para el sur de CA"
+                    },
+                    {
+                        "titulo": "JATC Norte de California (SF, Sacramento)",
+                        "url": "https://www.ncpjatc.org/",
+                        "descripcion": "Programa de aprendizaje formal para el norte de CA"
+                    },
+                    {
+                        "titulo": "United Association (UA) - Sindicato Nacional",
+                        "url": "https://www.ua.org/",
+                        "descripcion": "Sindicato nacional de plomeros y pipefitters"
                     }
                 ]
             },
@@ -715,14 +704,14 @@
                 "categoria": "Datos de Empleo y Salarios",
                 "enlaces": [
                     {
-                        "titulo": "BLS - Plumbers Data California",
+                        "titulo": "BLS - Plumbers Data",
                         "url": "https://www.bls.gov/oes/current/oes472152.htm",
-                        "descripcion": "Datos oficiales de empleo y salarios (Bureau of Labor Statistics)"
+                        "descripcion": "Estadísticas oficiales de empleo y salarios de plomeros"
                     },
                     {
-                        "titulo": "CA Employment Development Dept (EDD)",
-                        "url": "https://www.labormarketinfo.edd.ca.gov/",
-                        "descripcion": "Proyecciones de empleo y datos de mercado laboral de CA"
+                        "titulo": "EDD California - Proyecciones de Empleo",
+                        "url": "https://labormarketinfo.edd.ca.gov/",
+                        "descripcion": "Datos de empleo del Employment Development Department de CA"
                     }
                 ]
             },
@@ -730,67 +719,29 @@
                 "categoria": "Asociaciones Profesionales",
                 "enlaces": [
                     {
-                        "titulo": "United Association (UA)",
-                        "url": "https://www.ua.org/",
-                        "descripcion": "Sindicato internacional de plomeros y pipefitters"
+                        "titulo": "Plumbing-Heating-Cooling Contractors (PHCC)",
+                        "url": "https://www.phccweb.org/",
+                        "descripcion": "Asociación nacional de contratistas de plomería"
                     },
                     {
-                        "titulo": "Plumbing-Heating-Cooling Contractors Association (PHCC)",
-                        "url": "https://www.phccca.org/",
-                        "descripcion": "Asociación de contratistas de plomería de California"
-                    },
-                    {
-                        "titulo": "American Society of Plumbing Engineers (ASPE)",
-                        "url": "https://www.aspe.org/",
-                        "descripcion": "Organización profesional de ingenieros de plomería"
+                        "titulo": "California Plumbing Contractors Association",
+                        "url": "https://www.phcc.org/chapter/california",
+                        "descripcion": "Capítulo California de la asociación de contratistas plomeros"
                     }
                 ]
             }
         ]
     },
-    "links_oficiales": {
-        "ai_generated": true,
-        "items": [
-            {
-                "nombre": "CA Division of Apprenticeship Standards",
-                "url": "https://www.dir.ca.gov/das/",
-                "descripcion": "Autoridad principal para certificación de Journeyman y programas de aprendizaje"
-            },
-            {
-                "nombre": "Contractors State License Board (CSLB)",
-                "url": "https://www.cslb.ca.gov/",
-                "descripcion": "Licencias de contratista C-36"
-            },
-            {
-                "nombre": "CSLB - Aplicar para Licencia C-36",
-                "url": "https://www.cslb.ca.gov/applicants/",
-                "descripcion": "Proceso de aplicación para licencia de contratista"
-            },
-            {
-                "nombre": "Verificar Licencia C-36",
-                "url": "https://www.cslb.ca.gov/onlineservices/checklicenseII/checklicense.aspx",
-                "descripcion": "Búsqueda pública de licencias de contratista"
-            },
-            {
-                "nombre": "Pearson VUE - Agendar Examen C-36",
-                "url": "https://home.pearsonvue.com/cslb",
-                "descripcion": "Sistema de agendamiento para exámenes de CSLB"
-            },
-            {
-                "nombre": "DAS - Programas de Aprendizaje",
-                "url": "https://www.dir.ca.gov/databases/das/aigstart.asp",
-                "descripcion": "Buscador de programas de aprendizaje registrados"
-            },
-            {
-                "nombre": "California Plumbing Code",
-                "url": "https://codes.iccsafe.org/",
-                "descripcion": "Comprar código oficial de plomería de California"
-            },
-            {
-                "nombre": "BLS - Salarios de Plomeros en CA",
-                "url": "https://www.bls.gov/oes/current/oes472152.htm",
-                "descripcion": "Datos oficiales de empleo y salarios"
-            }
+    "content_generation_rules": {
+        "tono": "Profesional pero accesible. Muy enfocado en desmitificar el sistema único de California vs Texas.",
+        "persona": "Experta en licencias y el mercado laboral de plomería en California",
+        "reglas": [
+            "Destacar SIEMPRE que en CA no hay licencia individual para journeyman/empleado — este es el diferenciador clave vs Texas",
+            "Mencionar los sindicatos como la principal puerta de entrada al gremio",
+            "Ser claro con la diferencia entre trabajar EMPLEADO (sin licencia) vs CONTRATISTA (C-36)",
+            "Mencionar que el SSN es requerido para C-36 pero no para trabajar empleado",
+            "Destacar que los salarios sindicales en CA con beneficios son de los más altos del país",
+            "No asustar con el tema de documentación — enfocarse en lo que SÍ se puede hacer"
         ]
     }
 }
