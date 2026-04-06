@@ -57,5 +57,3 @@ deck/
 # planning docs (not needed for deploy)
 plans/
 
-# migration/analysis scripts (not needed for deploy)
-scripts/
