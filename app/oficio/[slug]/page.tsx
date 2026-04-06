@@ -157,7 +157,7 @@ const OFICIOS: Record<string, OficioData> = {
     name: 'Plomería',
     description: 'Guía completa de licencias de plomería en Estados Unidos para hispanos.',
     overview: 'La plomería es un oficio con alta demanda y buenos salarios. Los requisitos varían significativamente por estado y a veces por ciudad.',
-    stats: { totalStates: 4, salaryMedian: '$60k', growth: '+5%', examEspanol: false },
+    stats: { totalStates: 6, salaryMedian: '$60k', growth: '+5%', examEspanol: false },
     featured: {
       state: 'Texas',
       insight: 'TSBPE regula plomería en Texas con examen en inglés pero proceso digital claro. Muy alta demanda en Houston y DFW por construcción residencial.',
@@ -174,9 +174,11 @@ const OFICIOS: Record<string, OficioData> = {
       },
     ],
     licenses: [
+      { state: 'Arizona', stateCode: 'AZ', slug: 'licencia-plomero-arizona', highlight: 'ROC + 4 años + examen', horasReq: '4 años', costo: '$580+', examEspanol: false, viability: 'moderate' },
       { state: 'Texas', stateCode: 'TX', slug: 'licencia-plomero-texas', highlight: 'TSBPE + examen + experiencia', horasReq: '8,000 hrs', costo: '$40', examEspanol: false, viability: 'moderate' },
       { state: 'California', stateCode: 'CA', slug: 'licencia-plomero-california', highlight: 'CSLB + C-36 + examen', horasReq: '4 años', costo: '$450+', examEspanol: false, viability: 'hard' },
       { state: 'Florida', stateCode: 'FL', slug: 'licencia-plomero-florida', highlight: 'CILB + examen + experiencia', horasReq: '4,000 hrs', costo: '$250', examEspanol: false, viability: 'moderate' },
+      { state: 'Nevada', stateCode: 'NV', slug: 'licencia-plomero-nevada', highlight: 'NSCB + examen PSI + experiencia', horasReq: '8,000 hrs', costo: '$125+', examEspanol: false, viability: 'moderate' },
       { state: 'New York', stateCode: 'NY', slug: 'licencia-plomero-new-york', highlight: 'NYC DOB + examen + experiencia', horasReq: '5 años', costo: 'Varía', examEspanol: false, viability: 'hard' },
     ],
   },

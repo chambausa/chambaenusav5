@@ -60,6 +60,7 @@ export async function generateStaticParams() {
     { slug: 'cosmetologia-new-york' },
     { slug: 'cdl-california' },
     { slug: 'plomero-texas' },
+    { slug: 'plomero-arizona' },
     { slug: 'plomero-california' },
     { slug: 'plomero-florida' },
     { slug: 'hvac-texas' },
@@ -79,6 +80,7 @@ export async function generateStaticParams() {
     { slug: 'hvac-arizona' },
     { slug: 'cdl-florida' },
     { slug: 'cdl-new-york' },
+    { slug: 'plomero-nevada' },
     { slug: 'plomero-new-york' },
   ]
 
