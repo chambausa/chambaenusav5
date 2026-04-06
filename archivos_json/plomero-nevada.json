@@ -1,0 +1,688 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "page_id": "licencia-plomero-nevada",
+    "oficio": "plomero",
+    "estado": "nevada",
+    "last_verified": "2026-04-05",
+    "verified_by": "Claude - fuentes oficiales verificadas: NSCB Nevada, PSI Exams, BLS 2024",
+    "notes": "Nevada tiene un sistema de licencia por NIVELES para plomeros: Apprentice (sin licencia requerida), Journeyman Plumber (licencia individual) y Master Plumber (licencia individual). La licencia de Journeyman y Master la emite el Nevada State Contractors Board (NSCB). El Journeyman Plumber puede trabajar bajo un contratista licenciado. El Master Plumber puede calificar como Qualifying Party de una empresa contratista. El examen es administrado por PSI Exams y NO está disponible en español para plomería.",
+    "clasificaciones_activas": [
+      "Apprentice Plumber",
+      "Journeyman Plumber",
+      "Master Plumber",
+      "C-1d Plumbing Contractor"
+    ],
+    "autoridad": "Nevada State Contractors Board (NSCB)",
+    "examen_administrador": "PSI Exams"
+  },
+  "page_seo": {
+    "title": "Licencia de Plomero en Nevada 2026: Journeyman, Master y Contratista (NSCB)",
+    "meta_description": "Cómo obtener la licencia de plomero en Nevada: Journeyman, Master y contratista C-1d. Requisitos, examen PSI, costos y pasos oficiales del NSCB 2026.",
+    "slug": "licencia-plomero-nevada",
+    "canonical_url": "https://chambaenusa.com/licencia-plomero-nevada/",
+    "h1": "Licencia de Plomero en Nevada",
+    "schema_types": [
+      "HowTo",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "keywords_primary": [
+      "licencia de plomero en nevada",
+      "licencia journeyman plomero nevada",
+      "requisitos plomero nevada 2026"
+    ],
+    "keywords_secondary": [
+      "nevada state contractors board plomería",
+      "examen plomero nevada psi",
+      "cuanto gana un plomero en nevada",
+      "licencia master plomero nevada",
+      "licencia contratista plomeria nevada"
+    ],
+    "keywords_long_tail": [
+      "como sacar la licencia de plomero journeyman en nevada",
+      "cuantas horas de experiencia necesito para licencia de plomero nevada",
+      "diferencia entre journeyman y master plomero nevada",
+      "examen de plomero nevada esta en español",
+      "cuanto cuesta sacar la licencia de plomero en nevada"
+    ]
+  },
+  "hero": {
+    "ai_generated": false,
+    "badge": "Actualizado 2026",
+    "headline": "Licencia de Plomero en Nevada",
+    "subheadline": "Nevada sí tiene licencia individual para plomeros. Puedes obtener tu Journeyman Plumber License con 8,000 horas de experiencia y pasar el examen del NSCB. Con la licencia de Master Plumber puedes abrir tu propia empresa contratista y ganar mucho más.",
+    "key_stats": [
+      {
+        "label": "Licencia Individual de Journeyman",
+        "value": "8,000 horas",
+        "detail": "Aproximadamente 4 años de trabajo verificado como aprendiz de plomería para calificar para el examen de Journeyman Plumber en Nevada.",
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo",
+        "source_name": "Nevada State Contractors Board (NSCB)"
+      },
+      {
+        "label": "Fee de Licencia Journeyman",
+        "value": "~$125",
+        "detail": "Costo de aplicación para la licencia de Journeyman Plumber en Nevada. Verificar monto exacto vigente en NSCB.",
+        "requires_verification": true,
+        "source": "https://www.nscb.nv.gov/Licensing/FeeSchedule",
+        "source_name": "NSCB Nevada - Fee Schedule"
+      },
+      {
+        "label": "Examen en Español",
+        "value": "NO disponible",
+        "detail": "El examen técnico de plomería en Nevada administrado por PSI NO está disponible en español. Requiere dominio de inglés técnico para navegar los códigos de referencia.",
+        "source": "https://candidate.psiexams.com",
+        "source_name": "PSI Exams - Nevada"
+      },
+      {
+        "label": "Salario Mediana Nevada",
+        "value": "$73,620/año",
+        "detail": "Mediana de salario para plomeros en Nevada según BLS mayo 2024. Por encima de la mediana nacional de $62,970, impulsado por el mercado de Las Vegas y Reno.",
+        "source": "https://www.bls.gov/oes/current/oes472152.htm",
+        "source_name": "BLS OES May 2024 - Nevada"
+      }
+    ],
+    "cta_primary": {
+      "text": "Ver el Camino Paso a Paso",
+      "anchor": "#roadmap"
+    },
+    "cta_secondary": {
+      "text": "Ver Salarios en Nevada",
+      "anchor": "#salarios"
+    }
+  },
+  "callout_importante": {
+    "ai_generated": false,
+    "type": "highlight_box",
+    "icon": "🔧",
+    "title": "¡Nevada SÍ tiene licencia individual para plomeros — y es un gran diferenciador!",
+    "content": "A diferencia de Arizona, en Nevada puedes obtener tu propia licencia como Journeyman Plumber o Master Plumber de manera individual. No necesitas crear una empresa para tener 'tu licencia'. El Journeyman te permite trabajar legalmente bajo un contratista licenciado con mayor valor en el mercado. El Master Plumber abre la puerta a calificar como Qualifying Party y tener tu propia empresa contratista C-1d. La autoridad reguladora es el Nevada State Contractors Board (NSCB) para contratistas, y el NSCB también administra los exámenes de Journeyman y Master.",
+    "source": "https://www.nscb.nv.gov",
+    "source_name": "Nevada State Contractors Board (NSCB)"
+  },
+  "autoridad_reguladora": {
+    "ai_generated": false,
+    "nombre": "Nevada State Contractors Board (NSCB)",
+    "programa": "Journeyman and Master Plumber Licensing / Contractor Classification C-1d",
+    "oficinas": [
+      {
+        "ciudad": "Las Vegas (Oficina Principal Sur)",
+        "direccion": {
+          "calle": "2310 Corporate Circle, Suite 200",
+          "ciudad": "Henderson",
+          "estado": "NV",
+          "cp": "89074"
+        },
+        "telefono": "(702) 486-1100"
+      },
+      {
+        "ciudad": "Reno (Oficina Norte)",
+        "direccion": {
+          "calle": "9670 Gateway Drive, Suite 100",
+          "ciudad": "Reno",
+          "estado": "NV",
+          "cp": "89521"
+        },
+        "telefono": "(775) 688-1141"
+      }
+    ],
+    "telefono_principal": "(702) 486-1100",
+    "web": "https://www.nscb.nv.gov",
+    "portal_aplicacion": "https://www.nscb.nv.gov/Licensing/ApplyOnline",
+    "verificar_licencia": "https://nvcontractors.mylicense.com/verification/",
+    "fee_schedule": "https://www.nscb.nv.gov/Licensing/FeeSchedule",
+    "exam_info": "https://www.nscb.nv.gov/Licensing/ExamInfo",
+    "source": "https://www.nscb.nv.gov",
+    "chambaenusa_hub": "/agencias/nevada-state-contractors-board-nscb/"
+  },
+  "niveles_licencia": {
+    "ai_generated": false,
+    "_description": "Nevada tiene tres niveles en la carrera de plomero, más la licencia de contratista. Cada nivel tiene sus propios requisitos, beneficios y limitaciones.",
+    "tipos": [
+      {
+        "id": "apprentice",
+        "nombre": "Apprentice Plumber (Aprendiz de Plomería)",
+        "es_principal": false,
+        "requiere_licencia_propia": false,
+        "descripcion": "No requiere licencia individual de plomería. Puedes trabajar como aprendiz bajo la supervisión directa de un Journeyman o Master Plumber licenciado. Este es el punto de entrada para la mayoría de plomeros en Nevada.",
+        "requisitos": [
+          "No se requiere examen",
+          "Debes trabajar bajo supervisión directa de Journeyman o Master licenciado",
+          "Acumular horas de experiencia verificable para futuro examen de Journeyman"
+        ],
+        "que_puedes_hacer": "Trabajo de plomería bajo supervisión directa en proyectos donde un Journeyman o Master licenciado está presente.",
+        "que_no_puedes_hacer": "Trabajar sin supervisión, sacar permisos, contratar clientes directamente.",
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "id": "journeyman",
+        "nombre": "Journeyman Plumber License",
+        "es_principal": true,
+        "requiere_licencia_propia": true,
+        "descripcion": "La licencia individual que demuestra competencia técnica. Con ella puedes trabajar sin supervisión constante, supervisar aprendices, y eres mucho más valioso en el mercado laboral de Nevada. Esta es la meta principal para la mayoría de plomeros hispanos en Nevada.",
+        "requisitos": [
+          "8,000 horas de experiencia práctica verificada como aprendiz de plomería",
+          "Aprobar el examen de Journeyman Plumber administrado por PSI",
+          "Pagar el fee de aplicación al NSCB",
+          "No se requiere diploma de high school pero sí la experiencia verificada"
+        ],
+        "que_puedes_hacer": "Trabajar sin supervisión directa bajo un contratista licenciado, supervisar aprendices, realizar inspecciones de tu propio trabajo.",
+        "que_no_puedes_hacer": "Contratar directamente con clientes como contratista independiente (para eso necesitas ser Qualifying Party de una empresa con licencia C-1d).",
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "id": "master",
+        "nombre": "Master Plumber License",
+        "es_principal": true,
+        "requiere_licencia_propia": true,
+        "descripcion": "El nivel más alto de competencia individual. Con la licencia de Master Plumber puedes calificar como Qualifying Party (QP) de una empresa contratista con clasificación C-1d del NSCB, lo que te permite contratar directamente con clientes y tener tu propio negocio de plomería.",
+        "requisitos": [
+          "Tener licencia de Journeyman Plumber activa en Nevada",
+          "2 años adicionales de experiencia como Journeyman (aproximadamente 4,000 horas adicionales)",
+          "Aprobar el examen de Master Plumber administrado por PSI",
+          "Pagar el fee de aplicación al NSCB",
+          "Conocimiento avanzado de códigos, diseño de sistemas y gestión de proyectos"
+        ],
+        "que_puedes_hacer": "Todo lo que puede hacer un Journeyman + calificar como QP de empresa contratista C-1d, diseñar sistemas de plomería, supervisar proyectos completos.",
+        "que_no_puedes_hacer": "Contratar clientes directamente sin primero obtener la licencia de contratista C-1d a través del NSCB.",
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "id": "contractor_c1d",
+        "nombre": "Contractor License C-1d (Plumbing Contractor)",
+        "es_principal": false,
+        "requiere_licencia_propia": true,
+        "descripcion": "La licencia de empresa contratista que te permite operar tu propio negocio de plomería en Nevada. Para obtenerla, el Qualifying Party (QP) de la empresa debe tener licencia de Master Plumber activa. Esta licencia la emite el NSCB.",
+        "requisitos_qualifying_party": [
+          "Tener licencia de Master Plumber activa en Nevada",
+          "Pasar el Business & Law Exam del NSCB",
+          "Tener entidad legal registrada en Nevada (LLC, Corp, etc.)",
+          "Obtener contractor bond requerido por NSCB",
+          "Obtener seguro de Workers' Compensation si tienes empleados",
+          "Pagar fees de aplicación de licencia contratista al NSCB"
+        ],
+        "source": "https://www.nscb.nv.gov/Licensing/ContractorLicensing"
+      }
+    ]
+  },
+  "roadmap": {
+    "ai_generated": false,
+    "layout": "timeline",
+    "nota_general": "En Nevada el camino de plomero sigue el esquema tradicional: Aprendiz → Journeyman → Master → Contratista. Es un proceso por etapas bien definido. La gran ventaja es que desde el nivel Journeyman ya tienes una licencia individual propia que aumenta tu valor en el mercado sin necesitar crear una empresa.",
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Entra al oficio como aprendiz bajo un contratista licenciado",
+        "descripcion": "Comienza trabajando para una empresa de plomería con licencia C-1d activa del NSCB. No necesitas licencia propia para trabajar como aprendiz. Tu objetivo en esta etapa es acumular las 8,000 horas de experiencia verificable que necesitarás para el examen de Journeyman.",
+        "duracion": "Aproximadamente 4 años (8,000 horas)",
+        "requisitos": [
+          "Ser contratado por una empresa con licencia de plomería activa del NSCB",
+          "Trabajar bajo supervisión de un Journeyman o Master licenciado",
+          "Documentar TODAS tus horas de trabajo desde el primer día",
+          "Guardar todos tus talones de pago (pay stubs) y W-2 anuales",
+          "Pedir cartas de verificación a cada empleador antes de dejar el trabajo"
+        ],
+        "nota": "Muchos plomeros en Nevada se unen a programas de aprendizaje (apprenticeship) del Local 525 de UA (Plumbers and Pipefitters Union) en Las Vegas. Estos programas combinan trabajo remunerado con clases técnicas y la experiencia es automáticamente documentada, lo que facilita enormemente el proceso.",
+        "recurso_aprendizaje": {
+          "nombre": "UA Local 525 - Las Vegas Plumbers & Pipefitters",
+          "web": "https://www.ua525.org",
+          "nota": "Programa de apprenticeship de 5 años que combina trabajo y estudio. La experiencia queda documentada. Verificar requisitos de admisión directamente."
+        },
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "numero": 2,
+        "titulo": "Reúne y verifica tu documentación de 8,000 horas",
+        "descripcion": "El NSCB requiere documentar las 8,000 horas de experiencia práctica en plomería antes de autorizar el examen de Journeyman. Esta documentación debe ser verificada por tus empleadores anteriores o actuales.",
+        "requisitos_documentacion": [
+          "W-2 o 1099 de todos los empleadores de plomería",
+          "Cartas de verificación de experiencia firmadas por el empleador/supervisor",
+          "Formulario de verificación de experiencia del NSCB completado",
+          "Detalle de tipos de trabajo realizados (instalación, reparación, gas, drenaje, etc.)",
+          "Si eres de otro estado, documentación equivalente de ese estado"
+        ],
+        "consejo": "No esperes hasta tener las 8,000 horas para empezar a recopilar documentos. Pide cartas de verificación a cada empleador mientras aún trabajas ahí. Es mucho más difícil conseguirlas después de que cambiaste de trabajo.",
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "numero": 3,
+        "titulo": "Aplica para el examen de Journeyman Plumber con el NSCB",
+        "descripcion": "Una vez que tienes las 8,000 horas documentadas, aplicas al NSCB para que autoricen tu examen. El NSCB revisará tu experiencia antes de permitirte agendar el examen con PSI.",
+        "proceso": [
+          "Enviar aplicación y documentación de experiencia al NSCB",
+          "El NSCB revisa y aprueba la elegibilidad (puede tomar varias semanas)",
+          "Una vez aprobado, recibes autorización para agendar examen con PSI",
+          "Agendar examen en sitio PSI (Las Vegas o Reno)",
+          "Pagar el fee del examen a PSI"
+        ],
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "numero": 4,
+        "titulo": "Pasa el examen de Journeyman Plumber con PSI",
+        "descripcion": "El examen técnico de Journeyman Plumber en Nevada lo administra PSI. Es un examen de opción múltiple basado en los códigos de plomería adoptados por Nevada. NO está disponible en español.",
+        "examen_journeyman": {
+          "administrador": "PSI Exams",
+          "url_agendar": "https://candidate.psiexams.com",
+          "formato": "Computadora, open book",
+          "idiomas_disponibles": [
+            "Inglés"
+          ],
+          "nota_idioma": "El examen de Journeyman Plumber en Nevada NO está disponible en español. Los libros de referencia (códigos de plomería) están en inglés. Este es uno de los mayores desafíos para plomeros hispanos. Se recomienda tomar cursos de preparación que enseñen el vocabulario técnico en inglés.",
+          "puntaje_minimo": "70% para aprobar",
+          "contenido_principal": [
+            "Nevada State Plumbing Code (basado en el UPC - Uniform Plumbing Code)",
+            "Sistemas de agua fría y caliente",
+            "Sistemas de drenaje, desperdicios y ventilación (DWV)",
+            "Gas natural y LP",
+            "Fixtures y accesorios de plomería",
+            "Calentadores de agua",
+            "Conexiones de alcantarillado y fosa séptica",
+            "OSHA - seguridad en construcción",
+            "Cálculos de carga y dimensionamiento de tuberías"
+          ],
+          "libros_referencia": [
+            "Uniform Plumbing Code (UPC) - edición adoptada por Nevada",
+            "Uniform Fuel Gas Code",
+            "OSHA 29 CFR 1926"
+          ],
+          "costo": {
+            "monto_aproximado": "$65-$100",
+            "confirmado": false,
+            "requires_verification": true,
+            "nota": "Verificar costo exacto vigente en el portal de PSI al momento de agendar.",
+            "source": "https://candidate.psiexams.com"
+          }
+        },
+        "source": "https://www.nscb.nv.gov/Licensing/ExamInfo"
+      },
+      {
+        "numero": 5,
+        "titulo": "Obtén tu Journeyman Plumber License del NSCB",
+        "descripcion": "Una vez aprobado el examen, pagas el fee de licencia al NSCB y recibes tu Journeyman Plumber License. Esta es tu licencia individual — personal y transferible entre empleadores en Nevada. No necesitas crear una empresa para tenerla.",
+        "que_logras": [
+          "Licencia individual de Journeyman Plumber en Nevada",
+          "Puedes trabajar sin supervisión constante bajo un contratista licenciado",
+          "Puedes supervisar aprendices",
+          "Mayor poder de negociación salarial con empleadores",
+          "Primer paso hacia la licencia de Master Plumber"
+        ],
+        "fee_licencia": {
+          "monto_aproximado": "$100-$150",
+          "confirmado": false,
+          "requires_verification": true,
+          "nota": "Verificar fee exacto en nscb.nv.gov/Licensing/FeeSchedule antes de aplicar.",
+          "source": "https://www.nscb.nv.gov/Licensing/FeeSchedule"
+        },
+        "source": "https://www.nscb.nv.gov"
+      },
+      {
+        "numero": 6,
+        "titulo": "(Opcional) Sube a Master Plumber y abre tu empresa",
+        "descripcion": "Si tu meta es tener tu propio negocio de plomería, el siguiente paso es obtener la licencia de Master Plumber. Con ella puedes calificar como Qualifying Party de una empresa contratista con licencia C-1d del NSCB.",
+        "requisitos_master": [
+          "Tener licencia de Journeyman Plumber activa en Nevada",
+          "Aproximadamente 2 años adicionales de experiencia como Journeyman (~4,000 horas adicionales)",
+          "Aplicar al NSCB para el examen de Master Plumber",
+          "Aprobar el examen de Master Plumber con PSI",
+          "Pagar el fee de licencia de Master Plumber al NSCB"
+        ],
+        "requisitos_contratista_c1d": [
+          "Tener licencia de Master Plumber activa",
+          "Registrar entidad legal en Nevada (LLC, Corp, etc.)",
+          "Pasar el Business & Law Exam del NSCB",
+          "Obtener contractor bond requerido",
+          "Obtener seguro de Workers' Compensation si tienes empleados",
+          "Pagar fees de aplicación de licencia contratista al NSCB"
+        ],
+        "source": "https://www.nscb.nv.gov/Licensing/ContractorLicensing"
+      }
+    ]
+  },
+  "costos": {
+    "ai_generated": false,
+    "nota": "Los costos de fees del NSCB requieren verificación directa en nscb.nv.gov/Licensing/FeeSchedule ya que se actualizan periódicamente. Los datos de exámenes PSI también deben verificarse al momento de agendar. Los montos aquí son estimados basados en información pública disponible.",
+    "desglose_journeyman": [
+      {
+        "concepto": "Fee de aplicación para examen de Journeyman (NSCB)",
+        "costo_aproximado": "$50-$100",
+        "pagado_a": "Nevada State Contractors Board (NSCB)",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Verificar monto exacto en nscb.nv.gov/Licensing/FeeSchedule",
+        "source": "https://www.nscb.nv.gov/Licensing/FeeSchedule"
+      },
+      {
+        "concepto": "Fee del examen de Journeyman Plumber (PSI)",
+        "costo_aproximado": "$65-$100",
+        "pagado_a": "PSI Exams",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Verificar costo exacto en candidate.psiexams.com al agendar el examen para Nevada.",
+        "source": "https://candidate.psiexams.com"
+      },
+      {
+        "concepto": "Fee de licencia de Journeyman Plumber (NSCB)",
+        "costo_aproximado": "$100-$150",
+        "pagado_a": "Nevada State Contractors Board (NSCB)",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Verificar monto exacto en nscb.nv.gov/Licensing/FeeSchedule",
+        "source": "https://www.nscb.nv.gov/Licensing/FeeSchedule"
+      },
+      {
+        "concepto": "Total estimado para Journeyman Plumber License",
+        "total_aproximado": "$215 - $350",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Suma de fees de aplicación + examen + licencia. No incluye materiales de estudio ni cursos de preparación."
+      }
+    ],
+    "desglose_contratista_c1d": [
+      {
+        "concepto": "Fee de aplicación de licencia contratista C-1d (NSCB)",
+        "costo_aproximado": "$300-$600",
+        "pagado_a": "Nevada State Contractors Board (NSCB)",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Varía según el volumen de trabajo declarado y tipo de entidad. Verificar tabla de fees en NSCB.",
+        "source": "https://www.nscb.nv.gov/Licensing/FeeSchedule"
+      },
+      {
+        "concepto": "Business & Law Exam (NSCB)",
+        "costo_aproximado": "$65-$100",
+        "pagado_a": "PSI Exams",
+        "confirmado": false,
+        "requires_verification": true,
+        "source": "https://candidate.psiexams.com"
+      },
+      {
+        "concepto": "Contractor Bond (NSCB)",
+        "costo_aproximado": "Bond de $50,000 mínimo; prima anual ~$250-$500",
+        "pagado_a": "Compañía de bonding",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Nevada requiere un contractor bond. El monto mínimo del bond es $50,000 para contratistas generales; para plomería verificar monto exacto con NSCB. La prima que pagas es una fracción del valor del bond.",
+        "source": "https://www.nscb.nv.gov/Licensing/ContractorLicensing"
+      },
+      {
+        "concepto": "Seguro Workers' Compensation (con empleados)",
+        "costo_aproximado": "Variable según nómina y número de empleados",
+        "obligatorio_con_empleados": true,
+        "confirmado": true,
+        "source": "https://www.nscb.nv.gov/Licensing/ContractorLicensing"
+      },
+      {
+        "concepto": "Total estimado para Contratista C-1d (adicional al Master Plumber License)",
+        "total_aproximado": "$700 - $1,200+",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "No incluye el costo de la licencia de Master Plumber ni la creación de la entidad legal."
+      }
+    ]
+  },
+  "renovacion": {
+    "ai_generated": false,
+    "journeyman_master": {
+      "frecuencia": "Cada 2 años",
+      "metodo": "En línea o por correo a través del NSCB",
+      "portal": "https://www.nscb.nv.gov/Licensing/RenewalInfo",
+      "fee_renovacion": {
+        "monto_aproximado": "$50-$100",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Verificar fee exacto de renovación en nscb.nv.gov/Licensing/FeeSchedule"
+      },
+      "requisitos_renovacion": [
+        "Pagar el fee de renovación antes del vencimiento",
+        "Mantener licencia en buen estado (sin sanciones activas no resueltas)"
+      ]
+    },
+    "contratista_c1d": {
+      "frecuencia": "Cada 2 años",
+      "metodo": "En línea a través del NSCB",
+      "portal": "https://www.nscb.nv.gov/Licensing/RenewalInfo",
+      "requisitos_renovacion": [
+        "Bond vigente con monto correcto",
+        "Seguro de Workers' Compensation vigente (si aplica)",
+        "Fee de renovación pagado antes del vencimiento",
+        "Sin quejas activas no resueltas según criterios del NSCB"
+      ],
+      "consecuencias_no_renovar": {
+        "vence": "La licencia expira en la fecha de vencimiento. No puedes operar legalmente como contratista.",
+        "periodo_gracia": "Verificar directamente con NSCB si existe periodo de gracia y costo de reactivación.",
+        "cancelacion": "La licencia cancelada puede requerir nueva aplicación completa."
+      }
+    },
+    "source": "https://www.nscb.nv.gov/Licensing/RenewalInfo"
+  },
+  "salarios": {
+    "ai_generated": false,
+    "nacional_2024": {
+      "mediana_anual": "$62,970",
+      "mediana_hora": "$30.28",
+      "percentil_10": "$37,520/año",
+      "percentil_90": "$99,920/año",
+      "crecimiento_proyectado": "6% (2023-2033) - Más rápido que el promedio nacional",
+      "fuente": "BLS OOH May 2024",
+      "source": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm"
+    },
+    "nevada_2024": {
+      "mediana_anual": "$73,620",
+      "mediana_hora": "$35.39",
+      "nota": "Nevada paga significativamente por encima de la mediana nacional. El mercado de Las Vegas (construcción de hoteles, casinos, residencias de lujo) y el crecimiento de Reno generan alta demanda sostenida de plomeros calificados. Hay escasez de Journeymen y Masters licenciados.",
+      "fuente": "BLS OES May 2024 - Nevada",
+      "source": "https://www.bls.gov/oes/current/oes472152.htm",
+      "requires_verification": true,
+      "nota_verificacion": "Confirmar datos específicos de Nevada en el portal BLS OES State and Area Data para la ocupación SOC 47-2152."
+    },
+    "por_nivel": {
+      "aprendiz_sin_licencia": {
+        "rango_anual": "$35,000 - $52,000",
+        "nota": "Trabajando bajo contratista licenciado. Rango varía por empleador, años de experiencia y si es union o non-union."
+      },
+      "journeyman_licenciado": {
+        "rango_anual": "$58,000 - $85,000",
+        "nota": "Con licencia de Journeyman activa. La licencia mejora significativamente el poder de negociación salarial."
+      },
+      "master_plumber": {
+        "rango_anual": "$75,000 - $105,000",
+        "nota": "Como Journeyman senior o superintendente bajo un contratista licenciado."
+      },
+      "contratista_negocio_propio": {
+        "rango_anual": "$90,000 - $150,000+",
+        "nota": "Como dueño de empresa contratista C-1d. Incluye margen de contratista sobre proyectos. El mercado de Las Vegas tiene proyectos de alto valor que pueden generar ingresos muy superiores a los empleados."
+      }
+    },
+    "mercado_nevada": {
+      "ciudades_mayor_demanda": [
+        "Las Vegas / Henderson",
+        "North Las Vegas",
+        "Reno / Sparks",
+        "Carson City"
+      ],
+      "sectores_clave": [
+        "Construcción residencial nueva (crecimiento poblacional fuerte)",
+        "Hoteles y casinos (mantenimiento y remodelación)",
+        "Construcción comercial e industrial",
+        "Reparaciones y servicio residencial"
+      ],
+      "nota_mercado": "Nevada tiene una de las tasas de crecimiento poblacional más altas del país, especialmente en el área metropolitana de Las Vegas. Esto genera una demanda constante de plomeros licenciados que supera la oferta disponible."
+    }
+  },
+  "errores_comunes": {
+    "ai_generated": false,
+    "items": [
+      {
+        "error": "Trabajar como contratista independiente de plomería sin licencia del NSCB",
+        "por_que_importa": "En Nevada es ilegal contratar directamente con clientes para hacer trabajo de plomería sin tener la licencia de contratista C-1d del NSCB. Las multas pueden ser severas y el NSCB puede ordenar el cese de operaciones. Además, trabajos sin permiso generan responsabilidad civil.",
+        "solucion": "Trabaja siempre bajo la empresa licenciada de tu empleador hasta tener tu licencia de Master Plumber y posteriormente tu licencia de contratista C-1d."
+      },
+      {
+        "error": "No documentar las horas de trabajo desde el primer día como aprendiz",
+        "por_que_importa": "El NSCB exige verificar 8,000 horas de experiencia práctica para el examen de Journeyman. Si no guardas pay stubs, W-2s y cartas de empleadores desde el inicio, cuando llegue el momento de aplicar tendrás que buscar a empleadores anteriores que quizás ya no localices o que cerraron su negocio.",
+        "solucion": "Desde tu primer día de trabajo: guarda todos los pay stubs, pide copia de tu W-2 cada enero, y pide una carta de verificación a cada empleador cuando dejes ese trabajo. Guarda un registro personal de los tipos de proyectos en los que trabajaste."
+      },
+      {
+        "error": "Pensar que el examen de plomería está disponible en español en Nevada",
+        "por_que_importa": "El examen de Journeyman y Master Plumber de Nevada administrado por PSI NO está disponible en español. Los libros de referencia (Uniform Plumbing Code, Fuel Gas Code) también están en inglés. Muchos plomeros hispanos no se preparan adecuadamente para la barrera del idioma y reprueba el examen.",
+        "solucion": "Empieza a aprender el vocabulario técnico de plomería en inglés mucho antes de aplicar al examen. Busca cursos de preparación que enseñen los términos técnicos y la navegación de los códigos en inglés. Algunos instructores hispanos ofrecen preparación bilingüe aunque el examen sea en inglés."
+      },
+      {
+        "error": "Confundir la licencia de Journeyman con la licencia de contratista",
+        "por_que_importa": "Con la licencia de Journeyman Plumber puedes trabajar sin supervisión constante, pero NO puedes contratar clientes directamente ni sacar permisos de plomería como empresa. Para tener tu propio negocio necesitas llegar al nivel de Master Plumber y luego obtener la licencia de contratista C-1d del NSCB.",
+        "solucion": "Entiende claramente en qué nivel estás y qué puedes hacer legalmente en cada etapa. No anuncies servicios como 'empresa de plomería' hasta tener la licencia C-1d activa."
+      },
+      {
+        "error": "Ignorar el programa de Apprenticeship del sindicato (UA Local 525)",
+        "por_que_importa": "Muchos plomeros hispanos en Nevada intentan acumular las 8,000 horas trabajando informalmente sin un programa estructurado. El programa de apprenticeship del UA Local 525 en Las Vegas ofrece salario mientras estudias, documentación automática de horas, capacitación técnica formal y mayores ingresos al terminar.",
+        "solucion": "Investiga el programa de aprendizaje del UA Local 525 (Las Vegas) como una alternativa seria. Aunque requiere un proceso de admisión, ofrece ventajas significativas para llegar a Journeyman de manera estructurada y con documentación completa.",
+        "recurso": "https://www.ua525.org"
+      }
+    ]
+  },
+  "trabajos_sin_licencia": {
+    "ai_generated": false,
+    "titulo": "¿Qué puede hacer un técnico sin licencia propia en Nevada?",
+    "puede_hacer": [
+      "Trabajar como empleado o aprendiz de una empresa con licencia C-1d activa del NSCB",
+      "Realizar trabajo de plomería bajo supervisión directa de un Journeyman o Master licenciado",
+      "Reparaciones menores de plomería en la propia residencia donde vives (homeowner exception)",
+      "Participar en programas de apprenticeship registrados mientras acumula experiencia"
+    ],
+    "no_puede_hacer": [
+      "Contratar directamente con clientes por cuenta propia",
+      "Sacar permisos de plomería ante autoridades municipales o del condado",
+      "Anunciar servicios de plomería como contratista independiente",
+      "Trabajar sin supervisión de un Journeyman o Master licenciado",
+      "Supervisar a otros aprendices (eso requiere licencia de Journeyman)"
+    ],
+    "source": "Nevada Revised Statutes Chapter 624 - Contractors"
+  },
+  "faqs": {
+    "ai_generated": "partial",
+    "items": [
+      {
+        "pregunta": "¿En Nevada hay licencia individual de plomero como en Texas?",
+        "respuesta": "Sí. A diferencia de Arizona, Nevada sí tiene licencia individual para plomeros: Journeyman Plumber y Master Plumber. Estas son licencias personales que puedes obtener sin crear una empresa. Con la de Journeyman trabajas bajo un contratista; con la de Master puedes abrir tu propia empresa contratista.",
+        "source": "Nevada State Contractors Board (NSCB)"
+      },
+      {
+        "pregunta": "¿Cuántas horas de experiencia necesito para la licencia de Journeyman Plumber en Nevada?",
+        "respuesta": "Necesitas 8,000 horas de experiencia práctica verificada como aprendiz de plomería, equivalente a aproximadamente 4 años de trabajo a tiempo completo. Toda la experiencia debe ser documentable con pay stubs, W-2s y cartas de empleadores.",
+        "source": "NSCB Nevada - Exam Information"
+      },
+      {
+        "pregunta": "¿El examen de plomero en Nevada está disponible en español?",
+        "respuesta": "No. El examen de Journeyman Plumber y Master Plumber administrado por PSI en Nevada NO está disponible en español. Los libros de referencia (Uniform Plumbing Code, Fuel Gas Code) también están en inglés. Este es uno de los principales desafíos para plomeros hispanos en Nevada. Recomendamos prepararse con cursos que enseñen el vocabulario técnico en inglés antes de presentar el examen.",
+        "source": "PSI Exams - Nevada"
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia entre Journeyman Plumber y Master Plumber en Nevada?",
+        "respuesta": "El Journeyman Plumber tiene licencia individual y puede trabajar sin supervisión bajo un contratista licenciado, y puede supervisar aprendices. El Master Plumber es el nivel superior: requiere experiencia adicional como Journeyman y puede calificar como Qualifying Party de una empresa contratista con licencia C-1d para tener su propio negocio.",
+        "source": "NSCB Nevada"
+      },
+      {
+        "pregunta": "¿Puedo trabajar en plomería en Nevada sin ninguna licencia?",
+        "respuesta": "Sí, pero solo como aprendiz (apprentice) trabajando bajo la supervisión directa de un Journeyman o Master Plumber licenciado, dentro de una empresa con licencia de contratista C-1d activa del NSCB. Lo que no puedes hacer es trabajar de manera independiente o contratar clientes directamente.",
+        "source": "Nevada Revised Statutes Chapter 624"
+      },
+      {
+        "pregunta": "¿Vale la pena unirse al sindicato UA Local 525 en Las Vegas para ser plomero?",
+        "respuesta": "Para muchos plomeros hispanos en Nevada, el programa de apprenticeship del UA Local 525 es una excelente opción. Ofrece salario mientras te capacitas (5 años), las horas quedan documentadas automáticamente, recibes capacitación técnica formal y al terminar tienes las 8,000 horas listas para el examen de Journeyman. Las desventajas son que el proceso de admisión es competitivo y debes comprometerte con el programa completo.",
+        "source": "https://www.ua525.org"
+      },
+      {
+        "pregunta": "¿Cuánto gana un plomero en Nevada comparado con el promedio nacional?",
+        "respuesta": "Los plomeros en Nevada ganan por encima de la mediana nacional. La mediana nacional es de $62,970/año (BLS 2024), mientras que en Nevada se estima alrededor de $73,620/año, impulsado principalmente por el mercado de Las Vegas con construcción de hoteles, casinos y residencias, y el crecimiento de Reno.",
+        "source": "BLS OES May 2024 - Nevada"
+      },
+      {
+        "pregunta": "¿Puedo transferir mi licencia de plomero de otro estado a Nevada?",
+        "respuesta": "Nevada puede reconocer experiencia documentada de otros estados para calificar para el examen. Sin embargo, no existe un proceso automático de reciprocidad total. Debes presentar la documentación de tu experiencia (igual que si hubieras trabajado en Nevada) y el NSCB determinará si cumples los requisitos. Si tienes licencia de Journeyman o Master de otro estado, contacta directamente al NSCB para conocer las opciones específicas.",
+        "source": "https://www.nscb.nv.gov"
+      }
+    ]
+  },
+  "links_oficiales": {
+    "ai_generated": false,
+    "items": [
+      {
+        "nombre": "Nevada State Contractors Board (NSCB) - Inicio",
+        "url": "https://www.nscb.nv.gov",
+        "descripcion": "Sitio oficial del NSCB. Punto de entrada para todo el proceso de licenciamiento de Journeyman, Master y contratista en Nevada."
+      },
+      {
+        "nombre": "NSCB - Información de Exámenes (Journeyman y Master)",
+        "url": "https://www.nscb.nv.gov/Licensing/ExamInfo",
+        "descripcion": "Información oficial sobre los exámenes de Journeyman Plumber y Master Plumber en Nevada: requisitos, proceso y cómo agendar."
+      },
+      {
+        "nombre": "NSCB - Tabla de Fees (Licencias y Aplicaciones)",
+        "url": "https://www.nscb.nv.gov/Licensing/FeeSchedule",
+        "descripcion": "Costos oficiales y actualizados de todas las licencias y trámites del NSCB. Verificar siempre aquí antes de aplicar."
+      },
+      {
+        "nombre": "NSCB - Licencias de Contratista (C-1d Plumbing)",
+        "url": "https://www.nscb.nv.gov/Licensing/ContractorLicensing",
+        "descripcion": "Información sobre cómo obtener la licencia de contratista de plomería C-1d en Nevada."
+      },
+      {
+        "nombre": "NSCB - Aplicar Online",
+        "url": "https://www.nscb.nv.gov/Licensing/ApplyOnline",
+        "descripcion": "Portal oficial del NSCB para iniciar aplicaciones de licencia en línea."
+      },
+      {
+        "nombre": "Verificar Licencia de Contratista Nevada",
+        "url": "https://nvcontractors.mylicense.com/verification/",
+        "descripcion": "Verifica si una empresa o persona tiene licencia activa del NSCB en Nevada."
+      },
+      {
+        "nombre": "NSCB - Renovación de Licencias",
+        "url": "https://www.nscb.nv.gov/Licensing/RenewalInfo",
+        "descripcion": "Información sobre cómo y cuándo renovar la licencia de Journeyman, Master o contratista en Nevada."
+      },
+      {
+        "nombre": "PSI Exams - Agendar Examen Nevada",
+        "url": "https://candidate.psiexams.com",
+        "descripcion": "Portal oficial de PSI para agendar los exámenes de Journeyman Plumber y Master Plumber en Nevada."
+      },
+      {
+        "nombre": "UA Local 525 - Plumbers and Pipefitters Las Vegas",
+        "url": "https://www.ua525.org",
+        "descripcion": "Sindicato de plomeros y pipefitters de Las Vegas. Información sobre el programa de apprenticeship de 5 años, el camino más estructurado para convertirse en Journeyman Plumber en el sur de Nevada."
+      },
+      {
+        "nombre": "BLS - Plumbers, Pipefitters and Steamfitters (Nacional)",
+        "url": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+        "descripcion": "Datos oficiales de salarios, empleo y proyecciones nacionales para plomeros según BLS 2024."
+      },
+      {
+        "nombre": "BLS OES - Salarios de Plomeros en Nevada",
+        "url": "https://www.bls.gov/oes/current/oes472152.htm",
+        "descripcion": "Datos específicos de salarios para plomeros en Nevada por área metropolitana (SOC 47-2152). Verificar datos de Nevada en la sección de State and Area Data."
+      },
+      {
+        "nombre": "Nevada Revised Statutes Chapter 624 - Contractors",
+        "url": "https://www.leg.state.nv.us/NRS/NRS-624.html",
+        "descripcion": "Base legal del sistema de licenciamiento de contratistas en Nevada, incluyendo plomería."
+      }
+    ]
+  },
+  "content_generation_rules": {
+    "tono": "Técnico pero accesible y motivador. Enfocado en el crecimiento profesional y la claridad de pasos para hispanos en Nevada.",
+    "persona": "Plomero hispano que ya conoce el proceso de Nevada y quiere guiar a otros de manera honesta y práctica.",
+    "reglas": [
+      "Enfatizar desde el inicio que Nevada SÍ tiene licencia individual (Journeyman y Master), a diferencia de Arizona",
+      "Explicar claramente la diferencia entre Journeyman (individual) y la licencia de contratista C-1d (empresa)",
+      "Destacar la importancia crítica de documentar las 8,000 horas desde el primer día de trabajo",
+      "Ser muy claro que el examen de plomería en Nevada NO está disponible en español",
+      "Mencionar el programa de apprenticeship del UA Local 525 como opción estructurada para Las Vegas",
+      "Usar siempre los términos correctos: Journeyman Plumber, Master Plumber, C-1d, NSCB, Qualifying Party (QP)",
+      "Destacar la oportunidad salarial: Nevada paga por encima de la mediana nacional",
+      "Mencionar que los campos marcados como requires_verification deben confirmarse en nscb.nv.gov antes de publicar",
+      "Destacar el mercado de Las Vegas y Reno como motores de demanda constante de plomeros licenciados"
+    ]
+  }
+}

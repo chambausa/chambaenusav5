@@ -13,6 +13,12 @@ import argparse
 from pathlib import Path
 from datetime import date
 
+# Fix Unicode output on Windows
+if sys.platform == "win32":
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
+
 # ─── Dependencias ─────────────────────────────────────────────────────────────
 try:
     from anthropic import Anthropic
@@ -21,7 +27,10 @@ except ImportError:
     print("Error: instala dependencias con: pip install anthropic python-dotenv")
     sys.exit(1)
 
-load_dotenv()
+# Cargar .env.local (Next.js) o .env
+ROOT_ENV = Path(__file__).parent.parent
+load_dotenv(ROOT_ENV / ".env.local")
+load_dotenv(ROOT_ENV / ".env")
 
 # ─── Constantes ───────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent
@@ -184,7 +193,7 @@ def generar_licencia(oficio: str, estado: str, dry_run: bool = False):
 
     response = client.messages.create(
         model=MODEL,
-        max_tokens=8000,
+        max_tokens=16000,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}],
     )
