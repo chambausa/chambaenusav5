@@ -55,20 +55,29 @@ OFICIOS_NOMBRES = {
     "cdl": "CDL (Licencia Comercial de Conducir)",
 }
 
+# JSON de referencia canónico — el más completo disponible
+REFERENCE_CANONICAL = "electricista-texas"
+
 # ─── Selección del JSON de referencia ─────────────────────────────────────────
 def get_reference_json(oficio: str, estado: str) -> dict:
     """
-    Busca el mejor JSON de referencia para el oficio/estado pedido.
-    Prioridad: mismo oficio, estado diferente → cualquier JSON del mismo oficio.
+    Usa siempre el JSON canónico (más completo) como referencia de estructura.
+    Fallback: mismo oficio distinto estado → cualquier JSON disponible.
     """
-    # Buscar mismo oficio, estado diferente
+    # 1. JSON canónico (mejor estructura)
+    canonical_path = JSON_DIR / f"{REFERENCE_CANONICAL}.json"
+    if canonical_path.exists():
+        with open(canonical_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    # 2. Mismo oficio, estado diferente
     candidates = sorted(JSON_DIR.glob(f"{oficio}-*.json"))
     for candidate in candidates:
         if estado not in candidate.stem:
             with open(candidate, "r", encoding="utf-8") as f:
                 return json.load(f)
 
-    # Fallback: cualquier JSON disponible
+    # 3. Cualquier JSON disponible
     all_jsons = sorted(JSON_DIR.glob("*.json"))
     if all_jsons:
         with open(all_jsons[0], "r", encoding="utf-8") as f:
