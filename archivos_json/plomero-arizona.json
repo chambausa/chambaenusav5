@@ -1,0 +1,530 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "page_id": "licencia-plomero-arizona",
+    "oficio": "plomero",
+    "estado": "arizona",
+    "last_verified": "2026-04-05",
+    "verified_by": "Perplexity AI - fuentes oficiales ROC Arizona, PSI, BLS, ADOR 2026",
+    "notes": "En Arizona NO existe licencia individual estatal tipo Journeyman/Master para plomeros. La licencia es de CONTRATISTA emitida por el Arizona Registrar of Contractors (ROC). El camino real es: trabajar bajo un contratista licenciado → acumular experiencia → calificar como Qualifying Party → obtener licencia ROC.",
+    "clasificaciones_activas": ["C-37", "CR-37", "R-37", "R-37R"],
+    "autoridad": "Arizona Registrar of Contractors (ROC)",
+    "examen_administrador": "PSI Exams"
+  },
+  "page_seo": {
+    "title": "Licencia de Plomero en Arizona 2026: Requisitos, Examen y Costos (ROC)",
+    "meta_description": "Cómo obtener la licencia de plomero contratista en Arizona paso a paso. Clasificaciones CR-37 y R-37, experiencia, examen en español, requisitos del ROC 2026.",
+    "slug": "licencia-plomero-arizona",
+    "canonical_url": "https://chambaenusa.com/licencia-plomero-arizona/",
+    "h1": "Licencia de Plomero en Arizona",
+    "schema_types": ["HowTo", "FAQPage", "BreadcrumbList"],
+    "keywords_primary": [
+      "licencia de plomero en arizona",
+      "licencia de contratista de plomería arizona",
+      "requisitos plomero arizona 2026"
+    ],
+    "keywords_secondary": [
+      "arizona registrar of contractors plomería",
+      "examen CR-37 plomería arizona",
+      "cuanto gana un plomero en arizona",
+      "licencia R-37 plomería arizona"
+    ],
+    "keywords_long_tail": [
+      "como sacar la licencia de plomero en arizona sin experiencia previa",
+      "diferencia entre CR-37 y R-37 plomería arizona",
+      "cursos de preparación examen plomería arizona en español",
+      "cuántos años de experiencia necesito para licencia de plomero arizona"
+    ]
+  },
+  "hero": {
+    "ai_generated": false,
+    "badge": "Actualizado 2026",
+    "headline": "Licencia de Plomero en Arizona",
+    "subheadline": "En Arizona la licencia de plomería es para el CONTRATISTA, no solo para el técnico. Con 4 años de experiencia y aprobar el examen del ROC, puedes tener tu propia empresa y trabajar en proyectos residenciales o comerciales.",
+    "key_stats": [
+      {
+        "label": "Clasificación Dual (Residencial + Comercial)",
+        "value": "CR-37",
+        "detail": "La licencia más completa. Te permite trabajar en todo tipo de proyectos de plomería en Arizona.",
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf",
+        "source_name": "PSI / ROC Arizona"
+      },
+      {
+        "label": "Experiencia Requerida",
+        "value": "4 años",
+        "detail": "Experiencia verificada a nivel journeyman o superior trabajando bajo un contratista licenciado.",
+        "source": "http://contractorsexam.com/forms/expform.pdf",
+        "source_name": "ROC Arizona - Experience Verification Form"
+      },
+      {
+        "label": "Examen Trade",
+        "value": "100 preguntas / 70% para aprobar",
+        "detail": "4 horas. Costo $66 pagado a PSI. Open book con materiales de referencia aprobados.",
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf",
+        "source_name": "PSI / ROC Arizona"
+      },
+      {
+        "label": "Salario Mediana Nacional",
+        "value": "$62,970/año",
+        "detail": "Mediana nacional para plomeros según BLS mayo 2024. En Arizona el mercado es competitivo con escasez de plomeros licenciados.",
+        "source": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+        "source_name": "BLS May 2024"
+      }
+    ],
+    "cta_primary": {
+      "text": "Ver el Camino Paso a Paso",
+      "anchor": "#roadmap"
+    },
+    "cta_secondary": {
+      "text": "Ver Salarios en Arizona",
+      "anchor": "#salarios"
+    }
+  },
+  "callout_importante": {
+    "ai_generated": false,
+    "type": "highlight_box",
+    "icon": "🔧",
+    "title": "¡En Arizona la licencia de plomería es del CONTRATISTA, no del técnico individual!",
+    "content": "A diferencia de otros estados como Texas donde hay licencia individual de journeyman, en Arizona la licencia la tiene la empresa o el contratista. Esto significa que para 'tener tu licencia', debes calificar como Qualifying Party (QP) y registrar tu propio negocio con el ROC. Mientras acumulas experiencia puedes trabajar legalmente bajo un contratista ya licenciado.",
+    "source": "https://roc.az.gov",
+    "source_name": "Arizona Registrar of Contractors (ROC)"
+  },
+  "autoridad_reguladora": {
+    "ai_generated": false,
+    "nombre": "Arizona Registrar of Contractors (ROC)",
+    "programa": "Contractor Licensing - Plumbing Classifications",
+    "direccion": {
+      "calle": "1700 W. Washington Street, Suite 105",
+      "ciudad": "Phoenix",
+      "estado": "AZ",
+      "cp": "85007"
+    },
+    "telefono": {
+      "local": "(602) 542-1525",
+      "toll_free": "(877) 692-9762"
+    },
+    "email": "roc.info@roc.az.gov",
+    "web": "https://roc.az.gov",
+    "portal_aplicacion": "https://azroc.my.site.com/AZRoc/s/",
+    "verificar_licencia": "https://azroc.my.site.com/AZRoc/s/contractor-search",
+    "source": "https://roc.az.gov",
+    "chambaenusa_hub": "/agencias/arizona-registrar-of-contractors-roc/"
+  },
+  "clasificaciones": {
+    "ai_generated": false,
+    "_description": "Las clasificaciones de plomería del ROC de Arizona. Cada una define el tipo de trabajo que puedes hacer.",
+    "tipos": [
+      {
+        "id": "CR-37",
+        "nombre": "CR-37 Plumbing (Dual - Commercial + Residential)",
+        "es_principal": true,
+        "descripcion": "La licencia más completa. Permite trabajar en proyectos residenciales Y comerciales de plomería. Si vas a tener tu propia empresa y quieres aceptar cualquier tipo de proyecto, esta es la que necesitas.",
+        "scope_of_work": "Instalación, alteración y reparación de sistemas de tuberías, gas, drenaje, plomería sanitaria, conexiones de agua potable, septic systems, hidroniCs y conexiones desde la estructura hasta el punto de suministro o disposición más cercano. Incluye fixtures, vents, valves y equipos propios del oficio.",
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf"
+      },
+      {
+        "id": "C-37",
+        "nombre": "C-37 Plumbing (Commercial Only)",
+        "es_principal": false,
+        "descripcion": "Solo proyectos comerciales. Menos común porque la mayoría prefiere CR-37 para tener mayor alcance.",
+        "scope_of_work": "Mismo alcance que CR-37 pero limitado a proyectos de construcción comercial e industrial.",
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf"
+      },
+      {
+        "id": "R-37",
+        "nombre": "R-37 Plumbing Including Solar (Residential)",
+        "es_principal": false,
+        "descripcion": "Solo proyectos residenciales. Más accesible en alcance, pero más limitado. Incluye aplicaciones de solar plumbing.",
+        "scope_of_work": "Instalaciones de agua, gas, fire protection, sewage treatment, fixtures, vents y dispositivos comunes al oficio en proyectos residenciales. También sistemas solares conectados a la plomería.",
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/C-37%20including%20solar.pdf"
+      },
+      {
+        "id": "R-37R",
+        "nombre": "R-37R Plumbing, Residential Restricted",
+        "es_principal": false,
+        "descripcion": "Versión restringida de la residencial. Para proyectos de menor escala.",
+        "scope_of_work": "Limitado a trabajos de plomería residencial de alcance reducido según las reglas del ROC.",
+        "source": "http://contractorsexam.com/forms/expform.pdf"
+      }
+    ]
+  },
+  "roadmap": {
+    "ai_generated": false,
+    "layout": "timeline",
+    "nota_general": "En Arizona el camino de plomero NO sigue el esquema tradicional 'apprentice → journeyman → master'. Aquí el proceso es: trabajar bajo un contratista licenciado → acumular 4 años de experiencia verificada → pasar los exámenes → registrar tu licencia en el ROC como Qualifying Party de tu empresa.",
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Trabaja bajo un contratista de plomería licenciado",
+        "descripcion": "No necesitas licencia personal para trabajar como técnico de plomería bajo la supervisión de una empresa con licencia ROC activa. Puedes comenzar sin experiencia previa. Tu objetivo es acumular experiencia verificable.",
+        "duracion": "4 años mínimo",
+        "requisitos": [
+          "Ser contratado por una empresa con licencia ROC de plomería activa",
+          "Guardar toda la documentación de tus trabajos: contratos, pagos, referencias de empleadores",
+          "Documentar el tipo de proyectos en los que participaste (residencial, comercial, tipo de instalación)"
+        ],
+        "nota": "Este es el período más crítico. Documenta TODO desde el primer día porque después tendrás que verificar experiencia para el ROC.",
+        "source": "http://contractorsexam.com/forms/expform.pdf"
+      },
+      {
+        "numero": 2,
+        "titulo": "Prepara tu documentación de experiencia",
+        "descripcion": "El ROC exige verificar 4 años de experiencia a nivel journeyman o superior antes de aceptar tu aplicación. Debes llenar el formulario de Experience Verification con respaldo de empleadores, contratos o proyectos documentados.",
+        "requisitos_experiencia": {
+          "años_minimos": 4,
+          "nivel_requerido": "Journeyman o superior",
+          "formas_de_verificar": [
+            "W-2 o 1099 de empleadores anteriores",
+            "Cartas de empleadores anteriores",
+            "Formulario de Project Verification firmado",
+            "Licencias de otros estados si aplica"
+          ]
+        },
+        "source": "http://contractorsexam.com/forms/expform.pdf"
+      },
+      {
+        "numero": 3,
+        "titulo": "Completa el curso y examen de Statutes and Rules (SRE)",
+        "descripcion": "Antes de poder presentar el examen técnico, el ROC requiere completar el curso de leyes y regulaciones de Arizona para contratistas (Statutes and Rules Exam). Este es el examen de 'negocios' del ROC.",
+        "examen_sre": {
+          "administrador": "Gmetrix",
+          "costo": 54,
+          "formato": "Online",
+          "contenido": [
+            "Arizona Revised Statutes Title 32 Chapter 10",
+            "Arizona Administrative Code R4-9",
+            "Regulaciones del ROC",
+            "Derechos y obligaciones del contratista licenciado"
+          ]
+        },
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf"
+      },
+      {
+        "numero": 4,
+        "titulo": "Pasa el examen técnico de plomería con PSI",
+        "descripcion": "El examen técnico (Trade Exam) lo administra PSI. Es open book pero requiere preparación seria para navegar los códigos de referencia dentro del tiempo permitido.",
+        "examen_trade": {
+          "clasificacion_principal": "CR-37 / C-37 Commercial Plumbing",
+          "preguntas": 100,
+          "tiempo": "240 minutos (4 horas)",
+          "puntaje_minimo": "70%",
+          "formato": "Computadora, open book",
+          "costo": 66,
+          "administrador": "PSI Exams",
+          "url_agendar": "https://candidate.psiexams.com",
+          "idiomas": ["Inglés"],
+          "nota_idioma": "El examen técnico CR-37/C-37 de Arizona no está actualmente disponible en español. Requiere dominio técnico del inglés para los libros de referencia.",
+          "libros_referencia": [
+            "International Plumbing Code (IPC) 2018",
+            "International Fuel Gas Code (IFGC) 2018",
+            "International Mechanical Code (IMC) 2018",
+            "OSHA 29 CFR 1926 (Construcción)",
+            "Arizona State Amendments al IPC"
+          ],
+          "contenido_principal": [
+            "Sistemas de agua fría y caliente",
+            "Sistemas de drenaje, desperdicio y ventilación",
+            "Gas natural y LP",
+            "Fixtures y accesorios",
+            "Sewer y septic systems",
+            "Excavación y protección de zanjas (OSHA)",
+            "Calentadores de agua y conexiones",
+            "Códigos y cálculos de carga"
+          ]
+        },
+        "examen_trade_residencial": {
+          "clasificacion": "R-37 Residential Plumbing Including Solar",
+          "preguntas": 100,
+          "tiempo": "240 minutos",
+          "puntaje_minimo": "70%",
+          "costo": 66,
+          "libros_referencia": [
+            "International Residential Code (IRC) 2018 - Chapter P",
+            "IFGC 2018",
+            "OSHA 29 CFR 1926",
+            "Arizona State Amendments"
+          ],
+          "source": "https://proctor2.psionline.com/programs/AZ%20CO/C-37%20including%20solar.pdf"
+        }
+      },
+      {
+        "numero": 5,
+        "titulo": "Registra tu licencia en el ROC como Qualifying Party",
+        "descripcion": "Una vez aprobados los exámenes, puedes aplicar para tu licencia de contratista ROC. Necesitas registrar una entidad legal (LLC o corporation) y ser nombrado como Qualifying Party (QP). El QP es responsable técnico y legal de todos los proyectos de la empresa.",
+        "requisitos_finales": [
+          "Aprobar examen SRE (Statutes and Rules)",
+          "Aprobar examen técnico (Trade Exam)",
+          "Tener 4 años de experiencia verificada",
+          "Tener una entidad legal registrada en Arizona (LLC, Corp, etc.)",
+          "Obtener el contractor license bond del ROC",
+          "Obtener seguro de Workers' Compensation si tienes empleados",
+          "Pagar el fee de aplicación al ROC",
+          "Pasar fingerprinting/background check (requerido por ROC para todos los QP)"
+        ],
+        "portal_aplicacion": "https://azroc.my.site.com/AZRoc/s/",
+        "source": "https://roc.az.gov"
+      }
+    ]
+  },
+  "costos": {
+    "ai_generated": false,
+    "nota": "Los costos exactos de application fee y renewal del ROC requieren verificación directa en roc.az.gov/licensing-fees ya que varían por clasificación y tipo de entidad. Los datos de exámenes son confirmados desde PSI.",
+    "desglose": [
+      {
+        "concepto": "Examen Trade (PSI)",
+        "costo": 66,
+        "pagado_a": "PSI Exams",
+        "confirmado": true,
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf"
+      },
+      {
+        "concepto": "Examen Statutes and Rules (SRE)",
+        "costo": 54,
+        "pagado_a": "Gmetrix",
+        "confirmado": true,
+        "source": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf"
+      },
+      {
+        "concepto": "Fee de aplicación de licencia ROC",
+        "costo_aproximado": "~$200-$360",
+        "pagado_a": "Arizona ROC",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Varía según clasificación (R vs C vs CR) y tipo de entidad. Verificar en roc.az.gov/licensing-fees.",
+        "source": "https://roc.az.gov"
+      },
+      {
+        "concepto": "Contractor License Bond (ROC)",
+        "costo_aproximado": "$5,000 - $15,000 bond (prima anual ~$50-$150)",
+        "pagado_a": "Compañía de bonding",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "El monto del bond depende del volumen de trabajo declarado. La prima que realmente pagas es una fracción del valor del bond (~1-3%). Verificar tabla de bond en roc.az.gov.",
+        "source": "https://www.ccisbonds.com/blog/arizona-contractor-license-bond-a-complete-guide/"
+      },
+      {
+        "concepto": "Bond fiscal ADOR (TPT - para plomería)",
+        "costo": 2000,
+        "pagado_a": "Arizona Department of Revenue",
+        "confirmado": true,
+        "nota": "Contratistas de plomería en Arizona que pagan Transaction Privilege Tax pueden requerir este bond adicional del ADOR.",
+        "source": "https://azdor.gov/transaction-privilege-tax/contracting-guidelines/bond-contractors"
+      },
+      {
+        "concepto": "Seguro Workers' Comp (si tienes empleados)",
+        "costo_aproximado": "Variable según nómina",
+        "obligatorio_con_empleados": true,
+        "confirmado": true,
+        "source": "https://roc.az.gov"
+      },
+      {
+        "concepto": "Total estimado para licenciar",
+        "total_aproximado": "$400 - $700 (sin contar preparación de examen)",
+        "confirmado": false,
+        "requires_verification": true,
+        "nota": "Exámenes ($120 confirmados) + fees ROC (~$200-$360 verificar) + prima de bond (~$50-$150). Preparación de examen es adicional."
+      }
+    ]
+  },
+  "renovacion": {
+    "ai_generated": false,
+    "frecuencia": "Cada 2 años",
+    "metodo": "En línea a través del ROC Customer Portal",
+    "portal": "https://azroc.my.site.com/AZRoc/s/",
+    "requisitos_renovacion": [
+      "Bond o cash deposit vigente",
+      "Fee de renovación pagado antes del vencimiento",
+      "Sin quejas activas no resueltas (dependiendo del tipo)"
+    ],
+    "consecuencias_no_renovar": {
+      "vence": "La licencia queda suspendida al siguiente día hábil después del vencimiento",
+      "dentro_de_1_año": "Puedes reactivarla pagando el fee de renovación + $50 de penalidad",
+      "despues_de_1_año": "La licencia se cancela permanentemente. Debes aplicar como nueva licencia desde cero."
+    },
+    "source": "https://www.azleg.gov/ars/32/01125.htm"
+  },
+  "salarios": {
+    "ai_generated": false,
+    "nacional_2024": {
+      "mediana_anual": "$62,970",
+      "mediana_hora": "$30.28",
+      "percentil_10": "$37,520/año",
+      "percentil_90": "$99,920/año",
+      "crecimiento_proyectado": "6% (2023-2033) - Más rápido que el promedio",
+      "fuente": "BLS May 2024",
+      "source": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm"
+    },
+    "arizona": {
+      "nota": "Arizona presenta escasez de plomeros licenciados, especialmente en mercados de crecimiento como Phoenix, Tucson y Scottsdale. El mercado de construcción activo impulsado por migración hacia el estado sostiene alta demanda.",
+      "salario_estimado": "$55,000 - $85,000/año",
+      "requiere_verificacion_bls_state": true,
+      "source": "BLS State Occupational Employment and Wage Statistics - verificar datos específicos AZ"
+    },
+    "ingresos_reales": {
+      "nota": "Como contratista licenciado en Arizona puedes cobrar directamente a clientes. Los plomeros dueños de negocio con licencia ROC pueden superar significativamente las medianas del BLS.",
+      "estimados": {
+        "tecnico_sin_licencia": "$35,000 - $50,000/año bajo un contratista",
+        "qualifying_party_con_negocio": "$70,000 - $120,000+/año (incluye margen de contratista)"
+      }
+    }
+  },
+  "errores_comunes": {
+    "ai_generated": false,
+    "items": [
+      {
+        "error": "Trabajar como contratista independiente sin licencia ROC",
+        "por_que_importa": "En Arizona es ilegal contratar directamente con clientes para hacer trabajo de plomería sin licencia ROC activa. El ROC puede imponer multas y órdenes de cese. Además, los proyectos sin permiso pueden generar responsabilidades civiles contra ti.",
+        "solucion": "Trabaja siempre bajo la empresa licenciada de tu empleador hasta que tengas tu propia licencia ROC."
+      },
+      {
+        "error": "No documentar la experiencia mientras trabajas",
+        "por_que_importa": "El ROC exige verificar 4 años de experiencia. Si no guardas W-2s, contratos, referencias de empleadores y documentación de proyectos, tendrás serios problemas para demostrar tu experiencia cuando apliques.",
+        "solucion": "Desde hoy: guarda todos tus W-2 anuales, pide cartas de empleadores cuando cambies de trabajo y lleva un registro personal de los proyectos en los que participaste."
+      },
+      {
+        "error": "Confundir la licencia ROC con un certificado técnico",
+        "por_que_importa": "En Arizona la licencia de plomería es para la empresa/contratista. Muchos trabajadores creen que con solo estudiar y pasar un examen obtienen 'su licencia personal' como en otros estados. Aquí también necesitas registrar una entidad legal.",
+        "solucion": "Prepárate para el proceso completo: exámenes + entidad legal + bond + fee ROC. No es solo un examen."
+      },
+      {
+        "error": "Estudiar con la edición incorrecta del IPC",
+        "por_que_importa": "El examen técnico CR-37/C-37 usa el IPC 2018 con enmiendas de Arizona. Si estudias con IPC 2021 o 2024, encontrarás diferencias de numeración de secciones y tablas que pueden costarte puntos.",
+        "solucion": "Confirma en el boletín de PSI cuál es la edición vigente antes de comprar tus libros de referencia."
+      },
+      {
+        "error": "No renovar a tiempo y perder la licencia después de 1 año",
+        "por_que_importa": "Si tu licencia ROC vence por más de 1 año, se cancela permanentemente. Tendrás que volver a aplicar desde cero, volver a pagar fees y posiblemente volver a tomar exámenes.",
+        "solucion": "Pon un recordatorio 2 meses antes del vencimiento. La renovación es cada 2 años. No esperes el aviso del ROC; es tu responsabilidad."
+      }
+    ]
+  },
+  "trabajos_sin_licencia": {
+    "ai_generated": false,
+    "titulo": "¿Qué puede hacer un técnico sin licencia propia en Arizona?",
+    "puede_hacer": [
+      "Trabajar como empleado de una empresa CON licencia ROC activa",
+      "Reparaciones de plomería menores en su propia casa (homeowner exception)",
+      "Asistir y aprender bajo supervisión directa del Qualifying Party de la empresa"
+    ],
+    "no_puede_hacer": [
+      "Contratar directamente con clientes por su cuenta",
+      "Sacar permisos de plomería municipales (solo contratistas licenciados ROC)",
+      "Anunciar servicios de plomería como contratista independiente",
+      "Hacer trabajos en propiedades ajenas sin ser parte de una empresa licenciada"
+    ],
+    "source": "Arizona Revised Statutes Title 32, Chapter 10"
+  },
+  "faqs": {
+    "ai_generated": "partial",
+    "items": [
+      {
+        "pregunta": "¿En Arizona hay licencia individual de journeyman para plomeros como en Texas?",
+        "respuesta": "No. Arizona no tiene un sistema de licencia individual tipo Journeyman/Master para plomeros. Aquí la licencia es de contratista y la emite el ROC para una empresa o negocio. Para tener 'tu licencia', necesitas calificar como Qualifying Party de tu propia empresa.",
+        "source": "ROC Arizona"
+      },
+      {
+        "pregunta": "¿Puedo trabajar legalmente en plomería sin licencia ROC?",
+        "respuesta": "Sí, pero solo como empleado de una empresa que SÍ tenga licencia ROC activa. Lo que no puedes hacer es contratar directamente con clientes o trabajar de manera independiente sin licencia.",
+        "source": "Arizona Revised Statutes Title 32 Chapter 10"
+      },
+      {
+        "pregunta": "¿Cuántos años de experiencia necesito para obtener mi licencia de plomero en Arizona?",
+        "respuesta": "4 años de experiencia verificada a nivel journeyman o superior. Esta experiencia debe ser documentable con W-2s, cartas de empleadores y/o formularios de verificación de proyectos aceptados por el ROC.",
+        "source": "ROC Arizona - Experience Verification Form"
+      },
+      {
+        "pregunta": "¿Cuál es la diferencia entre CR-37, C-37 y R-37?",
+        "respuesta": "CR-37 (Dual) te permite trabajar en proyectos residenciales Y comerciales. C-37 es solo comercial. R-37 es solo residencial. Para la mayoría de plomeros, CR-37 es la mejor opción porque da más alcance de trabajo.",
+        "source": "PSI / ROC Arizona"
+      },
+      {
+        "pregunta": "¿El examen de plomería en Arizona está disponible en español?",
+        "respuesta": "El examen técnico (Trade Exam) de CR-37/C-37 en Arizona no está disponible en español actualmente. Los libros de referencia (IPC, IFGC, IMC) están en inglés. Esto es diferente a Texas donde el examen sí tiene opción en español. El examen SRE (leyes) sí tiene materiales en español.",
+        "source": "PSI Exams"
+      },
+      {
+        "pregunta": "¿Cuánto cuesta obtener la licencia de plomero contratista en Arizona?",
+        "respuesta": "Los exámenes cuestan $120 confirmados ($66 trade + $54 SRE). El fee de aplicación ROC y el contractor bond varían según clasificación, pero el total estimado oscila entre $400 y $700 solo para los trámites, sin contar preparación de examen. Verifica los fees exactos en roc.az.gov/licensing-fees.",
+        "source": "PSI / ROC Arizona"
+      },
+      {
+        "pregunta": "¿Necesito crear una empresa para sacar mi licencia de plomero en Arizona?",
+        "respuesta": "Sí. Como la licencia ROC es de contratista, necesitas tener una entidad legal registrada en Arizona (LLC, Corporation, Sole Proprietorship) para obtenerla. Tú serías el Qualifying Party (QP) de esa empresa.",
+        "source": "ROC Arizona"
+      },
+      {
+        "pregunta": "¿Puedo transferir mi licencia de plomero de otro estado a Arizona?",
+        "respuesta": "Arizona tiene acuerdos de reciprocidad limitados. Dependiendo del estado de origen y el tipo de licencia, es posible que puedas calificar con exención parcial de exámenes. Consulta directamente con el ROC ya que las condiciones varían.",
+        "source": "ROC Arizona - Out of State"
+      }
+    ]
+  },
+  "links_oficiales": {
+    "ai_generated": false,
+    "items": [
+      {
+        "nombre": "Arizona Registrar of Contractors (ROC) - Inicio",
+        "url": "https://roc.az.gov",
+        "descripcion": "Sitio oficial del ROC. Punto de entrada para todo el proceso de licenciamiento."
+      },
+      {
+        "nombre": "ROC Customer Portal - Aplicar / Renovar",
+        "url": "https://azroc.my.site.com/AZRoc/s/",
+        "descripcion": "Portal oficial para aplicaciones nuevas, renovaciones y cambios de licencia."
+      },
+      {
+        "nombre": "Buscar Contratista Licenciado",
+        "url": "https://azroc.my.site.com/AZRoc/s/contractor-search",
+        "descripcion": "Verifica si una empresa tiene licencia ROC activa."
+      },
+      {
+        "nombre": "Boletín Examen CR-37 / C-37 Commercial Plumbing (PSI)",
+        "url": "https://proctor2.psionline.com/programs/AZ%20CO/L-37%20Plumbing%20(Commercial).pdf",
+        "descripcion": "Boletín oficial del examen técnico de plomería comercial. Incluye temario, libros de referencia y formato."
+      },
+      {
+        "nombre": "Boletín Examen R-37 Residential Plumbing Including Solar (PSI)",
+        "url": "https://proctor2.psionline.com/programs/AZ%20CO/C-37%20including%20solar.pdf",
+        "descripcion": "Boletín oficial del examen técnico de plomería residencial."
+      },
+      {
+        "nombre": "Formulario de Verificación de Experiencia ROC",
+        "url": "http://contractorsexam.com/forms/expform.pdf",
+        "descripcion": "Formulario oficial del ROC para documentar y verificar tu experiencia de trabajo."
+      },
+      {
+        "nombre": "Arizona Revised Statutes Title 32 - Renovación de Licencia",
+        "url": "https://www.azleg.gov/ars/32/01125.htm",
+        "descripcion": "Base legal de los requisitos de renovación de licencias de contratistas en Arizona."
+      },
+      {
+        "nombre": "ADOR Bond para Contratistas - TPT",
+        "url": "https://azdor.gov/transaction-privilege-tax/contracting-guidelines/bond-contractors",
+        "descripcion": "Información sobre el bond fiscal que pueden requerir los contratistas de plomería bajo las reglas de Transaction Privilege Tax."
+      },
+      {
+        "nombre": "BLS - Plumbers, Pipefitters and Steamfitters",
+        "url": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+        "descripcion": "Datos oficiales de salarios, empleo y proyecciones nacionales para plomeros según BLS 2024."
+      },
+      {
+        "nombre": "PSI Exams - Agendar Examen Arizona",
+        "url": "https://candidate.psiexams.com",
+        "descripcion": "Sitio oficial de PSI para agendar el examen técnico de plomería del ROC."
+      }
+    ]
+  },
+  "content_generation_rules": {
+    "tono": "Técnico pero accesible y motivador. Enfocado en el crecimiento profesional y la claridad de pasos para hispanos.",
+    "persona": "Plomero hispano que ya pasó por todo el proceso y quiere guiar a otros.",
+    "reglas": [
+      "Enfatizar desde el inicio que Arizona NO tiene licencia individual de journeyman como Texas",
+      "Explicar claramente que la licencia es de contratista (empresa), no personal",
+      "Enfatizar la importancia de documentar experiencia desde el primer día de trabajo",
+      "Mencionar que el examen técnico requiere dominio de inglés técnico (no está en español)",
+      "Usar siempre los términos correctos: Qualifying Party (QP), CR-37, R-37, ROC",
+      "Destacar la oportunidad de negocio: en Arizona hay escasez de plomeros licenciados",
+      "Mencionar que los campos de fees marcados como requires_verification deben revisarse antes de publicar"
+    ]
+  }
+}

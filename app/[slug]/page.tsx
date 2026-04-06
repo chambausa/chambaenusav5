@@ -48,40 +48,15 @@ export async function generateStaticParams() {
     }
 
     // All known JSON-based pages
-    const jsonSlugs = [
-        { slug: 'licencia-electricista-texas' },
-        { slug: 'licencia-electricista-california' },
-        { slug: 'licencia-electricista-florida' },
-        { slug: 'licencia-electricista-newyork' },
-        { slug: 'licencia-electricista-new-york' },
-        { slug: 'licencia-electricista-arizona' },
-        { slug: 'licencia-cosmetologia-texas' },
-        { slug: 'licencia-cosmetologia-california' },
-        { slug: 'licencia-cosmetologia-florida' },
-        { slug: 'licencia-cosmetologia-new-york' },
-        { slug: 'licencia-cdl-california' },
-        { slug: 'licencia-plomero-texas' },
-        { slug: 'licencia-plomero-california' },
-        { slug: 'licencia-plomero-florida' },
-        { slug: 'licencia-hvac-texas' },
-        { slug: 'licencia-hvac-california' },
-        { slug: 'licencia-cdl-texas' },
-        { slug: 'licencia-electricista-georgia' },
-        { slug: 'licencia-electricista-pennsylvania' },
-        { slug: 'licencia-electricista-washington' },
-        { slug: 'licencia-electricista-colorado' },
-        { slug: 'licencia-hvac-new-york' },
-        { slug: 'licencia-electricista-nevada' },
-        { slug: 'licencia-electricista-illinois' },
-        { slug: 'licencia-electricista-minnesota' },
-        { slug: 'licencia-electricista-oregon' },
-        { slug: 'licencia-hvac-florida' },
-        { slug: 'licencia-electricista-new-mexico' },
-        { slug: 'licencia-hvac-arizona' },
-        { slug: 'licencia-cdl-florida' },
-        { slug: 'licencia-cdl-new-york' },
-        { slug: 'licencia-plomero-new-york' },
-    ]
+    // Auto-generate slugs from archivos_json/ — no need to maintain a hardcoded list
+    const { readdirSync } = await import('fs')
+    const { join } = await import('path')
+    const jsonDir = join(process.cwd(), 'archivos_json')
+    const jsonSlugs = readdirSync(jsonDir)
+        .filter((f: string) => f.endsWith('.json'))
+        .map((f: string) => ({
+            slug: 'licencia-' + f.replace('.json', '').replace('newyork', 'new-york'),
+        }))
 
     return [...dbSlugs, ...jsonSlugs]
 }
@@ -271,9 +246,11 @@ export default async function DynamicPage({ params }: Props) {
                         )}
 
                         {/* Roadmap Grid from JSON */}
-                        <div className="mt-12" id="roadmap">
-                            <RoadmapGrid roadmap={roadmap} oficio={oficio} />
-                        </div>
+                        {roadmap?.tipos && roadmap.tipos.length > 0 && (
+                            <div className="mt-12" id="roadmap">
+                                <RoadmapGrid roadmap={roadmap} oficio={oficio} />
+                            </div>
+                        )}
 
                         {/* Salarios */}
                         {salarios && (
