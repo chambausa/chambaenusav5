@@ -1,39 +1,67 @@
-'use client';
+'use client'
+
+import Link from 'next/link'
 
 interface RegulatoryAuthorityProps {
   autoridad: {
-    nombre: string;
-    programa?: string;
-    nota_consolidacion?: string;
-    chambaenusa_hub?: string;
+    nombre: string
+    programa?: string
+    nota_consolidacion?: string
+    chambaenusa_hub?: string
     direccion?: {
-      calle?: string;
-      ciudad?: string;
-      estado?: string;
-      cp?: string;
-      mailing?: string;
-    };
+      calle?: string
+      ciudad?: string
+      estado?: string
+      cp?: string
+      mailing?: string
+    }
     telefono?: {
-      local?: string;
-      toll_free?: string;
-      tdd?: string;
-    };
-    email?: string;
-    web?: string;
-    verificar_licencia?: string;
-    source?: string;
-  };
+      local?: string
+      toll_free?: string
+      tdd?: string
+      nota?: string
+    }
+    email?: string | { nota?: string }
+    web?: string
+    verificar_licencia?: string
+    source?: string
+  }
+}
+
+function inferAgencyHub(autoridad: RegulatoryAuthorityProps['autoridad']) {
+  if (autoridad.chambaenusa_hub) return autoridad.chambaenusa_hub
+
+  const fingerprint = `${autoridad.nombre} ${autoridad.web ?? ''}`.toLowerCase()
+
+  if (
+    fingerprint.includes('cslb') ||
+    fingerprint.includes('contractors state license board')
+  ) {
+    return '/agencias/california-contractors-state-license-board-cslb/'
+  }
+
+  if (
+    fingerprint.includes('tdlr') ||
+    fingerprint.includes('texas department of licensing and regulation')
+  ) {
+    return '/agencias/texas-department-of-licensing-and-regulation-tdlr/'
+  }
+
+  return undefined
 }
 
 export function RegulatoryAuthority({ autoridad }: RegulatoryAuthorityProps) {
+  const phoneNote = autoridad.telefono?.nota
+  const emailValue = typeof autoridad.email === 'string' ? autoridad.email : undefined
+  const emailNote = typeof autoridad.email === 'object' ? autoridad.email?.nota : undefined
+  const agencyHub = inferAgencyHub(autoridad)
+
   return (
     <section className="py-8" id="autoridad-reguladora">
       <div className="mb-6">
-        <h2 className="text-3xl font-bold text-gray-900 mb-2">
-          🏛️ Autoridad Reguladora
-        </h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-2">Autoridad Reguladora</h2>
         <p className="text-gray-600">
-          Información oficial de la agencia que regula esta licencia
+          Informacion oficial de la agencia que regula esta licencia
         </p>
       </div>
 
@@ -56,16 +84,18 @@ export function RegulatoryAuthority({ autoridad }: RegulatoryAuthorityProps) {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {/* Contact Info */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-gray-900 text-lg mb-3">📞 Contacto</h4>
+            <h4 className="font-semibold text-gray-900 text-lg mb-3">Contacto</h4>
 
             {autoridad.telefono && (
               <div className="space-y-2">
                 {autoridad.telefono.toll_free && (
                   <div className="flex items-center gap-2">
                     <span className="text-gray-600">Gratuito:</span>
-                    <a href={`tel:${autoridad.telefono.toll_free}`} className="text-primary font-semibold hover:underline">
+                    <a
+                      href={`tel:${autoridad.telefono.toll_free}`}
+                      className="text-primary font-semibold hover:underline"
+                    >
                       {autoridad.telefono.toll_free}
                     </a>
                   </div>
@@ -73,7 +103,10 @@ export function RegulatoryAuthority({ autoridad }: RegulatoryAuthorityProps) {
                 {autoridad.telefono.local && (
                   <div className="flex items-center gap-2">
                     <span className="text-gray-600">Local:</span>
-                    <a href={`tel:${autoridad.telefono.local}`} className="text-primary font-semibold hover:underline">
+                    <a
+                      href={`tel:${autoridad.telefono.local}`}
+                      className="text-primary font-semibold hover:underline"
+                    >
                       {autoridad.telefono.local}
                     </a>
                   </div>
@@ -86,51 +119,53 @@ export function RegulatoryAuthority({ autoridad }: RegulatoryAuthorityProps) {
                     </a>
                   </div>
                 )}
+                {phoneNote && <p className="text-sm text-gray-500">{phoneNote}</p>}
               </div>
             )}
 
-            {autoridad.email && (
+            {emailValue && (
               <div className="flex items-center gap-2">
-                <span className="text-gray-600">✉️ Email:</span>
-                <a href={`mailto:${autoridad.email}`} className="text-primary hover:underline">
-                  {autoridad.email}
+                <span className="text-gray-600">Email:</span>
+                <a href={`mailto:${emailValue}`} className="text-primary hover:underline">
+                  {emailValue}
                 </a>
               </div>
             )}
+            {emailNote && <p className="text-sm text-gray-500">{emailNote}</p>}
           </div>
 
-          {/* Address & Links */}
           <div className="space-y-4">
             {autoridad.direccion && (
               <div>
-                <h4 className="font-semibold text-gray-900 mb-2">📍 Dirección</h4>
+                <h4 className="font-semibold text-gray-900 mb-2">Direccion</h4>
                 <div className="text-sm text-gray-700 space-y-1">
                   {autoridad.direccion.calle && <p>{autoridad.direccion.calle}</p>}
                   {autoridad.direccion.ciudad && (
                     <p>
-                      {autoridad.direccion.ciudad}, {autoridad.direccion.estado} {autoridad.direccion.cp}
+                      {autoridad.direccion.ciudad}, {autoridad.direccion.estado}{' '}
+                      {autoridad.direccion.cp}
                     </p>
                   )}
                   {autoridad.direccion.mailing && (
-                    <p className="text-gray-500 text-xs mt-2">Correo: {autoridad.direccion.mailing}</p>
+                    <p className="text-gray-500 text-xs mt-2">
+                      Correo: {autoridad.direccion.mailing}
+                    </p>
                   )}
                 </div>
               </div>
             )}
 
             <div className="space-y-2">
-              {autoridad.chambaenusa_hub && (
-                <a
-                  href={autoridad.chambaenusa_hub}
-                  target="_blank"
-                  rel="noopener noreferrer"
+              {agencyHub && (
+                <Link
+                  href={agencyHub}
                   className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white text-xs font-black uppercase tracking-wide px-3 py-2 rounded-lg transition-colors"
                 >
                   <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  Guía completa de esta agencia en ChambaEnUSA
-                </a>
+                  Guia completa de esta agencia en ChambaEnUSA
+                </Link>
               )}
               {autoridad.web && (
                 <a
@@ -165,5 +200,5 @@ export function RegulatoryAuthority({ autoridad }: RegulatoryAuthorityProps) {
         </div>
       </div>
     </section>
-  );
+  )
 }

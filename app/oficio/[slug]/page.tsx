@@ -25,6 +25,12 @@ interface OficioData {
   licenses: LicenseEntry[]
 }
 
+interface AgencyLinkItem {
+  label: string
+  href: string
+  note: string
+}
+
 const OFICIOS: Record<string, OficioData> = {
   electricista: {
     name: 'Electricista',
@@ -238,6 +244,23 @@ export default function OficioPage({ params }: Props) {
   }
 
   const tableStates = oficio.licenses.slice(0, 5)
+  const agencyLinks: AgencyLinkItem[] = []
+
+  if (oficio.licenses.some((lic) => lic.highlight.includes('TDLR'))) {
+    agencyLinks.push({
+      label: 'TDLR Texas',
+      href: '/agencias/texas-department-of-licensing-and-regulation-tdlr/',
+      note: 'Agencia reguladora clave para licencias tecnicas en Texas.',
+    })
+  }
+
+  if (oficio.licenses.some((lic) => lic.highlight.includes('CSLB'))) {
+    agencyLinks.push({
+      label: 'CSLB California',
+      href: '/agencias/california-contractors-state-license-board-cslb/',
+      note: 'Agencia reguladora clave para contratistas en California.',
+    })
+  }
 
   return (
     <main className="max-w-7xl mx-auto px-6 py-12 font-jakarta">
@@ -392,6 +415,36 @@ export default function OficioPage({ params }: Props) {
           <div className="text-[10px] font-bold text-amber-500 uppercase tracking-widest">{oficio.featured.saving}</div>
         </div>
       </section>
+
+      {agencyLinks.length > 0 && (
+        <section className="mb-20">
+          <div className="flex items-end justify-between mb-8">
+            <div>
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-1">
+                Agencias clave
+              </p>
+              <h2 className="text-2xl font-extrabold tracking-tight text-[#131b2e]">
+                Autoridades que vas a encontrar en estas rutas
+              </h2>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4">
+            {agencyLinks.map((agency) => (
+              <Link
+                key={agency.href}
+                href={agency.href}
+                className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm hover:border-amber-400 hover:bg-amber-50 transition-colors"
+              >
+                <div className="text-sm font-black uppercase tracking-widest text-amber-500 mb-2">
+                  Agencia
+                </div>
+                <h3 className="text-xl font-extrabold text-[#131b2e] mb-2">{agency.label}</h3>
+                <p className="text-sm text-slate-500 leading-relaxed">{agency.note}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* FAQ Section */}
       <section className="mb-20">

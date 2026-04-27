@@ -95,6 +95,7 @@ const ESTADOS_DATA: Record<string, EstadoData> = {
       nombre: 'CSLB California',
       descripcion: 'El Contractors State License Board (CSLB) regula contratistas en California, incluyendo electricistas C-10, plomeros C-36, HVAC C-20 y más. Para trabajar por tu cuenta necesitas licencia de contratista.',
       url: 'https://www.cslb.ca.gov/',
+      hubInterno: '/agencias/california-contractors-state-license-board-cslb/',
     },
     trades: [
       { oficio: 'Electricista', slug: 'licencia-electricista-california', requirements: 'CSLB + examen + seguro', salary: '$78,000', hours: '8,000 hrs', examEspanol: false, accentColor: '#3b82f6', barWidth: 'w-3/4' },
@@ -433,7 +434,16 @@ export default function EstadoPage({ params }: Props) {
               </div>
               <div>
                 <p className="text-[10px] font-black uppercase tracking-widest text-slate-400">Agencia Reguladora</p>
-                <h4 className="font-extrabold text-[#131b2e]">{estado.reguladora.nombre}</h4>
+                {estado.reguladora.hubInterno ? (
+                  <Link
+                    href={estado.reguladora.hubInterno}
+                    className="font-extrabold text-[#131b2e] hover:text-amber-500 transition-colors"
+                  >
+                    {estado.reguladora.nombre}
+                  </Link>
+                ) : (
+                  <h4 className="font-extrabold text-[#131b2e]">{estado.reguladora.nombre}</h4>
+                )}
               </div>
             </div>
             <p className="text-sm leading-relaxed text-slate-500 mb-6">{estado.reguladora.descripcion}</p>
