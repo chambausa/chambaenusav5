@@ -89,7 +89,7 @@ const enlacesOficiales = [
   { label: 'Applicants', href: 'https://www.cslb.ca.gov/Contractors/Applicants/' },
   {
     label: 'License Classifications',
-    href: 'https://www.cslb.ca.gov/Contractors/Applicants/License_Classifications/',
+    href: 'https://www2.cslb.ca.gov/About_Us/Library/Licensing_Classifications/Default.aspx',
   },
   {
     label: 'Check a License',
