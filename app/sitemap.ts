@@ -35,6 +35,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  const resourcePages = ['epa-608', 'nec-2023-espanol', 'cslb-guias-estudio-espanol', 'examen-journeyman-electrician-espanol'].map((slug) => ({
+    url: `${BASE_URL}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.65,
+  }))
+
   return [
     {
       url: BASE_URL,
@@ -63,5 +70,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...licensePages,
     ...oficioPages,
     ...estadoPages,
+    ...resourcePages,
   ]
 }

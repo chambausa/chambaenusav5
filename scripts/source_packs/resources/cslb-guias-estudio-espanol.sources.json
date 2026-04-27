@@ -1,0 +1,25 @@
+{
+  "slug": "cslb-guias-estudio-espanol",
+  "topic": "CSLB study guides in Spanish",
+  "official_sources": [
+    {
+      "label": "CSLB Examination Study Guides",
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/Examination_Study_Guides/"
+    },
+    {
+      "label": "CSLB Applicants",
+      "url": "https://www.cslb.ca.gov/Contractors/Applicants/"
+    }
+  ],
+  "confirmed_facts": [
+    "CSLB regulates contractor licensing in California.",
+    "Applicants should use CSLB official study guide resources for exams."
+  ],
+  "uncertain_facts": [
+    "Spanish availability varies by exam/classification and should be confirmed with CSLB."
+  ],
+  "do_not_claim": [
+    "Do not claim all technical exams are available in Spanish unless directly verified.",
+    "Do not invent current fees or exam policies."
+  ]
+}

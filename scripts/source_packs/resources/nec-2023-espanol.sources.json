@@ -1,0 +1,22 @@
+{
+  "slug": "nec-2023-espanol",
+  "topic": "NEC 2023 Spanish study guide",
+  "official_sources": [
+    {
+      "label": "NFPA 70 NEC",
+      "url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+    }
+  ],
+  "confirmed_facts": [
+    "NFPA 70 is the National Electrical Code.",
+    "NEC editions are adopted by jurisdictions at different times."
+  ],
+  "uncertain_facts": [
+    "Spanish-language availability and price may change.",
+    "Exam code edition varies by state and testing bulletin."
+  ],
+  "do_not_claim": [
+    "Do not offer or link to pirated NEC PDFs.",
+    "Do not reproduce copyrighted code text."
+  ]
+}

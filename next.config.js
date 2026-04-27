@@ -61,9 +61,9 @@ const nextConfig = {
 
       // ─── BLOG POSTS WP → página de licencia más relevante ────────────────
       // Electricista Texas / General
-      { source: '/nfpa-70-manual-nec-2023-espanol', destination: '/licencia-electricista-texas', permanent: true },
-      { source: '/manual-nec-2023-espanol', destination: '/licencia-electricista-texas', permanent: true },
-      { source: '/nec-2023-guia-electricistas-hispanos', destination: '/licencia-electricista-texas', permanent: true },
+      { source: '/nfpa-70-manual-nec-2023-espanol', destination: '/nec-2023-espanol', permanent: true },
+      { source: '/manual-nec-2023-espanol', destination: '/nec-2023-espanol', permanent: true },
+      { source: '/nec-2023-guia-electricistas-hispanos', destination: '/nec-2023-espanol', permanent: true },
       { source: '/journeyman-y-master-electrician', destination: '/licencia-electricista-texas', permanent: true },
       { source: '/electrical-apprentice', destination: '/licencia-electricista-texas', permanent: true },
       { source: '/apprentice-journeyman-electrician-master-electrician-electrical-contractor', destination: '/licencia-electricista-texas', permanent: true },
@@ -71,7 +71,7 @@ const nextConfig = {
       { source: '/electrical-safety-kit-espanol-ingles', destination: '/licencia-electricista-texas', permanent: true },
       { source: '/electrical-residential', destination: '/licencia-electricista-texas', permanent: true },
       { source: '/residential-02', destination: '/licencia-electricista-texas', permanent: true },
-      { source: '/simulador-examen-journeyman-electrician-gratis-2025', destination: '/licencia-electricista-texas', permanent: true },
+      { source: '/simulador-examen-journeyman-electrician-gratis-2025', destination: '/examen-journeyman-electrician-espanol', permanent: true },
       { source: '/iec-dallas-preapprenticeship-eastfield-texas', destination: '/licencia-electricista-texas', permanent: true },
       { source: '/curso-pre-apprentice-electrical-de-skillpoint-alliance-texas', destination: '/licencia-electricista-texas', permanent: true },
       { source: '/electrician-certification-general-01', destination: '/oficio/electricista', permanent: true },
@@ -87,7 +87,7 @@ const nextConfig = {
       // Electricista California
       { source: '/cr-11-electrical-c-11-electrical', destination: '/licencia-electricista-california', permanent: true },
       { source: '/voice-data-video-05-contratista-c10-cslb', destination: '/licencia-electricista-california', permanent: true },
-      { source: '/guias-de-estudio-en-espanol-del-cslb', destination: '/licencia-electricista-california', permanent: true },
+      { source: '/guias-de-estudio-en-espanol-del-cslb', destination: '/cslb-guias-estudio-espanol', permanent: true },
       { source: '/weca-electrician-trainee-et-california', destination: '/licencia-electricista-california', permanent: true },
       { source: '/programa-aprendizaje-electrico-weca', destination: '/licencia-electricista-california', permanent: true },
       // Electricista Illinois
@@ -96,8 +96,8 @@ const nextConfig = {
       { source: '/class-a-journeyworker-class-a-master-power-limited-technician-maintenance-electrician-lineman', destination: '/licencia-electricista-minnesota', permanent: true },
       // HVAC
       { source: '/no-existe-licencia-estatal-hvac-epa-608-obligatorio-licencias-permits-locales', destination: '/licencia-hvac-california', permanent: true },
-      { source: '/2025/09/05/que-es-la-certificacion-epa-608-y-por-que-es-obligatoria', destination: '/licencia-hvac-texas', permanent: true },
-      { source: '/simulador-examen-electricista-epa608', destination: '/licencia-hvac-texas', permanent: true },
+      { source: '/2025/09/05/que-es-la-certificacion-epa-608-y-por-que-es-obligatoria', destination: '/epa-608', permanent: true },
+      { source: '/simulador-examen-electricista-epa608', destination: '/epa-608', permanent: true },
       { source: '/c-20-warm-air-heating', destination: '/licencia-hvac-california', permanent: true },
       { source: '/r-39-residential-c-39-commercial-cr-39-dual-hvac-contractor', destination: '/licencia-hvac-arizona', permanent: true },
       { source: '/registered-technician-certified-technician-contractor-acr', destination: '/licencia-hvac-texas', permanent: true },

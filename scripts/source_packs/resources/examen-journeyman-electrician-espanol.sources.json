@@ -1,0 +1,26 @@
+{
+  "slug": "examen-journeyman-electrician-espanol",
+  "topic": "Journeyman electrician exam Spanish preparation",
+  "official_sources": [
+    {
+      "label": "TDLR Electricians",
+      "url": "https://www.tdlr.texas.gov/electricians/"
+    },
+    {
+      "label": "PSI Exams",
+      "url": "https://www.psiexams.com/"
+    }
+  ],
+  "confirmed_facts": [
+    "Journeyman electrician licensing is jurisdiction-specific.",
+    "Exam providers and candidate bulletins can vary by state or local authority."
+  ],
+  "uncertain_facts": [
+    "Spanish exam availability varies and must be checked in the candidate bulletin.",
+    "Required experience hours vary by jurisdiction."
+  ],
+  "do_not_claim": [
+    "Do not publish leaked real exam questions.",
+    "Do not present one state’s journeyman requirements as national rules."
+  ]
+}

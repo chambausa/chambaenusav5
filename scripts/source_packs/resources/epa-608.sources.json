@@ -1,0 +1,27 @@
+{
+  "slug": "epa-608",
+  "topic": "EPA 608 certification",
+  "official_sources": [
+    {
+      "label": "EPA Section 608",
+      "url": "https://www.epa.gov/section608"
+    },
+    {
+      "label": "EPA Section 608 Technician Certification",
+      "url": "https://www.epa.gov/section608/section-608-technician-certification"
+    }
+  ],
+  "confirmed_facts": [
+    "Section 608 is EPA/federal refrigerant regulation context.",
+    "Technician certification is relevant for work involving regulated refrigerants.",
+    "Certification categories commonly include Type I, Type II, Type III and Universal."
+  ],
+  "uncertain_facts": [
+    "Exact exam provider and fee vary by provider.",
+    "State HVAC license requirements are separate and vary by jurisdiction."
+  ],
+  "do_not_claim": [
+    "Do not claim EPA 608 replaces a state HVAC license.",
+    "Do not recommend uncertified refrigerant handling."
+  ]
+}
