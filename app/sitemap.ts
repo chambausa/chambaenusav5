@@ -49,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${BASE_URL}/agencias/texas-department-of-licensing-and-regulation-tdlr`,
+      url: 'https://chambaenusa.com/tdlr-texas-espanol',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,

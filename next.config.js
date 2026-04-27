@@ -15,6 +15,10 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // ─── TDLR: short SEO URL ──────────────────────────────────────────────
+      { source: '/agencias/texas-department-of-licensing-and-regulation-tdlr', destination: '/tdlr-texas-espanol', permanent: true },
+      { source: '/tdlr-texas-en-espanol', destination: '/tdlr-texas-espanol', permanent: true },
+
       // ─── LICENCIAS: slug normalization (WordPress → v5) ───────────────────
       { source: '/licencia-plomeria-california', destination: '/licencia-plomero-california', permanent: true },
       { source: '/licencia-plomeria-texas', destination: '/licencia-plomero-texas', permanent: true },

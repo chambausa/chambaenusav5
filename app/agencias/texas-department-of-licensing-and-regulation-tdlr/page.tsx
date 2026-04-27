@@ -2,17 +2,18 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'TDLR Texas en Español 2026: Qué es, Licencias y Cómo Tramitarlas',
+  title: 'TDLR Texas en Español: Qué es, Teléfono y Licencias',
   description:
-    'Guía completa del TDLR en español. Qué es el Texas Department of Licensing and Regulation, qué licencias regula para hispanos y cómo tramitarlas paso a paso.',
+    'Qué es TDLR Texas, teléfono oficial, horario, licencias que regula y cómo aplicar, renovar o verificar una licencia desde el portal oficial.',
   alternates: {
-    canonical: 'https://chambaenusa.com/agencias/texas-department-of-licensing-and-regulation-tdlr/',
+    canonical: 'https://chambaenusa.com/tdlr-texas-espanol',
   },
   openGraph: {
-    title: 'TDLR Texas en Español: Guía para Trabajadores Hispanos',
+    title: 'TDLR Texas en Español: Teléfono, Licencias y Trámites',
     description:
-      'Si quieres trabajar en Texas en electricidad, HVAC, cosmetología o barbería, vas a pasar por TDLR. Aquí te explicamos todo en español.',
+      'Datos rápidos de TDLR Texas: teléfono oficial, horario, sitio oficial, License Search y trámites para aplicar, renovar, verificar o presentar quejas.',
     type: 'article',
+    url: 'https://chambaenusa.com/tdlr-texas-espanol',
   },
 }
 
@@ -66,6 +67,23 @@ const otrasProfesiones = [
   { label: 'Pozos de Agua', emoji: '💧' },
   { label: 'Educación Vial', emoji: '🛣️' },
   { label: 'Autopartes', emoji: '⚙️' },
+]
+
+
+const datosRapidos = [
+  { label: 'Nombre oficial', value: 'Texas Department of Licensing and Regulation' },
+  { label: 'Teléfono', value: '(512) 463-6599', href: 'tel:5124636599' },
+  { label: 'Toll-free Texas', value: '(800) 803-9202', href: 'tel:8008039202' },
+  { label: 'Horario', value: 'lunes a viernes, 8:00 a.m. a 5:00 p.m.' },
+  { label: 'Verificar licencia', value: 'License Search', href: 'https://www.tdlr.texas.gov/LicenseSearch/' },
+  { label: 'Trámites', value: 'aplicar, renovar, verificar, quejas' },
+]
+
+const enlacesOficiales = [
+  { label: 'Apply for a New License', href: 'https://www.tdlr.texas.gov/licenses/apply/' },
+  { label: 'Renew Your License', href: 'https://www.tdlr.texas.gov/licenses/renew/' },
+  { label: 'Online Services', href: 'https://www.tdlr.texas.gov/onlineservices.htm' },
+  { label: 'Complaints and Enforcement', href: 'https://www.tdlr.texas.gov/complaints/' },
 ]
 
 const pasos = [
@@ -149,25 +167,71 @@ export default function TDLRPage() {
 
       {/* Hero */}
       <header
-        className="relative overflow-hidden py-24 px-6 lg:px-8 mb-12"
+        className="relative overflow-hidden py-20 px-6 lg:px-8 mb-12"
         style={{ background: 'linear-gradient(135deg, #0F172A 0%, #1E293B 100%)' }}
       >
-        <div className="max-w-7xl mx-auto relative z-10">
-          <span className="inline-flex items-center gap-2 px-3 py-1 bg-amber-500 text-slate-900 text-[10px] font-bold uppercase tracking-widest rounded-full mb-6">
-            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            Agencia Oficial · Texas
-          </span>
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 max-w-4xl tracking-tight">
-            TDLR: Departamento de Licencias y{' '}
-            <span className="text-amber-400">Regulación de Texas</span>
-          </h1>
-          <p className="text-lg md:text-xl text-slate-300 max-w-2xl font-light leading-relaxed">
-            La entidad estatal responsable de supervisar más de 30 profesiones, industrias y
-            servicios, garantizando estándares de seguridad y profesionalismo para todos los
-            trabajadores y consumidores en Texas.
-          </p>
+        <div className="max-w-7xl mx-auto relative z-10 grid lg:grid-cols-[1fr_420px] gap-10 items-center">
+          <div>
+            <span className="inline-flex items-center gap-2 px-3 py-1 bg-amber-500 text-slate-900 text-[10px] font-bold uppercase tracking-widest rounded-full mb-6">
+              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Agencia Oficial · Texas
+            </span>
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6 max-w-4xl tracking-tight" aria-label="TDLR Texas en español: qué es, teléfono y licencias">
+              TDLR Texas en español: <span className="text-amber-400">qué es, teléfono y licencias</span>
+            </h1>
+            <p className="text-lg md:text-xl text-slate-300 max-w-2xl font-light leading-relaxed">
+              Guía directa para entender qué hace el Texas Department of Licensing and Regulation,
+              qué licencias regula, cómo aplicar o renovar y dónde verificar una licencia oficial.
+            </p>
+          </div>
+
+          <aside className="bg-white/95 backdrop-blur rounded-2xl shadow-2xl border border-amber-300/30 p-6 lg:p-7 text-slate-900" aria-label="TDLR Texas: datos rápidos">
+            <div className="flex items-center justify-between gap-4 mb-5">
+              <div>
+                <p className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-amber-600 mb-1">Datos oficiales</p>
+                <h2 className="text-2xl font-extrabold tracking-tight">TDLR Texas: datos rápidos</h2>
+              </div>
+              <span className="w-11 h-11 rounded-full bg-amber-500 text-slate-950 flex items-center justify-center font-black">TX</span>
+            </div>
+
+            <dl className="space-y-3">
+              {datosRapidos.map((item) => (
+                <div key={item.label} className="grid grid-cols-[118px_1fr] gap-3 border-b border-slate-200 pb-3 last:border-b-0">
+                  <dt className="text-[11px] uppercase tracking-wider font-bold text-slate-500">{item.label}</dt>
+                  <dd className="text-sm font-semibold leading-snug text-slate-900">
+                    {item.href ? (
+                      <a href={item.href} target={item.href.startsWith('http') ? '_blank' : undefined} rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined} className="text-amber-700 hover:text-amber-600 hover:underline">
+                        {item.value}
+                      </a>
+                    ) : (
+                      item.value
+                    )}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+
+            <div className="mt-6 grid sm:grid-cols-2 gap-3">
+              <a
+                href="https://www.tdlr.texas.gov/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 text-white px-4 py-3 text-sm font-bold hover:bg-slate-800 transition-colors"
+              >
+                Sitio oficial: tdlr.texas.gov
+              </a>
+              <a
+                href="https://www.tdlr.texas.gov/LicenseSearch/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-amber-500 text-slate-950 px-4 py-3 text-sm font-bold hover:bg-amber-400 transition-colors"
+              >
+                License Search
+              </a>
+            </div>
+          </aside>
         </div>
       </header>
 
@@ -409,6 +473,27 @@ export default function TDLRPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Enlaces oficiales */}
+      <section className="max-w-7xl mx-auto px-6 lg:px-8 pb-20">
+        <div className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+          <span className="text-amber-500 font-bold text-xs uppercase tracking-[0.2em] mb-2 block">Fuentes oficiales</span>
+          <h2 className="text-2xl font-extrabold text-gray-900 mb-5">Trámites oficiales de TDLR</h2>
+          <div className="grid md:grid-cols-4 gap-3">
+            {enlacesOficiales.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-sm font-bold text-slate-800 hover:border-amber-300 hover:bg-amber-50 hover:text-amber-700 transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
         </div>
       </section>
