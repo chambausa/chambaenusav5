@@ -12,13 +12,13 @@
     "approval_status": "published",
     "notes": "Resumen corto de límites editoriales y facts sensibles no confirmados.",
     "model_profile": "production_claude_balanced",
-    "published_at": "2026-05-11T18:03:38.732Z",
+    "published_at": "2026-05-11T21:48:41.445Z",
     "published_by": "xypnotic-os",
     "pipeline_version": "v3"
   },
   "page_seo": {
     "title": "Licencia de Cosmetología en Arizona: Requisitos, Examen y Cómo Aplicar",
-    "meta_description": "Guía en español para obtener la licencia de cosmetología en Arizona: requisitos, pasos, examen, costos, renovación y enlaces oficiales.",
+    "meta_description": "Guía en español para obtener tu licencia de cosmetología en Arizona: requisitos, pasos, examen, costos, renovación y enlaces oficiales.",
     "h1": "Licencia de Cosmetología en Arizona",
     "slug": "licencia-cosmetologia-arizona",
     "canonical_url": "https://chambaenusa.com/licencia-cosmetologia-arizona/",
@@ -43,7 +43,7 @@
     "ai_generated": false,
     "badge": "Actualizado 2026",
     "headline": "Licencia de Cosmetología en Arizona",
-    "subheadline": "Para trabajar como cosmetología en Arizona, revisa los requisitos oficiales, examen, costos, renovación y enlaces de la agencia reguladora. Esta página separa datos confirmados de datos que requieren verificación manual.",
+    "subheadline": "Si quieres trabajar como cosmetóloga o cosmetólogo en Arizona, aquí encontrarás los requisitos oficiales, el proceso del examen, los costos, la renovación y los enlaces directos a la agencia reguladora. Esta página distingue claramente los datos confirmados de los que aún requieren verificación manual.",
     "key_stats": [
       {
         "label": "Agencia",
@@ -55,31 +55,31 @@
       },
       {
         "label": "Formación/Requisito",
-        "value": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
-        "detail": "Requisito principal confirmado o pendiente de confirmar.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
-        "status": "confirmed"
+        "value": "No confirmado",
+        "detail": "Este requisito está pendiente de confirmación. Verifica directamente con la agencia.",
+        "source": "",
+        "source_name": "",
+        "status": "no_confirmado_en_source_pack"
       },
       {
         "label": "Examen",
-        "value": "Debe pasar el examen para cosmetologist license.",
-        "detail": "Examen requerido si la fuente oficial lo confirma.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
+        "value": "Sí, se requiere aprobar examen escrito y práctico",
+        "detail": "Requisito de examen confirmado en fuente oficial.",
+        "source": "https://bcb.az.gov/information-for-students",
+        "source_name": "BCB Arizona - Information for Students",
         "status": "confirmed"
       },
       {
         "label": "Renovación",
-        "value": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
-        "detail": "Ciclo de renovación confirmado o pendiente de verificar.",
+        "value": "Cada dos años, en o antes de tu fecha de cumpleaños",
+        "detail": "Ciclo de renovación confirmado en fuente oficial.",
         "source": "https://www.azleg.gov/ars/32/00517.htm",
         "source_name": "Arizona Revised Statutes 32-517",
         "status": "confirmed"
       }
     ],
     "cta_primary": {
-      "text": "Ver pasos para obtener la licencia",
+      "text": "Ver los pasos para obtener tu licencia",
       "anchor": "#roadmap"
     },
     "cta_secondary": {
@@ -89,7 +89,7 @@
   },
   "datos_rapidos": {
     "ai_generated": false,
-    "title": "Datos rápidos",
+    "title": "De un vistazo: datos clave",
     "items": [
       {
         "label": "Estado",
@@ -108,33 +108,33 @@
         "status": "confirmed"
       },
       {
-        "label": "Aplicación",
-        "value": "Portal/formularios oficiales",
-        "source": "https://bcb.az.gov/licensing",
+        "label": "Cómo aplicar",
+        "value": "Portal y formularios oficiales en línea",
+        "source": "https://bcb.az.gov/apply/personal-license",
         "status": "confirmed"
       },
       {
         "label": "Costo inicial",
-        "value": "Application for initial personal license: fee máximo de $100 establecido por la Board.",
+        "value": "Hasta $100 USD (tarifa de aplicación inicial autorizada por ley)",
         "source": "https://www.azleg.gov/ars/32/00507.htm",
         "status": "confirmed"
       },
       {
         "label": "Idioma del examen",
-        "value": "No confirmado en las fuentes oficiales revisadas.",
-        "source": "https://bcb.az.gov/examinations",
+        "value": "No confirmado. Es posible que el examen no esté disponible en español — verifica con PSI Exams antes de agendar tu cita.",
+        "source": "https://bcb.az.gov/information-for-students",
         "status": "uncertain"
       }
     ]
   },
   "intro_editorial": {
     "ai_generated": true,
-    "title": "Lo básico antes de empezar",
-    "content": "Explicación corta, clara y no exagerada para el lector hispano: qué licencia se necesita, quién la regula y qué debe revisar antes de pagar cursos, exámenes o aplicaciones.",
+    "title": "Lo que debes saber antes de empezar",
+    "content": "Explicación breve, clara y sin exageraciones para el lector hispano: qué licencia necesitas, quién la regula en Arizona y qué debes revisar antes de pagar cursos, exámenes o tramitar tu aplicación.",
     "rules": [
       "No prometer aprobación.",
       "No inventar tiempos de procesamiento.",
-      "No afirmar idioma español del examen sin fuente directa."
+      "No afirmar que el examen está disponible en español sin fuente directa que lo confirme."
     ]
   },
   "autoridad_reguladora": {
@@ -143,8 +143,8 @@
     "short_name": "BCB Arizona",
     "programa": "Cosmetología Licensing",
     "website": "https://bcb.az.gov/",
-    "apply_url": "https://bcb.az.gov/licensing",
-    "renew_url": "https://bcb.az.gov/licensing",
+    "apply_url": "https://bcb.az.gov/apply/personal-license",
+    "renew_url": "https://bcb.az.gov/apply/personal-license",
     "license_lookup_url": "https://bcb.az.gov/",
     "contact_url": "https://bcb.az.gov/contact-us",
     "telefono": {
@@ -162,7 +162,7 @@
       "status": "no_confirmado_en_source_pack",
       "source": ""
     },
-    "nota": "Usar solo datos de contacto confirmados en fuente oficial. Si no están confirmados, dirigir al contact_url oficial."
+    "nota": "Usa solo los datos de contacto confirmados en fuente oficial. Si no están confirmados, dirígete al enlace de contacto oficial."
   },
   "licencias_y_clasificaciones": {
     "ai_generated": false,
@@ -170,100 +170,100 @@
     "items": [
       {
         "name": "Licencia de Cosmetología",
-        "description": "Licencia o clasificación principal para cosmetología en Arizona. Verifica si existen subclasificaciones aplicables a tu caso.",
-        "requirements_summary": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
-        "status": "confirmed"
+        "description": "Licencia principal para ejercer la cosmetología en Arizona. Verifica si existen subclasificaciones que apliquen a tu situación específica.",
+        "requirements_summary": "Requisito no confirmado en el source pack",
+        "source": "https://bcb.az.gov/",
+        "source_name": "BCB Arizona",
+        "status": "no_confirmado_en_source_pack"
       }
     ],
-    "notes": "Si el estado maneja niveles —apprentice, journeyman, master, contractor, specialty— listarlos aquí."
+    "notes": "Si el estado maneja niveles —aprendiz, journeyman, maestro, contratista, especialidad— se listarán aquí cuando estén confirmados."
   },
   "requisitos": {
     "ai_generated": false,
-    "title": "Requisitos para obtener la licencia",
+    "title": "Requisitos para obtener tu licencia",
     "items": [
       {
-        "requirement": "Formación/horas",
-        "value": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
-        "explanation": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
-        "status": "confirmed"
+        "requirement": "Formación/horas requeridas",
+        "value": "No confirmado",
+        "explanation": "Este dato no está confirmado en el source pack. Consulta directamente con BCB Arizona.",
+        "source": "",
+        "source_name": "",
+        "status": "no_confirmado_en_source_pack"
       },
       {
-        "requirement": "Edad/educación",
-        "value": "Dos años de high school o equivalente y al menos 16 años, o evidencia de tener al menos 18 años.",
-        "explanation": "Dos años de high school o equivalente y al menos 16 años, o evidencia de tener al menos 18 años.",
+        "requirement": "Edad y educación mínima",
+        "value": "Mínimo 16 años con 2 años de preparatoria o equivalente, o bien 18 años sin requisito educativo adicional.",
+        "explanation": "Mínimo 16 años con 2 años de preparatoria o equivalente, o bien 18 años sin requisito educativo adicional.",
         "source": "https://www.azleg.gov/ars/32/00511.htm",
         "source_name": "Arizona Revised Statutes 32-511",
         "status": "confirmed"
       },
       {
         "requirement": "Examen",
-        "value": "Debe pasar el examen para cosmetologist license.",
-        "explanation": "Debe pasar el examen para cosmetologist license.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
+        "value": "Sí, debes aprobar un examen escrito y uno práctico",
+        "explanation": "Sí, debes aprobar un examen escrito y uno práctico.",
+        "source": "https://bcb.az.gov/information-for-students",
+        "source_name": "BCB Arizona - Information for Students",
         "status": "confirmed"
       }
     ],
     "sensitive_unknowns": [
       {
         "id": "itin_or_ssn",
-        "label": "ITIN/SSN/estatus migratorio",
+        "label": "ITIN / SSN / estatus migratorio",
         "status": "uncertain",
-        "safe_copy": "No confirmado en las fuentes oficiales revisadas."
+        "safe_copy": "No confirmado. Revisa la aplicación oficial vigente en bcb.az.gov antes de enviar cualquier documento."
       },
       {
         "id": "background_check",
-        "label": "Background check",
+        "label": "Verificación de antecedentes (background check)",
         "status": "no_confirmado_en_source_pack",
-        "safe_copy": "No afirmes background check si no aparece en fuente oficial directa."
+        "safe_copy": "No afirmes que se requiere background check si no aparece en fuente oficial directa."
       }
     ]
   },
   "roadmap": {
     "ai_generated": true,
-    "title": "Cómo sacar la licencia de Cosmetología en Arizona",
-    "intro": "Pasos generales basados en fuentes oficiales. El orden puede variar según tu caso; verifica siempre en la agencia estatal.",
+    "title": "Cómo obtener tu licencia de Cosmetología en Arizona",
+    "intro": "Estos son los pasos generales basados en fuentes oficiales. El orden puede variar según tu situación particular; confirma siempre los detalles directamente con la agencia estatal.",
     "steps": [
       {
         "step": 1,
-        "title": "Confirma qué licencia necesitas",
-        "description": "Revisa si tu trabajo requiere licencia estatal, registro, certificación local o una clasificación específica.",
+        "title": "Confirma qué tipo de licencia necesitas",
+        "description": "Revisa si tu trabajo requiere licencia estatal, registro, certificación local o una clasificación específica dentro de la cosmetología.",
         "source": "https://bcb.az.gov/",
         "source_name": "BCB Arizona",
         "status": "confirmed"
       },
       {
         "step": 2,
-        "title": "Reúne requisitos de educación, experiencia o entrenamiento",
-        "description": "Completa horas, experiencia documentada, escuela aprobada o prerequisitos confirmados para este oficio/estado.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
-        "status": "confirmed"
+        "title": "Completa los requisitos de educación, experiencia o entrenamiento",
+        "description": "Acumula las horas requeridas, documenta tu experiencia o completa una escuela aprobada según los prerequisitos de este oficio en Arizona.",
+        "source": "",
+        "source_name": "",
+        "status": "no_confirmado_en_source_pack"
       },
       {
         "step": 3,
         "title": "Presenta tu aplicación oficial",
-        "description": "Usa el portal o formulario oficial. Evita intermediarios que prometen aprobación garantizada.",
-        "source": "https://bcb.az.gov/licensing",
+        "description": "Usa el portal o formulario oficial de BCB Arizona. Evita intermediarios que prometan aprobación garantizada — nadie puede asegurártela.",
+        "source": "https://bcb.az.gov/apply/personal-license",
         "source_name": "BCB Arizona",
         "status": "confirmed"
       },
       {
         "step": 4,
-        "title": "Agenda y aprueba el examen si aplica",
-        "description": "Si el examen es requisito confirmado, revisa proveedor, contenido, idioma y reglas de identificación directamente en la fuente oficial.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "Arizona Revised Statutes 32-511",
+        "title": "Agenda y aprueba el examen",
+        "description": "El examen es un requisito confirmado. Consulta directamente con el proveedor oficial el contenido, el idioma disponible y los documentos de identificación que aceptan.",
+        "source": "https://bcb.az.gov/information-for-students",
+        "source_name": "BCB Arizona - Information for Students",
         "status": "confirmed"
       },
       {
         "step": 5,
         "title": "Mantén tu licencia activa",
-        "description": "Guarda tu número de licencia, revisa renovación, educación continua y cambios de dirección si aplican.",
+        "description": "Guarda tu número de licencia, revisa las fechas de renovación, los requisitos de educación continua y actualiza tu dirección si cambias de domicilio.",
         "source": "https://www.azleg.gov/ars/32/00517.htm",
         "source_name": "Arizona Revised Statutes 32-517",
         "status": "confirmed"
@@ -274,25 +274,25 @@
     "ai_generated": false,
     "title": "Costos y tarifas oficiales",
     "status": "partial",
-    "nota_general": "No presentar montos como exactos si la fuente solo establece máximo autorizado o si el fee cambia por portal. Indicar fecha de verificación y link oficial.",
+    "nota_general": "Los montos que aparecen aquí son los máximos autorizados por ley o los confirmados en fuente oficial. Las tarifas pueden cambiar; verifica el monto vigente en el portal oficial antes de pagar.",
     "items": [
       {
         "concepto": "Aplicación inicial",
-        "monto": "Application for initial personal license: fee máximo de $100 establecido por la Board.",
-        "frequency": "una vez",
+        "monto": "Hasta $100 USD (tarifa máxima autorizada por ley)",
+        "frequency": "Una sola vez",
         "source": "https://www.azleg.gov/ars/32/00507.htm",
         "source_name": "Arizona Revised Statutes 32-507",
         "status": "confirmed",
-        "notes": "Verificar monto vigente en fuente oficial antes de publicar."
+        "notes": "Verifica el monto exacto vigente en la fuente oficial antes de publicar o pagar."
       },
       {
         "concepto": "Renovación",
-        "monto": "Personal license renewal: $100 cada dos años según ARS 32-507.",
-        "frequency": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "monto": "$100 USD cada dos años",
+        "frequency": "Cada dos años, en o antes de tu fecha de cumpleaños",
         "source": "https://www.azleg.gov/ars/32/00507.htm",
         "source_name": "Arizona Revised Statutes 32-507",
         "status": "confirmed",
-        "notes": "Verificar monto vigente en fuente oficial antes de publicar."
+        "notes": "Verifica el monto exacto vigente en la fuente oficial antes de publicar o pagar."
       }
     ]
   },
@@ -301,23 +301,23 @@
     "title": "Examen de licencia",
     "required": "confirmed_yes",
     "provider": {
-      "name": "Proveedor oficial/no confirmado",
-      "url": "https://bcb.az.gov/examinations",
+      "name": "Proveedor oficial no confirmado en source pack",
+      "url": "https://bcb.az.gov/information-for-students",
       "status": "uncertain"
     },
     "parts": [
       {
         "name": "No confirmado",
-        "description": "No confirmado",
+        "description": "Los detalles de las partes del examen no están confirmados en el source pack. Consulta directamente con BCB Arizona.",
         "status": "uncertain",
         "source": ""
       }
     ],
     "language": {
-      "value": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen.",
-      "status": "no_confirmado_en_source_pack",
-      "safe_copy": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen.",
-      "source": "https://bcb.az.gov/examinations"
+      "value": "No confirmado. Es posible que el examen no esté disponible en español — verifica con PSI Exams antes de agendar tu cita.",
+      "status": "uncertain",
+      "safe_copy": "No podemos confirmar que el examen esté disponible en español sin una fuente directa que lo respalde. Verifica con la agencia o el proveedor del examen antes de agendar.",
+      "source": "https://bcb.az.gov/information-for-students"
     },
     "study_resources": [
       {
@@ -332,20 +332,19 @@
     "type": "warning_box",
     "icon": "⚠️",
     "title": "Idioma, documentos y ayuda en español: verifica antes de pagar",
-    "content": "Esta página está en español para ayudarte a entender el trámite, pero eso no significa que la aplicación, el examen o la atención oficial estén disponibles en español. Verifica idioma del examen, documentos aceptados y requisitos de identificación directamente con la agencia o proveedor oficial.",
-    "source": "https://bcb.az.gov/examinations",
+    "content": "Esta página está en español para ayudarte a entender el proceso, pero eso no significa que la aplicación, el examen o la atención de la agencia estén disponibles en español. Antes de pagar o agendar cualquier cita, verifica el idioma del examen, los documentos aceptados y los requisitos de identificación directamente con la agencia o el proveedor oficial.",
+    "source": "https://bcb.az.gov/information-for-students",
     "source_name": "BCB Arizona",
-    "status": "default_required",
-    "body": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen."
+    "status": "default_required"
   },
   "renovacion": {
     "ai_generated": false,
-    "title": "Renovación de la licencia",
-    "cycle": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+    "title": "Renovación de tu licencia",
+    "cycle": "Cada dos años, en o antes de tu fecha de cumpleaños",
     "requirements": [
       {
         "label": "Ciclo de renovación",
-        "value": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "value": "Cada dos años, en o antes de tu fecha de cumpleaños",
         "source": "https://www.azleg.gov/ars/32/00517.htm",
         "status": "confirmed"
       }
@@ -364,13 +363,13 @@
   },
   "reciprocidad": {
     "ai_generated": false,
-    "title": "Si ya tienes licencia en otro estado",
+    "title": "¿Ya tienes licencia en otro estado?",
     "status": "confirmed",
-    "summary": "Existe ruta de reciprocity para personas licenciadas en otro estado o país; requiere aplicación, evidencia de licencia, completar clase de infection protection and law review y pagar fees prescritos.",
+    "summary": "Arizona acepta reciprocidad de otros estados y países que tengan requisitos equivalentes.",
     "requirements": [
       {
-        "label": "No confirmado",
-        "value": "No confirmado",
+        "label": "Requisitos específicos",
+        "value": "No confirmado en source pack. Consulta directamente con BCB Arizona.",
         "source": "",
         "status": "uncertain"
       }
@@ -380,48 +379,48 @@
   },
   "salarios": {
     "ai_generated": false,
-    "title": "Cuánto gana un cosmetologia en Arizona",
+    "title": "¿Cuánto gana un cosmetólogo en Arizona?",
     "status": "no_confirmado_en_source_pack",
-    "nota": "Este source pack no confirmó salario específico en fuente laboral confiable. No inventar cifras; verificar BLS/OEWS u otra fuente antes de publicar salarios.",
+    "nota": "Este source pack no confirmó cifras salariales en una fuente laboral confiable. No se incluyen montos para evitar información inexacta. Consulta BLS/OEWS u otra fuente oficial antes de publicar datos de salario.",
     "items": []
   },
   "advertencias": {
     "ai_generated": true,
-    "title": "Antes de aplicar, cuidado con esto",
+    "title": "Cuidado con esto antes de aplicar",
     "items": [
       {
         "type": "legal_warning",
         "title": "No trabajes sin licencia si el estado la exige",
-        "content": "Trabajar sin licencia puede causar multas, rechazo de aplicación o problemas legales según las reglas del estado.",
+        "content": "Ejercer sin licencia puede resultar en multas, rechazo de tu aplicación o consecuencias legales según las reglas de Arizona.",
         "source": "https://www.azleg.gov/ars/32/00574.htm",
         "source_name": "Arizona Revised Statutes 32-574",
         "status": "confirmed"
       },
       {
         "type": "uncertainty_warning",
-        "title": "No todos los datos aplican a todos los casos",
-        "content": "Requisitos pueden cambiar según experiencia, ciudad/condado, tipo de licencia, historial o si vienes de otro estado.",
+        "title": "No todos los requisitos aplican igual a todos los casos",
+        "content": "Los requisitos pueden variar según tu experiencia previa, ciudad o condado, tipo de licencia, historial o si vienes de otro estado. Confirma tu situación específica con la agencia.",
         "status": "editorial"
       }
     ]
   },
   "errores_comunes": {
     "ai_generated": true,
-    "title": "Errores comunes al tramitar esta licencia",
+    "title": "Errores frecuentes al tramitar esta licencia",
     "items": [
       {
         "title": "Aplicar a la licencia equivocada",
-        "description": "Algunos estados tienen varias clasificaciones. Confirma cuál corresponde a tu trabajo real.",
+        "description": "Arizona puede tener varias clasificaciones. Confirma cuál corresponde exactamente al trabajo que vas a realizar.",
         "severity": "high"
       },
       {
-        "title": "Pagar cursos o exámenes antes de verificar requisitos",
-        "description": "Primero revisa fuente oficial, proveedor del examen y si necesitas aprobación previa.",
+        "title": "Pagar cursos o exámenes antes de verificar los requisitos",
+        "description": "Primero revisa la fuente oficial, el proveedor del examen y si necesitas alguna aprobación previa antes de gastar dinero.",
         "severity": "medium"
       },
       {
-        "title": "Asumir que el examen está en español",
-        "description": "La disponibilidad de idioma debe verificarse con la agencia o proveedor oficial.",
+        "title": "Asumir que el examen está disponible en español",
+        "description": "El idioma del examen debe verificarse directamente con la agencia o el proveedor oficial. No des por hecho que estará en español.",
         "severity": "high"
       }
     ]
@@ -431,26 +430,26 @@
     "title": "Preguntas frecuentes",
     "items": [
       {
-        "question": "¿Necesito licencia para trabajar como cosmetología en Arizona?",
-        "answer": "Revisa los requisitos de BCB Arizona. 1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "status": "confirmed"
-      },
-      {
-        "question": "¿El examen de cosmetología en Arizona está en español?",
-        "answer": "No podemos confirmar que el examen esté disponible en español sin fuente directa. Verifica con la agencia o proveedor antes de agendar.",
-        "source": "https://bcb.az.gov/examinations",
-        "status": "uncertain"
-      },
-      {
-        "question": "¿Puedo aplicar con ITIN o necesito SSN?",
-        "answer": "No pudimos confirmar si puedes aplicar con ITIN. Revisa la aplicación oficial en bcb.az.gov/applications o llama al Board antes de enviar documentos.",
-        "source": "https://bcb.az.gov/applications",
+        "question": "¿Necesito licencia para trabajar como cosmetólogo o cosmetóloga en Arizona?",
+        "answer": "Sí, Arizona exige licencia estatal para ejercer la cosmetología. Revisa los requisitos actualizados directamente en BCB Arizona, ya que este dato no está completamente confirmado en nuestro source pack.",
+        "source": "https://bcb.az.gov/",
         "status": "no_confirmado_en_source_pack"
       },
       {
+        "question": "¿El examen de cosmetología en Arizona está disponible en español?",
+        "answer": "No podemos confirmarlo sin una fuente directa que lo respalde. Verifica el idioma disponible con la agencia o el proveedor del examen antes de agendar tu cita.",
+        "source": "https://bcb.az.gov/information-for-students",
+        "status": "uncertain"
+      },
+      {
+        "question": "¿Puedo aplicar con ITIN o necesito número de Seguro Social (SSN)?",
+        "answer": "No está confirmado. Revisa la aplicación oficial vigente en bcb.az.gov antes de enviar cualquier documento personal.",
+        "source": "https://bcb.az.gov/apply/personal-license",
+        "status": "uncertain"
+      },
+      {
         "question": "¿Cómo renuevo mi licencia de cosmetología en Arizona?",
-        "answer": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "answer": "La licencia se renueva cada dos años, en o antes de tu fecha de cumpleaños. Consulta el proceso de renovación en el portal oficial de BCB Arizona.",
         "source": "https://www.azleg.gov/ars/32/00517.htm",
         "status": "confirmed"
       }
@@ -468,24 +467,24 @@
       },
       {
         "label": "Aplicar a la licencia",
-        "url": "https://bcb.az.gov/licensing",
+        "url": "https://bcb.az.gov/apply/personal-license",
         "type": "apply",
         "status": "confirmed"
       },
       {
-        "label": "Renovar licencia",
-        "url": "https://bcb.az.gov/licensing",
+        "label": "Renovar tu licencia",
+        "url": "https://bcb.az.gov/apply/personal-license",
         "type": "renew",
         "status": "confirmed"
       },
       {
-        "label": "Buscar/verificar licencia",
+        "label": "Buscar o verificar una licencia",
         "url": "https://bcb.az.gov/",
         "type": "lookup",
         "status": "confirmed"
       },
       {
-        "label": "Reglas o leyes oficiales",
+        "label": "Leyes y reglamentos oficiales",
         "url": "https://www.azleg.gov/arsDetail/?title=32",
         "type": "law",
         "status": "confirmed"
@@ -500,7 +499,7 @@
   },
   "internal_links": {
     "ai_generated": true,
-    "title": "También te puede servir",
+    "title": "También te puede ser útil",
     "items": [
       {
         "label": "Licencias en Arizona",
@@ -509,7 +508,7 @@
         "status": "optional"
       },
       {
-        "label": "Licencia de cosmetologia en otro estado",
+        "label": "Licencia de cosmetología en otro estado",
         "url": "/categoria/cosmetologia/",
         "reason": "Cluster por oficio",
         "status": "optional"
