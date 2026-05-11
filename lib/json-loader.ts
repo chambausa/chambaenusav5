@@ -1,7 +1,8 @@
 // Simple JSON loader that works in Next.js
 // Uses dynamic import to avoid issues with static analysis
 
-export async function loadLicenseJSON(slug: string): Promise<Record<string, unknown> | null> {
+export async function loadLicenseJSON(slug: string | undefined | null): Promise<Record<string, unknown> | null> {
+  if (!slug) return null
   try {
     // Map of available JSON files
     const jsonFiles: Record<string, () => Promise<{ default: Record<string, unknown> }>> = {
