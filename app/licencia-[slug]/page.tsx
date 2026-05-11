@@ -176,12 +176,26 @@ export default async function LicensePage({ params }: Props) {
     const oficio = (_meta.oficio || '').charAt(0).toUpperCase() + (_meta.oficio || '').slice(1)
 
     // ── Roadmap normalization ─────────────────────────────────────────────────
-    // Old format: roadmap.tipos[]  (full license type objects)
-    // Pipeline v3: licencias_y_clasificaciones.items[] (simplified)
-    //              + roadmap.steps[] (how-to steps)
+    const pAuth = (json.autoridad_reguladora as any) || {}
+    const pCostos = (json.costos as any) || {}
+    const pExamen = (json.examen as any) || {}
+    const pRequisitos = (json.requisitos as any) || {}
+    const pRoadmap = (json.roadmap as any) || {}
+
     let roadmap: Roadmap
     if (isPipelineV3) {
       const licItems = (json.licencias_y_clasificaciones as any)?.items || []
+
+      // Build cost summary from pipeline costos section
+      const costItems = pCostos.items || []
+      const costoTotal = costItems.reduce((sum: number, c: any) => {
+        const m = String(c.monto || '').match(/\$?(\d[\d,]*)/);
+        return sum + (m ? parseFloat(m[1].replace(',','')) : 0)
+      }, 0)
+
+      // Build requisitos list from pipeline requisitos section
+      const reqItems = pRequisitos.items || []
+
       const tipos = licItems.map((item: any, i: number) => ({
         id: `tipo-${i}`,
         titulo_es: item.name || item.nombre || '',
@@ -190,19 +204,33 @@ export default async function LicensePage({ params }: Props) {
         color_badge: i === 0 ? '#7c3aed' : '#3b82f6',
         descripcion_corta: item.description || item.descripcion || '',
         scope_of_work: item.requirements_summary ? [item.requirements_summary] : [],
-        requisitos: { items: item.requirements_summary ? [{ descripcion: item.requirements_summary, source: item.source || '', source_name: item.source_name || '' }] : [] },
-        examen: null,
-        costos: null,
-        como_aplicar: {
-          url: (json.autoridad_reguladora as any)?.apply_url || (json.autoridad_reguladora as any)?.website || '',
-          pasos: (json.roadmap as any)?.steps?.map((s: any) => s.title || s.description).filter(Boolean) || [],
+        requisitos: {
+          items: reqItems.length > 0
+            ? reqItems.map((r: any) => ({ descripcion: r.description || r.requirement || r.value || '', source: r.source || '', source_name: r.source_name || '' }))
+            : (item.requirements_summary ? [{ descripcion: item.requirements_summary, source: item.source || '', source_name: item.source_name || '' }] : [])
         },
+        examen: pExamen.required ? {
+          requerido: pExamen.required === 'confirmed_yes',
+          proveedor: pExamen.provider?.name || '',
+          url: pExamen.provider?.url || pAuth.exam_info || '',
+          idioma: pExamen.language?.safe_copy || pExamen.language?.value || '',
+        } : null,
+        costos: costItems.length > 0 ? {
+          total_examenes_y_licencia: costoTotal || null,
+          items: costItems.map((c: any) => ({ concepto: c.concepto || '', monto: c.monto || '', source: c.source || '' }))
+        } : null,
+        como_aplicar: {
+          url: pAuth.apply_url || pAuth.website || '',
+          pasos: pRoadmap.steps?.map((s: any) => s.title || s.description).filter(Boolean) || [],
+        },
+        source: item.source || pAuth.website || '',
+        nota: pExamen.language?.safe_copy || '',
       }))
       roadmap = {
         _description: '',
         ai_generated: false,
         layout: 'grid',
-        nota_general: (json.roadmap as any)?.intro || '',
+        nota_general: pRoadmap.intro || '',
         tipos,
       } as unknown as Roadmap
     } else {
@@ -239,14 +267,16 @@ export default async function LicensePage({ params }: Props) {
     // ── Other sections (same field names in both formats) ─────────────────────
     const calloutEspanol = json.callout_espanol as any
     const erroresComunes = json.errores_comunes as any
-    const salarios = (json.salarios as any)?.status !== 'no_confirmado_en_source_pack'
-      ? json.salarios as any
-      : null
+    // Show salarios only if it has real BLS data (not just a no_confirmado note)
+    const rawSalarios = json.salarios as any
+    const salarios = rawSalarios?.items?.length > 0 ? rawSalarios : null
     const linksOficiales = json.links_oficiales as any
-    const renovacion = json.renovacion as any
-    const reciprocidad = (json.reciprocidad as any)?.status !== 'no_confirmado_en_source_pack'
-      ? json.reciprocidad as any
-      : null
+    // Always show renovacion if it has a cycle value
+    const rawRenovacion = json.renovacion as any
+    const renovacion = rawRenovacion?.cycle && !String(rawRenovacion.cycle).includes('No confirmado') ? rawRenovacion : null
+    // Show reciprocidad if it has a real summary
+    const rawReciprocidad = json.reciprocidad as any
+    const reciprocidad = rawReciprocidad?.summary && !String(rawReciprocidad.summary).includes('no_confirmado') ? rawReciprocidad : null
     const serviciosSinLicencia = json.servicios_sin_licencia as any
 
     // Debug logs

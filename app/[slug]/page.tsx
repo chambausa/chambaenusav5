@@ -191,14 +191,27 @@ export default async function DynamicPage({ params }: Props) {
         const oficio = formatLabel(_meta?.oficio || '')
 
         // Roadmap normalization — pipeline v3 uses licencias_y_clasificaciones
+        const pAuth2 = (json.autoridad_reguladora as any) || {}
+        const pCostos2 = (json.costos as any) || {}
+        const pExamen2 = (json.examen as any) || {}
+        const pRequisitos2 = (json.requisitos as any) || {}
+        const pRoadmap2 = (json.roadmap as any) || {}
+
         let roadmap: Roadmap
         if (isPipelineV3) {
             const licItems = (json.licencias_y_clasificaciones as any)?.items || []
+            const costItems2 = pCostos2.items || []
+            const costoTotal2 = costItems2.reduce((sum: number, c: any) => {
+                const m = String(c.monto || '').match(/\$?(\d[\d,]*)/)
+                return sum + (m ? parseFloat(m[1].replace(',','')) : 0)
+            }, 0)
+            const reqItems2 = pRequisitos2.items || []
+
             roadmap = {
                 _description: '',
                 ai_generated: false,
                 layout: 'grid',
-                nota_general: (json.roadmap as any)?.intro || '',
+                nota_general: pRoadmap2.intro || '',
                 tipos: licItems.map((item: any, i: number) => ({
                     id: `tipo-${i}`,
                     titulo_es: item.name || item.nombre || '',
@@ -207,13 +220,27 @@ export default async function DynamicPage({ params }: Props) {
                     color_badge: i === 0 ? '#7c3aed' : '#3b82f6',
                     descripcion_corta: item.description || item.descripcion || '',
                     scope_of_work: item.requirements_summary ? [item.requirements_summary] : [],
-                    requisitos: { items: item.requirements_summary ? [{ descripcion: item.requirements_summary, source: item.source || '', source_name: item.source_name || '' }] : [] },
-                    examen: null,
-                    costos: null,
-                    como_aplicar: {
-                        url: (json.autoridad_reguladora as any)?.apply_url || (json.autoridad_reguladora as any)?.website || '',
-                        pasos: (json.roadmap as any)?.steps?.map((s: any) => s.title || s.description).filter(Boolean) || [],
+                    requisitos: {
+                        items: reqItems2.length > 0
+                            ? reqItems2.map((r: any) => ({ descripcion: r.description || r.requirement || r.value || '', source: r.source || '', source_name: r.source_name || '' }))
+                            : (item.requirements_summary ? [{ descripcion: item.requirements_summary, source: item.source || '', source_name: item.source_name || '' }] : [])
                     },
+                    examen: pExamen2.required ? {
+                        requerido: pExamen2.required === 'confirmed_yes',
+                        proveedor: pExamen2.provider?.name || '',
+                        url: pExamen2.provider?.url || pAuth2.exam_info || '',
+                        idioma: pExamen2.language?.safe_copy || pExamen2.language?.value || '',
+                    } : null,
+                    costos: costItems2.length > 0 ? {
+                        total_examenes_y_licencia: costoTotal2 || null,
+                        items: costItems2.map((c: any) => ({ concepto: c.concepto || '', monto: c.monto || '', source: c.source || '' }))
+                    } : null,
+                    como_aplicar: {
+                        url: pAuth2.apply_url || pAuth2.website || '',
+                        pasos: pRoadmap2.steps?.map((s: any) => s.title || s.description).filter(Boolean) || [],
+                    },
+                    source: item.source || pAuth2.website || '',
+                    nota: pExamen2.language?.safe_copy || '',
                 })),
             } as unknown as Roadmap
         } else {
@@ -230,7 +257,8 @@ export default async function DynamicPage({ params }: Props) {
         // Extract all sections from JSON
         const calloutEspanol = json.callout_espanol as any
         const erroresComunes = json.errores_comunes as any
-        const salarios = (json.salarios as any)?.status !== 'no_confirmado_en_source_pack' ? json.salarios as any : null
+        const rawSalarios = json.salarios as any
+        const salarios = rawSalarios?.items?.length > 0 ? rawSalarios : null
         const rawAuth = json.autoridad_reguladora as any
         const autoridadReguladora = rawAuth ? (isPipelineV3 ? {
             nombre: rawAuth.nombre,
@@ -242,8 +270,10 @@ export default async function DynamicPage({ params }: Props) {
             source: rawAuth.website || '',
         } : rawAuth) : null
         const linksOficiales = json.links_oficiales as any
-        const renovacion = json.renovacion as any
-        const reciprocidad = (json.reciprocidad as any)?.status !== 'no_confirmado_en_source_pack' ? json.reciprocidad as any : null
+        const rawRenovacion = json.renovacion as any
+        const renovacion = rawRenovacion?.cycle && !String(rawRenovacion.cycle).includes('No confirmado') ? rawRenovacion : null
+        const rawReciprocidad = json.reciprocidad as any
+        const reciprocidad = rawReciprocidad?.summary && !String(rawReciprocidad.summary).includes('no_confirmado') ? rawReciprocidad : null
         const serviciosSinLicencia = json.servicios_sin_licencia as any
 
         // Table of contents items
