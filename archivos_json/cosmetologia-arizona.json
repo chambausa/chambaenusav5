@@ -1,23 +1,27 @@
 {
   "_meta": {
-    "schema_version": "2.0",
+    "schema_version": "license_page_v1",
     "page_id": "licencia-cosmetologia-arizona",
+    "slug": "licencia-cosmetologia-arizona",
     "oficio": "cosmetologia",
     "estado": "arizona",
+    "estado_nombre": "Arizona",
     "last_verified": "2026-05-11",
-    "verified_by": "xypnotic-os-pipeline-v3",
-    "notes": "Página #1 en impresiones del sitio (4,793). CTR actual 0.73% - objetivo 3%+",
+    "verified_by": "pipeline v3 template-locked + source pack curado",
+    "source_pack": "scripts/source_packs/cosmetologia-arizona.sources.json",
     "approval_status": "published",
-    "published_at": "2026-05-11T17:22:06.825Z",
+    "notes": "Resumen corto de límites editoriales y facts sensibles no confirmados.",
+    "model_profile": "production_claude_balanced",
+    "published_at": "2026-05-11T18:03:38.732Z",
     "published_by": "xypnotic-os",
     "pipeline_version": "v3"
   },
   "page_seo": {
     "title": "Licencia de Cosmetología en Arizona: Requisitos, Examen y Cómo Aplicar",
     "meta_description": "Guía en español para obtener la licencia de cosmetología en Arizona: requisitos, pasos, examen, costos, renovación y enlaces oficiales.",
+    "h1": "Licencia de Cosmetología en Arizona",
     "slug": "licencia-cosmetologia-arizona",
     "canonical_url": "https://chambaenusa.com/licencia-cosmetologia-arizona/",
-    "h1": "Licencia de Cosmetología en Arizona",
     "schema_types": [
       "HowTo",
       "FAQPage",
@@ -33,665 +37,513 @@
       "examen de cosmetologia arizona",
       "renovar licencia de cosmetologia arizona"
     ],
-    "keywords_long_tail": [
-      "como sacar la licencia de cosmetologia en texas",
-      "escuelas de cosmetologia en texas en español",
-      "cuanto cuesta la licencia de cosmetologia en texas",
-      "examen de cosmetologia en español texas",
-      "tdlr cosmetology en español",
-      "curso de operador de cosmetologia"
-    ],
-    "keywords_from_gsc": {
-      "_note": "Queries reales de Search Console con impresiones para esta página",
-      "queries": [
-        {
-          "q": "licencia de cosmetologia",
-          "impressions": 578
-        },
-        {
-          "q": "licencia de estetica",
-          "impressions": 285
-        },
-        {
-          "q": "tdlr que es",
-          "impressions": 94
-        },
-        {
-          "q": "curso de operador de cosmetologia",
-          "impressions": 78
-        },
-        {
-          "q": "que significa tdlr",
-          "impressions": 74
-        },
-        {
-          "q": "tdlr en español",
-          "impressions": 61
-        },
-        {
-          "q": "licencia de cosmetología",
-          "impressions": 29
-        },
-        {
-          "q": "licencia cosmetologia",
-          "impressions": 15
-        },
-        {
-          "q": "licencia de esteticista en texas",
-          "impressions": 13
-        },
-        {
-          "q": "licencia de cosmetología en texas",
-          "impressions": 13
-        },
-        {
-          "q": "tdlr cosmetology en español",
-          "impressions": 13
-        }
-      ]
-    },
     "search_intent": "Usuario hispano quiere saber si necesita licencia, requisitos exactos, pasos, costos, examen y dónde aplicar oficialmente."
   },
   "hero": {
     "ai_generated": false,
-    "badge": "Guía Verificada 2026",
-    "headline": "Licencia de Cosmetología en Texas",
-    "subheadline": "Todo lo que necesitas para obtener tu licencia de cosmetología, estética o uñas en Texas. Examen disponible en español.",
+    "badge": "Actualizado 2026",
+    "headline": "Licencia de Cosmetología en Arizona",
+    "subheadline": "Para trabajar como cosmetología en Arizona, revisa los requisitos oficiales, examen, costos, renovación y enlaces de la agencia reguladora. Esta página separa datos confirmados de datos que requieren verificación manual.",
     "key_stats": [
       {
-        "label": "Horas de Escuela",
-        "value": "1,000",
-        "detail": "para Cosmetology Operator",
-        "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm",
-        "source_name": "TDLR"
+        "label": "Agencia",
+        "value": "BCB Arizona",
+        "detail": "Autoridad estatal identificada en el source pack.",
+        "source": "https://bcb.az.gov/",
+        "source_name": "Arizona Barbering & Cosmetology Board",
+        "status": "confirmed"
       },
       {
-        "label": "Costo Total Estimado",
-        "value": "~$181",
-        "detail": "aplicación ($50) + examen escrito ($55) + examen práctico ($76)",
-        "source": "TDLR + PSI CIB",
-        "source_name": "TDLR / PSI"
+        "label": "Formación/Requisito",
+        "value": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
+        "detail": "Requisito principal confirmado o pendiente de confirmar.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
       },
       {
-        "label": "Salario Promedio",
-        "value": "$35,250/año",
-        "detail": "Mediana nacional 2024. Con propinas + independiente = mucho más",
-        "source": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
-        "source_name": "BLS May 2024"
+        "label": "Examen",
+        "value": "Debe pasar el examen para cosmetologist license.",
+        "detail": "Examen requerido si la fuente oficial lo confirma.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
       },
       {
-        "label": "Examen en Español",
-        "value": "✅ Sí, sin costo extra",
-        "detail": "Examen escrito disponible en español y vietnamita",
-        "source": "PSI Candidate Information Bulletin - TDLR Cosmetology",
-        "source_name": "PSI / TDLR"
+        "label": "Renovación",
+        "value": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "detail": "Ciclo de renovación confirmado o pendiente de verificar.",
+        "source": "https://www.azleg.gov/ars/32/00517.htm",
+        "source_name": "Arizona Revised Statutes 32-517",
+        "status": "confirmed"
       }
     ],
     "cta_primary": {
-      "text": "Ver Tipos de Licencia",
+      "text": "Ver pasos para obtener la licencia",
       "anchor": "#roadmap"
     },
     "cta_secondary": {
-      "text": "¿Cuánto Cuesta Todo?",
-      "anchor": "#calculadora"
+      "text": "Ver enlaces oficiales",
+      "anchor": "#links-oficiales"
     }
   },
-  "callout_espanol": {
+  "datos_rapidos": {
+    "ai_generated": false,
+    "title": "Datos rápidos",
+    "items": [
+      {
+        "label": "Estado",
+        "value": "Arizona",
+        "status": "confirmed"
+      },
+      {
+        "label": "Oficio",
+        "value": "Cosmetología",
+        "status": "confirmed"
+      },
+      {
+        "label": "Agencia reguladora",
+        "value": "Arizona Barbering & Cosmetology Board",
+        "source": "https://bcb.az.gov/",
+        "status": "confirmed"
+      },
+      {
+        "label": "Aplicación",
+        "value": "Portal/formularios oficiales",
+        "source": "https://bcb.az.gov/licensing",
+        "status": "confirmed"
+      },
+      {
+        "label": "Costo inicial",
+        "value": "Application for initial personal license: fee máximo de $100 establecido por la Board.",
+        "source": "https://www.azleg.gov/ars/32/00507.htm",
+        "status": "confirmed"
+      },
+      {
+        "label": "Idioma del examen",
+        "value": "No confirmado en las fuentes oficiales revisadas.",
+        "source": "https://bcb.az.gov/examinations",
+        "status": "uncertain"
+      }
+    ]
+  },
+  "intro_editorial": {
     "ai_generated": true,
-    "type": "highlight_box",
-    "icon": "💇‍♀️",
-    "title": "¿Hablas español? El examen escrito está disponible en español.",
-    "content": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen.",
-    "source": "PSI Candidate Information Bulletin - Cosmetology Operator",
-    "source_name": "PSI / TDLR"
+    "title": "Lo básico antes de empezar",
+    "content": "Explicación corta, clara y no exagerada para el lector hispano: qué licencia se necesita, quién la regula y qué debe revisar antes de pagar cursos, exámenes o aplicaciones.",
+    "rules": [
+      "No prometer aprobación.",
+      "No inventar tiempos de procesamiento.",
+      "No afirmar idioma español del examen sin fuente directa."
+    ]
   },
   "autoridad_reguladora": {
     "ai_generated": false,
-    "nombre": "Texas Department of Licensing and Regulation (TDLR)",
-    "programa": "Barbering and Cosmetology",
-    "nota_consolidacion": "Desde 2021 (HB 1560), los programas de barbería y cosmetología están consolidados bajo TDLR",
-    "direccion": {
-      "calle": "920 Colorado St.",
-      "ciudad": "Austin",
-      "estado": "TX",
-      "cp": "78701",
-      "mailing": "P.O. Box 12157, Austin, TX 78711"
-    },
+    "nombre": "Arizona Barbering & Cosmetology Board",
+    "short_name": "BCB Arizona",
+    "programa": "Cosmetología Licensing",
+    "website": "https://bcb.az.gov/",
+    "apply_url": "https://bcb.az.gov/licensing",
+    "renew_url": "https://bcb.az.gov/licensing",
+    "license_lookup_url": "https://bcb.az.gov/",
+    "contact_url": "https://bcb.az.gov/contact-us",
     "telefono": {
-      "local": "(512) 463-6599",
-      "toll_free": "(800) 803-9202",
-      "tdd": "(800) 735-2989"
+      "value": "No confirmado",
+      "status": "no_confirmado_en_source_pack",
+      "source": ""
     },
-    "email": "cosmetology@tdlr.texas.gov",
-    "web": "https://www.tdlr.texas.gov/barbering-and-cosmetology/",
-    "verificar_licencia": "https://www.tdlr.texas.gov/LicenseSearch/",
-    "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/",
-    "chambaenusa_hub": "/agencias/texas-department-of-licensing-and-regulation-tdlr/"
+    "email": {
+      "value": "No confirmado",
+      "status": "no_confirmado_en_source_pack",
+      "source": ""
+    },
+    "address": {
+      "value": "No confirmado",
+      "status": "no_confirmado_en_source_pack",
+      "source": ""
+    },
+    "nota": "Usar solo datos de contacto confirmados en fuente oficial. Si no están confirmados, dirigir al contact_url oficial."
+  },
+  "licencias_y_clasificaciones": {
+    "ai_generated": false,
+    "title": "Tipos de licencia o clasificación",
+    "items": [
+      {
+        "name": "Licencia de Cosmetología",
+        "description": "Licencia o clasificación principal para cosmetología en Arizona. Verifica si existen subclasificaciones aplicables a tu caso.",
+        "requirements_summary": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
+      }
+    ],
+    "notes": "Si el estado maneja niveles —apprentice, journeyman, master, contractor, specialty— listarlos aquí."
+  },
+  "requisitos": {
+    "ai_generated": false,
+    "title": "Requisitos para obtener la licencia",
+    "items": [
+      {
+        "requirement": "Formación/horas",
+        "value": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
+        "explanation": "1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
+      },
+      {
+        "requirement": "Edad/educación",
+        "value": "Dos años de high school o equivalente y al menos 16 años, o evidencia de tener al menos 18 años.",
+        "explanation": "Dos años de high school o equivalente y al menos 16 años, o evidencia de tener al menos 18 años.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
+      },
+      {
+        "requirement": "Examen",
+        "value": "Debe pasar el examen para cosmetologist license.",
+        "explanation": "Debe pasar el examen para cosmetologist license.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
+      }
+    ],
+    "sensitive_unknowns": [
+      {
+        "id": "itin_or_ssn",
+        "label": "ITIN/SSN/estatus migratorio",
+        "status": "uncertain",
+        "safe_copy": "No confirmado en las fuentes oficiales revisadas."
+      },
+      {
+        "id": "background_check",
+        "label": "Background check",
+        "status": "no_confirmado_en_source_pack",
+        "safe_copy": "No afirmes background check si no aparece en fuente oficial directa."
+      }
+    ]
   },
   "roadmap": {
-    "_description": "Tipos de licencia de cosmetología - mostrar como cards o grid, NO como timeline lineal (a diferencia de electricista, aquí son caminos paralelos)",
-    "ai_generated": false,
-    "layout": "grid",
-    "nota_general": "A diferencia de electricista (donde hay una escalera lineal), en cosmetología puedes elegir el camino que más te interese desde el inicio.",
-    "tipos": [
+    "ai_generated": true,
+    "title": "Cómo sacar la licencia de Cosmetología en Arizona",
+    "intro": "Pasos generales basados en fuentes oficiales. El orden puede variar según tu caso; verifica siempre en la agencia estatal.",
+    "steps": [
       {
-        "id": "cosmetology_operator",
-        "titulo_en": "Cosmetology Operator",
-        "titulo_es": "Operadora de Cosmetología",
-        "es_principal": true,
-        "color_badge": "#EC4899",
-        "descripcion_corta": "La licencia más completa. Te permite hacer cabello, piel, uñas y maquillaje.",
-        "scope_of_work": "Corte, color, peinado, cuidado de piel, uñas, maquillaje y todos los servicios de cosmetología",
-        "requisitos": {
-          "edad_minima": 17,
-          "educacion_previa": "High school diploma o GED",
-          "horas_escuela": 1000,
-          "horas_alternativa": "Puedes tomar el examen escrito después de completar 900 de las 1,000 horas",
-          "horas_online_max": 250,
-          "horas_online_nota": "Máximo 250 horas pueden ser online (teoría). El resto debe ser presencial.",
-          "escuela_aprobada": "Debe ser una escuela de cosmetología/barbería licenciada por TDLR"
-        },
-        "examen": {
-          "partes": 2,
-          "parte_1": {
-            "nombre": "Written Exam (Examen Escrito)",
-            "formato": "Opción múltiple por computadora",
-            "costo": 55,
-            "idiomas": [
-              "Inglés",
-              "Español",
-              "Vietnamita",
-              "Coreano",
-              "Chino simplificado"
-            ],
-            "puntaje_minimo": "70%",
-            "cuando_tomarlo": "Después de completar 900 de las 1,000 horas",
-            "contenido_principal": [
-              "Cabello y cuero cabelludo (40%)",
-              "Control de infecciones/sanidad (28%)",
-              "Leyes y reglas de Texas",
-              "Cuidado de piel",
-              "Cuidado de uñas"
-            ],
-            "ubicaciones": "22+ ubicaciones PSI en Texas: Abilene, Amarillo, Arlington, Austin, Corpus Christi, Dallas, El Paso, Fort Worth, Harlingen, Houston, Lubbock, Midland, San Antonio y más",
-            "e_exam": "Disponible como E-Exam (examen en línea supervisado) desde junio 2022"
-          },
-          "parte_2": {
-            "nombre": "Practical Exam (Examen Práctico)",
-            "formato": "Demostración práctica con maniquí",
-            "costo": 76,
-            "puntaje_minimo": "70% (28 de 40 puntos)",
-            "cuando_tomarlo": "Después de completar TODAS las 1,000 horas Y pasar el examen escrito",
-            "ubicaciones": "Austin, San Antonio, DFW Metroplex, Greater Houston, McAllen, El Paso, Midland, Amarillo",
-            "que_llevar": [
-              "Maniquí con cabello completo",
-              "Mano de maniquí con uñas",
-              "Tijeras de corte, peines, cepillos, clips",
-              "Toallas, capas, guantes, botellas spray",
-              "Bowl de tinte, brochas aplicadoras",
-              "Limas de uñas, tips, monómero sin olor",
-              "Todos los productos DEBEN estar etiquetados en inglés",
-              "NO se permiten aerosoles"
-            ],
-            "nota_licencia_temporal": "Si pasas el examen práctico, puedes recibir una licencia temporal en el sitio del examen ese mismo día. Es válida por 21 días mientras TDLR envía tu licencia de 2 años.",
-            "idioma_nota": "El examen práctico se evalúa por demostración, las instrucciones se dan verbalmente en el sitio"
-          },
-          "administrador": "PSI",
-          "telefono_psi": "(833) 333-4741",
-          "url_psi": "https://www.psiexams.com/test-takers/tdlr/",
-          "retakes": "Puedes retomar cada examen las veces que necesites. Pagas la tarifa cada intento.",
-          "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/examinations/"
-        },
-        "costos": {
-          "aplicacion_licencia": 50,
-          "examen_escrito": 55,
-          "examen_practico": 76,
-          "total_examenes_y_licencia": 181,
-          "renovacion_cada_2_años": 53,
-          "ce_horas_cada_2_años": 4
-        },
-        "como_aplicar": {
-          "metodo": "En línea (recomendado) o por correo",
-          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm",
-          "tiempo_procesamiento": "1-6 semanas (incluye background check)",
-          "pasos": [
-            "Completar 1,000 horas en escuela aprobada por TDLR",
-            "Pasar examen escrito (puedes tomarlo a las 900 horas)",
-            "Pasar examen práctico (después de completar todas las horas + examen escrito)",
-            "Aplicar en línea en TDLR y pagar $50",
-            "Esperar 1-6 semanas para procesamiento y background check"
-          ]
-        },
-        "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm"
+        "step": 1,
+        "title": "Confirma qué licencia necesitas",
+        "description": "Revisa si tu trabajo requiere licencia estatal, registro, certificación local o una clasificación específica.",
+        "source": "https://bcb.az.gov/",
+        "source_name": "BCB Arizona",
+        "status": "confirmed"
       },
       {
-        "id": "esthetician",
-        "titulo_en": "Esthetician",
-        "titulo_es": "Esteticista",
-        "es_principal": false,
-        "color_badge": "#8B5CF6",
-        "descripcion_corta": "Especialista en cuidado de la piel: faciales, depilación, tratamientos de piel.",
-        "scope_of_work": "Cuidado facial, tratamientos de piel, depilación, maquillaje",
-        "requisitos": {
-          "edad_minima": 17,
-          "educacion_previa": "High school diploma o GED",
-          "horas_escuela": 750,
-          "escuela_aprobada": "Escuela de barbería/cosmetología licenciada por TDLR"
-        },
-        "costos": {
-          "aplicacion_licencia": 50,
-          "examen_escrito": 55,
-          "examen_practico": 76,
-          "total_examenes_y_licencia": 181
-        },
-        "combinaciones": [
-          "Manicurist/Esthetician (combinada)",
-          "Hair Weaving Specialist/Esthetician (combinada)"
-        ],
-        "como_aplicar": {
-          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-esthetician.htm"
-        },
-        "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-esthetician.htm"
+        "step": 2,
+        "title": "Reúne requisitos de educación, experiencia o entrenamiento",
+        "description": "Completa horas, experiencia documentada, escuela aprobada o prerequisitos confirmados para este oficio/estado.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
       },
       {
-        "id": "manicurist",
-        "titulo_en": "Manicurist",
-        "titulo_es": "Manicurista",
-        "es_principal": false,
-        "color_badge": "#F59E0B",
-        "descripcion_corta": "Especialista en uñas: manicure, pedicure, acrílico, gel.",
-        "scope_of_work": "Manicure, pedicure, uñas acrílicas, gel, nail art",
-        "requisitos": {
-          "edad_minima": 17,
-          "educacion_previa": "High school diploma o GED",
-          "horas_escuela": 600,
-          "escuela_aprobada": "Escuela de barbería/cosmetología licenciada por TDLR"
-        },
-        "costos": {
-          "aplicacion_licencia": 50,
-          "examen_escrito": 55,
-          "examen_practico": 76,
-          "total_examenes_y_licencia": 181
-        },
-        "como_aplicar": {
-          "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-manicurist.htm"
-        },
-        "source": "TDLR"
+        "step": 3,
+        "title": "Presenta tu aplicación oficial",
+        "description": "Usa el portal o formulario oficial. Evita intermediarios que prometen aprobación garantizada.",
+        "source": "https://bcb.az.gov/licensing",
+        "source_name": "BCB Arizona",
+        "status": "confirmed"
       },
       {
-        "id": "eyelash_extension",
-        "titulo_en": "Eyelash Extension Specialist",
-        "titulo_es": "Especialista en Extensiones de Pestañas",
-        "es_principal": false,
-        "color_badge": "#06B6D4",
-        "descripcion_corta": "Para quienes quieren enfocarse solo en extensiones de pestañas.",
-        "horas_escuela": 320,
-        "costos": {
-          "aplicacion_licencia": 50
-        },
-        "source": "TDLR"
+        "step": 4,
+        "title": "Agenda y aprueba el examen si aplica",
+        "description": "Si el examen es requisito confirmado, revisa proveedor, contenido, idioma y reglas de identificación directamente en la fuente oficial.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511",
+        "status": "confirmed"
       },
       {
-        "id": "hair_weaving",
-        "titulo_en": "Hair Weaving Specialist",
-        "titulo_es": "Especialista en Tejido de Cabello",
-        "es_principal": false,
-        "color_badge": "#10B981",
-        "descripcion_corta": "Para extensiones de cabello y tejido usando químicos y adhesivos.",
-        "horas_escuela": 300,
-        "costos": {
-          "aplicacion_licencia": 50
-        },
-        "source": "TDLR"
-      },
-      {
-        "id": "class_a_barber",
-        "titulo_en": "Class A Barber",
-        "titulo_es": "Barbero Clase A",
-        "es_principal": false,
-        "color_badge": "#6366F1",
-        "descripcion_corta": "Licencia de barbero. Ahora consolidada bajo TDLR junto con cosmetología.",
-        "horas_escuela": 1000,
-        "nota": "Desde HB 1560 (2021), barbería y cosmetología están bajo el mismo programa de TDLR",
-        "source": "TDLR"
+        "step": 5,
+        "title": "Mantén tu licencia activa",
+        "description": "Guarda tu número de licencia, revisa renovación, educación continua y cambios de dirección si aplican.",
+        "source": "https://www.azleg.gov/ars/32/00517.htm",
+        "source_name": "Arizona Revised Statutes 32-517",
+        "status": "confirmed"
       }
     ]
   },
-  "calculadora_inversion": {
+  "costos": {
     "ai_generated": false,
-    "_description": "Componente interactivo - el usuario selecciona qué tipo de licencia quiere",
-    "escenarios": [
+    "title": "Costos y tarifas oficiales",
+    "status": "partial",
+    "nota_general": "No presentar montos como exactos si la fuente solo establece máximo autorizado o si el fee cambia por portal. Indicar fecha de verificación y link oficial.",
+    "items": [
       {
-        "id": "cosmetology_operator",
-        "licencia": "Cosmetology Operator (la más completa)",
-        "inversion": {
-          "escuela_rango": "$5,000 - $20,000",
-          "escuela_nota": "Varía enormemente. Escuelas comunitarias son más baratas. Programas de 8-14 meses.",
-          "examen_escrito": 55,
-          "examen_practico": 76,
-          "kit_herramientas": "~$200 - $500",
-          "kit_nota": "Maniquí, tijeras, productos. Algunas escuelas lo incluyen.",
-          "aplicacion_licencia": 50,
-          "total_minimo": "~$5,381",
-          "total_maximo": "~$20,681"
-        },
-        "tiempo": "8-14 meses (full-time) o hasta 24 meses (part-time)",
-        "salario_esperado": {
-          "empleada_salon": "$25,000 - $35,000 base + propinas",
-          "con_experiencia": "$35,000 - $55,000 + propinas",
-          "independiente_booth_rental": "$40,000 - $80,000+",
-          "nota": "Las propinas pueden agregar 15-25% a tus ingresos. No aparecen en estadísticas del BLS."
-        },
-        "roi_nota": "El costo de escuela se recupera típicamente en el primer año de trabajo. La licencia te abre la puerta a un ingreso estable con flexibilidad de horario."
+        "concepto": "Aplicación inicial",
+        "monto": "Application for initial personal license: fee máximo de $100 establecido por la Board.",
+        "frequency": "una vez",
+        "source": "https://www.azleg.gov/ars/32/00507.htm",
+        "source_name": "Arizona Revised Statutes 32-507",
+        "status": "confirmed",
+        "notes": "Verificar monto vigente en fuente oficial antes de publicar."
       },
       {
-        "id": "esthetician",
-        "licencia": "Esthetician (especialista en piel)",
-        "inversion": {
-          "escuela_rango": "$4,000 - $18,000",
-          "examen_escrito": 55,
-          "examen_practico": 76,
-          "aplicacion_licencia": 50,
-          "total_minimo": "~$4,181",
-          "total_maximo": "~$18,181"
-        },
-        "tiempo": "5-10 meses",
-        "salario_esperado": {
-          "empleada": "$28,000 - $40,000",
-          "med_spa_especialista": "$35,000 - $65,000",
-          "nota": "Estheticians en med spas y clínicas dermatológicas ganan significativamente más"
-        }
-      },
-      {
-        "id": "manicurist",
-        "licencia": "Manicurist (uñas)",
-        "inversion": {
-          "escuela_rango": "$3,000 - $10,000",
-          "examen_escrito": 55,
-          "examen_practico": 76,
-          "aplicacion_licencia": 50,
-          "total_minimo": "~$3,181",
-          "total_maximo": "~$10,181"
-        },
-        "tiempo": "4-8 meses",
-        "salario_esperado": {
-          "empleada": "$22,000 - $30,000 + propinas",
-          "independiente": "$35,000 - $60,000+"
-        }
+        "concepto": "Renovación",
+        "monto": "Personal license renewal: $100 cada dos años según ARS 32-507.",
+        "frequency": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "source": "https://www.azleg.gov/ars/32/00507.htm",
+        "source_name": "Arizona Revised Statutes 32-507",
+        "status": "confirmed",
+        "notes": "Verificar monto vigente en fuente oficial antes de publicar."
       }
     ]
+  },
+  "examen": {
+    "ai_generated": false,
+    "title": "Examen de licencia",
+    "required": "confirmed_yes",
+    "provider": {
+      "name": "Proveedor oficial/no confirmado",
+      "url": "https://bcb.az.gov/examinations",
+      "status": "uncertain"
+    },
+    "parts": [
+      {
+        "name": "No confirmado",
+        "description": "No confirmado",
+        "status": "uncertain",
+        "source": ""
+      }
+    ],
+    "language": {
+      "value": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen.",
+      "status": "no_confirmado_en_source_pack",
+      "safe_copy": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen.",
+      "source": "https://bcb.az.gov/examinations"
+    },
+    "study_resources": [
+      {
+        "label": "Guía oficial del examen",
+        "url": "",
+        "status": "no_confirmado_en_source_pack"
+      }
+    ]
+  },
+  "callout_espanol": {
+    "ai_generated": false,
+    "type": "warning_box",
+    "icon": "⚠️",
+    "title": "Idioma, documentos y ayuda en español: verifica antes de pagar",
+    "content": "Esta página está en español para ayudarte a entender el trámite, pero eso no significa que la aplicación, el examen o la atención oficial estén disponibles en español. Verifica idioma del examen, documentos aceptados y requisitos de identificación directamente con la agencia o proveedor oficial.",
+    "source": "https://bcb.az.gov/examinations",
+    "source_name": "BCB Arizona",
+    "status": "default_required",
+    "body": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen."
   },
   "renovacion": {
     "ai_generated": false,
-    "frecuencia": "Cada 2 años desde la fecha de emisión",
-    "metodo": "En línea en el portal de TDLR",
-    "url_renovacion": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/renew/",
-    "costo_renovacion": 53,
-    "ce_requerida": {
-      "menos_15_años_licencia": {
-        "horas_totales": 4,
-        "desglose": [
-          "1 hora de sanidad/higiene",
-          "3 horas de temas de cosmetología (incluye trata de personas y salud mental)"
-        ]
-      },
-      "mas_15_años_licencia": {
-        "horas_totales": 2,
-        "desglose": [
-          "1 hora de sanidad",
-          "1 hora de prevención de trata de personas"
-        ],
-        "cambio": "Efectivo desde septiembre 1, 2025"
-      },
-      "costo_cursos_ce_online": "$20 - $25 (proveedores aprobados por TDLR)",
-      "url_proveedores": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/continuing-education.htm"
+    "title": "Renovación de la licencia",
+    "cycle": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+    "requirements": [
+      {
+        "label": "Ciclo de renovación",
+        "value": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "source": "https://www.azleg.gov/ars/32/00517.htm",
+        "status": "confirmed"
+      }
+    ],
+    "continuing_education": {
+      "value": "No confirmado",
+      "status": "no_confirmado_en_source_pack",
+      "source": "",
+      "safe_copy": "No afirmes horas de educación continua si no están confirmadas en fuente oficial."
     },
-    "consecuencias_no_renovar": {
-      "0_90_dias": "Puedes renovar pagando 1.5x la tarifa normal",
-      "90_dias_a_18_meses": "Tarifa de renovación tardía incrementada",
-      "18_meses_a_3_años": "Debes pagar el doble de la tarifa normal",
-      "mas_3_años": "Posiblemente debas re-aplicar y retomar exámenes"
-    },
-    "nota_tdlr": "TDLR envía notificación de renovación ~60 días antes de la expiración. Pero es TU responsabilidad renovar a tiempo aunque no recibas la notificación.",
-    "source": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/renew/"
+    "late_renewal": {
+      "value": "No confirmado",
+      "source": "",
+      "status": "no_confirmado_en_source_pack"
+    }
   },
   "reciprocidad": {
     "ai_generated": false,
-    "disponible": true,
-    "nombre_proceso": "License by Equivalence (Substantial Equivalence)",
-    "requisitos": [
-      "Licencia activa en otro estado con requisitos sustancialmente equivalentes a Texas",
-      "Transcripción certificada de horas (Certified Transcript of Hours)",
-      "NO se acepta entrenamiento obtenido por apprenticeship",
-      "Tener al menos 17 años",
-      "Puede requerirse tomar exámenes de Texas"
+    "title": "Si ya tienes licencia en otro estado",
+    "status": "confirmed",
+    "summary": "Existe ruta de reciprocity para personas licenciadas en otro estado o país; requiere aplicación, evidencia de licencia, completar clase de infection protection and law review y pagar fees prescritos.",
+    "requirements": [
+      {
+        "label": "No confirmado",
+        "value": "No confirmado",
+        "source": "",
+        "status": "uncertain"
+      }
     ],
-    "nota": "Texas acepta reciprocidad de estados con requisitos equivalentes. No hay una lista fija de estados — TDLR evalúa caso por caso basándose en las horas y tipo de entrenamiento.",
-    "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-equivalence.htm",
-    "experiencia_como_horas": "Si no cumples con las horas requeridas, puedes sustituir experiencia laboral a razón de 25 horas por mes, hasta un máximo de 300 horas",
-    "source": "TDLR / ASCP"
+    "source": "https://www.azleg.gov/ars/32/00513.htm",
+    "source_name": "Arizona Revised Statutes 32-513"
   },
   "salarios": {
     "ai_generated": false,
-    "nota_importante": "Los datos del BLS NO incluyen propinas ni ingresos de trabajadores independientes (booth renters, dueños de salón). El ingreso real suele ser 20-40% más alto.",
-    "nacional_2024": {
-      "mediana": "$35,250",
-      "por_hora_mediana": "$16.95",
-      "percentil_10": "$11.92/hr",
-      "percentil_90": "$33.76/hr",
-      "crecimiento_proyectado": "5% (2024-2034)",
-      "source": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm"
-    },
-    "texas": {
-      "promedio_anual": "$27,720",
-      "promedio_hora": "$13.18",
-      "top_earners": "$43,690/año ($21/hr)",
-      "source": "BLS / Texas Workforce Commission"
-    },
-    "por_ciudad_texas": [
+    "title": "Cuánto gana un cosmetologia en Arizona",
+    "status": "no_confirmado_en_source_pack",
+    "nota": "Este source pack no confirmó salario específico en fuente laboral confiable. No inventar cifras; verificar BLS/OEWS u otra fuente antes de publicar salarios.",
+    "items": []
+  },
+  "advertencias": {
+    "ai_generated": true,
+    "title": "Antes de aplicar, cuidado con esto",
+    "items": [
       {
-        "ciudad": "Dallas-Fort Worth",
-        "salario_medio": "$30,880",
-        "top_earners": "$54,770",
-        "source": "BLS"
+        "type": "legal_warning",
+        "title": "No trabajes sin licencia si el estado la exige",
+        "content": "Trabajar sin licencia puede causar multas, rechazo de aplicación o problemas legales según las reglas del estado.",
+        "source": "https://www.azleg.gov/ars/32/00574.htm",
+        "source_name": "Arizona Revised Statutes 32-574",
+        "status": "confirmed"
       },
       {
-        "ciudad": "Houston",
-        "salario_medio": "$27,120",
-        "top_earners": "$43,790",
-        "source": "BLS"
-      },
-      {
-        "ciudad": "Austin",
-        "salario_medio": "$25,730",
-        "top_earners": "$42,910",
-        "source": "BLS"
-      },
-      {
-        "ciudad": "San Antonio",
-        "salario_medio": "$25,000+",
-        "source": "BLS estimates"
-      },
-      {
-        "ciudad": "El Paso",
-        "salario_medio": "$20,460",
-        "top_earners": "$29,220",
-        "source": "BLS"
+        "type": "uncertainty_warning",
+        "title": "No todos los datos aplican a todos los casos",
+        "content": "Requisitos pueden cambiar según experiencia, ciudad/condado, tipo de licencia, historial o si vienes de otro estado.",
+        "status": "editorial"
       }
-    ],
-    "ingresos_reales": {
-      "ai_generated": true,
-      "nota": "Los números del BLS cuentan solo salario base de empleados. El ingreso REAL de cosmetólogas incluye:",
-      "factores_adicionales": [
-        "Propinas (15-25% extra sobre cada servicio)",
-        "Comisiones por venta de productos",
-        "Booth rental income (independientes cobran directamente al cliente)",
-        "Servicios especiales (bodas, eventos, color avanzado)",
-        "Negocio propio (salon owner)"
-      ],
-      "estimado_realista": {
-        "recien_licenciada": "$25,000 - $35,000 (incluye propinas)",
-        "3_5_años_experiencia": "$35,000 - $55,000",
-        "especialista_o_independiente": "$50,000 - $80,000+",
-        "dueña_salon": "$60,000 - $120,000+"
-      }
-    }
+    ]
   },
   "errores_comunes": {
     "ai_generated": true,
+    "title": "Errores comunes al tramitar esta licencia",
     "items": [
       {
-        "error": "No saber que el examen escrito está en español",
-        "por_que_importa": "Muchas hispanas no saben que pueden tomar el examen escrito en español sin costo adicional. Si te sientes más cómoda en español, esto puede hacer una diferencia enorme en tu resultado.",
-        "solucion": "Al registrarte con PSI, indica que quieres el examen en español. Llama al (833) 333-4741 si necesitas ayuda."
+        "title": "Aplicar a la licencia equivocada",
+        "description": "Algunos estados tienen varias clasificaciones. Confirma cuál corresponde a tu trabajo real.",
+        "severity": "high"
       },
       {
-        "error": "Productos sin etiquetar en inglés en el examen práctico",
-        "por_que_importa": "TODOS los productos que lleves al examen práctico deben estar etiquetados en inglés. Si llevas productos con etiquetas solo en español u otro idioma, podrías perder puntos o ser descalificada.",
-        "solucion": "Verifica cada producto de tu kit antes del examen. Etiquétalos en inglés si es necesario."
+        "title": "Pagar cursos o exámenes antes de verificar requisitos",
+        "description": "Primero revisa fuente oficial, proveedor del examen y si necesitas aprobación previa.",
+        "severity": "medium"
       },
       {
-        "error": "Creer que solo necesitas la escuela para trabajar",
-        "por_que_importa": "Completar las horas de escuela no es suficiente. Debes pasar AMBOS exámenes (escrito Y práctico) y obtener tu licencia del TDLR antes de trabajar legalmente.",
-        "solucion": "Planifica: horas de escuela → examen escrito (a las 900 hrs) → completar horas → examen práctico → aplicar a TDLR."
-      },
-      {
-        "error": "Dejar vencer tu licencia y seguir trabajando",
-        "por_que_importa": "Trabajar con licencia vencida en Texas puede resultar en multas de $5,000 o más, además de la suspensión de tu licencia. TDLR hace inspecciones sin aviso.",
-        "solucion": "Pon un recordatorio 60 días antes de la expiración. La renovación es cada 2 años y solo cuesta $53 + 4 horas de CE online (~$20-25)."
-      },
-      {
-        "error": "No investigar la escuela antes de inscribirte",
-        "por_que_importa": "No todas las escuelas son iguales. Algunas cobran $20,000 por el mismo programa que un community college ofrece por $5,000. Y si la escuela no está aprobada por TDLR, tus horas no cuentan.",
-        "solucion": "Verifica que la escuela esté licenciada por TDLR. Compara costos, horarios y si ofrecen instrucción en español. Las escuelas comunitarias suelen ser más económicas."
-      },
-      {
-        "error": "Pensar que cosmetología = solo cortar cabello",
-        "por_que_importa": "La licencia de Cosmetology Operator te permite hacer cabello, piel, uñas Y maquillaje. Pero si solo te interesa una especialidad, puedes obtener una licencia más rápida (Esthetician: 750 hrs, Manicurist: 600 hrs, Eyelash: 320 hrs).",
-        "solucion": "Elige la licencia que se ajuste a tus metas. Si no estás segura, la de Cosmetology Operator es la más versátil."
+        "title": "Asumir que el examen está en español",
+        "description": "La disponibilidad de idioma debe verificarse con la agencia o proveedor oficial.",
+        "severity": "high"
       }
     ]
   },
   "faqs": {
-    "ai_generated": "partial",
+    "ai_generated": true,
+    "title": "Preguntas frecuentes",
     "items": [
       {
-        "pregunta": "¿Necesito licencia para trabajar como cosmetología en Arizona?",
-        "respuesta": "Revisa los requisitos de BCB Arizona. 1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
+        "question": "¿Necesito licencia para trabajar como cosmetología en Arizona?",
+        "answer": "Revisa los requisitos de BCB Arizona. 1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
         "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "seo_note": ""
+        "status": "confirmed"
       },
       {
-        "pregunta": "¿El examen de cosmetología en Arizona está en español?",
-        "respuesta": "No podemos confirmar que el examen esté disponible en español sin fuente directa. Verifica con la agencia o proveedor antes de agendar.",
+        "question": "¿El examen de cosmetología en Arizona está en español?",
+        "answer": "No podemos confirmar que el examen esté disponible en español sin fuente directa. Verifica con la agencia o proveedor antes de agendar.",
         "source": "https://bcb.az.gov/examinations",
-        "seo_note": ""
+        "status": "uncertain"
       },
       {
-        "pregunta": "¿Puedo aplicar con ITIN o necesito SSN?",
-        "respuesta": "No pudimos confirmar si puedes aplicar con ITIN. Revisa la aplicación oficial en bcb.az.gov/applications o llama al Board antes de enviar documentos.",
+        "question": "¿Puedo aplicar con ITIN o necesito SSN?",
+        "answer": "No pudimos confirmar si puedes aplicar con ITIN. Revisa la aplicación oficial en bcb.az.gov/applications o llama al Board antes de enviar documentos.",
         "source": "https://bcb.az.gov/applications",
-        "seo_note": ""
+        "status": "no_confirmado_en_source_pack"
       },
       {
-        "pregunta": "¿Cómo renuevo mi licencia de cosmetología en Arizona?",
-        "respuesta": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "question": "¿Cómo renuevo mi licencia de cosmetología en Arizona?",
+        "answer": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
         "source": "https://www.azleg.gov/ars/32/00517.htm",
-        "seo_note": ""
+        "status": "confirmed"
       }
     ]
-  },
-  "servicios_sin_licencia": {
-    "ai_generated": false,
-    "_description": "Dato valioso - muchas personas no saben qué pueden hacer sin licencia",
-    "titulo": "Servicios que NO requieren licencia en Texas",
-    "items": [
-      "Trenzado de cabello natural (desde junio 2015, no requiere licencia)",
-      "Aplicación de maquillaje (sin químicos)",
-      "Peinado sin corte",
-      "Nail art (sin cortar uñas)",
-      "Spray tan",
-      "Trenzas básicas sin químicos ni adhesivos"
-    ],
-    "requiere_licencia": [
-      "Hair weaving con químicos o adhesivos (requiere Hair Weaving Specialist license)",
-      "Cualquier servicio que involucre corte, color químico, tratamientos de piel, o uñas acrílicas/gel"
-    ],
-    "source": "TDLR / HB 2717 (2015)"
   },
   "links_oficiales": {
     "ai_generated": false,
+    "title": "Enlaces oficiales",
     "items": [
       {
-        "nombre": "TDLR - Barbering and Cosmetology (página principal)",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/",
-        "descripcion": "Portal oficial del programa"
+        "label": "Agencia reguladora",
+        "url": "https://bcb.az.gov/",
+        "type": "authority",
+        "status": "confirmed"
       },
       {
-        "nombre": "Aplicar para Cosmetology Operator",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-cosmetologist.htm",
-        "descripcion": "Formulario y requisitos"
+        "label": "Aplicar a la licencia",
+        "url": "https://bcb.az.gov/licensing",
+        "type": "apply",
+        "status": "confirmed"
       },
       {
-        "nombre": "Aplicar para Esthetician",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-esthetician.htm",
-        "descripcion": "Licencia de esteticista"
+        "label": "Renovar licencia",
+        "url": "https://bcb.az.gov/licensing",
+        "type": "renew",
+        "status": "confirmed"
       },
       {
-        "nombre": "Información del Examen",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/examinations/",
-        "descripcion": "Detalles de exámenes, ubicaciones, CIB"
+        "label": "Buscar/verificar licencia",
+        "url": "https://bcb.az.gov/",
+        "type": "lookup",
+        "status": "confirmed"
       },
       {
-        "nombre": "Renovar Licencia",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/renew/",
-        "descripcion": "Renovación en línea"
+        "label": "Reglas o leyes oficiales",
+        "url": "https://www.azleg.gov/arsDetail/?title=32",
+        "type": "law",
+        "status": "confirmed"
       },
       {
-        "nombre": "Educación Continua",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/continuing-education.htm",
-        "descripcion": "Requisitos CE y proveedores aprobados"
-      },
-      {
-        "nombre": "Formularios y Publicaciones",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/forms.htm",
-        "descripcion": "Todos los formularios de aplicación PDF"
-      },
-      {
-        "nombre": "Verificar una Licencia",
-        "url": "https://www.tdlr.texas.gov/LicenseSearch/",
-        "descripcion": "Buscar si alguien está licenciado"
-      },
-      {
-        "nombre": "License by Equivalence (otro estado)",
-        "url": "https://www.tdlr.texas.gov/barbering-and-cosmetology/individuals/apply-equivalence.htm",
-        "descripcion": "Transferir licencia de otro estado"
-      },
-      {
-        "nombre": "PSI - Agendar Examen",
-        "url": "https://www.psiexams.com/test-takers/tdlr/",
-        "descripcion": "Registrarse y agendar. Tel: (833) 333-4741"
-      },
-      {
-        "nombre": "BLS - Datos de Empleo Cosmetólogos",
-        "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
-        "descripcion": "Salarios y proyecciones oficiales"
+        "label": "Contacto oficial",
+        "url": "https://bcb.az.gov/contact-us",
+        "type": "contact",
+        "status": "confirmed"
       }
     ]
   },
-  "content_generation_rules": {
-    "tono": "Cercano, motivador, práctico. Como una amiga que ya pasó por el proceso y te cuenta todo sin rodeos. Más cálido que el tono de electricista (audiencia más joven y más femenina).",
-    "persona": "Una cosmetóloga hispana con experiencia que te guía paso a paso",
-    "reglas": [
-      "NUNCA inventar datos - si no está en los campos verificados, no ponerlo",
-      "Usar 'tú' no 'usted'",
-      "Mezclar español e inglés naturalmente: 'tu licencia de cosmetology operator', 'el examen práctico del TDLR'",
-      "No traducir: TDLR, PSI, booth rental, tips, cosmetology operator",
-      "Párrafos cortos - máximo 3-4 líneas",
-      "Enfatizar que el examen está en español - es el dato #1 más valioso para esta audiencia",
-      "Mencionar las propinas y el ingreso real vs lo que dice el BLS",
-      "Incluir la opción de licencia temporal el mismo día del examen práctico - es un dato motivador",
-      "Hablar de las diferentes rutas (full cosmetology vs esthetician vs manicurist) como OPCIONES, no como jerarquía"
+  "internal_links": {
+    "ai_generated": true,
+    "title": "También te puede servir",
+    "items": [
+      {
+        "label": "Licencias en Arizona",
+        "url": "/licencias-arizona/",
+        "reason": "Cluster por estado",
+        "status": "optional"
+      },
+      {
+        "label": "Licencia de cosmetologia en otro estado",
+        "url": "/categoria/cosmetologia/",
+        "reason": "Cluster por oficio",
+        "status": "optional"
+      }
     ]
+  },
+  "structured_data": {
+    "ai_generated": false,
+    "howto_enabled": true,
+    "faq_enabled": true,
+    "breadcrumb_enabled": true,
+    "required_fields": [
+      "page_seo.h1",
+      "roadmap.steps",
+      "faqs.items",
+      "canonical_url"
+    ]
+  },
+  "content_generation_rules": {
+    "must_use_source_pack": true,
+    "forbidden_claims_without_direct_source": [
+      "exam_language_spanish",
+      "itin_or_ssn",
+      "immigration_status",
+      "exact_fees",
+      "processing_times",
+      "guaranteed_approval",
+      "salary_figures",
+      "background_check",
+      "continuing_education",
+      "reciprocity"
+    ],
+    "if_missing_data": "Keep the section, set status to no_confirmado_en_source_pack, and write safe_copy that tells the reader to verify with the official agency.",
+    "tone": "Español claro, práctico, para trabajador hispano. No sonar a abogado ni a agencia oficial. No exagerar.",
+    "promotion_rule": "A production page must pass schema validation, hybrid gate, and human approval before copying to archivos_json."
   }
 }
