@@ -1,0 +1,489 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "page_id": "licencia-cosmetologia-nevada",
+    "oficio": "cosmetologia",
+    "estado": "nevada",
+    "last_verified": "2026-04-17",
+    "verified_by": "Claude pipeline v2 con source pack curado - fuentes oficiales NSBC, NRS 644A, BLS",
+    "notes": "Incertidumbres clave: (1) El examen de teoría en español NO está confirmado; solo el practice test de State Law tiene opciones multiidioma. (2) Aceptación de ITIN no confirmada para cosmetología estándar. (3) Salario exacto de Nevada no disponible en este source pack; se presenta BLS como referencia. (4) Fee de $125 aplica ruta escuela; $325 aplica reciprocidad. No hay reciprocidad automática."
+  },
+  "page_seo": {
+    "title": "Licencia de Cosmetología en Nevada 2026: Requisitos, Exámenes y Costos (NSBC)",
+    "meta_description": "Cómo obtener la licencia de cosmetología en Nevada paso a paso. 1,600 horas de escuela aprobada, examen de teoría, práctico y Ley Estatal. Requisitos actualizados del Nevada State Board of Cosmetology 2026.",
+    "slug": "licencia-cosmetologia-nevada",
+    "canonical_url": "https://chambaenusa.com/licencia-cosmetologia-nevada/",
+    "h1": "Licencia de Cosmetología en Nevada",
+    "schema_types": [
+      "HowTo",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
+    "keywords_primary": [
+      "licencia de cosmetología en nevada",
+      "cosmetologia nevada requisitos",
+      "nevada state board of cosmetology"
+    ],
+    "keywords_secondary": [
+      "nsbc licencia cosmetologa",
+      "horas requeridas cosmetologia nevada",
+      "examen de cosmetologia nevada",
+      "renovar licencia cosmetologia nevada"
+    ],
+    "keywords_long_tail": [
+      "como sacar la licencia de cosmetologia en nevada",
+      "cuantas horas se necesitan para cosmetologia en nevada",
+      "examen de ley estatal cosmetologia nevada en español",
+      "reciprocidad licencia cosmetologia nevada otro estado"
+    ]
+  },
+  "hero": {
+    "ai_generated": false,
+    "badge": "Actualizado 2026",
+    "headline": "Licencia de Cosmetología en Nevada",
+    "subheadline": "Completa 1,600 horas en una escuela aprobada por el Board, pasa tus exámenes y obtén tu licencia para trabajar legalmente en Nevada. El examen de práctica de Ley Estatal está disponible en español.",
+    "key_stats": [
+      {
+        "label": "Horas de Escuela",
+        "value": "1,600 horas",
+        "detail": "En una escuela aprobada por el Nevada State Board of Cosmetology.",
+        "source": "https://www.leg.state.nv.us/division/legal/lawlibrary/nrs/NRS-644A.html",
+        "source_name": "NRS 644A"
+      },
+      {
+        "label": "Edad Mínima",
+        "value": "18 años",
+        "detail": "Requisito de edad mínima para aplicar a la licencia de cosmetóloga.",
+        "source": "https://www.leg.state.nv.us/division/legal/lawlibrary/nrs/NRS-644A.html",
+        "source_name": "NRS 644A"
+      },
+      {
+        "label": "Cuota de Aplicación",
+        "value": "$125",
+        "detail": "Fee para aplicantes de primera vez por la ruta de escuela en Nevada.",
+        "source": "https://www.nvcosmo.com/applications",
+        "source_name": "NSBC Applications"
+      },
+      {
+        "label": "Licencia (2 años)",
+        "value": "$70",
+        "detail": "Costo de la licencia individual por 2 años. También disponible por 4 años a $140.",
+        "source": "https://www.nvcosmo.com/service-fees",
+        "source_name": "NSBC Service Fees"
+      }
+    ],
+    "cta_primary": {
+      "text": "Ver Pasos para Obtener tu Licencia",
+      "anchor": "#roadmap"
+    },
+    "cta_secondary": {
+      "text": "Ver Costos y Renovación",
+      "anchor": "#costos"
+    }
+  },
+  "callout_espanol": {
+    "ai_generated": false,
+    "type": "highlight_box",
+    "icon": "📋",
+    "title": "Practice Test de Ley Estatal disponible en español",
+    "content": "El Nevada State Board of Cosmetology ofrece el practice test (práctica) de la Prueba de Ley Estatal en español, vietnamita, coreano y chino simplificado, además de inglés. IMPORTANTE: Esto aplica al practice test de preparación. Este source pack NO confirma que el examen oficial de teoría se administre en español. Verifica directamente con el Board antes de agendar tu examen.",
+    "source": "https://www.nvcosmo.com/state-law-test",
+    "source_name": "NSBC State Law Test"
+  },
+  "autoridad_reguladora": {
+    "ai_generated": false,
+    "nombre": "Nevada State Board of Cosmetology",
+    "programa": "Cosmetology Licensing",
+    "telefono": {
+      "nota": "Consulta la información de contacto directamente en el sitio oficial del Board. No se publica número en este recurso para evitar datos desactualizados."
+    },
+    "email": {
+      "nota": "Consulta el directorio oficial de departamentos del Board para datos de contacto actualizados."
+    },
+    "web": "https://www.nvcosmo.com/",
+    "aplicaciones": "https://www.nvcosmo.com/applications",
+    "examen_info": "https://www.nvcosmo.com/testing-services",
+    "contacto_oficial": "https://www.nvcosmo.com/board-departments",
+    "verificar_licencia": "https://www.nvcosmo.com/",
+    "leyes_y_reglamentos": "https://www.nvcosmo.com/laws-and-regulations",
+    "source": "https://www.nvcosmo.com/board-departments"
+  },
+  "roadmap": {
+    "_description": "Camino principal para obtener la licencia de cosmetóloga en Nevada por primera vez a través de escuela aprobada.",
+    "ai_generated": false,
+    "layout": "steps",
+    "nota_general": "La ruta principal en Nevada requiere completar horas en una escuela aprobada por el Board, superar los exámenes de práctica, teoría y Ley Estatal, y pagar las cuotas correspondientes. Si tienes horas o licencia de otro estado o país, existe una ruta diferente; consulta la sección de Reciprocidad y Horas del Exterior.",
+    "tipos": [
+      {
+        "id": "paso_1_educacion",
+        "titulo_en": "Step 1: Complete School Hours",
+        "titulo_es": "Paso 1: Completar Horas en Escuela Aprobada",
+        "es_principal": true,
+        "color_badge": "#3b82f6",
+        "descripcion_corta": "Inscríbete en una escuela de cosmetología aprobada por el Nevada State Board of Cosmetology y completa al menos 1,600 horas de entrenamiento.",
+        "scope_of_work": "Entrenamiento práctico y teórico en corte, coloración, tratamientos capilares, manicura, pedicura, cuidado de la piel y temas de salud/seguridad aplicables a cosmetología.",
+        "requisitos": {
+          "edad_minima": 18,
+          "educacion_previa": "Haber completado el décimo grado (10th grade) o su equivalente",
+          "horas": "1,600 horas en escuela aprobada por NSBC"
+        },
+        "nota": "Verifica que la escuela donde te inscribas esté aprobada por el Board. Puedes consultar el directorio de escuelas en el sitio oficial del NSBC.",
+        "source": "https://www.leg.state.nv.us/division/legal/lawlibrary/nrs/NRS-644A.html"
+      },
+      {
+        "id": "paso_2_examen_practico",
+        "titulo_en": "Step 2: Practical Exam (at School)",
+        "titulo_es": "Paso 2: Examen Práctico (en la Escuela)",
+        "es_principal": true,
+        "color_badge": "#10b981",
+        "descripcion_corta": "Los estudiantes de escuelas de Nevada completan el examen práctico directamente en su escuela. No necesitas ir a un centro externo para este examen.",
+        "scope_of_work": "Demostración de habilidades prácticas de cosmetología evaluadas por el Board a través del proceso de la escuela.",
+        "nota": "Esta ruta aplica a estudiantes que completan su formación en una escuela aprobada de Nevada. Otros aplicantes (fuera del estado o país) deben contactar al Board para determinar su proceso de examen práctico.",
+        "source": "https://www.nvcosmo.com/testing-services"
+      },
+      {
+        "id": "paso_3_examen_teoria",
+        "titulo_en": "Step 3: Theory Exam",
+        "titulo_es": "Paso 3: Examen de Teoría",
+        "es_principal": true,
+        "color_badge": "#f59e0b",
+        "descripcion_corta": "Debes aprobar el examen escrito de teoría de cosmetología. El puntaje mínimo requerido es 75%.",
+        "scope_of_work": "Conocimientos teóricos de cosmetología: anatomía, química del cabello, seguridad, sanidad y temas relacionados.",
+        "examen": {
+          "puntaje_minimo": "75%",
+          "idiomas": {
+            "nota": "Este source pack NO confirma que el examen de teoría esté disponible en español u otro idioma diferente al inglés. Verifica directamente con el Nevada State Board of Cosmetology antes de agendar tu examen.",
+            "practice_test_idiomas_confirmados": [
+              "Inglés",
+              "Español",
+              "Vietnamita",
+              "Coreano",
+              "Chino Simplificado"
+            ],
+            "aclaracion": "Los idiomas listados arriba aplican únicamente al practice test de preparación de la Prueba de Ley Estatal, no necesariamente al examen de teoría oficial."
+          }
+        },
+        "source": "https://www.nvcosmo.com/testing-services"
+      },
+      {
+        "id": "paso_4_examen_ley_estatal",
+        "titulo_en": "Step 4: Nevada State Law Test",
+        "titulo_es": "Paso 4: Examen de Ley Estatal de Nevada",
+        "es_principal": true,
+        "color_badge": "#8b5cf6",
+        "descripcion_corta": "La Prueba de Ley Estatal de Nevada es obligatoria para TODAS las personas que obtienen su primera licencia en Nevada. 25 preguntas, puntaje mínimo de 75%.",
+        "scope_of_work": "Leyes y regulaciones del estado de Nevada aplicables a la práctica de cosmetología: NRS 644A, NAC 644A, ética profesional y obligaciones del licenciatario.",
+        "examen": {
+          "numero_preguntas": 25,
+          "puntaje_minimo": "75%",
+          "practice_test_disponible": true,
+          "practice_test_idiomas": [
+            "Inglés",
+            "Español",
+            "Vietnamita",
+            "Coreano",
+            "Chino Simplificado"
+          ],
+          "nota_idiomas": "El practice test está disponible en los idiomas listados. Verifica con el Board la disponibilidad de idiomas para el examen oficial."
+        },
+        "source": "https://www.nvcosmo.com/state-law-test"
+      },
+      {
+        "id": "paso_5_aplicacion_licencia",
+        "titulo_en": "Step 5: Apply for Your License",
+        "titulo_es": "Paso 5: Solicitar la Licencia",
+        "es_principal": true,
+        "color_badge": "#ef4444",
+        "descripcion_corta": "Una vez que hayas completado las horas, pasado los exámenes y pagado las cuotas, podrás obtener tu licencia de cosmetóloga en Nevada.",
+        "costos": {
+          "cuota_aplicacion": {
+            "monto": 125,
+            "aplica_a": "Aplicantes de primera vez por ruta de escuela en Nevada",
+            "nota": "Esta cuota incluye el fee de examen. El fee de $325 es diferente y aplica exclusivamente a la ruta de reciprocidad."
+          },
+          "licencia": {
+            "2_años": 70,
+            "4_años": 140
+          }
+        },
+        "como_aplicar": {
+          "url": "https://www.nvcosmo.com/applications",
+          "nota": "Descarga o accede al formulario de aplicación correspondiente desde la página oficial de Applications del Board."
+        },
+        "source": "https://www.nvcosmo.com/applications"
+      }
+    ]
+  },
+  "costos": {
+    "ai_generated": false,
+    "resumen": [
+      {
+        "concepto": "Cuota de aplicación (primera vez, ruta escuela Nevada)",
+        "monto": "$125",
+        "nota": "Incluye el fee de examen para la ruta estándar de escuela.",
+        "source": "https://www.nvcosmo.com/applications"
+      },
+      {
+        "concepto": "Licencia individual – 2 años",
+        "monto": "$70",
+        "source": "https://www.nvcosmo.com/service-fees"
+      },
+      {
+        "concepto": "Licencia individual – 4 años",
+        "monto": "$140",
+        "source": "https://www.nvcosmo.com/service-fees"
+      },
+      {
+        "concepto": "Cuota de aplicación – Reciprocidad",
+        "monto": "$325",
+        "nota": "Aplica SOLO a la ruta de reciprocidad (licencia activa de otro estado). No confundir con la cuota de $125.",
+        "source": "https://www.nvcosmo.com/applications"
+      },
+      {
+        "concepto": "Revisión de horas internacionales o de otro estado sin licencia",
+        "monto": "$15",
+        "nota": "El Board revisa tus horas y determina elegibilidad. No garantiza acceso directo al examen.",
+        "source": "https://www.nvcosmo.com/out-of-country-applicants"
+      }
+    ],
+    "nota_costos_escuela": "Los costos de inscripción y tuición de las escuelas aprobadas no están incluidos en las cuotas del Board. Contacta directamente a las escuelas aprobadas por el NSBC para conocer sus costos.",
+    "source": "https://www.nvcosmo.com/service-fees"
+  },
+  "renovacion": {
+    "ai_generated": false,
+    "frecuencia": "Cada 2 años o cada 4 años, vinculado a la fecha de nacimiento del licenciatario",
+    "metodo": "Consultar el portal oficial del NSBC",
+    "url_renovacion": "https://www.nvcosmo.com/applications",
+    "costos_renovacion": {
+      "2_años": 70,
+      "4_años": 140
+    },
+    "educacion_continua": {
+      "requerida_para_licencia_estandar": false,
+      "nota": "Nevada NO requiere educación continua (CEU) para renovar una licencia estándar de cosmetología. Los requisitos de CEU que menciona el Board aplican a licencias de INSTRUCTOR, no a la licencia regular de cosmetóloga."
+    },
+    "nota_general": "La fecha de vencimiento de la licencia está vinculada a la fecha de nacimiento del licenciatario. Verifica tu fecha exacta de vencimiento en tu licencia o en el portal del Board.",
+    "source": "https://www.nvcosmo.com/applications"
+  },
+  "reciprocidad": {
+    "ai_generated": false,
+    "disponible": true,
+    "tipo": "Ruta de transferencia/reciprocidad - NO es reciprocidad automática",
+    "advertencia": "Nevada NO ofrece reciprocidad automática. Debes cumplir con los requisitos de Nevada, pasar el Nevada State Law Test y posiblemente exámenes adicionales según NRS 644A.640.",
+    "requisitos": [
+      "Tener licencia activa y vigente de cosmetología en otro estado",
+      "Licencia en buen estado (sin sanciones activas)",
+      "Cumplir con los requisitos de Nevada establecidos en NRS 644A",
+      "Pasar el Nevada State Law Test",
+      "Posiblemente pasar exámenes adicionales según determine el Board"
+    ],
+    "cuota_aplicacion": {
+      "monto": 325,
+      "nota": "Esta cuota de $325 aplica EXCLUSIVAMENTE a la ruta de reciprocidad e incluye la cuota de examen. No confundir con la cuota de $125 de la ruta estándar de escuela."
+    },
+    "url": "https://www.nvcosmo.com/transfer-to-nevada",
+    "source": "https://www.nvcosmo.com/transfer-to-nevada"
+  },
+  "horas_exterior": {
+    "ai_generated": false,
+    "titulo": "Horas de Otro Estado o País (sin Licencia Vigente)",
+    "descripcion": "Si completaste horas de cosmetología en otro estado sin obtener licencia allí, o si tienes horas de una escuela en otro país, debes solicitar una revisión al Board.",
+    "proceso": [
+      "Descargar y completar el formulario de 'Application for Review'",
+      "Pagar la cuota de revisión de $15",
+      "El Board evalúa tus horas y determina si eres elegible para examinarte en Nevada o si necesitas completar horas adicionales en una escuela aprobada de Nevada"
+    ],
+    "advertencia": "La revisión de $15 NO garantiza elegibilidad automática para el examen. El Board toma la decisión final sobre si tus horas son suficientes.",
+    "url": "https://www.nvcosmo.com/out-of-country-applicants",
+    "source": "https://www.nvcosmo.com/out-of-country-applicants"
+  },
+  "salarios": {
+    "ai_generated": false,
+    "nota_importante": "Este source pack no cuenta con una cifra salarial exacta verificada para cosmetólogas en Nevada. Los datos que se presentan son referenciales del BLS nacional. Para el dato más actualizado del salario en Nevada, verifica directamente el BLS Occupational Employment and Wage Statistics (OEWS) estatal.",
+    "fuente_referencia": {
+      "nombre": "BLS Occupational Outlook Handbook – Barbers, Hairstylists, and Cosmetologists",
+      "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
+      "instruccion": "Visita este enlace y busca los datos de Nevada en la sección de salarios estatales para obtener la cifra más reciente y precisa."
+    },
+    "aviso": "Los salarios en cosmetología varían significativamente según el tipo de establecimiento (salón independiente, cadena, spa, resort), el nivel de experiencia, las propinas y si trabajas como empleada o de forma independiente (booth rental). Las ciudades como Las Vegas, con su industria de hospitalidad y resorts, pueden ofrecer oportunidades de ingresos diferentes al promedio estatal."
+  },
+  "itin_y_documentos": {
+    "ai_generated": false,
+    "nota": "Este source pack tiene evidencia de que el Board solicita SSN o ITIN en al menos algunos flujos de aplicación individual (observado en la página de hair braiding). Sin embargo, NO se puede confirmar de forma directa para la licencia estándar de cosmetología. Si no tienes número de Seguro Social, comunícate directamente con el Nevada State Board of Cosmetology para confirmar qué documentos de identificación son aceptados para tu aplicación específica.",
+    "contacto_verificacion": "https://www.nvcosmo.com/board-departments"
+  },
+  "errores_comunes": {
+    "ai_generated": false,
+    "items": [
+      {
+        "error": "Confundir la cuota de $125 con la de $325",
+        "por_que_importa": "Son dos cuotas completamente diferentes. $125 aplica a la ruta estándar de escuela en Nevada. $325 aplica SOLO a la ruta de reciprocidad (transferencia de licencia de otro estado). Pagar la cuota incorrecta puede retrasar tu proceso.",
+        "solucion": "Identifica claramente cuál es tu situación: ¿estás completando escuela en Nevada (ruta de $125) o tienes licencia vigente en otro estado (ruta de reciprocidad $325)? Consulta las páginas de aplicaciones del NSBC."
+      },
+      {
+        "error": "Asumir que el examen de teoría está en español porque el practice test lo está",
+        "por_que_importa": "El Nevada State Board confirma que el PRACTICE TEST (práctica) de la Prueba de Ley Estatal está disponible en español, coreano, vietnamita y chino simplificado. Pero este source pack NO confirma que el examen de teoría oficial se administre en español. Si vas a tomar el examen oficial en otro idioma, debes verificarlo directamente con el Board.",
+        "solucion": "Contacta al Board directamente en https://www.nvcosmo.com/board-departments antes de agendar tu examen para confirmar en qué idioma estará disponible."
+      },
+      {
+        "error": "Creer que hay reciprocidad automática con Nevada",
+        "por_que_importa": "Nevada NO tiene reciprocidad automática. Aunque tengas licencia vigente de otro estado, debes pasar el Nevada State Law Test y posiblemente otros exámenes. Muchos aplicantes llegan esperando que su licencia de otro estado sea transferida directamente y se sorprenden con los requisitos adicionales.",
+        "solucion": "Revisa los requisitos de la ruta de transferencia en https://www.nvcosmo.com/transfer-to-nevada y prepárate para el Nevada State Law Test."
+      },
+      {
+        "error": "Inscribirse en una escuela no aprobada por el NSBC",
+        "por_que_importa": "Si completas tus 1,600 horas en una escuela que no está aprobada por el Nevada State Board of Cosmetology, esas horas NO contarán para tu licencia. Perderás tiempo y dinero.",
+        "solucion": "Antes de inscribirte, verifica que la escuela esté en el directorio oficial de escuelas aprobadas del NSBC en https://www.nvcosmo.com/."
+      },
+      {
+        "error": "Pensar que los CEU (Educación Continua) son necesarios para renovar una licencia estándar de cosmetología",
+        "por_que_importa": "En Nevada, los CEU aplican a licencias de INSTRUCTOR de cosmetología, no a la licencia estándar de cosmetóloga. Pagar cursos de CEU innecesarios es un gasto que puedes evitar.",
+        "solucion": "Para renovar tu licencia estándar de cosmetología, solo necesitas pagar la cuota de renovación ($70 por 2 años o $140 por 4 años). No se requieren CEU para esta licencia."
+      },
+      {
+        "error": "Presentar horas internacionales sin pasar por el proceso de revisión del Board",
+        "por_que_importa": "Si estudiaste cosmetología en otro país, no puedes simplemente presentar tu certificado y pedir el examen. El Board debe revisar tus horas ($15) y determinar si eres elegible para examinarte o si debes completar horas adicionales.",
+        "solucion": "Descarga el formulario 'Application for Review', paga los $15 y espera la determinación oficial del Board antes de planificar tus próximos pasos. Más información en https://www.nvcosmo.com/out-of-country-applicants."
+      }
+    ]
+  },
+  "faqs": {
+    "ai_generated": "partial",
+    "items": [
+      {
+        "pregunta": "¿Cuántas horas de escuela necesito para la licencia de cosmetología en Nevada?",
+        "respuesta": "Nevada requiere al menos 1,600 horas de entrenamiento en una escuela aprobada por el Nevada State Board of Cosmetology. Este es el requisito mínimo establecido en NRS 644A para la ruta estándar.",
+        "source": "NRS 644A / https://www.leg.state.nv.us/division/legal/lawlibrary/nrs/NRS-644A.html"
+      },
+      {
+        "pregunta": "¿Qué exámenes debo pasar para obtener mi licencia?",
+        "respuesta": "Para obtener tu licencia de cosmetología en Nevada por primera vez necesitas: (1) Examen Práctico – los estudiantes de escuelas de Nevada lo completan en su propia escuela; (2) Examen de Teoría – puntaje mínimo de 75%; (3) Nevada State Law Test – 25 preguntas, puntaje mínimo de 75%, obligatorio para todos los que obtienen su primera licencia en Nevada.",
+        "source": "https://www.nvcosmo.com/testing-services / https://www.nvcosmo.com/state-law-test"
+      },
+      {
+        "pregunta": "¿El examen de cosmetología en Nevada está disponible en español?",
+        "respuesta": "El practice test (examen de práctica) de la Prueba de Ley Estatal está disponible en español, entre otros idiomas. Sin embargo, este recurso no puede confirmar que el examen de teoría oficial se administre en español. Te recomendamos verificar directamente con el Nevada State Board of Cosmetology en https://www.nvcosmo.com/board-departments antes de agendar tu examen.",
+        "source": "https://www.nvcosmo.com/state-law-test"
+      },
+      {
+        "pregunta": "¿Cuánto cuesta obtener la licencia de cosmetología en Nevada?",
+        "respuesta": "Para la ruta estándar de escuela en Nevada: $125 de cuota de aplicación (incluye fee de examen), más $70 (licencia de 2 años) o $140 (licencia de 4 años). Esto no incluye los costos de tuición de la escuela. Si vienes de otro estado con licencia vigente (reciprocidad), la cuota de aplicación es $325.",
+        "source": "https://www.nvcosmo.com/applications / https://www.nvcosmo.com/service-fees"
+      },
+      {
+        "pregunta": "¿Cada cuánto debo renovar mi licencia de cosmetóloga en Nevada?",
+        "respuesta": "Las licencias individuales de cosmetología en Nevada se emiten por 2 años ($70) o 4 años ($140). La fecha de vencimiento está vinculada a tu fecha de nacimiento. No se requiere educación continua (CEU) para renovar la licencia estándar de cosmetóloga.",
+        "source": "https://www.nvcosmo.com/service-fees"
+      },
+      {
+        "pregunta": "Tengo licencia de cosmetología de otro estado. ¿Puedo transferirla a Nevada?",
+        "respuesta": "Nevada tiene una ruta de reciprocidad/transferencia, pero NO es automática. Debes tener licencia activa y vigente, en buen estado, cumplir con los requisitos de Nevada, pasar el Nevada State Law Test y posiblemente otros exámenes según lo determine el Board. La cuota de aplicación para esta ruta es $325. Consulta los detalles en https://www.nvcosmo.com/transfer-to-nevada.",
+        "source": "https://www.nvcosmo.com/transfer-to-nevada"
+      },
+      {
+        "pregunta": "Estudié cosmetología en otro país. ¿Pueden contar mis horas?",
+        "respuesta": "Posiblemente, pero debes pasar primero por el proceso de revisión. El Board tiene un formulario de 'Application for Review' con una cuota de $15. El Board evalúa tus horas y determina si eres elegible para examinarte en Nevada o si necesitas completar horas adicionales en una escuela aprobada. La revisión no garantiza elegibilidad automática. Más información en https://www.nvcosmo.com/out-of-country-applicants.",
+        "source": "https://www.nvcosmo.com/out-of-country-applicants"
+      },
+      {
+        "pregunta": "¿Necesito educación continua para renovar mi licencia?",
+        "respuesta": "No. Nevada no requiere educación continua (CEU) para renovar la licencia estándar de cosmetología. Los CEU que menciona el Board son obligatorios para licencias de instructor, no para la licencia regular de cosmetóloga.",
+        "source": "https://www.nvcosmo.com/ceu-list"
+      },
+      {
+        "pregunta": "¿Cuánto gana una cosmetóloga en Nevada?",
+        "respuesta": "Este recurso no cuenta con una cifra salarial exacta verificada para Nevada en este momento. Para el dato más actualizado, consulta directamente el BLS Occupational Employment and Wage Statistics en https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm y busca los datos estatales de Nevada. Los ingresos varían según el tipo de empleo, propinas y si trabajas en salón de empleada o con booth rental.",
+        "source": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm"
+      }
+    ]
+  },
+  "links_oficiales": {
+    "ai_generated": false,
+    "items": [
+      {
+        "nombre": "Nevada State Board of Cosmetology – Inicio",
+        "url": "https://www.nvcosmo.com/",
+        "descripcion": "Página principal del Board con acceso a todos los recursos y directorio de escuelas aprobadas."
+      },
+      {
+        "nombre": "Aplicaciones y Formularios",
+        "url": "https://www.nvcosmo.com/applications",
+        "descripcion": "Formularios de aplicación para primera vez, renovación y reciprocidad."
+      },
+      {
+        "nombre": "Servicios de Examen (Testing Services)",
+        "url": "https://www.nvcosmo.com/testing-services",
+        "descripcion": "Información sobre los exámenes de teoría y práctico para la licencia."
+      },
+      {
+        "nombre": "Nevada State Law Test",
+        "url": "https://www.nvcosmo.com/state-law-test",
+        "descripcion": "Información sobre la Prueba de Ley Estatal. Incluye practice test en español y otros idiomas."
+      },
+      {
+        "nombre": "Cuotas y Tarifas (Service Fees)",
+        "url": "https://www.nvcosmo.com/service-fees",
+        "descripcion": "Tabla oficial de cuotas para licencias, renovaciones y otros servicios del Board."
+      },
+      {
+        "nombre": "Transferencia a Nevada (Reciprocidad)",
+        "url": "https://www.nvcosmo.com/transfer-to-nevada",
+        "descripcion": "Ruta para aplicantes con licencia vigente de otro estado que desean licenciarse en Nevada."
+      },
+      {
+        "nombre": "Horas de Otro Estado/País",
+        "url": "https://www.nvcosmo.com/out-of-country-applicants",
+        "descripcion": "Proceso de revisión de horas para quienes estudiaron fuera de Nevada sin obtener licencia."
+      },
+      {
+        "nombre": "Proveedores CEU (para Instructores)",
+        "url": "https://www.nvcosmo.com/ceu-list",
+        "descripcion": "Lista de proveedores de educación continua. Aplica a licencias de instructor, no a cosmetóloga estándar."
+      },
+      {
+        "nombre": "Información de Licencias (Licensing Information / FAQs)",
+        "url": "https://www.nvcosmo.com/licensing-information",
+        "descripcion": "Preguntas frecuentes y guías de licenciamiento del Board."
+      },
+      {
+        "nombre": "Contacto – Departamentos del Board",
+        "url": "https://www.nvcosmo.com/board-departments",
+        "descripcion": "Directorio de departamentos del NSBC para contacto directo con el Board."
+      },
+      {
+        "nombre": "Leyes y Regulaciones",
+        "url": "https://www.nvcosmo.com/laws-and-regulations",
+        "descripcion": "Página del Board con enlaces a estatutos y reglamentos de cosmetología en Nevada."
+      },
+      {
+        "nombre": "NRS 644A – Nevada Revised Statutes (Cosmetología)",
+        "url": "https://www.leg.state.nv.us/division/legal/lawlibrary/nrs/NRS-644A.html",
+        "descripcion": "Texto completo del estatuto de cosmetología de Nevada (horas, requisitos, etc.)."
+      },
+      {
+        "nombre": "NAC 644A – Nevada Administrative Code (Cosmetología)",
+        "url": "https://www.leg.state.nv.us/Division/Legal/LawLibrary/NAC/NAC-644A.html",
+        "descripcion": "Reglamentos administrativos de cosmetología de Nevada."
+      },
+      {
+        "nombre": "BLS – Barbers, Hairstylists, and Cosmetologists",
+        "url": "https://www.bls.gov/ooh/personal-care-and-service/barbers-hairstylists-and-cosmetologists.htm",
+        "descripcion": "Datos referenciales de salarios y perspectivas de empleo para cosmetólogas (BLS). Verificar datos estatales de Nevada directamente en este enlace."
+      }
+    ]
+  },
+  "content_generation_rules": {
+    "tono": "Práctico, claro y prudente. Enfocado en guiar al lector paso a paso sin generar falsas expectativas.",
+    "persona": "Profesional de cosmetología con experiencia en Nevada que ya pasó por el proceso de licenciamiento.",
+    "reglas": [
+      "No afirmar que el examen de teoría está en español sin fuente directa del Board.",
+      "Distinguir siempre entre la cuota de $125 (ruta escuela) y $325 (reciprocidad).",
+      "Aclarar que no hay reciprocidad automática en Nevada.",
+      "Presentar salarios solo como referenciales e indicar al lector que verifique BLS Nevada.",
+      "No publicar número de teléfono, email o dirección del Board a menos que esté en el source pack confirmado.",
+      "No inventar nombres de escuelas aprobadas; remitir al directorio oficial del NSBC.",
+      "Destacar que los CEU aplican a instructores, no a cosmetólogas con licencia estándar.",
+      "Usar solo URLs del source pack validado."
+    ]
+  }
+}
