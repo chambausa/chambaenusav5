@@ -7,12 +7,12 @@
     "estado": "arizona",
     "estado_nombre": "Arizona",
     "last_verified": "2026-05-11",
-    "verified_by": "pipeline v3 template-locked + source pack curado",
+    "verified_by": "xypnotic-os-pipeline-v3",
     "source_pack": "scripts/source_packs/cosmetologia-arizona.sources.json",
     "approval_status": "published",
     "notes": "Resumen corto de límites editoriales y facts sensibles no confirmados.",
     "model_profile": "production_claude_balanced",
-    "published_at": "2026-05-11T17:15:44.545Z",
+    "published_at": "2026-05-11T17:19:47.440Z",
     "published_by": "xypnotic-os",
     "pipeline_version": "v3"
   },
@@ -332,7 +332,7 @@
     "type": "warning_box",
     "icon": "⚠️",
     "title": "Idioma, documentos y ayuda en español: verifica antes de pagar",
-    "content": "Esta página está en español para ayudarte a entender el trámite, pero eso no significa que la aplicación, el examen o la atención oficial estén disponibles en español. Verifica idioma del examen, documentos aceptados y requisitos de identificación directamente con la agencia o proveedor oficial.",
+    "content": "No pudimos confirmar si el examen está disponible en español. Verifica directamente con el Arizona Barbering & Cosmetology Board antes de agendar tu examen.",
     "source": "https://bcb.az.gov/examinations",
     "source_name": "BCB Arizona",
     "status": "default_required",
@@ -431,28 +431,28 @@
     "title": "Preguntas frecuentes",
     "items": [
       {
-        "question": "¿Necesito licencia para trabajar como cosmetología en Arizona?",
-        "answer": "Revisa los requisitos de BCB Arizona. 1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
+        "pregunta": "¿Necesito licencia para trabajar como cosmetología en Arizona?",
+        "respuesta": "Revisa los requisitos de BCB Arizona. 1,500 horas de entrenamiento en cosmetología en una escuela licenciada por el Board, o ruta alternativa por escuela equivalente de otro estado/país, o apprenticeship aprobado con instrucción adicional de infection protection and law review.",
         "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "status": "confirmed"
+        "seo_note": ""
       },
       {
-        "question": "¿El examen de cosmetología en Arizona está en español?",
-        "answer": "No podemos confirmar que el examen esté disponible en español sin fuente directa. Verifica con la agencia o proveedor antes de agendar.",
+        "pregunta": "¿El examen de cosmetología en Arizona está en español?",
+        "respuesta": "No podemos confirmar que el examen esté disponible en español sin fuente directa. Verifica con la agencia o proveedor antes de agendar.",
         "source": "https://bcb.az.gov/examinations",
-        "status": "uncertain"
+        "seo_note": ""
       },
       {
-        "question": "¿Puedo aplicar con ITIN o necesito SSN?",
-        "answer": "No pudimos confirmar si puedes aplicar con ITIN. Revisa la aplicación oficial en bcb.az.gov/applications o llama al Board antes de enviar documentos.",
+        "pregunta": "¿Puedo aplicar con ITIN o necesito SSN?",
+        "respuesta": "No pudimos confirmar si puedes aplicar con ITIN. Revisa la aplicación oficial en bcb.az.gov/applications o llama al Board antes de enviar documentos.",
         "source": "https://bcb.az.gov/applications",
-        "status": "no_confirmado_en_source_pack"
+        "seo_note": ""
       },
       {
-        "question": "¿Cómo renuevo mi licencia de cosmetología en Arizona?",
-        "answer": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
+        "pregunta": "¿Cómo renuevo mi licencia de cosmetología en Arizona?",
+        "respuesta": "Renovación cada dos años, en o antes del cumpleaños de la persona licenciada.",
         "source": "https://www.azleg.gov/ars/32/00517.htm",
-        "status": "confirmed"
+        "seo_note": ""
       }
     ]
   },
