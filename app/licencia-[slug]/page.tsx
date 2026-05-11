@@ -58,6 +58,8 @@ export async function generateStaticParams() {
     { slug: 'cosmetologia-california' },
     { slug: 'cosmetologia-florida' },
     { slug: 'cosmetologia-new-york' },
+    { slug: 'cosmetologia-nevada' },
+    { slug: 'cosmetologia-arizona' },
     { slug: 'cdl-california' },
     { slug: 'plomero-texas' },
     { slug: 'plomero-arizona' },
@@ -162,23 +164,89 @@ export default async function LicensePage({ params }: Props) {
   // If JSON exists, render JSON-based page
   if (jsonData) {
     const json = jsonData as Record<string, unknown>
+
+    // ── Pipeline v3 format detection ─────────────────────────────────────────
+    // Pipeline v3 uses different field names than the old site format.
+    // Detection: presence of 'licencias_y_clasificaciones' = pipeline v3.
+    const isPipelineV3 = !!(json.licencias_y_clasificaciones)
+
     const _meta = json._meta as { estado: string; oficio: string }
     const hero = json.hero as HeroType
-    const roadmap = json.roadmap as Roadmap
+    const estado = (_meta.estado || '').charAt(0).toUpperCase() + (_meta.estado || '').slice(1)
+    const oficio = (_meta.oficio || '').charAt(0).toUpperCase() + (_meta.oficio || '').slice(1)
+
+    // ── Roadmap normalization ─────────────────────────────────────────────────
+    // Old format: roadmap.tipos[]  (full license type objects)
+    // Pipeline v3: licencias_y_clasificaciones.items[] (simplified)
+    //              + roadmap.steps[] (how-to steps)
+    let roadmap: Roadmap
+    if (isPipelineV3) {
+      const licItems = (json.licencias_y_clasificaciones as any)?.items || []
+      const tipos = licItems.map((item: any, i: number) => ({
+        id: `tipo-${i}`,
+        titulo_es: item.name || item.nombre || '',
+        titulo_en: item.name_en || item.name || '',
+        es_principal: i === 0,
+        color_badge: i === 0 ? '#7c3aed' : '#3b82f6',
+        descripcion_corta: item.description || item.descripcion || '',
+        scope_of_work: item.requirements_summary ? [item.requirements_summary] : [],
+        requisitos: { items: item.requirements_summary ? [{ descripcion: item.requirements_summary, source: item.source || '', source_name: item.source_name || '' }] : [] },
+        examen: null,
+        costos: null,
+        como_aplicar: {
+          url: (json.autoridad_reguladora as any)?.apply_url || (json.autoridad_reguladora as any)?.website || '',
+          pasos: (json.roadmap as any)?.steps?.map((s: any) => s.title || s.description).filter(Boolean) || [],
+        },
+      }))
+      roadmap = {
+        _description: '',
+        ai_generated: false,
+        layout: 'grid',
+        nota_general: (json.roadmap as any)?.intro || '',
+        tipos,
+      } as unknown as Roadmap
+    } else {
+      roadmap = json.roadmap as Roadmap
+    }
+
+    // ── FAQs normalization ────────────────────────────────────────────────────
+    // Old format: items[].pregunta / items[].respuesta
+    // Pipeline v3: items[].question / items[].answer
     const faqsData = json.faqs as FAQSectionType
-    const faqs = faqsData?.items?.map(item => ({ question: item.pregunta, answer: item.respuesta })) || []
+    const faqs = faqsData?.items?.map((item: any) => ({
+      question: item.question ?? item.pregunta ?? '',
+      answer: item.answer ?? item.respuesta ?? '',
+    })).filter((f: any) => f.question && f.answer) || []
 
-    const estado = _meta.estado.charAt(0).toUpperCase() + _meta.estado.slice(1)
-    const oficio = _meta.oficio.charAt(0).toUpperCase() + _meta.oficio.slice(1)
+    // ── Autoridad Reguladora normalization ────────────────────────────────────
+    // Old format: { nombre, web, telefono, email, direccion, verificar_licencia }
+    // Pipeline v3: { nombre, website, apply_url, telefono.value, email.value }
+    const rawAuth = json.autoridad_reguladora as any
+    const autoridadReguladora = rawAuth ? (isPipelineV3 ? {
+      nombre: rawAuth.nombre,
+      programa: rawAuth.programa,
+      web: rawAuth.website || rawAuth.apply_url || '',
+      verificar_licencia: rawAuth.license_lookup_url || rawAuth.website || '',
+      telefono: rawAuth.telefono?.value && rawAuth.telefono.value !== 'No confirmado'
+        ? { local: rawAuth.telefono.value }
+        : null,
+      email: rawAuth.email?.value && rawAuth.email.value !== 'No confirmado'
+        ? rawAuth.email.value
+        : null,
+      source: rawAuth.website || '',
+    } : rawAuth) : null
 
-    // Extract all sections from JSON
+    // ── Other sections (same field names in both formats) ─────────────────────
     const calloutEspanol = json.callout_espanol as any
     const erroresComunes = json.errores_comunes as any
-    const salarios = json.salarios as any
-    const autoridadReguladora = json.autoridad_reguladora as any
+    const salarios = (json.salarios as any)?.status !== 'no_confirmado_en_source_pack'
+      ? json.salarios as any
+      : null
     const linksOficiales = json.links_oficiales as any
     const renovacion = json.renovacion as any
-    const reciprocidad = json.reciprocidad as any
+    const reciprocidad = (json.reciprocidad as any)?.status !== 'no_confirmado_en_source_pack'
+      ? json.reciprocidad as any
+      : null
     const serviciosSinLicencia = json.servicios_sin_licencia as any
 
     // Debug logs

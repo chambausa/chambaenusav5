@@ -9,6 +9,8 @@ export async function loadLicenseJSON(slug: string): Promise<Record<string, unkn
       'cosmetologia-california': () => import('@/archivos_json/cosmetologia-california.json'),
       'cosmetologia-florida': () => import('@/archivos_json/cosmetologia-florida.json'),
       'cosmetologia-new-york': () => import('@/archivos_json/cosmetologia-new-york.json'),
+      'cosmetologia-nevada': () => import('@/archivos_json/cosmetologia-nevada.json'),
+      'cosmetologia-arizona': () => import('@/archivos_json/cosmetologia-arizona.json'),
       'cdl-california': () => import('@/archivos_json/cdl-california.json'),
       'electricista-texas': () => import('@/archivos_json/electricista-texas.json'),
       'electricista-california': () => import('@/archivos_json/electricista-california.json'),
