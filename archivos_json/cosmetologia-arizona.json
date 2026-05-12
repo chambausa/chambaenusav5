@@ -1,67 +1,77 @@
 {
   "_meta": {
-    "schema_version": "1.0",
+    "schema_version": "2.0",
     "page_id": "licencia-cosmetologia-arizona",
+    "slug": "licencia-cosmetologia-arizona",
     "oficio": "cosmetologia",
     "estado": "arizona",
     "last_verified": "2026-05-11",
-    "verified_by": "xypnotic-os",
-    "approval_status": "published",
-    "published_at": "2026-05-11T00:00:00Z",
-    "published_by": "xypnotic-os",
-    "pipeline_version": "v3"
+    "verified_by": "Claude pipeline v3 + source pack curado + validación factual",
+    "notes": "Pipeline v3 usa facts confirmados y copy prudente para cualquier dato incierto.",
+    "source_pack": "scripts/source_packs/cosmetologia-arizona.sources.json",
+    "approval_status": "draft",
+    "model_profile": "production_claude_balanced"
   },
   "page_seo": {
-    "title": "Licencia de Cosmetologia en Arizona 2026: Requisitos, Examen y Costos",
-    "meta_description": "Guia en espanol: licencia cosmetologia Arizona, requisitos, escuelas, examen PSI (~$231), renovacion sin CE. BCB Arizona (602) 542-4498.",
-    "h1": "Licencia de Cosmetologia en Arizona: Requisitos, Costos y Pasos",
-    "slug": "licencia-cosmetologia-arizona",
-    "canonical_url": "https://chambaenusa.com/licencia-cosmetologia-arizona",
+    "title": "Licencia de Cosmetología en Arizona: requisitos, examen y costos 2026",
+    "meta_description": "Guía en español para obtener la licencia de cosmetología en Arizona. Requisitos, examen, costos, renovación, reciprocidad y enlaces oficiales verificados.",
+    "slug": "cosmetologia-arizona",
+    "canonical_url": "https://chambaenusa.com/licencia-cosmetologia-arizona/",
+    "h1": "Licencia de Cosmetología en Arizona",
+    "schema_types": [
+      "HowTo",
+      "FAQPage",
+      "BreadcrumbList"
+    ],
     "keywords_primary": [
-      "licencia cosmetologia arizona",
-      "cosmetologia arizona requisitos"
+      "licencia de cosmetología en arizona",
+      "requisitos cosmetología arizona",
+      "cosmetología license arizona"
     ],
     "keywords_secondary": [
-      "bcb arizona cosmetologia",
-      "examen cosmetologia arizona"
+      "como sacar la licencia de cosmetología en arizona",
+      "examen de cosmetología arizona",
+      "renovar licencia de cosmetología arizona"
     ],
     "keywords_long_tail": [
-      "como sacar licencia de cosmetologia en arizona"
+      "cuanto cuesta la licencia de cosmetología en arizona",
+      "puedo aplicar a licencia de cosmetología en arizona con itin",
+      "como verificar licencia de cosmetología en arizona"
     ]
   },
   "hero": {
     "ai_generated": false,
-    "badge": "Guia Verificada 2026",
+    "badge": "Actualizado 2026",
     "headline": "Licencia de Cosmetología en Arizona",
-    "subheadline": "Todo lo que necesitas: escuela, examen PSI y aplicación con BCB Arizona.",
+    "subheadline": "Revisamos la información oficial para explicarte requisitos, costos, examen, renovación y enlaces directos de BCB Arizona sin inventar datos que el estado no publica claramente.",
     "key_stats": [
       {
-        "label": "Horas requeridas",
-        "value": "1,500 horas",
-        "detail": "en escuela licenciada por BCB Arizona",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "ARS 32-511"
-      },
-      {
-        "label": "Costo total estimado",
-        "value": "~$231 USD",
-        "detail": "examen escrito $54 + practico $77 + aplicacion hasta $100",
+        "label": "Costo inicial",
+        "value": "~$231 USD (examen escrito $54 + examen práctico $77 + aplicación hasta $100)",
+        "detail": "Costo estimado o tarifa principal respaldada por fuente oficial.",
         "source": "https://bcb.az.gov/fees",
-        "source_name": "BCB Arizona"
+        "source_name": "BCB Arizona - Fees"
       },
       {
-        "label": "Salario promedio",
-        "value": "$31,500/ano",
-        "detail": "~$15/hora. Con propinas puede superar $40,000",
-        "source": "https://www.bls.gov/oes/current/oes_az.htm",
-        "source_name": "BLS 2023 Arizona"
+        "label": "Requisito principal",
+        "value": "1,500 horas en escuela licenciada por el Board",
+        "detail": "Horas, entrenamiento o requisito principal para iniciar el trámite.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm",
+        "source_name": "Arizona Revised Statutes 32-511"
       },
       {
-        "label": "Examen en espanol",
-        "value": "No confirmado",
-        "detail": "Verifica con PSI Exams o BCB Arizona antes de agendar",
+        "label": "Examen / Idioma",
+        "value": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
+        "detail": "Verifica idioma disponible y requisitos exactos del proveedor antes de agendar.",
         "source": "https://bcb.az.gov/information-for-students",
-        "source_name": "BCB Arizona"
+        "source_name": "BCB Arizona - Information for Students"
+      },
+      {
+        "label": "Salario de referencia",
+        "value": "$31,500",
+        "detail": "Dato laboral de referencia para dimensionar ingresos, separado del trámite regulatorio.",
+        "source": "https://www.bls.gov/oes/current/oes_az.htm",
+        "source_name": "Bureau of Labor Statistics - Arizona OES 2023"
       }
     ],
     "cta_primary": {
@@ -69,26 +79,23 @@
       "anchor": "#roadmap"
     },
     "cta_secondary": {
-      "text": "Cuanto cuesta todo?",
-      "anchor": "#costos"
+      "text": "Ver enlaces oficiales",
+      "anchor": "#enlaces-oficiales"
     }
   },
   "callout_espanol": {
     "ai_generated": false,
-    "type": "info",
-    "icon": "conversacion",
-    "title": "Hablas espanol? Sobre el examen en Arizona",
-    "content": "No pudimos confirmar si el examen esta disponible en espanol. Verifica con PSI Exams (psiexams.com) o llama al BCB Arizona al (602) 542-4498 antes de agendar.",
+    "type": "warning_box",
+    "icon": "INFO",
+    "title": "Verifica idioma del examen antes de pagar",
+    "content": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
     "source": "https://bcb.az.gov/information-for-students",
-    "source_name": "BCB Arizona"
+    "source_name": "BCB Arizona - Information for Students"
   },
   "autoridad_reguladora": {
     "ai_generated": false,
-    "nombre": "Arizona Barbering & Cosmetology Board (BCB Arizona)",
-    "programa": "Cosmetologia, Estetica, Unas, Barberia y Eyelash Services",
-    "web": "https://bcb.az.gov/",
-    "verificar_licencia": "https://bcb.az.gov/license-verification-look-tool",
-    "source": "https://bcb.az.gov/contact-us",
+    "nombre": "Arizona Barbering & Cosmetology Board",
+    "programa": "Cosmetología Licensing",
     "direccion": {
       "calle": "1400 W. Washington St., Suite 220",
       "ciudad": "Phoenix",
@@ -98,320 +105,415 @@
     "telefono": {
       "local": "(602) 542-4498"
     },
-    "horario": "Lunes a viernes, 8:00 AM - 5:00 PM MST",
-    "chambaenusa_hub": "/agencias/arizona-barbering-cosmetology-board"
+    "web": "https://bcb.az.gov/",
+    "verificar_licencia": "https://bcb.az.gov/license-verification-look-tool",
+    "source": "https://bcb.az.gov/contact-us"
   },
   "roadmap": {
+    "_description": "Ruta principal para entender niveles, requisitos y costos del oficio en este estado.",
     "ai_generated": false,
-    "layout": "grid",
-    "nota_general": "Arizona regula 4 tipos de licencias. Elige el que corresponde a los servicios que quieres ofrecer.",
+    "layout": "timeline",
+    "nota_general": "Distinguir claramente los 5 tipos de licencia con sus horas requeridas Destacar que Arizona NO requiere CE para renovar — diferenciador importante vs otros estados",
     "tipos": [
       {
         "id": "cosmetologist",
-        "titulo_es": "Cosmetólogo/a",
         "titulo_en": "Cosmetologist",
+        "titulo_es": "Cosmetólogo/a",
         "es_principal": true,
-        "color_badge": "#7c3aed",
-        "descripcion_corta": "Licencia completa: cabello, piel y unas. La mas solicitada.",
-        "scope_of_work": [
-          "Corte, color y peinado de cabello",
-          "Tratamientos de piel y faciales",
-          "Aplicacion de unas (acrilico, gel)",
-          "Todos los servicios de belleza"
-        ],
+        "color_badge": "#f59e0b",
+        "descripcion_corta": "Ruta oficial para ejercer cosmetólogo/a en Arizona.",
+        "scope_of_work": "Debes completar el entrenamiento aprobado y seguir el proceso oficial de BCB Arizona.",
         "requisitos": {
-          "items": [
-            {
-              "descripcion": "1,500 horas en escuela licenciada por BCB Arizona",
-              "source": "https://www.azleg.gov/ars/32/00511.htm",
-              "source_name": "ARS 32-511"
-            },
-            {
-              "descripcion": "Minimo 16 anos + 2 anos high school, o 18 anos",
-              "source": "https://www.azleg.gov/ars/32/00511.htm",
-              "source_name": "ARS 32-511"
-            },
-            {
-              "descripcion": "Aprobar examen escrito y practico con PSI Exams",
-              "source": "https://bcb.az.gov/information-for-students",
-              "source_name": "BCB Arizona"
-            }
-          ]
+          "educacion_previa": "Mínimo 16 años con 2 años de high school equivalente, o 18 años sin requisito educativo.",
+          "horas_alternativa": "1,500 horas en escuela licenciada por el Board",
+          "escuela_aprobada": "Las escuelas de cosmetología deben estar licenciadas por BCB Arizona.",
+          "examen": "Sí, se requiere pasar examen escrito y práctico"
         },
         "examen": {
-          "requerido": true,
-          "proveedor": "PSI Exams Services",
-          "url": "https://candidate.psiexams.com"
+          "partes": 2,
+          "parte_1": {
+            "nombre": "Examen escrito",
+            "formato": "Por computadora con proveedor oficial",
+            "costo": 54,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Después de completar tu entrenamiento o cuando la agencia lo autorice"
+          },
+          "parte_2": {
+            "nombre": "Examen práctico",
+            "formato": "Evaluación práctica oficial",
+            "costo": 77,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Cuando el proveedor oficial te asigne fecha y requisitos"
+          },
+          "administrador": "PSI Exams Services",
+          "url_psi": "https://bcb.az.gov/information-for-students",
+          "source": "https://bcb.az.gov/information-for-students",
+          "nombre": "PSI Exams Services",
+          "idiomas": [
+            "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+          ]
         },
         "costos": {
+          "aplicacion_licencia": 100,
+          "examen_escrito": 54,
+          "examen_practico": 77,
           "total_examenes_y_licencia": 231,
-          "items": [
-            {
-              "concepto": "Examen escrito PSI",
-              "monto": "$54 USD",
-              "source": "PSI Exams"
-            },
-            {
-              "concepto": "Examen practico PSI",
-              "monto": "$77 USD",
-              "source": "PSI Exams"
-            },
-            {
-              "concepto": "Aplicacion BCB Arizona",
-              "monto": "Hasta $100 USD",
-              "source": "ARS 32-507"
-            }
-          ]
+          "renovacion_cada_2_años": 100
         },
         "como_aplicar": {
+          "metodo": "Portal oficial / formularios aprobados",
           "url": "https://bcb.az.gov/apply/personal-license",
           "pasos": [
-            "Inscribete en escuela licenciada por BCB Arizona",
-            "Completa las 1,500 horas de entrenamiento",
-            "Registrate y aprueba el examen con PSI Exams",
-            "Solicita tu licencia en bcb.az.gov/apply/personal-license",
-            "Paga la tarifa y espera aprobacion"
+            "Confirma el tipo de licencia que realmente necesitas.",
+            "Completa las horas requeridas en escuela o ruta aprobada.",
+            "Agenda y aprueba el examen oficial si aplica.",
+            "Envía tu aplicación y paga la tarifa oficial vigente."
           ]
         },
-        "source": "https://bcb.az.gov/apply/personal-license"
+        "nota": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm"
       },
       {
         "id": "aesthetician",
-        "titulo_es": "Esteticista / Aesthetician",
         "titulo_en": "Aesthetician",
+        "titulo_es": "Esteticista",
         "es_principal": false,
-        "color_badge": "#ec4899",
-        "descripcion_corta": "Solo cuidado de piel. Ideal para faciales y skincare.",
-        "scope_of_work": [
-          "Faciales y tratamientos de piel",
-          "Depilacion (waxing)",
-          "Maquillaje profesional",
-          "Cuidado de cejas y pestanas"
-        ],
+        "color_badge": "#10b981",
+        "descripcion_corta": "Ruta oficial para ejercer esteticista en Arizona.",
+        "scope_of_work": "Debes completar el entrenamiento aprobado y seguir el proceso oficial de BCB Arizona.",
         "requisitos": {
-          "items": [
-            {
-              "descripcion": "600 horas en escuela de estetica licenciada por BCB",
-              "source": "https://bcb.az.gov/apply/personal-license",
-              "source_name": "BCB Arizona"
-            }
+          "educacion_previa": "Mínimo 16 años con 2 años de high school equivalente, o 18 años sin requisito educativo.",
+          "horas_alternativa": "600 horas en escuela licenciada (estética/cuidado de piel)",
+          "escuela_aprobada": "Las escuelas de cosmetología deben estar licenciadas por BCB Arizona.",
+          "examen": "Sí, se requiere pasar examen escrito y práctico"
+        },
+        "examen": {
+          "partes": 2,
+          "parte_1": {
+            "nombre": "Examen escrito",
+            "formato": "Por computadora con proveedor oficial",
+            "costo": 54,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Después de completar tu entrenamiento o cuando la agencia lo autorice"
+          },
+          "parte_2": {
+            "nombre": "Examen práctico",
+            "formato": "Evaluación práctica oficial",
+            "costo": 77,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Cuando el proveedor oficial te asigne fecha y requisitos"
+          },
+          "administrador": "PSI Exams Services",
+          "url_psi": "https://bcb.az.gov/information-for-students",
+          "source": "https://bcb.az.gov/information-for-students",
+          "nombre": "PSI Exams Services",
+          "idiomas": [
+            "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
           ]
         },
         "costos": {
+          "aplicacion_licencia": 100,
+          "examen_escrito": 54,
+          "examen_practico": 77,
           "total_examenes_y_licencia": 231,
-          "items": [
-            {
-              "concepto": "Examen escrito + practico PSI",
-              "monto": "~$131 USD",
-              "source": "PSI Exams"
-            },
-            {
-              "concepto": "Aplicacion de licencia",
-              "monto": "Hasta $100 USD",
-              "source": "ARS 32-507"
-            }
-          ]
+          "renovacion_cada_2_años": 100
         },
         "como_aplicar": {
+          "metodo": "Portal oficial / formularios aprobados",
           "url": "https://bcb.az.gov/apply/personal-license",
-          "pasos": []
+          "pasos": [
+            "Confirma el tipo de licencia que realmente necesitas.",
+            "Completa las horas requeridas en escuela o ruta aprobada.",
+            "Agenda y aprueba el examen oficial si aplica.",
+            "Envía tu aplicación y paga la tarifa oficial vigente."
+          ]
         },
+        "nota": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
         "source": "https://bcb.az.gov/apply/personal-license"
       },
       {
         "id": "nail_technician",
-        "titulo_es": "Tecnica en Unas",
         "titulo_en": "Nail Technician",
+        "titulo_es": "Técnico/a en Uñas",
         "es_principal": false,
-        "color_badge": "#f59e0b",
-        "descripcion_corta": "Solo unas. 600 horas. La ruta mas rapida.",
-        "scope_of_work": [
-          "Unas acrilicas y de gel",
-          "Manicure y pedicure",
-          "Nail art y disenos",
-          "Cuidado de cuticulas"
-        ],
+        "color_badge": "#3b82f6",
+        "descripcion_corta": "Ruta oficial para ejercer técnico/a en uñas en Arizona.",
+        "scope_of_work": "Debes completar el entrenamiento aprobado y seguir el proceso oficial de BCB Arizona.",
         "requisitos": {
-          "items": [
-            {
-              "descripcion": "600 horas en escuela de unas licenciada por BCB",
-              "source": "https://bcb.az.gov/apply/personal-license",
-              "source_name": "BCB Arizona"
-            }
+          "educacion_previa": "Mínimo 16 años con 2 años de high school equivalente, o 18 años sin requisito educativo.",
+          "horas_alternativa": "600 horas en escuela licenciada (técnica en uñas)",
+          "escuela_aprobada": "Las escuelas de cosmetología deben estar licenciadas por BCB Arizona.",
+          "examen": "Sí, se requiere pasar examen escrito y práctico"
+        },
+        "examen": {
+          "partes": 2,
+          "parte_1": {
+            "nombre": "Examen escrito",
+            "formato": "Por computadora con proveedor oficial",
+            "costo": 54,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Después de completar tu entrenamiento o cuando la agencia lo autorice"
+          },
+          "parte_2": {
+            "nombre": "Examen práctico",
+            "formato": "Evaluación práctica oficial",
+            "costo": 77,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Cuando el proveedor oficial te asigne fecha y requisitos"
+          },
+          "administrador": "PSI Exams Services",
+          "url_psi": "https://bcb.az.gov/information-for-students",
+          "source": "https://bcb.az.gov/information-for-students",
+          "nombre": "PSI Exams Services",
+          "idiomas": [
+            "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
           ]
         },
         "costos": {
-          "items": [
-            {
-              "concepto": "Examen + aplicacion",
-              "monto": "~$231 USD",
-              "source": "BCB Arizona"
-            }
-          ]
+          "aplicacion_licencia": 100,
+          "examen_escrito": 54,
+          "examen_practico": 77,
+          "total_examenes_y_licencia": 231,
+          "renovacion_cada_2_años": 100
         },
         "como_aplicar": {
+          "metodo": "Portal oficial / formularios aprobados",
           "url": "https://bcb.az.gov/apply/personal-license",
-          "pasos": []
+          "pasos": [
+            "Confirma el tipo de licencia que realmente necesitas.",
+            "Completa las horas requeridas en escuela o ruta aprobada.",
+            "Agenda y aprueba el examen oficial si aplica.",
+            "Envía tu aplicación y paga la tarifa oficial vigente."
+          ]
         },
+        "nota": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
         "source": "https://bcb.az.gov/apply/personal-license"
       },
       {
         "id": "hairstylist",
-        "titulo_es": "Estilista de Cabello",
         "titulo_en": "Hairstylist",
+        "titulo_es": "Estilista de Cabello",
         "es_principal": false,
-        "color_badge": "#06b6d4",
-        "descripcion_corta": "Solo cabello, sin piel ni unas. 1,000 horas.",
-        "scope_of_work": [
-          "Corte y peinado",
-          "Coloracion y decoloracion",
-          "Tratamientos capilares",
-          "Permanentes y alisados"
-        ],
+        "color_badge": "#7c3aed",
+        "descripcion_corta": "Ruta oficial para ejercer estilista de cabello en Arizona.",
+        "scope_of_work": "Debes completar el entrenamiento aprobado y seguir el proceso oficial de BCB Arizona.",
         "requisitos": {
-          "items": [
-            {
-              "descripcion": "1,000 horas en escuela licenciada por BCB Arizona",
-              "source": "https://bcb.az.gov/apply/personal-license",
-              "source_name": "BCB Arizona"
-            }
+          "educacion_previa": "Mínimo 16 años con 2 años de high school equivalente, o 18 años sin requisito educativo.",
+          "horas_alternativa": "1,000 horas en escuela licenciada (solo cabello)",
+          "escuela_aprobada": "Las escuelas de cosmetología deben estar licenciadas por BCB Arizona.",
+          "examen": "Sí, se requiere pasar examen escrito y práctico"
+        },
+        "examen": {
+          "partes": 2,
+          "parte_1": {
+            "nombre": "Examen escrito",
+            "formato": "Por computadora con proveedor oficial",
+            "costo": 54,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Después de completar tu entrenamiento o cuando la agencia lo autorice"
+          },
+          "parte_2": {
+            "nombre": "Examen práctico",
+            "formato": "Evaluación práctica oficial",
+            "costo": 77,
+            "idiomas": [
+              "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
+            ],
+            "puntaje_minimo": "Verificar con proveedor oficial",
+            "cuando_tomarlo": "Cuando el proveedor oficial te asigne fecha y requisitos"
+          },
+          "administrador": "PSI Exams Services",
+          "url_psi": "https://bcb.az.gov/information-for-students",
+          "source": "https://bcb.az.gov/information-for-students",
+          "nombre": "PSI Exams Services",
+          "idiomas": [
+            "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar."
           ]
         },
         "costos": {
-          "items": [
-            {
-              "concepto": "Examen + aplicacion",
-              "monto": "~$231 USD",
-              "source": "BCB Arizona"
-            }
-          ]
+          "aplicacion_licencia": 100,
+          "examen_escrito": 54,
+          "examen_practico": 77,
+          "total_examenes_y_licencia": 231,
+          "renovacion_cada_2_años": 100
         },
         "como_aplicar": {
+          "metodo": "Portal oficial / formularios aprobados",
           "url": "https://bcb.az.gov/apply/personal-license",
-          "pasos": []
+          "pasos": [
+            "Confirma el tipo de licencia que realmente necesitas.",
+            "Completa las horas requeridas en escuela o ruta aprobada.",
+            "Agenda y aprueba el examen oficial si aplica.",
+            "Envía tu aplicación y paga la tarifa oficial vigente."
+          ]
         },
+        "nota": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
         "source": "https://bcb.az.gov/apply/personal-license"
       }
     ]
   },
-  "salarios": {
+  "calculadora_inversion": {
     "ai_generated": false,
-    "status": "confirmed",
-    "nota": "Datos de Bureau of Labor Statistics (BLS OES 2023) para Arizona.",
-    "items": [
+    "_description": "Escenario base para dimensionar inversión inicial y retorno.",
+    "escenarios": [
       {
-        "percentil": "Salario promedio anual",
-        "salario_anual": "$31,500",
-        "salario_hora": "~$15.14/hora",
-        "fuente": "BLS OES 2023 - Arizona",
-        "url": "https://www.bls.gov/oes/current/oes_az.htm"
-      },
-      {
-        "percentil": "Con propinas y clientela frecuente",
-        "salario_anual": "$40,000+",
-        "salario_hora": "~$19+/hora",
-        "fuente": "Estimado segun BLS + propinas",
-        "url": "https://www.bls.gov/oes/current/oes_az.htm"
+        "id": "principal",
+        "licencia": "Cosmetólogo/a",
+        "inversion": {
+          "escuela_nota": "Las escuelas de cosmetología deben estar licenciadas por BCB Arizona.",
+          "examen_escrito": 54,
+          "examen_practico": 77,
+          "aplicacion_licencia": 100,
+          "total_estimado": "~$231 USD (examen escrito $54 + examen práctico $77 + aplicación hasta $100)"
+        },
+        "tiempo": "1,500 horas en escuela licenciada por el Board",
+        "salario_esperado": {
+          "empleada": "$31,500",
+          "nota": "Salario promedio: $31,500/año (~$15.14/hora) en Arizona. Con propinas puede superar $40,000."
+        },
+        "nota": "El costo real puede subir si debes pagar escuela, materiales, reintentos o documentación adicional."
       }
     ]
   },
   "renovacion": {
     "ai_generated": false,
-    "cycle": "Cada dos anos, en o antes de tu cumpleanos",
-    "requirements": [
-      {
-        "label": "Periodicidad",
-        "value": "Cada 2 anos",
-        "source": "https://www.azleg.gov/ars/32/00517.htm",
-        "status": "confirmed"
-      },
-      {
-        "label": "Tarifa",
-        "value": "$100 USD",
-        "source": "https://www.azleg.gov/ars/32/00507.htm",
-        "status": "confirmed"
-      },
-      {
-        "label": "Educacion continua",
-        "value": "NO se requiere en Arizona",
-        "source": "https://www.azleg.gov/ars/32/00517.htm",
-        "status": "confirmed"
-      }
-    ],
-    "continuing_education": {
-      "value": "Arizona NO requiere horas de CE para renovar. Solo paga $100 antes de tu cumpleanos.",
-      "status": "confirmed",
-      "source": "https://www.azleg.gov/ars/32/00517.htm"
-    }
+    "frecuencia": "Cada dos años, en o antes del cumpleaños del licenciado",
+    "metodo": "Portal oficial / proceso indicado por la autoridad estatal",
+    "url_renovacion": "https://bcb.az.gov/renew-personal-license",
+    "costo_renovacion": 100,
+    "ce_requerida": {
+      "horas_totales": null,
+      "temas": [
+        "Arizona NO requiere horas de educación continua para renovar la licencia de cosmetología."
+      ],
+      "nota": "Arizona NO requiere horas de educación continua para renovar la licencia de cosmetología."
+    },
+    "nota_tdlr": "Cada dos años, en o antes del cumpleaños del licenciado",
+    "source": "https://www.azleg.gov/ars/32/00517.htm"
   },
   "reciprocidad": {
     "ai_generated": false,
-    "status": "confirmed",
-    "summary": "Arizona acepta reciprocidad de otros estados y paises. Requiere licencia vigente, clase de infection protection aprobada por BCB y pago de fees. Ver detalles en bcb.az.gov/reciprocity.",
-    "source": "https://www.azleg.gov/ars/32/00513.htm",
-    "source_name": "ARS 32-513"
+    "disponible": true,
+    "nombre_proceso": "Reciprocity / Endorsement",
+    "requisitos": [
+      "Arizona acepta reciprocidad de otros estados y países con requisitos equivalentes.",
+      "Se requiere clase de infection protection and law review para reciprocidad"
+    ],
+    "nota": "Arizona acepta reciprocidad de otros estados y países con requisitos equivalentes.",
+    "url": "https://bcb.az.gov/reciprocity",
+    "experiencia_como_horas": "Si vienes de otro estado, verifica cómo la agencia evalúa experiencia, training o equivalencias antes de enviar documentos.",
+    "source": "https://www.azleg.gov/ars/32/00513.htm"
+  },
+  "salarios": {
+    "ai_generated": false,
+    "nota_importante": "Los salarios son referencia laboral. No sustituyen la investigación regulatoria ni garantizan ingresos reales.",
+    "nacional_2024": {
+      "mediana": "$31,500",
+      "por_hora_mediana": "$15.14",
+      "source": "https://www.bls.gov/oes/current/oes_az.htm"
+    },
+    "ingresos_reales": {
+      "ai_generated": true,
+      "nota": "Salario promedio: $31,500/año (~$15.14/hora) en Arizona. Con propinas puede superar $40,000.",
+      "factores_adicionales": [
+        "Experiencia práctica y velocidad de ejecución",
+        "Especialización o nicho de servicio",
+        "Ubicación, demanda local y clientela"
+      ]
+    }
   },
   "errores_comunes": {
-    "ai_generated": false,
+    "ai_generated": true,
     "items": [
       {
-        "title": "Inscribirse en escuela no licenciada por BCB Arizona",
-        "description": "Las horas en escuelas no aprobadas no cuentan. Verifica en bcb.az.gov antes de inscribirte. Es el error mas caro.",
-        "source": "https://bcb.az.gov/information-for-students",
-        "source_name": "BCB Arizona"
+        "error": "Inscribirse en escuela no licenciada por BCB Arizona es el error más costoso — las horas no cuentan.",
+        "por_que_importa": "El error más común y costoso es asistir a una escuela de cosmetología que no esté licenciada por BCB Arizona. Las horas completadas en escuelas no aprobadas no son válidas para la licencia.",
+        "solucion": "Verifica el requisito exacto en la fuente oficial antes de pagar o enviar tu aplicación."
       },
       {
-        "title": "Aplicar al tipo de licencia equivocado",
-        "description": "Si solo quieres hacer unas, Nail Technician son 600 horas, no 1,500. Elige correcto desde el inicio.",
-        "source": "https://bcb.az.gov/apply/personal-license",
-        "source_name": "BCB Arizona"
+        "error": "Aplicar al tipo de licencia equivocado (ej: querer hacer uñas pero aplicar como cosmetólogo completo).",
+        "por_que_importa": "Muchas personas aplican al tipo de licencia equivocado. Si solo quieres hacer uñas, necesitas la licencia de Nail Technician (600 horas), no de Cosmetologist (1,500 horas). Elige el tipo correcto desde el inicio.",
+        "solucion": "Verifica el requisito exacto en la fuente oficial antes de pagar o enviar tu aplicación."
       },
       {
-        "title": "Olvidar renovar antes del cumpleanos",
-        "description": "BCB Arizona no te avisa. La licencia vence en tu cumpleanos cada 2 anos. Practica sin licencia = ilegal + multas.",
-        "source": "https://www.azleg.gov/ars/32/00517.htm",
-        "source_name": "ARS 32-517"
+        "error": "Olvidar renovar la licencia antes del cumpleaños puede resultar en licencia vencida.",
+        "por_que_importa": "La renovación vence en la fecha de cumpleaños cada dos años. Practicar con licencia vencida es ilegal. BCB Arizona no envía recordatorio automático — es tu responsabilidad llevar el control.",
+        "solucion": "Verifica el requisito exacto en la fuente oficial antes de pagar o enviar tu aplicación."
       },
       {
-        "title": "No completar la clase de infection protection para reciprocidad",
-        "description": "Para reciprocidad de otro estado, Arizona exige esta clase aprobada. Sin ella tu aplicacion no avanza.",
-        "source": "https://bcb.az.gov/reciprocity",
-        "source_name": "BCB Arizona"
+        "error": "Para reciprocidad, no olvidar la clase de infection protection requerida.",
+        "por_que_importa": "Al aplicar por reciprocidad desde otro estado, muchos olvidan que Arizona requiere completar una clase de infection protection and law review aprobada. Sin esta clase, la aplicación no se procesa.",
+        "solucion": "Verifica el requisito exacto en la fuente oficial antes de pagar o enviar tu aplicación."
       }
     ]
   },
+  "servicios_sin_licencia": {
+    "ai_generated": true,
+    "titulo": "Qué no debes asumir sobre trabajar sin licencia en Arizona",
+    "items": [
+      "No confirmes excepciones amplias sin licencia si la agencia no las publica claramente.",
+      "Antes de cobrar al público, verifica si tu actividad exacta requiere licencia, registro o supervisión.",
+      "Usa solo la lista de excepciones oficiales del estado cuando exista una fuente directa."
+    ],
+    "requiere_licencia": [
+      "Practicar cosmetología sin licencia en Arizona es ilegal y puede resultar en multas.",
+      "Prestar servicios al público sin confirmar el requisito oficial puede exponerte a multas o rechazo de aplicación."
+    ],
+    "source": "https://www.azleg.gov/ars/32/00574.htm"
+  },
   "faqs": {
-    "ai_generated": false,
+    "ai_generated": true,
     "items": [
       {
-        "question": "Cuantas horas necesito para la licencia de cosmetologia en Arizona?",
-        "answer": "Para Cosmetologo/a completo: 1,500 horas. Para Nail Technician o Aesthetician: 600 horas. Para Hairstylist: 1,000 horas. La escuela debe estar licenciada por BCB Arizona.",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "status": "confirmed"
+        "pregunta": "¿Cuáles son los requisitos principales para sacar la licencia de cosmetología en Arizona?",
+        "respuesta": "1,500 horas en escuela licenciada por el Board Mínimo 16 años con 2 años de high school equivalente, o 18 años sin requisito educativo.",
+        "source": "https://www.azleg.gov/ars/32/00511.htm"
       },
       {
-        "question": "Cuanto cuesta sacar la licencia de cosmetologia en Arizona?",
-        "answer": "~$231 USD: examen escrito PSI (~$54) + examen practico (~$77) + aplicacion BCB (hasta $100). No incluye costo de escuela. Verifica tarifas en bcb.az.gov/fees.",
-        "source": "https://bcb.az.gov/fees",
-        "status": "confirmed"
+        "pregunta": "¿Necesito examen para obtener la licencia de cosmetología en Arizona?",
+        "respuesta": "Sí, se requiere pasar examen escrito y práctico",
+        "source": "https://bcb.az.gov/information-for-students"
       },
       {
-        "question": "El examen esta en espanol en Arizona?",
-        "answer": "No pudimos confirmarlo. Verifica con PSI Exams (psiexams.com) o llama al BCB Arizona al (602) 542-4498 antes de agendar.",
-        "source": "https://bcb.az.gov/information-for-students",
-        "status": "uncertain"
+        "pregunta": "¿El examen está disponible en español?",
+        "respuesta": "No confirmado. El examen puede no estar disponible en español — verificar con PSI Exams antes de agendar.",
+        "source": "https://bcb.az.gov/information-for-students"
       },
       {
-        "question": "Necesito educacion continua para renovar en Arizona?",
-        "answer": "No. Arizona NO requiere CE. Solo paga $100 antes de tu cumpleanos cada 2 anos.",
-        "source": "https://www.azleg.gov/ars/32/00517.htm",
-        "status": "confirmed"
+        "pregunta": "¿Puedo aplicar con ITIN o necesito SSN?",
+        "respuesta": "No confirmado. Revisar la aplicación oficial vigente en bcb.az.gov antes de enviar documentos.",
+        "source": "https://bcb.az.gov/apply/personal-license"
       },
       {
-        "question": "Puedo transferir mi licencia de otro estado a Arizona?",
-        "answer": "Si. Necesitas: licencia vigente, clase de infection protection aprobada por BCB Arizona, y solicitud en bcb.az.gov/reciprocity.",
-        "source": "https://www.azleg.gov/ars/32/00513.htm",
-        "status": "confirmed"
+        "pregunta": "¿Cuánto cuesta la licencia de cosmetología en Arizona?",
+        "respuesta": "~$231 USD (examen escrito $54 + examen práctico $77 + aplicación hasta $100)",
+        "source": "https://bcb.az.gov/fees"
+      },
+      {
+        "pregunta": "¿Cómo renuevo mi licencia de cosmetología en Arizona?",
+        "respuesta": "Cada dos años, en o antes del cumpleaños del licenciado Arizona NO requiere horas de educación continua para renovar la licencia de cosmetología.",
+        "source": "https://www.azleg.gov/ars/32/00517.htm"
       }
     ]
   },
@@ -419,196 +521,123 @@
     "ai_generated": false,
     "items": [
       {
-        "label": "BCB Arizona - Sitio oficial",
+        "nombre": "Agencia reguladora",
         "url": "https://bcb.az.gov/",
-        "type": "authority",
-        "status": "confirmed"
+        "descripcion": "Página principal de la autoridad estatal"
       },
       {
-        "label": "Aplicar licencia personal",
+        "nombre": "Aplicar a la licencia",
         "url": "https://bcb.az.gov/apply/personal-license",
-        "type": "apply",
-        "status": "confirmed"
+        "descripcion": "Portal oficial o formulario de aplicación"
       },
       {
-        "label": "Renovar licencia",
+        "nombre": "Información del examen",
+        "url": "https://bcb.az.gov/information-for-students",
+        "descripcion": "Detalles oficiales del examen y proveedor"
+      },
+      {
+        "nombre": "Renovar licencia",
         "url": "https://bcb.az.gov/renew-personal-license",
-        "type": "renew",
-        "status": "confirmed"
+        "descripcion": "Proceso oficial de renovación"
       },
       {
-        "label": "Verificar licencia vigente",
-        "url": "https://bcb.az.gov/license-verification-look-tool",
-        "type": "lookup",
-        "status": "confirmed"
-      },
-      {
-        "label": "Reciprocidad de otro estado",
-        "url": "https://bcb.az.gov/reciprocity",
-        "type": "reciprocity",
-        "status": "confirmed"
-      },
-      {
-        "label": "Tarifas vigentes BCB Arizona",
+        "nombre": "Tarifas oficiales",
         "url": "https://bcb.az.gov/fees",
-        "type": "fees",
-        "status": "confirmed"
+        "descripcion": "Tarifas y costos vigentes"
       },
       {
-        "label": "ARS Titulo 32 - Ley cosmetologia Arizona",
-        "url": "https://www.azleg.gov/arsDetail/?title=32",
-        "type": "law",
-        "status": "confirmed"
+        "nombre": "Reciprocidad",
+        "url": "https://bcb.az.gov/reciprocity",
+        "descripcion": "Información oficial para licencias de otros estados"
       },
       {
-        "label": "Contacto BCB Arizona - (602) 542-4498",
+        "nombre": "Contacto oficial",
         "url": "https://bcb.az.gov/contact-us",
-        "type": "contact",
-        "status": "confirmed"
+        "descripcion": "Canal directo con la agencia"
+      },
+      {
+        "nombre": "Leyes y reglas oficiales",
+        "url": "https://www.azleg.gov/arsDetail/?title=32",
+        "descripcion": "Base legal oficial del trámite"
+      },
+      {
+        "nombre": "Verificar licencia",
+        "url": "https://bcb.az.gov/license-verification-look-tool",
+        "descripcion": "Buscar licencias vigentes"
       }
     ]
   },
-  "licencias_y_clasificaciones": {
-    "ai_generated": false,
-    "title": "Tipos de licencia de cosmetologia en Arizona",
-    "items": [
+  "enlaces_utiles": {
+    "ai_generated": true,
+    "enlaces": [
       {
-        "name": "Cosmetólogo/a",
-        "description": "Licencia completa: cabello, piel y unas. 1,500 horas.",
-        "requirements_summary": "1,500 horas en escuela licenciada BCB Arizona",
-        "source": "https://bcb.az.gov/apply/personal-license",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
+        "categoria": "Enlaces oficiales",
+        "enlaces": [
+          {
+            "titulo": "Agencia reguladora",
+            "url": "https://bcb.az.gov/",
+            "descripcion": "Página principal de la autoridad estatal"
+          },
+          {
+            "titulo": "Aplicar a la licencia",
+            "url": "https://bcb.az.gov/apply/personal-license",
+            "descripcion": "Portal oficial o formulario de aplicación"
+          },
+          {
+            "titulo": "Información del examen",
+            "url": "https://bcb.az.gov/information-for-students",
+            "descripcion": "Detalles oficiales del examen y proveedor"
+          },
+          {
+            "titulo": "Renovar licencia",
+            "url": "https://bcb.az.gov/renew-personal-license",
+            "descripcion": "Proceso oficial de renovación"
+          },
+          {
+            "titulo": "Tarifas oficiales",
+            "url": "https://bcb.az.gov/fees",
+            "descripcion": "Tarifas y costos vigentes"
+          },
+          {
+            "titulo": "Reciprocidad",
+            "url": "https://bcb.az.gov/reciprocity",
+            "descripcion": "Información oficial para licencias de otros estados"
+          }
+        ]
       },
       {
-        "name": "Esteticista / Aesthetician",
-        "description": "Solo cuidado de piel y faciales. 600 horas.",
-        "requirements_summary": "600 horas en escuela licenciada BCB Arizona",
-        "source": "https://bcb.az.gov/apply/personal-license",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
-      },
-      {
-        "name": "Tecnica en Unas",
-        "description": "Solo servicios de unas. 600 horas.",
-        "requirements_summary": "600 horas en escuela licenciada BCB Arizona",
-        "source": "https://bcb.az.gov/apply/personal-license",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
-      },
-      {
-        "name": "Estilista de Cabello",
-        "description": "Solo cabello, sin piel ni unas. 1,000 horas.",
-        "requirements_summary": "1,000 horas en escuela licenciada BCB Arizona",
-        "source": "https://bcb.az.gov/apply/personal-license",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
+        "categoria": "Antes de pagar",
+        "enlaces": [
+          {
+            "titulo": "Verifica horas o entrenamiento aprobado",
+            "url": "https://www.azleg.gov/ars/32/00511.htm",
+            "descripcion": "1,500 horas en escuela licenciada por el Board"
+          },
+          {
+            "titulo": "Confirma proveedor y reglas del examen",
+            "url": "https://bcb.az.gov/information-for-students",
+            "descripcion": "PSI Exams Services"
+          }
+        ]
       }
     ]
   },
-  "requisitos": {
-    "ai_generated": false,
-    "items": [
-      {
-        "requirement": "Horas de escuela",
-        "description": "1,500h Cosmetologo/a | 1,000h Hairstylist | 600h Nail Tech o Aesthetician",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "ARS 32-511",
-        "status": "confirmed"
-      },
-      {
-        "requirement": "Edad minima",
-        "description": "16 anos con 2 anos de high school equivalente, o 18 anos",
-        "source": "https://www.azleg.gov/ars/32/00511.htm",
-        "source_name": "ARS 32-511",
-        "status": "confirmed"
-      },
-      {
-        "requirement": "Escuela aprobada por BCB Arizona",
-        "description": "Verifica que tu escuela este licenciada en bcb.az.gov antes de inscribirte",
-        "source": "https://bcb.az.gov/information-for-students",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
-      },
-      {
-        "requirement": "Examen PSI (escrito + practico)",
-        "description": "Examen escrito (~$54) y practico (~$77) con PSI Exams Services",
-        "source": "https://bcb.az.gov/information-for-students",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
-      },
-      {
-        "requirement": "Clase de infection protection",
-        "description": "Completar clase aprobada por BCB Arizona antes de aplicar la licencia",
-        "source": "https://bcb.az.gov/apply/personal-license",
-        "source_name": "BCB Arizona",
-        "status": "confirmed"
-      }
-    ]
-  },
-  "costos": {
-    "ai_generated": false,
-    "items": [
-      {
-        "concepto": "Examen escrito (PSI Exams)",
-        "monto": "~$54 USD",
-        "frequency": "una vez",
-        "source": "https://candidate.psiexams.com",
-        "source_name": "PSI Exams",
-        "status": "confirmed",
-        "notes": "Verificar tarifa vigente en psiexams.com"
-      },
-      {
-        "concepto": "Examen practico (PSI Exams)",
-        "monto": "~$77 USD",
-        "frequency": "una vez",
-        "source": "https://candidate.psiexams.com",
-        "source_name": "PSI Exams",
-        "status": "confirmed",
-        "notes": "Verificar tarifa vigente en psiexams.com"
-      },
-      {
-        "concepto": "Aplicacion de licencia (BCB Arizona)",
-        "monto": "Hasta $100 USD",
-        "frequency": "una vez",
-        "source": "https://www.azleg.gov/ars/32/00507.htm",
-        "source_name": "ARS 32-507",
-        "status": "confirmed",
-        "notes": "Verificar tarifa exacta en bcb.az.gov/fees"
-      },
-      {
-        "concepto": "Renovacion cada 2 anos",
-        "monto": "$100 USD",
-        "frequency": "cada 2 anos",
-        "source": "https://www.azleg.gov/ars/32/00507.htm",
-        "source_name": "ARS 32-507",
-        "status": "confirmed"
-      }
-    ]
-  },
-  "examen": {
-    "ai_generated": false,
-    "required": "confirmed_yes",
-    "provider": {
-      "name": "PSI Exams Services",
-      "url": "https://candidate.psiexams.com"
-    },
-    "language": {
-      "value": "No confirmado",
-      "status": "no_confirmado_en_source_pack",
-      "safe_copy": "No pudimos confirmar que el examen este en espanol. Verifica con PSI Exams o llama al BCB Arizona al (602) 542-4498 antes de agendar.",
-      "source": "https://bcb.az.gov/information-for-students"
-    }
-  },
-  "advertencias": {
-    "ai_generated": false,
-    "items": [
-      {
-        "text": "Practicar cosmetologia sin licencia valida en Arizona es ilegal (ARS 32-574). BCB Arizona puede imponer multas.",
-        "source": "https://www.azleg.gov/ars/32/00574.htm",
-        "source_name": "ARS 32-574",
-        "status": "confirmed"
-      }
-    ]
+  "content_generation_rules": {
+    "must_use_source_pack": true,
+    "forbidden_claims_without_direct_source": [
+      "exam_language_spanish",
+      "itin_or_ssn",
+      "immigration_status",
+      "exact_fees",
+      "processing_times",
+      "guaranteed_approval",
+      "salary_figures",
+      "background_check",
+      "continuing_education",
+      "reciprocity"
+    ],
+    "if_missing_data": "Mantener copy prudente y mandar al lector a verificar directamente con la autoridad oficial.",
+    "tone": "Español claro, técnico y útil para trabajadores hispanos en USA.",
+    "promotion_rule": "A production page must pass schema validation, gate review, and human approval before promotion."
   }
 }
